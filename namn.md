@@ -104,7 +104,10 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Simon Nybränn | (Förre) nämndeman, ombud för Björklund 1915–1916 | 051:19–20 | |
 | [Axel?] Rosberg | "På Häradsrättens vägnar", T.f. 1915–1916 | 050:12–13 | Egenhändig namnteckning; förnamnet osäkert |
 | Hilda Maria Björklund f. Svanbäck (f. 1884-08-23, d. 1939-06-03 å Nykarleby sjukhus) | Jakob Björklunds andra hustru, vigd 1905-11-26; = "Hilda/Hilma" ovan; bouppteckning 1940-01-18 och 1949-09-03 | 062:25, 067:8 | Hon hette Hilda – "Hilma" är kansliets fel |
-| Sanna Maja Pelkkala (f. 1875-01-17, d. 1899-10-29) | Jakob Björklunds första hustru, vigd 1898-07-10; ett barn dog minderårigt | 067:6 | |
+| Sanna Maja Pelkkala / Sanna Maja Johansdotter (f. 1875-01-17, d. 1899-10-29) | Jakob Björklunds första hustru, vigd 1898-07-10 (067) – bouppteckningen säger 1897 (190:8); bouppteckning och avvittring 1899-12-07 (190–193) | 067:6, 190:5 | |
+| Emelia / Emilia Maria (d. 1899-12-18) | Dotter till Jakob och Sanna Maja; dog tre veckor efter bouppteckningen, fadern ärver ("bakarf") | 190:9, 192:20 | = "ett barn dog minderårigt" (067) |
+| S. Nybränn (= Simon Nybränn) | Förrättningsman och skrivare 1899 och 1908; ombud 1915–16 | 192:19, 196:37 | |
+| Maria Sandnabba; M. Petterson (landth.); Johan Jan Sån Sandnabba | Borgenärer resp. vittne 1899–1908 | 196:14, 191:2, 196:36 | |
 | Signe Maria Manninen (f. 1917-08-06) | Hustru till Jakob Osvald Björklund, vigd 1937-04-11 | 067:11–12 | = "Signe Björklund" 063:9 |
 | Konrad Anders Sundstedt (f. 1917-01-10, d. 1943-01-18) | Ines Marias make, vigd 1940-09-15 | 067:13–14 | |
 | Alice Margareta Sundstedt (f. 1941-08-16) | Dotter till Ines och Konrad | 067:14–15 | |
@@ -239,6 +242,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1870-03-07 | Lagfartsprotokoll § 11, andra uppbudet (Matts och Jakob) – b: 7 | 037–038 |
 | 1870-10-07 | Lagfartsprotokoll § 8, tredje uppbudet – b: 8 | 039–041 |
 | 1877-09-05 | Inteckningsprotokoll § 5: förnyelse av inteckningen för Strengbergs arfvingar; lägenheten ägs nu av änkan Beata Simonsdotter och sonen Jakob – c: 2 | 083– |
+| 1899-10-29 / 1899-12-07 | Sanna Maja (Pelkkala) Johansdotter dör; bouppteckning | 190–193 |
+| 1908-12-10 | Bouppteckning efter Jakob Jakobsson Sandnabba: fastigheten 5/96 mantal taxerad 6000 Fmk, behållning 7055,10 Fmk; andra exemplaret inlämnat till domsagans arkiv 1934-01-13 (Odo Sandelin) | 194–196 |
 | 1908-09-24 | Jakob Jakobsson Sandnabba dör | 045:2–3, 047:11–12 |
 | 1909-02-02 | Protokoll § 2: bevakning av Jakob Jakobssons muntliga testamente till hustrun | 044–045 |
 | 1909-02-06 | Förmynderskapsprotokoll § 6: Maja Lena Eriksdotter förmyndare för sonen Herman | 047:4–15 |
@@ -271,7 +276,7 @@ Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1
 Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39); e: 3 = 117–123 (vräkningsmål Björklund mot Asp, 1934-09-07 § 41 – Björklund förlorar och åläggs ge Asps gåvobrev på stugan och två kappland); e: 4 = 124– (testamentsbevakning efter Anders Svanbäck, 1936-08-31 § 18).
 
 e: 4 = 124–127 (avskrift bestyrkt 1942).
-Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson d.ä., blyerts "a: 3" på 166); 168–176– (1864 efter Greta Mattsdotter, original och avskrift).
+Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson d.ä., blyerts "a: 3" på 166); 168–177 (1864 efter Greta Mattsdotter, original och avskrift); 178–183 (1869 efter Jakob Jakobsson d.y., två exemplar); 184–189 (1878 efter Simon Petter Jakobsson, två exemplar); 190–193 (1899 efter Sanna Maja Johansdotter); 194–197 (1908 efter Jakob Jakobsson Sandnabba).
 Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
 
 Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
@@ -370,6 +375,12 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Lösen & stämpelm. / Kungörelse / Summa; Lösen / Stämpel / Reg. / Kung. / Bevis / Summa | maskinskriven avgiftsspecifikation 1925 resp. 1950 |
 | LEIMAMERKKI / STÄMPELMÄRKE, MARKKAA / MARK | stämpelmärken med finsk/svensk text (1925–1950) |
 | ha, ar | hektar, ar |
+| (e. g. h.), (Eh.) | egen hand |
+| af/ | upprättat av |
+| Landth. | landthandlare |
+| Reg. afg. | registreringsavgift |
+| bakarf | arv tillbaka till förälder |
+| ½ ten | hälften |
 | st:; a; gl:; Kanns; Aᵒ | stycken; à; gammal; kannor; Anno (1818) |
 | Fattiges Cassa, Lazarets Cassa | avgifter i bouppteckningen 1818 |
 | 3. KOP | stämpelpapper 1818 |
