@@ -451,6 +451,9 @@ Lärdomar från dubbelläsningen (fel som första läsare faktiskt gjort):
 - **Förvänta inte innehåll:** "Sju och en half kappa" lästes som "Sju alnar" för att en
   sytningslista "borde" ha måttenheter.
 - **§-tecknets slinga är inte en överstrykning** (hand E). Ange överstrykningars omfång exakt.
+- **Modernisera inte stavningen i vanliga ord** ("landtmätare" ≠ "lantmätare", "Kreathür", "Inventarjum", "dräckt", "Egendome") – inte heller på rader du inte ser som svåra.
+- **Använd parallellexemplaren.** Flera handlingar finns i två exemplar (136/147, 158–161/162–165, 168–171/172–177, original i g mot avskrifter i b). Läs dem mot varandra; de löser varandras svåra ställen.
+- **Långt f och h läses lätt som "sk"** ("häfdeägarens" lästes "skifteägarens").
 
 - Långt s (ſ) återges som s; c med krok (ç) som c. Noteras i varje fil.
 - Överstruket ord: ~~ord~~.
