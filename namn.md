@@ -42,7 +42,6 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | A. [Grotelin?]; Jonas Sandnabba; Jacob [Eide/Lide?] | Underskrifter på bouppteckningen 1818 | 157:22–23, 151:5–6 | |
 | And. Söderlund | Ordförande i arvsskattenämnden 1940 | 198 marg. | |
 | [Christoffer?] [Teuden/Tenden?] | T.f., "På domareämbetets vägnar" jan 1940 | 198 marg. | låg säkerhet |
-| Johan [Liirbacka?] | Kommunalkassör, Purmo 1909 | 197:2 | |
 | And: Brunberg; Carl Ant: Brunberg; Henrik Törnvik | Vittnen 1836 | 206:17–18 | |
 | Maria Andersdotter Sandnabba | Ägare av en torplägenhet på Sandnabba; utarrenderar den 1911 till Jakob Jakobsson Sandnabba (Björklund) för 25 mark/år, enl. torpkontrakt 1888-03-14 | 217:1 | |
 | Matts Jakobsson Sandström / Sandnabba | Säljer 1876 sin "halfva Sandnabba skatte hemman N:o 8" till brodern Jakob för 2500 mark; undertecknar i Svartå, Karis socken | 225:2, 226:7 | = Matts (f. 1850), son till Jakob d.y. och Greta Mattsdotter |
@@ -81,7 +80,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Simon Petter / Petter Jakobsson Sandnabba (f. ca 1867, d. 1877-03-27) | Enda sonen till Jakob Jakobsson d.y. och Beata Simonsdotter; bouppteckning 1878-02-25 (184–186): modern får 1/3, de fem halvbröderna resten | 028:11, 090:21, 178:12–13, 184:6 | |
 | A. R. Hagberg | Förrättningsman och troligen skrivare 1878 | 184:2, 185:22 | |
 | Isak Jonsson Sandnabba | Bonde, förrättningsman 1878 | 184:3 | |
-| Jonas [Lösbacka?]; Johan [Bonds?] | Kyrkvärdar i Purmo 1869 resp. 1879 | 180:4, 186:3 | |
+| Jonas [Sisbacka?] | Kyrkvärd i Purmo, kvitterar procenten 1865 och 1869 | 171:46, 180:4, 183:4 | Dubbelläsaren: S-i-ſ-b-a-c-k-a; tidigare lästa "Siflerk", "Lösbacka" |
+| Johan [Sisbacka?] | Kommunalkassör, Purmo 1909 | 197:2 | Tidigare läst "Liirbacka" |
+| Johan [Bonds?] | Kyrkvärd i Purmo 1879 | 186:3, 189:3 | |
 | [J. S. Castrén?] | "På Häradsrättens vägnar" på inteckningsförnyelsen 1877 | 088:17 | Violett bläck; låg säkerhet |
 | Isidor Taucher | "På Häradsrättens vägnar" 1909-02-02 och 1909-02-06 | 101:8, 108:19, 110:35 | Bekräftat av maskinskriven avskrift |
 | John Alarik Berg | Kronolänsman, ombud för Jakob Björklund 1942 | 102:17 | |
