@@ -140,7 +140,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Sven-Erik Novén | Fullmakt Trelleborg 1949-08-30 | 063:30 | |
 | Karin Björklund, Signe Björklund | Medundertecknare av köpebrevet 1949 (troligen svärdöttrar) | 063:8–9 | |
 | Anders Lassen (1925) / Ivar Lasén (1949–50) | Nämndeman, ombud 1925 resp. 1950; köpvittne och godeman 1949 | 057:11, 062:11 | Blyerts "Lassén"/"Lasén"; oklart om samma person |
-| Johan Bäcksbacka eller Bäcksfors, hustru Lovisa | Ägare av Bäcksbacka N:o 23 (fastebrev 1894-09-08) | 057:23–24, 058:2 | |
+| Johan Bäcksbacka eller Bäcksfors / Bäckfors, hustru Lovisa | Ägare av Bäcksbacka N:o 23 (fastebrev 1894-09-08); sålde Brännkärr-torpet till Anders Nyman 1922-02-10 för 1000 mark (bomärken) | 057:23–24, 058:2, 228:8 | "Bäckfors" i köpebrevet 1922 |
 | Anders Nyman | Torpare; köpte Brännkärret 1922-02-10, sålde 1922-03-16 till Jakob Björklund | 058:4 | |
 | Aino Berger | Kommissionslantmätare, klyvningen av Sandnabba 1911 (förrättningen N:o 938); äldre lantmäteriingeniör, parcellering 1923 | 129:5–6, 134:5, 058:10 | Egenhändig namnteckning 134 bekräftar namnet |
 | Gustaf Jonasson Sandnabba | Bonde, sökande till klyvningen 1911 | 129:7–8 | = Gustaf Jonass. i mantalslängden 1915 (046)? |
@@ -165,7 +165,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Nils Berg | "På domarämbetets vägnar", t.f., 1936 | 125:18 | |
 | H. L. Harri | Mantalsskrivare (stämpel) | 057 marg. | |
 | Herman [Hästö?] | Intygar annotation i 1951 års mantalslängd, Purmo 1951-05-08 | 062 marg. | Efternamnet osäkert |
-| John Nymark | "Sålt till John Nymark 1966" (Brännkärret) | 062 marg. | Kan läsas Nymans |
+| John Enok Nymark | Bonde; köpte Brännkärret RN:o 23⁴ av Karl Milton och Karin Björklund 1966-01-27 för 3.000 mark | 062 marg., 230:3 | Bekräftar "Nymark" |
+| Heimer Granlund; Viola Söderlund | Offentligt köpvittne resp. bokförare, Purmo 1966 | 231:8–11 | |
+| J. Liljeström; Wilhelm Höglund; Matts Myhrman; [Wicktor?] Långnabbo; Maria Bäcksbacka; Hilma Grankvist | Vittnen 1922 | 228–229 | |
 | Herman Asp | Erhållit gårdstomt ca 22 ar av Jakob Björklund | 063:4 | |
 | Arno Sund | Vittne vid köpebrevet 1949 | 063:22 | |
 | A. L. Månsson | Överkonstapel, Norregatan 35, Trelleborg; vittne till fullmakten | 064:2–3 | |
@@ -231,6 +233,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1849-03-06 | Lagfartsprotokoll § 49, andra uppbudet | 013–014 |
 | 1849-09-28 | Protokoll § 80, tredje uppbudet | 015 |
 | 1836-02-24 | Köpebrevet i original ([Wiolös?]): Hans Jacobsson säljer 5/72 till brodern Eric Wilobacka; förmyndaren Johan Hansson Philpus överlåter dottern Marias 5/432 för 100 + 200 rubel banco – g: 1 | 205–206 |
+| 1913-01-20 | Sytningskontrakt: Maja Lena Eriksdotter förbehåller sig livstids sytning av Jakob och Hilda Maria Björklund (samma dag som gåvobrevet) | 232–236 |
+| 1922-06-15 | Anders Nyman överlåter Brännkärr-torpet till Jakob Björklund efter auktion 1922-03-16 | 228–229 |
+| 1966-01-27 | Köpebrev: Karl Milton Björklund säljer Brännkärret till John Enok Nymark | 230–231 |
 | 1876-06-20 | Köpebrev (Svartå, Karis): Matts Jakobsson säljer sin halva av Sandnabba till brodern Jakob för 2500 mark – g: 2 | 224–226 |
 | 1911-07-01 | Arrendekontrakt: Maria Andersdotter arrenderar ut sin torplägenhet till Jakob Jakobsson (Björklund) | 217–218 |
 | 1848-05-15 | Bouppteckning efter Lisa Andersdotter (Jakob Jakobsson d.y. ärver 5/504) | 032:23–033:2 |
@@ -289,7 +294,7 @@ Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 1
 e: 4 = 124–127 (avskrift bestyrkt 1942).
 Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson d.ä., blyerts "a: 3" på 166); 168–177 (1864 efter Greta Mattsdotter, original och avskrift); 178–183 (1869 efter Jakob Jakobsson d.y., två exemplar); 184–189 (1878 efter Simon Petter Jakobsson, två exemplar); 190–193 (1899 efter Sanna Maja Johansdotter); 194–197 (1908 efter Jakob Jakobsson Sandnabba, "a: 8"); a: 9 = 198–201 (1940 efter Hilda Maria Björklund, original; avskrift i 064–065); a: 10 = 202–203 (kompletteringsbouppteckning 1949, original). Omslag a slutar på 203.
 
-Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–206 (afhandling 1836-02-24, original till det som refereras i 005–006), därtill troligen 207–223 (bl.a. torpkontrakt 1889 på 216, arrendekontrakt 1911 i två exemplar 217–218, gåvobrevet 1913 i original 219–223 med uppbudspåskrifter 1915–16; blyerts "g: 1. 7" på 217). g: 2 (224 post-it: "Köpebrev 1876 -- 1966") = 224– (köpebrev 1876-06-20, Svartå, Karis).
+Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–206 (afhandling 1836-02-24, original till det som refereras i 005–006), därtill troligen 207–223 (bl.a. torpkontrakt 1889 på 216, arrendekontrakt 1911 i två exemplar 217–218, gåvobrevet 1913 i original 219–223 med uppbudspåskrifter 1915–16; blyerts "g: 1. 7" på 217). g: 2 (224 post-it: "Köpebrev 1876 -- 1966") = 224–231 (köpebrev 1876-06-20 Svartå, Karis; köpebrev Brännkärret 1922 Bäckfors→Nyman→Björklund, 227–229; köpebrev 1966 Björklund→Nymark, 230–231). g: 3 (232 post-it: "Kontrakt 1913 – – [1951/1957?]") = 232– (sytningskontrakt 1913-01-20, två exemplar 233–236).
 Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
 
 Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
@@ -406,6 +411,7 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | 6₅ | grad med nedsänkt decimal (= 6,5) |
 | 0055 | belopp utan decimalkomma (= 0,055), delningsinstrumentet 1911 |
 | Transport | överförd summa överst/nederst på tabellsida |
+| Kållby utskiftes mark | Gräns för Brännkärret (227:16); Brännkärrets kartnummer N:o 142 |
 | Nikolaistad | Vasa (officiellt namn 1855–1917) |
 | Hemskiftet, Nabbskiftet, Storbacksmossan; Forsaskyttan; Baptist bönehustomt parcellen | ägonamn vid klyvningen 1911 |
 | K. B. I sid. 253 | kyrkbok (kommunionbok) del I, sida (067:1) |
