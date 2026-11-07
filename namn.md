@@ -52,6 +52,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Anders Jakobsson Sandnabba | Bror; kvitterar sin utlösen 200 mark 1878 | 214:1 | |
 | Johan Jakobsson Sandnabba | Bror; torpare enl. torpkontrakt 1889-01-30 (49 år från 1888-03-14, 550 Fmk + 4 dagsverken/år) | 215:1 | |
 | Johan (Jonasson) Stennabba; Johan Johansson [Nygård?]; Jacob Jacobsson [Syssbacka?]; H. [Forsgård?] | Vittnen 1843, 1878, 1889 | 208, 209, 215 | |
+| A Haapbacka; August Wilobacka; Aug. Nyman; Fina Nylund; Oskar Pettersson; Anders Kecklund; Anders Söderlund | Vittnen 1914–1935 | 248–253 | |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
 | Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
@@ -156,12 +157,12 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Bror Erik Uunila | Notarie, bestyrker avskrift "Ex officio", Jakobstad 1942-12-05 | 127:5–6 | |
 | Bruno Sarlin; Joel Jurvelius | Landshövding resp. kontrasignant, utslag 1923-12-28 | 060:2–3 | |
 | Herman Uddström | Vasa läns länslantmäterikontor, jordregistret 1924-01-16 | 060:6 | |
-| Anders Liljeström | Poliskonstapel, Purmo, delgivning 1924-02-07 | 060:9–10 | |
+| Anders Liljeström | Poliskonstapel, Purmo, delgivning 1924-02-07; kvitterar Bergers räkning 1923-12-24 | 060:9–10, 252:6–7 | |
 | Odo Sandelin | "På Häradsrättens vägnar" 1925 (namnteckning); "På Domareembetets vägnar" 1934 (maskinskrivet) | 061:9, 119:2 | Maskinskrivet namn 1934 bekräftar läsningen av namnteckningen 1925 |
 | Aili Skog; Aina Nyman; Aune Kielinen | Vittnen till fullmakter 1934 | 118:4, 118:9 | |
 | Anders Lasén | Stämningsman, delgivning Purmo 1934-08-16 | 119:22 | = "A. Lasen" 114:20; jfr Anders Lassen 1925 |
 | Johannes Lindahl | Vittne till delgivningen 1934 | 119:24 | |
-| Johannes Enlund | Nämndeman, delgivning 1934-08-23 | 122:1 | |
+| Johannes Enlund | Nämndeman, delgivning 1934-08-23; ombud för fordringen Svanbäck 1935–1940 | 122:1, 253:18, 256:10 | |
 | Wilhelm / Vilhelm Blomberg | Vittne 1934; godeman 1940 | 118:4, 122:3, 065:25 | |
 | Matts Sandstedt (bonde); Otto Nyman (affärsman) | Vittnen i vräkningsmålet 1934, Överpurmo | 122:12 | |
 | August Kecklund; Senja Kecklund | Vittnen till Edla Svanbäcks fullmakt 1936; August även testamentsvittne 1929 | 124:16, 125:12 | |
@@ -242,6 +243,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1966-01-27 | Köpebrev: Karl Milton Björklund säljer Brännkärret till John Enok Nymark | 230–231 |
 | 1878-02-25 | Köpebrev: Jakob Jakobsson säljer 5/96 (hälften) till Simon Petter Johansson Sandnabba för 3 000 mark | 209 |
 | 1889-01-30 | Torpkontrakt: Jakob Jakobsson upplåter torp till brodern Johan, 49 år från 1888-03-14 | 215–216 |
+| 1881-08-16 | Slutavräkning av Strengbergslånet: 681,88 mark | 247 |
+| 1914-06-05 – 1916-07-14 | Utlösningskvitton: syskonen får 125 Fmk vardera av Jakob Björklund; Herman 1726,91 Fmk i föräldraarv | 248–251 |
+| 1928-07-02 – 1940-08-21 | Jakob Björklund lånar 35 000 mark av torparen Anders Svanbäck (sin svärfar) till 7 %; avbetalt 1929–1940 | 253–256 |
 | 1876-06-20 | Köpebrev (Svartå, Karis): Matts Jakobsson säljer sin halva av Sandnabba till brodern Jakob för 2500 mark – g: 2 | 224–226 |
 | 1911-07-01 | Arrendekontrakt: Maria Andersdotter arrenderar ut sin torplägenhet till Jakob Jakobsson (Björklund) | 217–218 |
 | 1848-05-15 | Bouppteckning efter Lisa Andersdotter (Jakob Jakobsson d.y. ärver 5/504) | 032:23–033:2 |
@@ -300,7 +304,8 @@ Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 1
 e: 4 = 124–127 (avskrift bestyrkt 1942).
 Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson d.ä., blyerts "a: 3" på 166); 168–177 (1864 efter Greta Mattsdotter, original och avskrift); 178–183 (1869 efter Jakob Jakobsson d.y., två exemplar); 184–189 (1878 efter Simon Petter Jakobsson, två exemplar); 190–193 (1899 efter Sanna Maja Johansdotter); 194–197 (1908 efter Jakob Jakobsson Sandnabba, "a: 8"); a: 9 = 198–201 (1940 efter Hilda Maria Björklund, original; avskrift i 064–065); a: 10 = 202–203 (kompletteringsbouppteckning 1949, original). Omslag a slutar på 203.
 
-Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–223, originalhandlingar (blyerts "g: 1. 2" på 207, "g: 1. 6" på 215, "g: 1. 7" på 217): köpebrev 1836 (204–206), köpebrev 1843 med kvittens (207–208), köpebrev 1878 (209), afhandling 1856 med uppbudspåskrift 1857 (210–211), afhandling 1868 med uppbudspåskrifter 1869–70 (212–213), utlösenkvitto 1878 (214), torpkontrakt 1889 i två exemplar (215–216), arrendekontrakt 1911 i två exemplar 217–218, gåvobrevet 1913 i original 219–223 med uppbudspåskrifter 1915–16; blyerts "g: 1. 7" på 217). g: 2 (224 post-it: "Köpebrev 1876 -- 1966") = 224–231 (köpebrev 1876-06-20 Svartå, Karis; köpebrev Brännkärret 1922 Bäckfors→Nyman→Björklund, 227–229; köpebrev 1966 Björklund→Nymark, 230–231). g: 3 (232 post-it: "Kontrakt 1913 – – [1951/1957?]") = 232– (sytningskontrakt 1913-01-20, två exemplar 233–236).
+Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–223, originalhandlingar (blyerts "g: 1. 2" på 207, "g: 1. 6" på 215, "g: 1. 7" på 217): köpebrev 1836 (204–206), köpebrev 1843 med kvittens (207–208), köpebrev 1878 (209), afhandling 1856 med uppbudspåskrift 1857 (210–211), afhandling 1868 med uppbudspåskrifter 1869–70 (212–213), utlösenkvitto 1878 (214), torpkontrakt 1889 i två exemplar (215–216), arrendekontrakt 1911 i två exemplar 217–218, gåvobrevet 1913 i original 219–223 med uppbudspåskrifter 1915–16; blyerts "g: 1. 7" på 217). g: 2 (224 post-it: "Köpebrev 1876 -- 1966") = 224–231 (köpebrev 1876-06-20 Svartå, Karis; köpebrev Brännkärret 1922 Bäckfors→Nyman→Björklund, 227–229; köpebrev 1966 Björklund→Nymark, 230–231). g: 5 (blyerts "g:5.4" på 250, "g:5.7" på 253) = kvitton och skuldsedlar: originalskuldsedeln 1867 (246–247) med räntekvittenser till slutavräkningen 1881; utlösningskvitton 1914 (248–250), Hermans arv 1916 (251), Bergers räkning 1923 (252), skuldsedel till Anders Svanbäck 1928–1940 (253–256).
+g: 3 (232 post-it: "Kontrakt 1913 – – [1951/1957?]") = 232– (sytningskontrakt 1913-01-20, två exemplar 233–236).
 Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
 
 Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
