@@ -56,6 +56,18 @@ första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 finns redan i namn.md; de nya agenterna (117–156) har fått den.
 **Status:** ÖPPET – samma fråga som för 001–016: ska jag rätta de tydliga fallen?
 
+### 2026-11-08 – Andra omslagsserien (288) har samma bokstäver som den första
+Omslaget på 288 har "a) Bouppteckningar, b) Utdrag ur protokoll, c) försäljning, d) Diverse
+handlingar" – men a–d används redan av första serien (012/076/089/150 …). Innehållet här gäller
+Härmälä 1826–1840, alltså Jacob Jacobssons tid före Sandnabba.
+**Vad jag gjorde:** Bokstäverna återgivna som de står; namn.md beskriver serien som
+"andra omslagsserien (288)". **Status:** ÖPPET – vill du ha ett prefix (t.ex. "H-c: 1" för
+Härmälä) i filerna?
+
+### 2026-11-08 – Är Jacob Jacobsson Härmälä (1826, 1839) = Jacob Jacobsson Sandnabba eller Härmälä?
+001:13 kallar köparen 1843 "Jacob Jacobsson Sandnabba eller Härmälä". Troligen samma man, men
+inget dokument säger det uttryckligen. **Status:** ÖPPET – din släktkännedom.
+
 ### 2026-11-08 – Roschier: "Ulrich" var en överrättelse – nu [Wilhelm/Ulrich?]
 Rättelseomgången ändrade namnteckningen i 014:26/015:25 från "Erich" till "Carl Ulrich Roschier"
 på dubbelläsarens bokstavsanalys. Men fastebrevet 1849 (276:1, samma kansli) skriver i klartext
