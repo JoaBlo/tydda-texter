@@ -11,6 +11,23 @@ Status markeras så här:
 
 ## Beslut som väntar på dig
 
+### 2026-11-07 – Dubbelläsningen av 001–016 hittade systematiska fel hos första läsaren (mig)
+**Resultat:** 53 Överens, 9 AVVIKER (4 på rader jag inte markerat som osäkra), 8 Osäker.
+**Avvikelser som troligen ska rättas:**
+- 015:10 `[klanderfria?]` → `offentligen` (skrivet "affentligen"). Jag hämtade ordet från
+  formeln i 013:19 i stället för att läsa; dubbelläsaren kan följa bokstäverna. **Troligen fel hos mig.**
+- 014:26 / 015:25 `Carl Erich Roschier` → `Carl Ulrich Roschier`. Bokstavsbilden ger U, inte E.
+- 002:1 `Maria J[...]` → `Maria H[...]` (Hansdotter).
+- 010:2 `alltså` – bokstavstroget "deltså"; borde ha markerats osäker.
+- Versal/gemen: jag normaliserade "april" → "April" (003:20, 008:2) och "hu=" → "Hu=" (004:9).
+- 009:1 "Gamla Carle=" är sammanskrivet i källan.
+**Vad jag gjorde:** Transkriptionerna är oförändrade (se nästa post). Konventionerna i namn.md
+har skärpts: versal/gemen exakt som i källan; aldrig fylla i från en formel på en annan sida.
+Kommande läsare får dessa regler i sin instruktion.
+**Status:** ÖPPET – vill du att jag rättar de sex raderna ovan (och namn.md: Ulrich) nu, eller
+vill du titta själv först? Bilderna som dubbelläsaren använde: scratchpad/dubbel/015_r10.jpg,
+014_r26_27.jpg, 011_r7.jpg.
+
 ### 2026-11-07 – Hantering av avvikande dubbelläsningar
 **Fråga:** När andra läsaren avviker från första läsaren, vem har sista ordet?
 **Vad jag gjorde:** Jag ändrar inte transkriptionen. Båda läsningarna står kvar i

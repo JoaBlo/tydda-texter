@@ -24,8 +24,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Johan Jonesson Lassfolk | Vittne 1843 | 004:13 | "Jonesson" som det står; väntat "Jonasson" |
 | Carl Carlsson Lassfolk | Vittne 1843 | 004:15 | |
 | J: Bäck | Skrivare av köpebrevet 1843 ("af J: Bäck") | 004:17 | |
-| Carl [Erich/Ulrik?] Roschier | Undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25 | Mellannamnet osäkert; under namnet en liten förkortning "[ssl?]" |
-| [oläslig namnteckning] | "På Härads Rättens vägnar" 1848 | 011:7 | |
+| Carl [Ulrich/Erich?] Roschier | Undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25 | Första läsaren: Erich; dubbelläsaren: Ulrich (bokstavsbilden ger U). Under namnet en liten förkortning "[ssl/fsl?]" |
+| [...?] Aminoff | "På Härads Rättens vägnar" 1848 | 011:7 | Efternamnet enligt dubbelläsaren (A-m-i-n-o-ff); förnamnet oläsligt |
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
 | Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868 | 016:24, 017:15–17 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
 | Greta Mattsdotter Sandnabba | Hustru till Jacob Jacobsson d.y.; d. 1864-02-15; bouppteckning 1864-07-07 | 017:18–19, 032:5 | |
@@ -251,6 +251,16 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | ha, ar | hektar, ar |
 
 ## Transkriptionskonventioner som används i filerna
+
+Lärdomar från dubbelläsningen (fel som första läsare faktiskt gjort):
+- **Versal/gemen exakt som i källan.** Månadsnamn ("april"), ord efter tankstreck och
+  radbörjan normaliseras lätt till versal – gör inte det.
+- **Fyll aldrig i från en formel på en annan sida.** Om ett ord liknar en formel du sett
+  tidigare ("klanderfria uppbudet") men bokstäverna inte stämmer, läs bokstäverna och markera
+  osäkerhet. 015:10 blev fel på det sättet.
+- **Om du tolkar snarare än läser** (t.ex. "alltså" där det står "deltså"), markera som
+  osäker och ange den bokstavstrogna formen.
+- **Ordmellanrum:** återge som det står när det är tydligt ("Gamla Carle=" var sammanskrivet).
 
 - Långt s (ſ) återges som s; c med krok (ç) som c. Noteras i varje fil.
 - Överstruket ord: ~~ord~~.
