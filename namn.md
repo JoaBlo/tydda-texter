@@ -22,7 +22,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Gustaf Brunberg (Gust: Brunberg) | Sockneskrivare, ombud för sökanden; 1857 "Sokneskrifvaren ä. n. Expeditionsfogden" | 001:10–11 | Bestyrker avskrift 009:7 |
 | Gabriel Palmquist (Gabr: Palmquist) | Häradsskrivare, Gamlakarleby | 008:10–11 | |
 | C. J. Qvickström | Bestyrker avskrift tillsammans med Brunberg | 009:7 | |
-| Johan Jonesson Lassfolk | Vittne 1843 | 004:13 | "Jonesson" som det står; väntat "Jonasson" |
+| Johan Jonesson Lassfolk | Vittne 1843 | 004:13, 207:28 | "Jonesson" bekräftat av originalet ("Jone son"); möjligen diakrit över a i Lassfolk (Låssfolk?) – okontrollerat |
 | Carl Carlsson Lassfolk | Vittne 1843 | 004:15 | |
 | J: Bäck | Skrivare av köpebrevet 1843 ("af J: Bäck") | 004:17 | |
 | Carl Wilhelm Roschier | Vice häradshövding, förordnad domhavande; undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25, 276:1 | 276:1 skriver namnet i klartext "Carl Wilhelm Roschier". Namnteckningen 014/015 lästes först "Erich", sedan "Ulrich" – nu [Wilhelm/Ulrich?]. Under namnet "[ssl/fsl?]" |
@@ -72,7 +72,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Matts och Jakob Jakobssöner Sandnabba | Bönder, mottagare 1868, sökande 1869–1870 (1:a–3:e uppbud) på 5/48 mantal "till hälften hvardera"; söner till Jakob Jakobsson d.y. och Greta Mattsdotter | 027:19, 037:14–15 | Ägarpåskrift "Bönderne Matts och Jakob Sandnabba" 037:27; "B:ne Matts och Jakob Jakobss. Sandnabba" 039:27 |
 | Beata Simonsdotter | **Andra** hustru till Jacob/Jakob Jakobsson d.y. (d. 1868-11-06); styvmor till Matts, Jakob, Johan, Anders, Gustaf (Greta Mattsdotters söner); mor till Simon Petter (f. ca 1867, d. 1877); sytningstagare 1868; änka och ägare med styvsonen Jakob 1877 | 038:7, 040:16–17, 178:6–13 | Tidigare felaktigt angiven som hustru till Jacob Jacobsson d.ä. – rättat efter 178 |
 | Johan, Anders, Gustaf (och Simon Petter) Jakobssöner | Bröder till Matts och Jakob; utlösen 200 mark vardera 1868 | 028:10–11, 038:8–9 | Simon Petter nämns 028:11 men inte i bouppteckningen 1864 eller 035:18 |
-| Beata Simonsdotter [Hennabba/Stennabba?] | Se ovan; "enka efter afträdaren" 1869 | 031:17 | Gårdsnamnet osäkert |
+| Beata Simonsdotter Stennabba | Se ovan; "enka efter afträdaren" 1869 | 031:17 | Gårdsnamnet rättat till Stennabba (stöd: originalet 213:5) |
 | Gustaf Johansson Sandnabba; Johan Mattsson Sandnabba | Vittnen 1868 | 031:8–9 | |
 | Anders Haapbacka | "af Anders Haapbacka" – troligen skrivare av afhandlingen 1868 | 031:11 | |
 | Bruno Brunberg; Anders Backa | Vittnen till änkans påskrift 1869 | 031:19–20 | Förnamnet Bruno något osäkert |
@@ -208,7 +208,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Bäck | Gårdsnamn (Johan Johansson Bäck) | 021:2 |
 | Kauhava, Yli-/Alahärmä socknars tingslag; Keskikylä by | Strukna (felaktiga) ortnamn i rubriken 1869 | 027:4–7 |
 | Haapbacka; Backa | Gårdsnamn (Anders Haapbacka; Anders Backa) | 031:11, 031:20 |
-| [Hennabba/Stennabba?] | Gårdsnamn (Beata Simonsdotter) | 031:17 |
+| Stennabba | Gårdsnamn (Beata Simonsdotter, Petter Simonsson, Anders Stennabba m.fl.) | 031:17, 048:3, 090:14 |
 | Brännkärret / Brännkärre | Parcell, senare skattelägenhet RN:o 23⁴ av Bäcksbacka N:o 23, Överpurmo; 2,860 ha, 0,0002 mantal | 057:12 |
 | Bäcksbacka | Skattehemman N:o 23 i Överpurmo by | 057:19 |
 | Nygård | Stomlägenhet RN:o 23² (senare 23⁵/23¹) av Bäcksbacka | 057:18 |
