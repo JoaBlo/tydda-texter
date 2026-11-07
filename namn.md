@@ -44,8 +44,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | [Christoffer?] [Teuden/Tenden?] | T.f., "På domareämbetets vägnar" jan 1940 | 198 marg. | låg säkerhet |
 | And: Brunberg; Carl Ant: Brunberg; Henrik Törnvik | Vittnen 1836 | 206:17–18 | |
 | Maria Andersdotter Sandnabba | Ägare av en torplägenhet på Sandnabba; utarrenderar den 1911 till Jakob Jakobsson Sandnabba (Björklund) för 25 mark/år, enl. torpkontrakt 1888-03-14 | 217:1 | |
-| Matts Jakobsson Sandström / Sandnabba | Säljer 1876 sin "halfva Sandnabba skatte hemman N:o 8" till brodern Jakob för 2500 mark; undertecknar i Svartå, Karis socken | 225:2, 226:7 | = Matts (f. 1850), son till Jakob d.y. och Greta Mattsdotter |
-| Jakob Jakobsson [Lilqvist?] | Köpare 1876 | 225:4, 226:11 | Troligen Jakob Jakobsson Sandnabba (1850–1908); inte inspektor Lillqvist 1864 |
+| Matts Jakobsson Sandström / Sandnabba ("M Sandström") | Säljer 1876 sin "halfva Sandnabba skatte hemman N:o 8" till brodern Jakob för 2500 mark; undertecknar i Svartå, Karis socken | 225:2, 226:7 | = Matts (f. 1850), son till Jakob d.y. och Greta Mattsdotter |
+| Jakob Jakobsson Lilqvist (= Jakob Jakobsson Sandnabba, 1850–1908) | Köpare 1876; mottagare av broderns brev 1876 ("Sandnabba Jacob / Lilqvist") | 225:4, 226:11, 282:1–2 | Bekräftat av brevets utanskrift; inte inspektor Lillqvist 1864 |
 | Johan Danielsson; Thomas Mattsson; J. [Koivula?] (banmästare) | Vittnen 1876 | 226:13–18 | |
 | Simon Petter Johansson Sandnabba | Bonde; köpte 5/96 av Jakob Jakobsson 1878-02-25 för 3 000 mark och tog halva sytningen till Beata | 209:3–4 | = förmyndaren 1878 (187:14)? |
 | Anders Jakobsson Sandnabba | Bror; kvitterar sin utlösen 200 mark 1878 | 214:1 | |
@@ -59,6 +59,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Magnus Ström (undersergeant); Wilh. [Oskar?]; Albert Södergård; [Henrik?] Harald | Vittnen till fullmakterna vid Svir-fronten 1943 | 241:8–9, 242:16–17 | |
 | [Lyli?] Bäckström; Gretel Krohn | Vittnen till Ines Sundstedts fullmakt 1943 | 243:8 | |
 | Hugo [Bramberg/Bromberg?] | Vittne till köpekontraktet 1951 | 239:23 | |
+| Anders Pass | Pastor, t.f. kyrkoherde i Purmo, ämbetsbetyg 1943-01-26 | 284:24 | |
+| K. J. Nygård; A. [M?] Grägg | Bestyrker avskriften av fastebrevet 1916 | 283:23 | |
+| Danielson | Ingav fullmakt 1866-09-15 | 286:1 | |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
 | Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
@@ -67,7 +70,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Lena, Maria Lisa / Maja Lisa, Kaisa, Greta, Bata / Beata (Jacobsdöttrar) | Döttrar till Jacob Jacobsson d.ä.; utlösen 5 rubel var 1856 | 017:24, 018:1–2, 025:4–5 | "Bata" 018:2 = Beata; i 033:5–12 nämns systrarna Anna, Maja, Greta, Brita, Beata |
 | Johan Johansson Bäck (Joh: Bäck) | Vittne till och skrivare av afhandlingen 1856 | 021:1–4 | Jfr "J: Bäck" 004:17 |
 | Wilhelm Lindbohm | "På Härads Rättens vägnar" 1858-02-26 | 025:12 | Paraf "[fd?]" under |
-| [oläslig namnteckning, ca "Jondre Kujulin"] | "På Härads Rättens Vägnar" 1857-09-25 och 1858-10-12 | 023:16, 026:21 | Ingen bokstav säker |
+| Johan Fredrik [Tujulin/Fujulin?] | Häradshövding, Österbottens "medledets" Öfra domsaga; utfärdar fastebrevet 1858-10-12 i klartext; troligen = den oläsliga namnteckningen 1857–58 ("Jondre Kujulin") | 279:1, 280:8, 023:16, 026:21, 211 | Klartextformen i 279:1 bör jämföras med namnteckningarna |
 | Matts och Jakob Jakobssöner Sandnabba | Bönder, mottagare 1868, sökande 1869–1870 (1:a–3:e uppbud) på 5/48 mantal "till hälften hvardera"; söner till Jakob Jakobsson d.y. och Greta Mattsdotter | 027:19, 037:14–15 | Ägarpåskrift "Bönderne Matts och Jakob Sandnabba" 037:27; "B:ne Matts och Jakob Jakobss. Sandnabba" 039:27 |
 | Beata Simonsdotter | **Andra** hustru till Jacob/Jakob Jakobsson d.y. (d. 1868-11-06); styvmor till Matts, Jakob, Johan, Anders, Gustaf (Greta Mattsdotters söner); mor till Simon Petter (f. ca 1867, d. 1877); sytningstagare 1868; änka och ägare med styvsonen Jakob 1877 | 038:7, 040:16–17, 178:6–13 | Tidigare felaktigt angiven som hustru till Jacob Jacobsson d.ä. – rättat efter 178 |
 | Johan, Anders, Gustaf (och Simon Petter) Jakobssöner | Bröder till Matts och Jakob; utlösen 200 mark vardera 1868 | 028:10–11, 038:8–9 | Simon Petter nämns 028:11 men inte i bouppteckningen 1864 eller 035:18 |
@@ -125,7 +128,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Simon Nybränn | (Förre) nämndeman, ombud för Björklund 1915–1916 | 051:19–20 | |
 | [Axel?] Rosberg | "På Häradsrättens vägnar", T.f. 1915–1916 | 050:12–13 | Egenhändig namnteckning; förnamnet osäkert |
 | Hilda Maria Björklund f. Svanbäck (f. 1884-08-23, d. 1939-06-03 å Nykarleby sjukhus) | Jakob Björklunds andra hustru, vigd 1905-11-26; = "Hilda/Hilma" ovan; bouppteckning 1940-01-18 och 1949-09-03 | 062:25, 067:8 | Hon hette Hilda – "Hilma" är kansliets fel |
-| Sanna Maja Pelkkala / Sanna Maja Johansdotter (f. 1875-01-17, d. 1899-10-29) | Jakob Björklunds första hustru, vigd 1898-07-10 (067) – bouppteckningen säger 1897 (190:8); bouppteckning och avvittring 1899-12-07 (190–193) | 067:6, 190:5 | |
+| Sanna Maja Pelkkala / Pelkkola / Sanna Maja Johansdotter (f. 1875-01-17, d. 1899-10-29) | Jakob Björklunds första hustru, vigd 1898-07-10 (067) – bouppteckningen säger 1897 (190:8); bouppteckning och avvittring 1899-12-07 (190–193) | 067:6, 190:5 | |
 | Emelia / Emilia Maria (d. 1899-12-18) | Dotter till Jakob och Sanna Maja; dog tre veckor efter bouppteckningen, fadern ärver ("bakarf") | 190:9, 192:20 | = "ett barn dog minderårigt" (067) |
 | S. Nybränn (= Simon Nybränn) | Förrättningsman och skrivare 1899 och 1908; ombud 1915–16 | 192:19, 196:37 | |
 | Maria Sandnabba; M. Petterson (landth.); Johan Jan Sån Sandnabba | Borgenärer resp. vittne 1899–1908 | 196:14, 191:2, 196:36 | |
@@ -259,6 +262,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1939-06-09 | Sampo skogsbrandförsäkring N:o 43064, Björklund N:o 1, ca 13 ha, 40 000 Fmk | 271–275 |
 | 1943-01-22/30 | Fullmakter för arvskiftet efter Edla Svanbäck: Osvald och Karl Milton från fronten vid Svir, Ines i Purmo | 241–243 |
 | 1951-04-01 | Köpekontrakt: Milton och Karin Björklund säljer gårdstomt och 1,45 ha av Storbacksmossan till Herman Asp för 60 000 mark | 239 |
+| 1876-10-09 | Brev från Matts i Svartå till brodern Jakob: olycka, ber om pengar | 281–282 |
 | 1876-06-20 | Köpebrev (Svartå, Karis): Matts Jakobsson säljer sin halva av Sandnabba till brodern Jakob för 2500 mark – g: 2 | 224–226 |
 | 1911-07-01 | Arrendekontrakt: Maria Andersdotter arrenderar ut sin torplägenhet till Jakob Jakobsson (Björklund) | 217–218 |
 | 1848-05-15 | Bouppteckning efter Lisa Andersdotter (Jakob Jakobsson d.y. ärver 5/504) | 032:23–033:2 |
@@ -321,7 +325,7 @@ Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande
 g: 5 forts.: arrendekvitto 1932 (257), Agnes Novéns arvskvitto 1948 (258), Dagny Björklunds utlösningskvitto 1950, g:5.10 (259), Ines Wennbergs kvitto 1965, g:5.1[1/4?] (260).
 g: 6 (261 post-it: "g:6 Övriga räkenskapshandlingar 1913 – – 1939"): g:6.1 räkning till Milton Björklund ca 1950 (262); förmyndarredovisningar för Herman 1913–1916, akt "N:o 95" (263–267–).
 g: 6 forts.: Maja Lena Eriksdotters förmyndarredovisning för Herman t.o.m. 1913 (268, höger halva); fånghistoria för 5/96 Sandnabba 1843–1916, maskinskriven, "g: 6. 3" (269–270); Sampos skogsbrandförsäkring N:o 43064 för Björklund N:o 1, 1939, "g: 6. 4" (271–275).
-Omslag u (276 post-it: "u: Diverse handlingar 1849 – – 1949"): fastebrev § 135, 1849-09-28 (276–).
+Omslag u (276 post-it: "u: Diverse handlingar 1849 – – 1949"): fastebrev § 135, 1849-09-28, original (276–278); fastebrev § 120, 1858-10-12, original (279–280); brev från Matts Sandström, Svartå 1876-10-09, till brodern "Sandnabba Jacob Lilqvist" (281–282); avskrift av fastebrevet 1916-02-18 § 74 (283); ämbetsbetyg 1943 (284); kuvert från Lake Sup. & Western Mining Co., Duluth, Minn., till Jakob Jakobson (285); remsa "Ingif: d. 15/9 1866" (286).
 g: 4 (240 post-it: "g: 4 Fullmakter 1943 -- 1949"): g: 4.1–4.3 fullmakter 1943 för arvskiftet efter Edla Svanbäck (Osvald och Karl Milton vid Svir-fronten, Ines i Purmo; 241–243); g: 4.4 Novéns fullmakt 1949 i original (244).
 g: 5 (245 post-it: "g: 5 Kvitton 1867 -- 1965") börjar med skuldsedeln 1867 i original (245–246).
 g: 3 (232 post-it: "Kontrakt 1913 – – [1951?]") = 232–239: sytningskontrakt 1913 (233–236), köpebrevet 1949 i original med lagfartspåskrift 1950 (g: 3.2, 237–238), köpekontrakt 1951 Björklund → Herman Asp (g: 3.3, 239).
@@ -443,6 +447,8 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Transport | överförd summa överst/nederst på tabellsida |
 | Kållby utskiftes mark | Gräns för Brännkärret (227:16); Brännkärrets kartnummer N:o 142 |
 | Ost-Karelen, Svir | Fronten 1943 (fortsättningskriget) | 241:5, 242:10–11 |
+| Duluth, Minnesota | Avsändarort för kuvert (Lake Sup. & Western Mining Co.) till Jakob Jakobson, Sandnabba, Bennäs – emigrantkontakt | 285 |
+| Bennäs ("Bennes") | Postort för Purmo | 285:5 |
 | Nikolaistad | Vasa (officiellt namn 1855–1917) |
 | Hemskiftet, Nabbskiftet, Storbacksmossan; Forsaskyttan; Baptist bönehustomt parcellen | ägonamn vid klyvningen 1911 |
 | K. B. I sid. 253 | kyrkbok (kommunionbok) del I, sida (067:1) |
