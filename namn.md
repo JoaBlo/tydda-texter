@@ -339,6 +339,11 @@ Lärdomar från dubbelläsningen (fel som första läsare faktiskt gjort):
 - **Om du tolkar snarare än läser** (t.ex. "alltså" där det står "deltså"), markera som
   osäker och ange den bokstavstrogna formen.
 - **Ordmellanrum:** återge som det står när det är tydligt ("Gamla Carle=" var sammanskrivet).
+- **Normalisera inte stavning mot "standardformen"** ("egda" ≠ "egande", "fyratiåttandedels"
+  ≠ "fyratioåttondedels", W ≠ V, qu ≠ qv). Läs strecken, inte förväntningen.
+- **Förvänta inte innehåll:** "Sju och en half kappa" lästes som "Sju alnar" för att en
+  sytningslista "borde" ha måttenheter.
+- **§-tecknets slinga är inte en överstrykning** (hand E). Ange överstrykningars omfång exakt.
 
 - Långt s (ſ) återges som s; c med krok (ç) som c. Noteras i varje fil.
 - Överstruket ord: ~~ord~~.

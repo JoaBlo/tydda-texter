@@ -42,6 +42,20 @@ filens sektion "Dubbelläsning" med motivering. Du avgör rad för rad.
 (b) jag får rätta transkriptionen när andra läsaren ger tydlig motivering och
 första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 
+### 2026-11-07 – Dubbelläsningen av 017–036: samma normaliseringsfel som i 001–016
+**Resultat:** ca 85 Överens, 8 AVVIKER, 12 Osäker. Avvikelser som troligen ska rättas:
+- 018:13 `Sju alnar` → `Sju och en` (half kappa salt) – första läsaren förväntade en måttenhet.
+- 021:9, 022:1 `egande rätt` → `egda rätt` (jfr 031:23).
+- 022:15 `fyratioåttondedels` → `fyratiåttandedels` (som det står hos hand C).
+- 023:15 `Vägnar:` → `Wägnar.`; 029:9 `qvinspjexor` → `quinspjexor`.
+- 027:4 "Ylö- och" är inte överstruket; 034:9 §-tecknet är inte struket.
+- 031:17 gårdsnamnet: dubbelläsaren föredrar `Stennabba` (inte Hennabba).
+- 033:7 `5/436` bekräftas som det står (ger inget rimligt bråk – fel i källan?).
+- 027 har ett ostruket "b:6" överst till höger som inte noterades.
+**Mönster:** första läsarna normaliserar mot förväntad form (stavning, V/W, qv/qu). Lärdomen
+finns redan i namn.md; de nya agenterna (117–156) har fått den.
+**Status:** ÖPPET – samma fråga som för 001–016: ska jag rätta de tydliga fallen?
+
 ### 2026-11-07 – VIKTIGT: Vems söner är Matts (f. 1850) och Jakob (f. 1851)?
 **Fråga:** namn.md säger (från bouppteckningen 1864, 032) att Matts och Jakob är söner till
 Greta Mattsdotter (d. 1864), och att Beata Simonsdotter är deras styvmor (035:16 säger
