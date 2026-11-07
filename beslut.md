@@ -63,6 +63,12 @@ avskrift eller kontrollräkning). "Osäker – båda möjliga" lämnas orört. V
 "## Rättelser efter dubbelläsning" med tidigare läsning, ny läsning och grund, så att inget
 försvinner. Gäller 001–116 nu och varje kommande dubbelläst omgång.
 **Status:** AVGJORT.
+**Utfört för 001–116:** 22 rader rättade, 6 lämnade. Lämnade, med skäl:
+- 004:9 `Hu=` – samma bokstavsform som "Hustrun" på rad 8; ändras den ena måste den andra ändras.
+- 023:15 `Vägnar:` – enkel v-form, inte den dubbla W-formen.
+- 027:4 – streck syns genom "Ylö- och" vid förstoring; överstrykningen behålls.
+- 082:1, 15, 16 (`Originala`, `Gjord`) – dubbelläsaren skrev själv "troligen". Rättningsagenten ser
+  dock versaler i bilden. **Ditt ställningstagande om du vill.**
 
 ### 2026-11-07 – Dubbelläsningen av 067–116
 **Resultat:** ca 200 Överens, 8 AVVIKER. Maskinskrivna sidor i praktiken felfria. De viktigaste

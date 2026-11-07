@@ -25,7 +25,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Johan Jonesson Lassfolk | Vittne 1843 | 004:13 | "Jonesson" som det står; väntat "Jonasson" |
 | Carl Carlsson Lassfolk | Vittne 1843 | 004:15 | |
 | J: Bäck | Skrivare av köpebrevet 1843 ("af J: Bäck") | 004:17 | |
-| Carl [Ulrich/Erich?] Roschier | Undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25 | Första läsaren: Erich; dubbelläsaren: Ulrich (bokstavsbilden ger U). Under namnet en liten förkortning "[ssl/fsl?]" |
+| Carl Ulrich Roschier | Undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25 | Rättat från "Erich" efter dubbelläsning. Under namnet en liten förkortning "[ssl/fsl?]" |
 | [...?] Aminoff; [Hans?] Ernst Aminoff | "På Härads Rättens vägnar" 1848; påteckning "Belagdt såsom Bilaga" på köpebrevet 1836 | 011:7, 205 marg. | Efternamnet enligt dubbelläsaren (A-m-i-n-o-ff); förnamnet oläsligt |
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
 | Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868; d. 1868-11-06, bouppteckning 1869-03-30 (178–183, två exemplar, inventarium 85 mark) | 016:24, 017:15–17, 178 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
@@ -44,6 +44,10 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | [Christoffer?] [Teuden/Tenden?] | T.f., "På domareämbetets vägnar" jan 1940 | 198 marg. | låg säkerhet |
 | Johan [Liirbacka?] | Kommunalkassör, Purmo 1909 | 197:2 | |
 | And: Brunberg; Carl Ant: Brunberg; Henrik Törnvik | Vittnen 1836 | 206:17–18 | |
+| Maria Andersdotter Sandnabba | Ägare av en torplägenhet på Sandnabba; utarrenderar den 1911 till Jakob Jakobsson Sandnabba (Björklund) för 25 mark/år, enl. torpkontrakt 1888-03-14 | 217:1 | |
+| Matts Jakobsson Sandström / Sandnabba | Säljer 1876 sin "halfva Sandnabba skatte hemman N:o 8" till brodern Jakob för 2500 mark; undertecknar i Svartå, Karis socken | 225:2, 226:7 | = Matts (f. 1850), son till Jakob d.y. och Greta Mattsdotter |
+| Jakob Jakobsson [Lilqvist?] | Köpare 1876 | 225:4, 226:11 | Troligen Jakob Jakobsson Sandnabba (1850–1908); inte inspektor Lillqvist 1864 |
+| Johan Danielsson; Thomas Mattsson; J. [Koivula?] (banmästare) | Vittnen 1876 | 226:13–18 | |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
 | Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
@@ -227,6 +231,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1849-03-06 | Lagfartsprotokoll § 49, andra uppbudet | 013–014 |
 | 1849-09-28 | Protokoll § 80, tredje uppbudet | 015 |
 | 1836-02-24 | Köpebrevet i original ([Wiolös?]): Hans Jacobsson säljer 5/72 till brodern Eric Wilobacka; förmyndaren Johan Hansson Philpus överlåter dottern Marias 5/432 för 100 + 200 rubel banco – g: 1 | 205–206 |
+| 1876-06-20 | Köpebrev (Svartå, Karis): Matts Jakobsson säljer sin halva av Sandnabba till brodern Jakob för 2500 mark – g: 2 | 224–226 |
+| 1911-07-01 | Arrendekontrakt: Maria Andersdotter arrenderar ut sin torplägenhet till Jakob Jakobsson (Björklund) | 217–218 |
 | 1848-05-15 | Bouppteckning efter Lisa Andersdotter (Jakob Jakobsson d.y. ärver 5/504) | 032:23–033:2 |
 | 1856-02-18 | Afhandling (Purmo): Jacob Jacobsson d.ä. överlåter 5/48 mantal till sonen Jacob o. Greta Mattsdotter, 400 rubel, skuld 50 rubel, utlösen 5 rubel till var syster, sytning | 017–021 |
 | 1857-09-25 | Protokoll § 14, lagfart och första uppbudet (Bondesonen Jacob Jacobsson) | 016–023 |
@@ -283,7 +289,7 @@ Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 1
 e: 4 = 124–127 (avskrift bestyrkt 1942).
 Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson d.ä., blyerts "a: 3" på 166); 168–177 (1864 efter Greta Mattsdotter, original och avskrift); 178–183 (1869 efter Jakob Jakobsson d.y., två exemplar); 184–189 (1878 efter Simon Petter Jakobsson, två exemplar); 190–193 (1899 efter Sanna Maja Johansdotter); 194–197 (1908 efter Jakob Jakobsson Sandnabba, "a: 8"); a: 9 = 198–201 (1940 efter Hilda Maria Björklund, original; avskrift i 064–065); a: 10 = 202–203 (kompletteringsbouppteckning 1949, original). Omslag a slutar på 203.
 
-Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–206 (afhandling 1836-02-24, original till det som refereras i 005–006).
+Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–206 (afhandling 1836-02-24, original till det som refereras i 005–006), därtill troligen 207–223 (bl.a. torpkontrakt 1889 på 216, arrendekontrakt 1911 i två exemplar 217–218, gåvobrevet 1913 i original 219–223 med uppbudspåskrifter 1915–16; blyerts "g: 1. 7" på 217). g: 2 (224 post-it: "Köpebrev 1876 -- 1966") = 224– (köpebrev 1876-06-20, Svartå, Karis).
 Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
 
 Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
