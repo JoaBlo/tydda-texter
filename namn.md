@@ -48,7 +48,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Jusefina | Dotter till Maja Lena (= Fina Maria i 048:7) | 043:17–18 | |
 | Anders Jakobss. arfv.; Matts Simonss.; Herman Elias Storbacka; Simon Simonss.; Jonas Simonss.; Gustaf Jonass. | Övriga ägare av brukningsdelar på Sandnabba n:o 8 enl. mantalslängden 1915 | 045:15–21, 046:1–2 | |
 | Maja Lena Eriksdotter Sandnabba (f. 1852-05-05, d. 1915-01-02) | Bondeänka, hustru till Jakob Jakobsson; förmyndare för sonen Herman 1909; sålde 5/96 mantal till sonen Jakob 1913 | 047:9 | |
-| Jakob Björklund (f. 1876-07-28) | Bonde, sökande vid uppbuden 1915–1916 på 5/96 mantal Sandnabba N:o 8; son till Jakob Jakobsson Sandnabba | 048:1, 049:16 | Ägarpåskrift "Bonden Jakob Björklund" 051:29, 054:29 |
+| Jakob Jakobsson Björklund / Jakob Björklund (f. 1876-07-28, d. 1949-09-21) | Bonde, sökande vid uppbuden 1915–1916 på 5/96 mantal Sandnabba N:o 8 och 1925 på Brännkärret; son till Jakob Jakobsson Sandnabba; gift 1) Sanna Maja Pelkkala 1898, 2) Hilda Maria Svanbäck 1905 | 048:1, 049:16, 067:4–5 | Ägarpåskrift "Bonden Jakob Björklund" 051:29, 054:29, 057:28 |
 | Hilda / Hilma Björklund | Hustru till Jakob Björklund | 049:17 | "Hilda" i 049, 054, 056; "Hilma" i 051, 053 – samma skrivare; återgivet som det står |
 | Johanna (f. 1879-03-10) | Dotter till Jakob Jakobsson; gift med handlanden Anders Stennabba | 048:2–3 | |
 | Anders Stennabba | Handlande, gift med Johanna | 048:3 | "Stennabba" med två n, som det står |
@@ -60,7 +60,16 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | H. A. [Autero/Antero?] | Kyrkoherde i Purmo, intygar släktutredning 1915-02-25 | 048:14–15 | u/n osäkert |
 | Simon Nybränn | (Förre) nämndeman, ombud för Björklund 1915–1916 | 051:19–20 | |
 | [Axel?] Rosberg | "På Häradsrättens vägnar", T.f. 1915–1916 | 050:12–13 | Egenhändig namnteckning; förnamnet osäkert |
-| Hilda Maria Björklund (f. 1884-08-23, d. 1939-06-03 å Nykarleby sjukhus) | = Hilda/Hilma ovan; bouppteckning 1940-01-18 och 1949-09-03 | 062:25, 064:23–24 | |
+| Hilda Maria Björklund f. Svanbäck (f. 1884-08-23, d. 1939-06-03 å Nykarleby sjukhus) | Jakob Björklunds andra hustru, vigd 1905-11-26; = "Hilda/Hilma" ovan; bouppteckning 1940-01-18 och 1949-09-03 | 062:25, 067:8 | Hon hette Hilda – "Hilma" är kansliets fel |
+| Sanna Maja Pelkkala (f. 1875-01-17, d. 1899-10-29) | Jakob Björklunds första hustru, vigd 1898-07-10; ett barn dog minderårigt | 067:6 | |
+| Signe Maria Manninen (f. 1917-08-06) | Hustru till Jakob Osvald Björklund, vigd 1937-04-11 | 067:11–12 | = "Signe Björklund" 063:9 |
+| Konrad Anders Sundstedt (f. 1917-01-10, d. 1943-01-18) | Ines Marias make, vigd 1940-09-15 | 067:13–14 | |
+| Alice Margareta Sundstedt (f. 1941-08-16) | Dotter till Ines och Konrad | 067:14–15 | |
+| Karin Inga Maria Rönnqvist (f. 1919-11-22) | Hustru till Karl Milton Björklund, vigd 1942-06-21 | 067:16–17 | = "Karin Björklund" 063:8 |
+| B. Söderholm | Kyrkoherde i Purmo 1950 | 067:22 | |
+| Erik Falkstedt | Kyrkoherde, Trelleborgs församling 1949 | 068:6 | |
+| Th. Nordenswan | Arkivarie, Vasa läns lantmäterikontor 1949-12-20 | 070:21, 073:16 | |
+| Martin Ingman | "På Domareämbetets vägnar" 1950 | 075:5–6 | Egenhändig namnteckning |
 | Karl Milton Björklund / Milton Björklund (f. 1918-07-29) | Son till Jakob o. Hilda; köpare 1949, sökande 1950 | 062:10 | Ägarpåskrift "Bonden Karl Milton Björklund." 062:31 |
 | Jakob Osvald Björklund (f. 1914-06-11) | Son | 062:30, 063:9 | |
 | Ines / Inäs Maria Björklund, gift Sundstedt (f. 1916-08-29) | Dotter | 062:30, 064:27 | Båda stavningarna i källan |
@@ -114,7 +123,10 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Vasa län / Landskontoret / länslantmäterikontoret | Landshövdingens kansli | 057:15, 057:21, 059:2 |
 | Nykarleby sjukhus | Hilda Maria Björklunds dödsort 1939 | 064:24 |
 | Jakobstad | Skattenämndens ort 1950 | 064:15 |
-| Trelleborg (Norregatan 35) | Novéns och Månssons ort, Sverige | 063:29, 064:3 |
+| Trelleborg (Norregatan 35) | Novéns och Månssons ort, Sverige; Trelleborgs församling, Malmöhus län | 063:29, 064:3, 068:4 |
+| Hemmesdunge[?] församling | Sven Erik Novéns födelseförsamling (väntat Hemmesdynge) | 067:30 |
+| Sandnabba 8¹ Litt: A, 8² Litt: B, 8³, 8⁴, 8¹¹, 8¹⁴, 8¹⁵ | Registerlägenheter i jordregistret; storskifteslittera 12 | 069–070 |
+| Bäcksbacka 23¹, 23² Nygård, 23³, 23⁴ Brännkärret, 23⁵ | Registerlägenheter; storskifteslittera 26 | 072–073 |
 | Esse, Larsmo | Socknar i tingslaget | 051:6–7 |
 | Purmo kapell / Purmo socken | Purmo kallas "kapell" 052:1, 053:6 och "socken" 049:15, 054:20 | 052:1 |
 | Stennabba | Gårdsnamn (Anders Stennabba) | 048:3 |
@@ -163,11 +175,19 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1939-06-03 | Hilda Maria Björklund dör | 064:23–24 |
 | 1940-01-18 | Bouppteckning efter Hilda Maria Björklund (hemmansdelen 60 000, behållning 76 200) | 064–065 |
 | 1949-09-03 | Köpebrev (Purmo): sterbhusdelägarna säljer Björklund RN:o 8¹⁵ och Brännkärret till Karl Milton Björklund; kompletteringsbouppteckning samma dag | 062–063, 065–066 |
-| 1950-01-26 | Lagfartsprotokoll § 24, lagfart för Karl Milton Björklund – b: 13, maskinskrivet | 062– |
+| 1916-02-18 | Fastebrev § 74 för Jakob Björklund och Hilda å 5/96 Sandnabba | 073:17–19 |
+| 1922-09-16 / 1922-10-27 | Lantmäteristyrelsens utslag N:o 45782 (styckning av 8⁴ i 8¹⁴ och 8¹⁵); Björklund 8¹⁵ i jordregistret | 070:13–16, 069:20–21 |
+| 1928-01-17 | Brännkärret 23⁴ självständig lägenhet | 073:9–12 |
+| 1949-09-21 | Jakob Jakobsson Björklund dör | 067:5 |
+| 1949-12-20 | Två jordregisterutdrag bestyrkta (Rekv. N:o 8323) | 070, 073 |
+| 1950-01-20 | Ämbetsbetyg (släktutredning), kyrkoherde B. Söderholm, Purmo | 067:21–23 |
+| 1950-01-26 | Lagfartsprotokoll § 24, lagfart för Karl Milton Björklund (köpesumma 145.480 mark) – b: 13, maskinskrivet; undertecknat Martin Ingman | 062–075 |
 | 1951-05-08 | Annotation i mantalslängden, Purmo | 062 marg. |
 | 1966 | "Sålt till John Nymark" (Brännkärret); makuleringsstämplar 1966 och 1970-07-03 | 062 marg. |
 
-Omslaget (012) anger: "b) 1–13, Utdrag av lagfartsprotokoll 1848 – – 1950". Handlingarna är numrerade med blyerts "b: 1", "b: 2", "b: 3" … i övre högra hörnet.
+Omslaget (012) anger: "b) 1–13, Utdrag av lagfartsprotokoll 1848 – – 1950". Handlingarna är numrerade med blyerts "b: 1" … "b: 13" i övre högra hörnet. b: 13 slutar på 075.
+
+Omslaget på 076 listar nästa grupper: "c: utdrag av lagfartsprotokoll 1848–1950" (= b ovan?), "d: utdrag av förmynderskapsprotokoll 1869–1942", "e: utdrag ur Häradsrättens protokoll 1909–1936", "f: klyvning av Sandnabba skattehemman 19[11?]".
 
 ## Skrivarhänder
 
@@ -249,6 +269,14 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Lösen & stämpelm. / Kungörelse / Summa; Lösen / Stämpel / Reg. / Kung. / Bevis / Summa | maskinskriven avgiftsspecifikation 1925 resp. 1950 |
 | LEIMAMERKKI / STÄMPELMÄRKE, MARKKAA / MARK | stämpelmärken med finsk/svensk text (1925–1950) |
 | ha, ar | hektar, ar |
+| K. B. I sid. 253 | kyrkbok (kommunionbok) del I, sida (067:1) |
+| Uppsl. i förs.-boken | uppslag i församlingsboken (067:24) |
+| sk. | skatte (naturkolumn i jordregistret) |
+| Litt: A., Litt: 8¹ | littera (jordregistret) |
+| Rekv. N:o | rekvisitionsnummer (070:20) |
+| 3 §ⁿ | 3 §:n, upphöjt understruket n (073:10) |
+| 145.480 | punkt som tusentalsavskiljare (074:25) |
+| lgf | lagfart – korshänvisning "§ 55 lgf", "§ 46 lgf" (042, 051 enligt dubbelläsaren) |
 
 ## Transkriptionskonventioner som används i filerna
 
@@ -270,3 +298,6 @@ Lärdomar från dubbelläsningen (fel som första läsare faktiskt gjort):
 - Text på angränsande blad som syns i bildkanten transkriberas inte; det noteras.
 - Bild som vridits rätt: noteras i filen ("Bilden var fotograferad liggande …").
 - Parenteser skrivna som snedstreck i källan ("/5/96/") återges med vanliga parenteser och noteras i anmärkningarna (047–053). Se beslut.md.
+- Tryckta blanketter (jordregister 069–073): tryckt tabellhuvud som egna rader, poster radvis med `|`, registernummer som Unicode-exponenter (8¹⁵), röda strykningar över avförda poster beskrivs i marginalsektionen. Se beslut.md.
+- Maskinskrivna överslagna tecken: beskriv vad som faktiskt ligger ovanpå (t.ex. "e överslaget med bindestreck"), inte bara "felslag".
+- Snabbskrivna marginalanteckningar: jämför med motsvarande anteckning på andra handlingar innan du läser dem som siffror (jfr "lgf").

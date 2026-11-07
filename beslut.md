@@ -42,12 +42,31 @@ filens sektion "Dubbelläsning" med motivering. Du avgör rad för rad.
 (b) jag får rätta transkriptionen när andra läsaren ger tydlig motivering och
 första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 
-### 2026-11-07 – "Hilda" eller "Hilma" Björklund (042–056)
-**Fråga:** Jakob Björklunds hustru skrivs "Hilma" i 042, 051, 053 och "Hilda" i
-043, 044, 049, 054, 056 – av samma kansli, delvis i samma dokument.
-**Vad jag gjorde:** Återgivet som det står i varje fil, båda formerna i namn.md.
-**Status:** ÖPPET – du vet troligen vad hon hette; det avgör inte transkriptionen
-men är bra att anteckna i namn.md.
+### 2026-11-07 – Nya dokumenttyper i 067–076: tryckta jordregisterblanketter
+**Fråga:** 069–073 är maskinskrivna poster på tryckta tvåspråkiga blanketter med
+kolumner, upphöjda registernummer och röda strykningar över avförda poster.
+**Vad läsaren gjorde (default):** tryckt tabellhuvud som egna rader; poster radvis
+med `|`; registernummer som Unicode-exponenter (8¹⁵, 23⁴); röda linjer tolkade som
+avförda poster och beskrivna i marginalsektionen, inte som ~~överstrykning~~;
+bläckklamrar (senare läsares markering) beskrivna men inte transkriberade.
+**Status:** ÖPPET – godkänn eller ändra; fler sådana blanketter väntas.
+
+### 2026-11-07 – Korshänvisningar "§ 55 lgf" / "§ 46 lgf" (042, 051)
+Dubbelläsaren läste bläck-/blyertsanteckningarna överst på 042 och 051 som
+"№: 55. lgf" resp. "§: 46. lgf" – alltså hänvisningar framåt till nästa uppbuds
+paragraf (lgf = lagfart). Första läsaren läste siffror. Transkriptionerna oförändrade.
+**Status:** ÖPPET – samma princip som övriga avvikelser.
+
+### 2026-11-07 – Omslagsbokstäver
+012 kallar lagfartsgruppen "b) 1–13"; omslaget på 076 kallar samma grupp "c" och
+listar "d: förmynderskapsprotokoll 1869–1942, e: häradsrättens protokoll 1909–1936,
+f: klyvning av Sandnabba skattehemman 19[11?]". Antecknat i namn.md.
+**Status:** bara information.
+
+### 2026-11-07 – "Hilda" eller "Hilma" Björklund (042–056) – AVGJORT av källan
+Ämbetsbetyget 067:8 ger "Hilda Maria Svanbäck", vigd 1905-11-26. Hon hette Hilda;
+"Hilma" i 042, 051, 053 är kansliets fel. Transkriptionerna står som de står.
+**Status:** AVGJORT (flyttas till Avgjorda beslut när du bekräftat).
 
 ### 2026-11-07 – "Jakob Johansson Sandnabba" (047:13)
 **Fråga:** Källan skriver "Jakob Johansson" där sammanhanget (047:19, 045) ger
@@ -107,6 +126,7 @@ skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarn
 | Bild | Problem | Status |
 |---|---|---|
 | 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
+| 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | ÖPPET |
 
 ---
 
