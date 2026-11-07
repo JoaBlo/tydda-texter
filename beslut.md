@@ -56,6 +56,14 @@ första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 finns redan i namn.md; de nya agenterna (117–156) har fått den.
 **Status:** ÖPPET – samma fråga som för 001–016: ska jag rätta de tydliga fallen?
 
+### 2026-11-07 – AVGJORT: Rättelser efter dubbelläsning
+**Ditt beslut:** rätta transkriptionen där dubbelläsaren avviker med tydlig grund (alternativ 2).
+**Hur:** bara AVVIKER-rader med konkret stöd (bokstavsjämförelse, synligt tecken, parallellexemplar,
+avskrift eller kontrollräkning). "Osäker – båda möjliga" lämnas orört. Varje fil får en sektion
+"## Rättelser efter dubbelläsning" med tidigare läsning, ny läsning och grund, så att inget
+försvinner. Gäller 001–116 nu och varje kommande dubbelläst omgång.
+**Status:** AVGJORT.
+
 ### 2026-11-07 – Dubbelläsningen av 067–116
 **Resultat:** ca 200 Överens, 8 AVVIKER. Maskinskrivna sidor i praktiken felfria. De viktigaste
 felen låg på rader som första läsaren INTE markerat som osäkra:
