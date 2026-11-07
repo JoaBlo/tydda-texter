@@ -12,9 +12,10 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Elisa Andersdotter | Hustru till Jacob Jacobsson | 002:11 | |
 | Matts Pehrsson Kjäldbacka / Käldbacka / Kjeldbacka | Bonde, säljare 1843 ("afhändaren") | 001:23 | Samma skrivare stavar gården olika; Matts skrivs "Mattis"-liknande i 001:23 |
 | Maria Hansdotter | Hustru till Matts Pehrsson; dotter till Hans Jacobsson Sandnabba | 002:1, 004:10 | Ej att förväxla med nedan |
-| Hans Jacobsson Sandnabba | "Förra bonden", sytningstagare | 003:4 | Hustru Maria Hansdotter d. juni 1847 (007:6–8); barn Johan och Maria (007:15–16) |
-| Maria Hansdotter (d. 1847) | Hustru till Hans Jacobsson | 007:2 | Bouppteckning hållen efter henne |
-| Johan Hansson Sandnabba / Filpus | Son till Hans Jacobsson; sålde sin arvsandel 1830 | 006:3–4 | "Filpus" osäker läsning (006:4) |
+| Hans Jacobsson Sandnabba | "Förra bonden", sytningstagare | 003:4 | Hustru Marja/Maria Hansdotter d. juni 1817 (151:10, 007:6–8); barn Johan (16 år 1818) och Marja (007:15–16, 151:16–17). Syskon enl. gåvobrev 1811: Eric, Petrus, Jonas, Greta, Beata, Anna (155:21–24) |
+| Marja / Maria Hansdotter Sandnabba (d. juni 1817) | Bondehustru, hustru till Hans Jacobsson | 007:2, 151:10 | Bouppteckning och skifte 1818-01-15 (151–). **Rättat:** namn.md angav tidigare 1847 – det var min felräkning; 007 citerar 1818 års bouppteckning ("nästförvikna år" = 1817) |
+| Johan Hansson (son) | Son till Hans Jacobsson, 16 år 1818; sålde sin arvsandel 1830 | 006:16–18, 151:16 | |
+| Johan Hansson [Fillpus/Filpus?] | Bonde; Marjas **bror** och förmyndare för dottern Marja 1818 | 151:21, 006:3–4 | Tidigare i namn.md sammanblandad med sonen Johan. 006:3–4 "Bonden Johan Hansson Filpus" är förmyndaren (jfr 005:22–23) |
 | Matts Jacobsson Sandnabba | Bror till Hans; fastebref 1812 "Hans och Matts Jacobssöner" | 008:1 | |
 | Eric Jacobsson Sandnabba / Willbacka | Köpte andelar 1830 och 1836, sålde till Matts Pehrsson 1843 | 005:11, 006:12–13 | Skrivs "Eric Jacobs" (utan -son) 006:12 |
 | Jonas Ericsson | Torpare under hemmanet | 003:8 | |
@@ -152,7 +153,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Kjäldbacka / Käldbacka / Kjeldbacka | Gård (Matts Pehrssons) | 001:23–24 |
 | Härmälä | Gårdsnamn (Jacob Jacobssons) | 001:14 |
 | Willbacka | Gårdsnamn (Eric Jacobssons) | 006:13 |
-| Filpus | Gårdsnamn (Johan Hanssons) – osäker | 006:4 |
+| Filpus / Fillpus | Gårdsnamn (förmyndaren Johan Hanssons) – osäker | 006:4, 151:21 |
 | Lassfolk | Gårdsnamn (vittnena) | 004:13 |
 | Purmo | Dateringsort för köpebrevet 1843 | 004:4 |
 | Gamla Carleby | Gamlakarleby, häradsskrivarens ort | 009:1 |
@@ -193,7 +194,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1836-02-24 | Köpebref: Hans Jacobsson säljer 5/72 mantal till Eric Jacobsson; förmyndaren för dottern Maria 5/432 | 005:14–24, 006:1–9 |
 | 1843-02-06 | Afhandling: Eric Jacobsson säljer 5/48 mantal till Matts Pehrsson Käldbacka | 005:5–14 |
 | 1843-03-09 | Köpebref: Matts Pehrsson säljer 5/48 mantal till Jacob Jacobsson för 582 rubel 85 5/7 kop. silver | 001:21–004:17 |
-| 1847 juni | Maria Hansdotter (Hans Jacobssons hustru) dör | 007:6–8 |
+| 1811-03-01 | Gåvobrev: 5/24 mantal till Hans (och Matts) Jacobsson mot utlösen till syskonen | 155:24–25 |
+| 1817 juni | Marja Hansdotter (Hans Jacobssons hustru) dör | 151:10, 007:6–8 |
+| 1818-01-15 | Bouppteckning, värdering och skifte efter Marja Hansdotter (225 rubel fastighet, inventarium 358,15) – a: 1 | 151– |
 | 1848-09-01 | Jordeboksutdrag, Gabriel Palmquist, Gamlakarleby | 008:13–009:4 |
 | 1848-09-14 | Lagfartsprotokoll § 59, första uppbudet | 001–011 |
 | 1849-03-06 | Lagfartsprotokoll § 49, andra uppbudet | 013–014 |
@@ -245,6 +248,9 @@ Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1
 Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39); e: 3 = 117–123 (vräkningsmål Björklund mot Asp, 1934-09-07 § 41 – Björklund förlorar och åläggs ge Asps gåvobrev på stugan och två kappland); e: 4 = 124– (testamentsbevakning efter Anders Svanbäck, 1936-08-31 § 18).
 
 e: 4 = 124–127 (avskrift bestyrkt 1942).
+Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): a: 1 = 151– (bouppteckning 1818, avskrift ingiven till häradsrätten 1848-02-23).
+Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
+
 Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
 
 Omslag c (077 post-it: "utdrag av inteckningsprotokoll C:1 C:2 1867 – – 1877"): c: 1 = 077–082, c: 2 = 083–.
@@ -279,6 +285,7 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Skrivmaskin 1950 | 062– | Tydligare, mörkare typsnitt; spärrad skrift för lägenhetsnamn; understrykningar av namn; exponenter på raden ovanför |
 | Skrivmaskin 1934 | 112–123 | Mörkt tydligt typsnitt, dubbelt radavstånd, mellanslag efter komma |
 | J – lantmäterihand 1911 (Berger) | 129–136– | Jämn, lutande; §-slinga; ä-tecknet som ett z ovanför; litterasiffror med upphöjt understruket s ("8ˢ" = 8:s); o liknar a |
+| K – bouppteckningshand 1818 | 151– | Mycket snirklig kursiv, stora versaler i rubriker, rödkrita; "Summa" som vågformigt ord; rubel.kopek i två kolumner; bråk ⅓ ⅔ |
 | Skrivmaskin 1936 | 124–126 | Smalare, ljusare typer; versalerna P/E/K/M/J/S står upphöjda och svagt tryckta |
 | Stämplar och sena anteckningar 1925–1970 | 057, 062 | Blå stämpel "Merkitty v. 19… henkikirjaan / Annot. i 19… års mantalslängd / H. L. HARRI"; lodrät bläckanteckning 1951 i vänstermarginalen; blått bläck "Sålt till John Nymark 1966"; makuleringsstämplar "MAKULERAD … MITÄTÖN" 1966 och 3 juli 1970 |
 | Modern blyerts | 001, 012, 013, 015, 027, 037, 039, 042, 051, 054, 057, 062 | Handlingsnummer "b: 1" … "b: 13" och omslagstext. (017–026 saknar synligt b-nummer; b: 4–5 är troligen 016 och 024.) |
@@ -335,6 +342,9 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Lösen & stämpelm. / Kungörelse / Summa; Lösen / Stämpel / Reg. / Kung. / Bevis / Summa | maskinskriven avgiftsspecifikation 1925 resp. 1950 |
 | LEIMAMERKKI / STÄMPELMÄRKE, MARKKAA / MARK | stämpelmärken med finsk/svensk text (1925–1950) |
 | ha, ar | hektar, ar |
+| st:; a; gl:; Kanns; Aᵒ | stycken; à; gammal; kannor; Anno (1818) |
+| Fattiges Cassa, Lazarets Cassa | avgifter i bouppteckningen 1818 |
+| 3. KOP | stämpelpapper 1818 |
 | Kytta / Kyttor | svedjemark (fi. kytö) – ägoslag 1911 |
 | Ren; Mo, Myra, Lågmo, Lågmark | åkerren; ägoslag |
 | 479ᵃ | egofigur med upphöjt understruket a |

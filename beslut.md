@@ -66,7 +66,23 @@ anmäler. Och om Greta dog 1864 kan Petter f. 1867 bara vara Beatas.
 **Status:** ÖPPET – troligen anmäler Beata för hela barnkullen och protokollets formulering är
 slarvig, men du kanske vet från kyrkböckerna.
 
+### 2026-11-07 – RÄTTAT: Mitt fel i namn.md – Marja Hansdotter dog 1817, inte 1847
+Jag hade i namn.md räknat "nästförvikna år" i 007:7 som 1847, utifrån att handlingen är från
+1848. Men 007 citerar bouppteckningen 1818 (006:22–24), och den bouppteckningen finns nu i
+original (151–): hon dog i juni 1817. Samtidigt: "Johan Hansson Filpus" (006:4) är hennes
+**bror** och dotterns förmyndare, inte sonen Johan. namn.md är rättad; inga transkriptioner
+berördes. **Status:** AVGJORT av källan.
+
+### 2026-11-07 – Bouppteckningen 1818 (151–) behöver en kunnig läsare
+Handen är mycket snirklig och många föremålsnamn (bondetermer som krinda, kytta, kummet,
+hamlar) är osäkra. Beloppen är kontrollräknade och stämmer nästan överallt (153:13 och 155:17
+avviker – troligen skrivarens räknefel, återgivet som det står). Dubbelläsningen tar det, men
+en människa med kännedom om österbottniska bondetermer vore värdefull.
+**Status:** ÖPPET.
+
 ### 2026-11-07 – Siffertabellerna i delningsinstrumentet (136–)
+**Obs:** läsaren av 147–149 normaliserade "0015" till "0,015", medan läsaren av 137–145 behöll
+"0015". Inkonsekvent – avgörs med punkt (1) nedan.
 - **Decimalkomma:** lantmätaren skriver oftast "0055" utan komma (= 0,055), ibland "37.530",
   ibland "5,075". Återgivet bokstavligt med förklaring i varje fil.
 - **Fyllnadsstreck "= = =":** har inte fått egna radnummer, bara en anmärkning.
