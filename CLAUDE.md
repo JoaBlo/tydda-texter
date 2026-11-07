@@ -1,10 +1,10 @@
 # Transkription av gamla handskrifter
 
 ## Kontext
-- Tidsperiod: Kanske 1900–1970
+- Tidsperiod: Kanske 1840–1970
 - Språk: Svenska, ev. finska
-- Typ av dokument: protojoll, kyrkbok, brev, dagbok
-- Namn och orter som förekommer: Pedersöre, Sandnabba, Purmo, Österbotten, ...
+- Typ av dokument: protokoll, kyrkbok, brev, dagbok, ...
+- Namn och orter som förekommer: Pedersöre, Purmo, Österbotten, ..., Björklund, Sandnabba, Jakob, 
 
 ## Mappar
 - bilder/ – originalbilderna, numrerade 001.jpg, 002.jpg …
@@ -31,7 +31,6 @@ i bilder/ innan du läser (originalet finns kvar i git-historiken).
 5. Under transkriptionen i samma fil: lista osäkra passager med
    radnummer, bästa gissning och varför du är osäker.
 6. Sist i filen: hur säker du är på helheten (hög/medel/låg)
-   och om bilden behöver tas om.
 
 ## Efter varje omgång
 Committa de nya filerna med meddelandet "Transkription 001–010"
