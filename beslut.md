@@ -56,6 +56,19 @@ första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 finns redan i namn.md; de nya agenterna (117–156) har fått den.
 **Status:** ÖPPET – samma fråga som för 001–016: ska jag rätta de tydliga fallen?
 
+### 2026-11-07 – Originalen i omslag g bekräftar eller rättar tidiga läsningar
+Omslag g innehåller originalen till handlingar som 001–050 bara citerar i avskrift. De ger stöd
+för flera tidigare osäkra läsningar:
+- 004:5 `[1843/1848?]` → originalet 207 visar **1843**.
+- 004:13 "Jonesson" stöds av "Jone son" (207:28).
+- 031:17 Beatas gårdsnamn börjar "Ste…" (213:5) → stöder **Stennabba**.
+- 031:19 "Bruno Brunberg" – förnamnet säkert i 213:8.
+- 018:24 `quins [Riaxa?]` – originalet 210:15 har ungefär "[Tjäxfor?]"; 019:23 `[tjärild?]` är
+  troligen "Kok Kärild" (kokkärl, 210:22).
+**Vad jag gjorde:** Inget ännu. Jag tar med dessa i nästa rättelseomgång enligt samma regel
+(rättas när stödet är konkret – en originalhandling räknas som parallelltext).
+**Status:** pågår enligt ditt beslut om rättelser.
+
 ### 2026-11-07 – AVGJORT: Rättelser efter dubbelläsning
 **Ditt beslut:** rätta transkriptionen där dubbelläsaren avviker med tydlig grund (alternativ 2).
 **Hur:** bara AVVIKER-rader med konkret stöd (bokstavsjämförelse, synligt tecken, parallellexemplar,
