@@ -8,7 +8,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 
 | Namn (varianter) | Roll | Första förekomst | Anm. |
 |---|---|---|---|
-| Jacob Jacobsson Sandnabba eller Härmälä | Bonde, köpare 1843, sökande vid alla uppbud; "Bondesonen" 1857 (016:24) | 001:13 | Hustru Elisa Andersdotter (002:11). Ägarpåskrift "B:n Jacob Jacobsson Sandnabba" på flera handlingar |
+| Jacob Jacobsson Sandnabba eller Härmälä (d. 1861-12-22) | Bonde, köpare 1843, sökande vid alla uppbud; "sytningsmannen" 1861; bouppteckning och skifte 1862-01-07 (166–167), behållning delas mellan Jakob, Annalina, Maialisa, Greta, BritaCaisa, Beata; "Bondesonen" 1857 (016:24) | 001:13 | Hustru Elisa Andersdotter (002:11). Ägarpåskrift "B:n Jacob Jacobsson Sandnabba" på flera handlingar |
 | Elisa Andersdotter | Hustru till Jacob Jacobsson | 002:11 | |
 | Matts Pehrsson Kjäldbacka / Käldbacka / Kjeldbacka | Bonde, säljare 1843 ("afhändaren") | 001:23 | Samma skrivare stavar gården olika; Matts skrivs "Mattis"-liknande i 001:23 |
 | Maria Hansdotter | Hustru till Matts Pehrsson; dotter till Hans Jacobsson Sandnabba | 002:1, 004:10 | Ej att förväxla med nedan |
@@ -29,7 +29,12 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | [...?] Aminoff | "På Härads Rättens vägnar" 1848 | 011:7 | Efternamnet enligt dubbelläsaren (A-m-i-n-o-ff); förnamnet oläsligt |
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
 | Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868 | 016:24, 017:15–17 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
-| Greta Mattsdotter Sandnabba | Hustru till Jacob Jacobsson d.y.; d. 1864-02-15; bouppteckning 1864-07-07 | 017:18–19, 032:5 | |
+| Greta Mattsdotter Sandnabba | Hustru till Jacob Jacobsson d.y.; d. 1864-02-15; bouppteckning 1864-07-07, original 168–171 och avskrift 172– (fast egendom 5/48 = 3 200 mark, inventarium 4 024,70, behållning 3 254,39) | 017:18–19, 032:5, 168 | |
+| Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
+| Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
+| Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
+| Jakob Lillqvist (Lilequist) | Inspektor, borgenär 1864 | 170:35, 175:9 | |
+| Matts Mattsson Grägg; Henrik Heikel (prost) | Borgenärer 1864 | 170:39, 171:2 | |
 | Lena, Maria Lisa / Maja Lisa, Kaisa, Greta, Bata / Beata (Jacobsdöttrar) | Döttrar till Jacob Jacobsson d.ä.; utlösen 5 rubel var 1856 | 017:24, 018:1–2, 025:4–5 | "Bata" 018:2 = Beata; i 033:5–12 nämns systrarna Anna, Maja, Greta, Brita, Beata |
 | Johan Johansson Bäck (Joh: Bäck) | Vittne till och skrivare av afhandlingen 1856 | 021:1–4 | Jfr "J: Bäck" 004:17 |
 | Wilhelm Lindbohm | "På Härads Rättens vägnar" 1858-02-26 | 025:12 | Paraf "[fd?]" under |
@@ -206,7 +211,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1857-09-25 | Protokoll § 14, lagfart och första uppbudet (Bondesonen Jacob Jacobsson) | 016–023 |
 | 1858-02-26 | Protokoll § 2, andra uppbudet | 024–025 |
 | 1858-10-12 | Protokoll § 44, tredje uppbudet; fastebref samma dag (033:14–21) | 026 |
-| 1864-02-15 | Greta Mattsdotter Sandnabba dör; bouppteckning 1864-07-07 | 032:1–7 |
+| 1861-12-22 / 1862-01-07 | Jacob Jacobsson d.ä. dör; bouppteckning och skifte | 166–167 |
+| 1864-02-15 | Greta Mattsdotter Sandnabba dör; bouppteckning 1864-07-07 (original 168–171, avskrift 172–) | 032:1–7, 168– |
+| 1865-09-29 | Domstolens registreringsanteckning på bouppteckningen 1864 ([…] Sarck) | 168:1–3 |
 | 1867-08-07 | Skuldsedel (Jakobstad): Jakob Jakobsson Sandnabba lånar 650 mark av rådman Ph. U. Strengberg, 6 % | 079:18–080:12 |
 | 1867-10-15 | Inteckningsprotokoll § 8: inteckning beviljad, gäller tio år – c: 1 | 077–082 |
 | 1868–1877 | Årlig ränta 39 mark betald 7 aug (1870 saknas; 1871 två år) | 085:5–13 |
@@ -285,6 +292,9 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Skrivmaskin 1950 | 062– | Tydligare, mörkare typsnitt; spärrad skrift för lägenhetsnamn; understrykningar av namn; exponenter på raden ovanför |
 | Skrivmaskin 1934 | 112–123 | Mörkt tydligt typsnitt, dubbelt radavstånd, mellanslag efter komma |
 | J – lantmäterihand 1911 (Berger) | 129–136– | Jämn, lutande; §-slinga; ä-tecknet som ett z ovanför; litterasiffror med upphöjt understruket s ("8ˢ" = 8:s); o liknar a |
+| L – bouppteckningshand 1862 | (166–)167 | Rak, ganska kantig; ſs-ligatur; bomärken under namnen. (Filen 167 kallar den "K".) |
+| M – bouppteckning 1864, original | 168–171 | Lutande, tydlig; ç i "Jaçob"; bråk med upphöjt "dels"; "mk" med lång slinga. (Filerna kallar den "L".) |
+| N – avskrift av 1864 års bouppteckning | 172– | Luftig kalligrafi; "Jakob" med k; litet upphöjt [5?]-tecken vid summalinjer. (Filerna kallar den "M".) |
 | K – bouppteckningshand 1818 | 151– | Mycket snirklig kursiv, stora versaler i rubriker, rödkrita; "Summa" som vågformigt ord; rubel.kopek i två kolumner; bråk ⅓ ⅔ |
 | Skrivmaskin 1936 | 124–126 | Smalare, ljusare typer; versalerna P/E/K/M/J/S står upphöjda och svagt tryckta |
 | Stämplar och sena anteckningar 1925–1970 | 057, 062 | Blå stämpel "Merkitty v. 19… henkikirjaan / Annot. i 19… års mantalslängd / H. L. HARRI"; lodrät bläckanteckning 1951 i vänstermarginalen; blått bläck "Sålt till John Nymark 1966"; makuleringsstämplar "MAKULERAD … MITÄTÖN" 1966 och 3 juli 1970 |

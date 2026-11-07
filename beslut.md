@@ -223,6 +223,7 @@ skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarn
 | Bild | Problem | Status |
 |---|---|---|
 | 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
+| 171 | Underskrifterna längst ner (bouppteckningen 1864) avskurna av bildkanten – ta om | ÖPPET |
 | 136 | Talet i kolumnen Impedimenter (rad 15, "4,1[...]") döljs av en riven, invikt pappersbit – ny närbild med biten tillbakavikt | ÖPPET |
 | 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | ÖPPET |
 | 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | ÖPPET |
