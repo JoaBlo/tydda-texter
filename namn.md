@@ -40,7 +40,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Gustaf Johansson Sandnabba; Johan Mattsson Sandnabba | Vittnen 1868 | 031:8–9 | |
 | Anders Haapbacka | "af Anders Haapbacka" – troligen skrivare av afhandlingen 1868 | 031:11 | |
 | Bruno Brunberg; Anders Backa | Vittnen till änkans påskrift 1869 | 031:19–20 | Förnamnet Bruno något osäkert |
-| [Hj. W. Sarck?] | "På Häradsrättens vägnar" 1869-10-01 | 036:5 | Mycket osäker läsning |
+| [Hj. W. Sarck?] | "På Häradsrättens vägnar" 1867-10-15 och 1869-10-01 | 036:5, 082:23 | Mycket osäker läsning; läsaren av 082 ser "N. N. [B/Wz]arck" |
 | Theodor Wilander | "På Häradsrättens vägnar" 1870 | 038:19, 041:2 | Wilander/Welander; liten förkortning "[Gd:?]" med paraf under |
 | Jakob Jakobsson Sandnabba (f. 1850-12-23, d. 1908-09-24) | Bonde (= den yngre Jakob av 1870); far till Jakob Björklund; muntligt testamente till hustrun bevakat 1909 | 045:1, 047:19–20 | Kallas "Jakob Johansson Sandnabba" i 047:13 – troligen skrivfel i källan |
 | M. Sandnabba | Vittne vid gåvobrevet 1913 | 044:18 | |
@@ -70,6 +70,14 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Erik Falkstedt | Kyrkoherde, Trelleborgs församling 1949 | 068:6 | |
 | Th. Nordenswan | Arkivarie, Vasa läns lantmäterikontor 1949-12-20 | 070:21, 073:16 | |
 | Martin Ingman | "På Domareämbetets vägnar" 1950 | 075:5–6 | Egenhändig namnteckning |
+| Filip / Philip Ulrik Strengberg (Ph. U. Strengberg) | Rådman i Jakobstad; långivare 1867 (650 mark, 6 %) med inteckning i Jakob Jakobsson Sandnabbas 5/48 mantal; död före 1877 | 078:13–14, 084:1 | Ägarpåskrift "Rådman Ph. U. Strengberg." 078:28 |
+| Handelsfirman Ph. U. Strengbergs arfvingar | Sökande 1877 (förnyelse av inteckningen) | 083:15–16 | |
+| Gustaf Gabriel Gotteleben (G. G. Gotteleben) | Handlande; prokurist (p. p.) för firman, sedan innehavare av fordran | 083:16, 086:1–2 | Stavas "Gotteleben" i källan (familjen annars Gottleben) |
+| Wilhelmina Gotteleben | "vice Häradshöfdingskan", syster till Strengberg, arvtagare | 085:20–21 | |
+| Kristina Frosterus | "Kapellansenkan", syster till Strengberg, arvtagare | 085:22–23 | |
+| Emil Forssén | Stadsfiskal, ombud 1877 | 083:18 | |
+| Aron Brunberg | Bestyrker avskrift av skuldsedeln 1867 tillsammans med Bruno Brunberg | 080:14 | Bruno Brunberg skrev även ansökan: "af (BrunoBrunberg)" 079:13 |
+| A. Jung; C. A. Forbus | Vittnen på skuldsedeln 1867 | 080:12 | Efter Jung står oklart "Afdito." |
 | Karl Milton Björklund / Milton Björklund (f. 1918-07-29) | Son till Jakob o. Hilda; köpare 1949, sökande 1950 | 062:10 | Ägarpåskrift "Bonden Karl Milton Björklund." 062:31 |
 | Jakob Osvald Björklund (f. 1914-06-11) | Son | 062:30, 063:9 | |
 | Ines / Inäs Maria Björklund, gift Sundstedt (f. 1916-08-29) | Dotter | 062:30, 064:27 | Båda stavningarna i källan |
@@ -124,6 +132,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Nykarleby sjukhus | Hilda Maria Björklunds dödsort 1939 | 064:24 |
 | Jakobstad | Skattenämndens ort 1950 | 064:15 |
 | Trelleborg (Norregatan 35) | Novéns och Månssons ort, Sverige; Trelleborgs församling, Malmöhus län | 063:29, 064:3, 068:4 |
+| Nederpurmo by | Står i referatet av fastebrevet 1858 (080:23) – annars alltid Öfverpurmo; troligen fel i källan | 080:23 |
+| Purmo Kapellförsamling | "Purmo till förstnämnda socken hörande Kapellförsamling", tingslagets benämning 1877 | 083:5–8 |
 | Hemmesdunge[?] församling | Sven Erik Novéns födelseförsamling (väntat Hemmesdynge) | 067:30 |
 | Sandnabba 8¹ Litt: A, 8² Litt: B, 8³, 8⁴, 8¹¹, 8¹⁴, 8¹⁵ | Registerlägenheter i jordregistret; storskifteslittera 12 | 069–070 |
 | Bäcksbacka 23¹, 23² Nygård, 23³, 23⁴ Brännkärret, 23⁵ | Registerlägenheter; storskifteslittera 26 | 072–073 |
@@ -154,11 +164,15 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1858-02-26 | Protokoll § 2, andra uppbudet | 024–025 |
 | 1858-10-12 | Protokoll § 44, tredje uppbudet; fastebref samma dag (033:14–21) | 026 |
 | 1864-02-15 | Greta Mattsdotter Sandnabba dör; bouppteckning 1864-07-07 | 032:1–7 |
+| 1867-08-07 | Skuldsedel (Jakobstad): Jakob Jakobsson Sandnabba lånar 650 mark av rådman Ph. U. Strengberg, 6 % | 079:18–080:12 |
+| 1867-10-15 | Inteckningsprotokoll § 8: inteckning beviljad, gäller tio år – c: 1 | 077–082 |
+| 1868–1877 | Årlig ränta 39 mark betald 7 aug (1870 saknas; 1871 två år) | 085:5–13 |
 | 1868-11-05 | Afhandling: Jakob Jakobsson säljer 5/48 mantal till sönerna Matts och Jakob för 1600 mark, med sytning till honom och hustrun Beata Simonsdotter | 038:2–9 |
 | 1869-03-30 | Beata Simonsdotters godkännande av afhandlingen, Purmo | 031:12–20 |
 | 1869-10-01 | Lagfartsprotokoll § 22, lagfart och första uppbudet för Matts och Jakob Jakobssöner – b: 6 | 027–036 |
 | 1870-03-07 | Lagfartsprotokoll § 11, andra uppbudet (Matts och Jakob) – b: 7 | 037–038 |
 | 1870-10-07 | Lagfartsprotokoll § 8, tredje uppbudet – b: 8 | 039–041 |
+| 1877-09-05 | Inteckningsprotokoll § 5: förnyelse av inteckningen för Strengbergs arfvingar; lägenheten ägs nu av änkan Beata Simonsdotter och sonen Jakob – c: 2 | 083– |
 | 1908-09-24 | Jakob Jakobsson Sandnabba dör | 045:2–3, 047:11–12 |
 | 1909-02-02 | Protokoll § 2: bevakning av Jakob Jakobssons muntliga testamente till hustrun | 044–045 |
 | 1909-02-06 | Förmynderskapsprotokoll § 6: Maja Lena Eriksdotter förmyndare för sonen Herman | 047:4–15 |
@@ -187,6 +201,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 
 Omslaget (012) anger: "b) 1–13, Utdrag av lagfartsprotokoll 1848 – – 1950". Handlingarna är numrerade med blyerts "b: 1" … "b: 13" i övre högra hörnet. b: 13 slutar på 075.
 
+Omslag c (077 post-it: "utdrag av inteckningsprotokoll C:1 C:2 1867 – – 1877"): c: 1 = 077–082, c: 2 = 083–.
+
 Omslaget på 076 listar nästa grupper: "c: utdrag av lagfartsprotokoll 1848–1950" (= b ovan?), "d: utdrag av förmynderskapsprotokoll 1869–1942", "e: utdrag ur Häradsrättens protokoll 1909–1936", "f: klyvning av Sandnabba skattehemman 19[11?]".
 
 ## Skrivarhänder
@@ -204,7 +220,8 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | D – avgiftsanteckningar | 001, 013, 015, 016, 023, 024, 026, 027 | Annan hand längst ner till vänster: "Lösen med Ch. S:a NN kop. S:r" + "B:n Jacob Jacobsson Sandnabba"; 023 avvikande lydelse "[Stemplpaps?] [incl?] 67."; 027 "Lösen och C:ta S:ta m:k 5." |
 | G – 1858 vinterting (Lindbohm) | 024–025 | Rundare, mer upprätt, tätare rader; rödkrita; kustod ("son") under sista raden |
 | H – 1858 höstting | 026 | Liten, lutande, snabb och jämn kanslihand med långa rader; rödkrita |
-| E – 1869–1870 | 027–041 | 1869 (027–036): jämn, lutande, luftig med stora ordmellanrum; "=" ofta som litet snedställt dubbelstreck; bråk som riktiga bråk med upphöjt understruket "dels"; "№" för N:o; rättelser ovanför raden. 1870 (037–041): se nedan – troligen samma kansli |
+| I – kanslihand 1877 | 083– | Upprätt, rundare och mindre än E; "NyKarleby" med versalt K; "§:" med kolon; "Koll" understruket utan paraf; räntetabell i mindre skrift med utfyllnadsstreck |
+| E – 1867–1870 | 027–041, 077–082 | 1869 (027–036): jämn, lutande, luftig med stora ordmellanrum; "=" ofta som litet snedställt dubbelstreck; bråk som riktiga bråk med upphöjt understruket "dels"; "№" för N:o; rättelser ovanför raden. 1870 (037–041): se nedan – troligen samma kansli |
 | E – kanslihand 1870 (Wilanders kansli) | 037–041 | Lutande, tydlig; i 039–040 extremt gles bokstavsplacering; "=" som avstavning; "Koll" + paraf längst ner till höger i stället för "./."; rödkrita under "andra"/"tredje" och "uppbudet" |
 | F – kanslihand 1915 | 042–053 | Stor, jämn, lutande skönskrift; blandar "af"/"av", "gåfvobref"/"gåvar"; §-tecknet som slinga följt av kolon; bråk mellan snedstreck "/5/96/"; bindestreck i "fem-nittiosjättedels"; diakritika förskjutna åt höger. (Läsaren av 047–056 kallade denna hand "E"; "F" gäller.) |
 | Avgiftshand 1870 | 037, 039 | "Lösen och Chsa 2. mark 60 pni" / "Lösen med st. p.per 2. mk 60 pni" + "Bönderne/B:ne Matts och Jakob …" |
@@ -276,6 +293,12 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Rekv. N:o | rekvisitionsnummer (070:20) |
 | 3 §ⁿ | 3 §:n, upphöjt understruket n (073:10) |
 | 145.480 | punkt som tusentalsavskiljare (074:25) |
+| stppr / st. p. | stämpelpapper (078:25, 083:25) |
+| p. p. | per procura (083:16) |
+| R. B. (1. §. 7 kap.; 2 §. 7. Kap.) | troligen Rättegångsbalken; J. B. kan inte uteslutas (081:10–11, 086:18–19) |
+| Sr | understruken kvittensförkortning i räntetabellen, troligen Strengberg (085:5–12) |
+| int | troligen inteckning – korshänvisning "§: 8. int" (077/078) |
+| Stämpelmärke 40 penni | orange vinjett "FYRATIO / PENNI 40 PENNIÄ / NELJÄKYMMENTÄ" (1867, 1877) |
 | lgf | lagfart – korshänvisning "§ 55 lgf", "§ 46 lgf" (042, 051 enligt dubbelläsaren) |
 
 ## Transkriptionskonventioner som används i filerna
@@ -300,4 +323,6 @@ Lärdomar från dubbelläsningen (fel som första läsare faktiskt gjort):
 - Parenteser skrivna som snedstreck i källan ("/5/96/") återges med vanliga parenteser och noteras i anmärkningarna (047–053). Se beslut.md.
 - Tryckta blanketter (jordregister 069–073): tryckt tabellhuvud som egna rader, poster radvis med `|`, registernummer som Unicode-exponenter (8¹⁵), röda strykningar över avförda poster beskrivs i marginalsektionen. Se beslut.md.
 - Maskinskrivna överslagna tecken: beskriv vad som faktiskt ligger ovanpå (t.ex. "e överslaget med bindestreck"), inte bara "felslag".
+- Bildriktning: liggande bilder har vridits åt båda hållen (017–076 mest rotate(-90), 077–085 rotate(90)). Förhandsvisa alltid åt båda hållen.
+- Post-it-lappar och dubblettfoton (077 = 078 med lapp): lappens text som egen enhet "L1, L2 …"; text som döljs av lappen markeras [...] med förklaring. Se beslut.md.
 - Snabbskrivna marginalanteckningar: jämför med motsvarande anteckning på andra handlingar innan du läser dem som siffror (jfr "lgf").

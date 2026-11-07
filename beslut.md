@@ -42,6 +42,18 @@ filens sektion "Dubbelläsning" med motivering. Du avgör rad för rad.
 (b) jag får rätta transkriptionen när andra läsaren ger tydlig motivering och
 första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 
+### 2026-11-07 – Post-it-lappar och dubblettfoton (077/078)
+**Fråga:** 077 och 078 är samma sida – en gång med en modern gul lapp över rad 10–16,
+en gång utan. Båda har fått egna filer; i 077 är den dolda texten markerad [...]
+och lappen transkriberad som egen enhet L1–L5.
+**Vad jag gjorde:** Lät det stå (CLAUDE.md: en fil per bild).
+**Status:** ÖPPET – vill du ha en kortare konvention, t.ex. att 077.md bara transkriberar
+lappen och hänvisar till 078 för sidan?
+
+### 2026-11-07 – Snedstreck behållna bokstavligt från 077
+Läsaren av 077–086 behöll "/650/" bokstavligt enligt mitt förslag i posten om
+snedstreck nedan. Det är alltså nu blandat: 047–053 har parenteser, övriga snedstreck.
+
 ### 2026-11-07 – Nya dokumenttyper i 067–076: tryckta jordregisterblanketter
 **Fråga:** 069–073 är maskinskrivna poster på tryckta tvåspråkiga blanketter med
 kolumner, upphöjda registernummer och röda strykningar över avförda poster.
