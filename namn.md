@@ -30,6 +30,16 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
 | Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868 | 016:24, 017:15–17 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
 | Greta Mattsdotter Sandnabba | Hustru till Jacob Jacobsson d.y.; d. 1864-02-15; bouppteckning 1864-07-07, original 168–171 och avskrift 172– (fast egendom 5/48 = 3 200 mark, inventarium 4 024,70, behållning 3 254,39) | 017:18–19, 032:5, 168 | |
+| Elisa / Lisa Andersdotter (d. 1848-05-08) | Hustru till Jacob Jacobsson (1843); bouppteckning och skifte 1848-05-15 i två exemplar (158–161, 162–165): fastighet 5/48 = 400 rubel, inventarium 490:04, behållning 231:77 | 002:11, 033:1, 158 | |
+| Hendric / Hindrik Jacobsson Pass | Backstugukarl, gift med dottern Annalena | 158:6, 166:6 | |
+| Johan Andersson Nybrän | Bondeson, gift med Majalisa | 158:7–8 | |
+| Matts Andersson [Kjäcko?] / [Säxiärfve?] | Bondeson, gift med Greta | 158:8–9, 166:7 | Gårdsnamnet olika och osäkert 1848 och 1862 |
+| Simon [Jons?]son Nars | Torpare, gift med BritaCaisa 1862 | 166:8 | |
+| Jackob Andersson Nybrän | Bondeson, gift med Beata 1862 | 166:9 | |
+| Eric Johansson Sandnabba | Vittne 1848 | 161:20 | |
+| Simon Petter[s?] Nygård | Kyrkvärd, kvittens 1858-09-17 | 161:35 | |
+| Johan Nikola; Lars [Gref?]; Handland Strängberg | Borgenärer 1848 | 160:18–22 | Strängberg = Strengberg? |
+| A. [Grotelin?]; Jonas Sandnabba; Jacob [Eide/Lide?] | Underskrifter på bouppteckningen 1818 | 157:22–23, 151:5–6 | |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
 | Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
@@ -211,6 +221,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1857-09-25 | Protokoll § 14, lagfart och första uppbudet (Bondesonen Jacob Jacobsson) | 016–023 |
 | 1858-02-26 | Protokoll § 2, andra uppbudet | 024–025 |
 | 1858-10-12 | Protokoll § 44, tredje uppbudet; fastebref samma dag (033:14–21) | 026 |
+| 1848-05-08 / 1848-05-15 | Elisa Andersdotter dör; bouppteckning och skifte (två exemplar) | 158–165 |
 | 1861-12-22 / 1862-01-07 | Jacob Jacobsson d.ä. dör; bouppteckning och skifte | 166–167 |
 | 1864-02-15 | Greta Mattsdotter Sandnabba dör; bouppteckning 1864-07-07 (original 168–171, avskrift 172–) | 032:1–7, 168– |
 | 1865-09-29 | Domstolens registreringsanteckning på bouppteckningen 1864 ([…] Sarck) | 168:1–3 |
@@ -255,7 +266,7 @@ Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1
 Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39); e: 3 = 117–123 (vräkningsmål Björklund mot Asp, 1934-09-07 § 41 – Björklund förlorar och åläggs ge Asps gåvobrev på stugan och två kappland); e: 4 = 124– (testamentsbevakning efter Anders Svanbäck, 1936-08-31 § 18).
 
 e: 4 = 124–127 (avskrift bestyrkt 1942).
-Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): a: 1 = 151– (bouppteckning 1818, avskrift ingiven till häradsrätten 1848-02-23).
+Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson d.ä., blyerts "a: 3" på 166); 168–176– (1864 efter Greta Mattsdotter, original och avskrift).
 Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
 
 Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
@@ -295,7 +306,9 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | L – bouppteckningshand 1862 | (166–)167 | Rak, ganska kantig; ſs-ligatur; bomärken under namnen. (Filen 167 kallar den "K".) |
 | M – bouppteckning 1864, original | 168–171 | Lutande, tydlig; ç i "Jaçob"; bråk med upphöjt "dels"; "mk" med lång slinga. (Filerna kallar den "L".) |
 | N – avskrift av 1864 års bouppteckning | 172– | Luftig kalligrafi; "Jakob" med k; litet upphöjt [5?]-tecken vid summalinjer. (Filerna kallar den "M".) |
-| K – bouppteckningshand 1818 | 151– | Mycket snirklig kursiv, stora versaler i rubriker, rödkrita; "Summa" som vågformigt ord; rubel.kopek i två kolumner; bråk ⅓ ⅔ |
+| Kurrentskrift (tysk) | 157 | Underskriftsdelen av bouppteckningen 1818 – svårläst |
+| J. Bäck – bouppteckning 1848 | 158–165 | 8 skrivs som "E"; K liknar "Kj"/"Tj" |
+| K – bouppteckningshand 1818 | 151–156 | Mycket snirklig kursiv, stora versaler i rubriker, rödkrita; "Summa" som vågformigt ord; rubel.kopek i två kolumner; bråk ⅓ ⅔ |
 | Skrivmaskin 1936 | 124–126 | Smalare, ljusare typer; versalerna P/E/K/M/J/S står upphöjda och svagt tryckta |
 | Stämplar och sena anteckningar 1925–1970 | 057, 062 | Blå stämpel "Merkitty v. 19… henkikirjaan / Annot. i 19… års mantalslängd / H. L. HARRI"; lodrät bläckanteckning 1951 i vänstermarginalen; blått bläck "Sålt till John Nymark 1966"; makuleringsstämplar "MAKULERAD … MITÄTÖN" 1966 och 3 juli 1970 |
 | Modern blyerts | 001, 012, 013, 015, 027, 037, 039, 042, 051, 054, 057, 062 | Handlingsnummer "b: 1" … "b: 13" och omslagstext. (017–026 saknar synligt b-nummer; b: 4–5 är troligen 016 och 024.) |
@@ -355,6 +368,9 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | st:; a; gl:; Kanns; Aᵒ | stycken; à; gammal; kannor; Anno (1818) |
 | Fattiges Cassa, Lazarets Cassa | avgifter i bouppteckningen 1818 |
 | 3. KOP | stämpelpapper 1818 |
+| kp: st:; Rub: st: | kopek resp. rubel stycket (1848) |
+| 18 17/9 58 | datum skrivet som bråk (1858-09-17) |
+| Mant: | mantal |
 | Kytta / Kyttor | svedjemark (fi. kytö) – ägoslag 1911 |
 | Ren; Mo, Myra, Lågmo, Lågmark | åkerren; ägoslag |
 | 479ᵃ | egofigur med upphöjt understruket a |
