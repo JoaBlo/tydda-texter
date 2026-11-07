@@ -28,7 +28,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Carl [Ulrich/Erich?] Roschier | Undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25 | Första läsaren: Erich; dubbelläsaren: Ulrich (bokstavsbilden ger U). Under namnet en liten förkortning "[ssl/fsl?]" |
 | [...?] Aminoff | "På Härads Rättens vägnar" 1848 | 011:7 | Efternamnet enligt dubbelläsaren (A-m-i-n-o-ff); förnamnet oläsligt |
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
-| Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868 | 016:24, 017:15–17 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
+| Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868; d. 1868-11-06, bouppteckning 1869-03-30 (178–183, två exemplar, inventarium 85 mark) | 016:24, 017:15–17, 178 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
 | Greta Mattsdotter Sandnabba | Hustru till Jacob Jacobsson d.y.; d. 1864-02-15; bouppteckning 1864-07-07, original 168–171 och avskrift 172– (fast egendom 5/48 = 3 200 mark, inventarium 4 024,70, behållning 3 254,39) | 017:18–19, 032:5, 168 | |
 | Elisa / Lisa Andersdotter (d. 1848-05-08) | Hustru till Jacob Jacobsson (1843); bouppteckning och skifte 1848-05-15 i två exemplar (158–161, 162–165): fastighet 5/48 = 400 rubel, inventarium 490:04, behållning 231:77 | 002:11, 033:1, 158 | |
 | Hendric / Hindrik Jacobsson Pass | Backstugukarl, gift med dottern Annalena | 158:6, 166:6 | |
@@ -50,7 +50,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Wilhelm Lindbohm | "På Härads Rättens vägnar" 1858-02-26 | 025:12 | Paraf "[fd?]" under |
 | [oläslig namnteckning, ca "Jondre Kujulin"] | "På Härads Rättens Vägnar" 1857-09-25 och 1858-10-12 | 023:16, 026:21 | Ingen bokstav säker |
 | Matts och Jakob Jakobssöner Sandnabba | Bönder, mottagare 1868, sökande 1869–1870 (1:a–3:e uppbud) på 5/48 mantal "till hälften hvardera"; söner till Jakob Jakobsson d.y. och Greta Mattsdotter | 027:19, 037:14–15 | Ägarpåskrift "Bönderne Matts och Jakob Sandnabba" 037:27; "B:ne Matts och Jakob Jakobss. Sandnabba" 039:27 |
-| Beata Simonsdotter | Hustru till Jakob Jakobsson d.ä. (= Jacob Jacobsson 1848); sökandenas styvmor; sytningstagare 1868 | 038:7, 040:16–17 | |
+| Beata Simonsdotter | **Andra** hustru till Jacob/Jakob Jakobsson d.y. (d. 1868-11-06); styvmor till Matts, Jakob, Johan, Anders, Gustaf (Greta Mattsdotters söner); mor till Simon Petter (f. ca 1867, d. 1877); sytningstagare 1868; änka och ägare med styvsonen Jakob 1877 | 038:7, 040:16–17, 178:6–13 | Tidigare felaktigt angiven som hustru till Jacob Jacobsson d.ä. – rättat efter 178 |
 | Johan, Anders, Gustaf (och Simon Petter) Jakobssöner | Bröder till Matts och Jakob; utlösen 200 mark vardera 1868 | 028:10–11, 038:8–9 | Simon Petter nämns 028:11 men inte i bouppteckningen 1864 eller 035:18 |
 | Beata Simonsdotter [Hennabba/Stennabba?] | Se ovan; "enka efter afträdaren" 1869 | 031:17 | Gårdsnamnet osäkert |
 | Gustaf Johansson Sandnabba; Johan Mattsson Sandnabba | Vittnen 1868 | 031:8–9 | |
@@ -58,8 +58,11 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Bruno Brunberg; Anders Backa | Vittnen till änkans påskrift 1869 | 031:19–20 | Förnamnet Bruno något osäkert |
 | Simon Johansson Sandnabba | Bonde, förmyndare 1869 för Beatas barn | 090:12–13 | Ägarpåskrift "B:ne Simon Sandnabba och Petter Stennabba" 090:26 |
 | Petter Simonsson Stennabba | Torpare, förmyndare 1869 | 090:14–15 | I d: 2 (092:13–14) står "Petter Johansson och Simon Petter Simonsson Stennabba" – källan inkonsekvent |
-| Petter Jakobsson (f. 1867) | Yngsta sonen till Jakob Jakobsson och Beata Simonsdotter | 090:21 | = "Simon Petter" 028:11? |
-| [J/E?]. S. [Castrén/Carlén?] | "På Häradsrättens vägnar" på inteckningsförnyelsen 1877 | 088:17 | Violett bläck; låg säkerhet |
+| Simon Petter / Petter Jakobsson Sandnabba (f. ca 1867, d. 1877-03-27) | Enda sonen till Jakob Jakobsson d.y. och Beata Simonsdotter; bouppteckning 1878-02-25 (184–186): modern får 1/3, de fem halvbröderna resten | 028:11, 090:21, 178:12–13, 184:6 | |
+| A. R. Hagberg | Förrättningsman och troligen skrivare 1878 | 184:2, 185:22 | |
+| Isak Jonsson Sandnabba | Bonde, förrättningsman 1878 | 184:3 | |
+| Jonas [Lösbacka?]; Johan [Bonds?] | Kyrkvärdar i Purmo 1869 resp. 1879 | 180:4, 186:3 | |
+| [J. S. Castrén?] | "På Häradsrättens vägnar" på inteckningsförnyelsen 1877 | 088:17 | Violett bläck; låg säkerhet |
 | Isidor Taucher | "På Häradsrättens vägnar" 1909-02-02 och 1909-02-06 | 101:8, 108:19, 110:35 | Bekräftat av maskinskriven avskrift |
 | John Alarik Berg | Kronolänsman, ombud för Jakob Björklund 1942 | 102:17 | |
 | E. [A?]. Hahne; A. Appelgren | Vittnen till fullmakten 1942 | 102:16 | |
@@ -80,9 +83,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | A. Lasen | Nämndeman, delgivning Purmo 1934 | 114:20 | Jfr Anders Lassen 1925, Ivar Lasén 1949 |
 | Per [Thodén?]; Vidar Backlund | Bestyrker maskinskriven avskrift av e: 1 | 111:18 | |
 | Vittnen 1913: A. Willman, August Erikson Wilobacka, Anders Isaksson Sandnabba, Alina Andersdotter Sandnabba, Maria Blomberg, Anders Sandnabba | Delgivningspåskrifter 1913 | 109, 111 | Handskrivna former avviker (Erekson, ijssak son) |
-| [Hj. W. Sarck?] | "På Häradsrättens vägnar" 1867-10-15, 1869-03-15 och 1869-10-01 | 036:5, 082:23, 091:15 | Mycket osäker läsning; läsaren av 082 ser "N. N. [B/Wz]arck" |
+| [...] [S/Z?]arck | "På Häradsrättens vägnar" 1865–1869 | 036:5, 082:23, 091:15, 099:15, 168:3 | "-arck" säkert (dubbelläsaren); initialerna "Hj. W." har inget stöd i bokstäverna – bara en gissning från 036 | Mycket osäker läsning; läsaren av 082 ser "N. N. [B/Wz]arck" |
 | Theodor Wilander | "På Häradsrättens vägnar" 1870 | 038:19, 041:2 | Wilander/Welander; liten förkortning "[Gd:?]" med paraf under |
-| Jakob Jakobsson Sandnabba (f. 1850-12-23, d. 1908-09-24) | Bonde (= den yngre Jakob av 1870); far till Jakob Björklund; muntligt testamente till hustrun bevakat 1909 | 045:1, 047:19–20 | Kallas "Jakob Johansson Sandnabba" i 047:13 – troligen skrivfel i källan |
+| Jakob Jakobsson Sandnabba (f. 1850-12-23, d. 1908-09-24) | Bonde (= den yngre av bröderna Matts och Jakob 1870, son till Greta Mattsdotter); far till Jakob Björklund; muntligt testamente till hustrun bevakat 1909 | 045:1, 047:19–20 | Kallas "Jakob Johansson Sandnabba" i 047:13 – troligen skrivfel i källan |
 | M. Sandnabba | Vittne vid gåvobrevet 1913 | 044:18 | |
 | Osk. E. Hellemaa | Häradsskrivarekontoret i Pedersöre, bestyrker mantalslängdsutdrag 1915-03-13 | 046:6 | Efternamnet osäkert |
 | Jusefina | Dotter till Maja Lena (= Fina Maria i 048:7) | 043:17–18 | |
@@ -229,7 +232,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1867-10-15 | Inteckningsprotokoll § 8: inteckning beviljad, gäller tio år – c: 1 | 077–082 |
 | 1868–1877 | Årlig ränta 39 mark betald 7 aug (1870 saknas; 1871 två år) | 085:5–13 |
 | 1868-11-05 | Afhandling: Jakob Jakobsson säljer 5/48 mantal till sönerna Matts och Jakob för 1600 mark, med sytning till honom och hustrun Beata Simonsdotter | 038:2–9 |
-| 1869-03-30 | Beata Simonsdotters godkännande av afhandlingen, Purmo | 031:12–20 |
+| 1868-11-06 | Jakob Jakobsson d.y. dör | 178 |
+| 1869-03-30 | Beata Simonsdotters godkännande av afhandlingen, Purmo; samma dag bouppteckning efter Jakob Jakobsson d.y. (två exemplar, 178–183) | 031:12–20, 178 |
+| 1877-03-27 / 1878-02-25 | Simon Petter Jakobsson dör; bouppteckning och arvskifte | 184–186 |
 | 1869-10-01 | Lagfartsprotokoll § 22, lagfart och första uppbudet för Matts och Jakob Jakobssöner – b: 6 | 027–036 |
 | 1870-03-07 | Lagfartsprotokoll § 11, andra uppbudet (Matts och Jakob) – b: 7 | 037–038 |
 | 1870-10-07 | Lagfartsprotokoll § 8, tredje uppbudet – b: 8 | 039–041 |

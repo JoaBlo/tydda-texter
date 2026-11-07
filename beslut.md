@@ -56,7 +56,27 @@ första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 finns redan i namn.md; de nya agenterna (117–156) har fått den.
 **Status:** ÖPPET – samma fråga som för 001–016: ska jag rätta de tydliga fallen?
 
-### 2026-11-07 – VIKTIGT: Vems söner är Matts (f. 1850) och Jakob (f. 1851)?
+### 2026-11-07 – Dubbelläsningen av 067–116
+**Resultat:** ca 200 Överens, 8 AVVIKER. Maskinskrivna sidor i praktiken felfria. De viktigaste
+felen låg på rader som första läsaren INTE markerat som osäkra:
+- **090:15** `Johan=` (→ "Johandens") ska vara **`Sökan=`** (→ sökandens) – S, inte J. Första
+  läsarens anmärkning om "Johandens" som kanslispråk är fel och bör strykas.
+- **095:3–4** `skjut=sel` → **`sköt=sel`** (skötsel).
+- 107:8 `valfrejdade` → `välfrejdade` (stöds av avskriften 110:16); 091:1 `villige` → `willige`.
+- 099:15 kallad "oläslig" men är tydligast av alla Sarck-namnteckningarna: `[...] [S/Z?]arck.`
+- 109 marg. `[4/7?]25–85` → `425–85` (summan bekräftar). 070:7 "felslag" i RN:o är blankettens linje.
+- Namnteckningen "Hj. W. Sarck": bara "-arck" är säkert; "Hj. W." har förts vidare från 036
+  utan stöd. namn.md uppdaterad.
+**Status:** ÖPPET – samma fråga som tidigare: ska jag rätta de tydliga fallen?
+
+### 2026-11-07 – AVGJORT av källan: Vems söner är Matts (f. 1850) och Jakob (f. 1851)?
+Bouppteckningen 1869 (178:6–13) och 1878 (184:10) säger uttryckligen: Matts, Jakob, Johan,
+Anders och Gustaf är söner i första äktenskapet med Greta Mattsdotter; Simon Petter är Beatas.
+Beata är styvmor till de fem. Förmynderskapsprotokollet 1869 (090) var alltså bara slarvigt
+formulerat. **Mitt fel i namn.md** (Beata som hustru till Jacob Jacobsson d.ä.) är rättat:
+hon var andra hustru till Jakob Jakobsson d.y. (d. 1868-11-06). **Status:** AVGJORT.
+
+### (äldre post) VIKTIGT: Vems söner är Matts (f. 1850) och Jakob (f. 1851)?
 **Fråga:** namn.md säger (från bouppteckningen 1864, 032) att Matts och Jakob är söner till
 Greta Mattsdotter (d. 1864), och att Beata Simonsdotter är deras styvmor (035:16 säger
 "styfmodern"). Men förmynderskapsprotokollet 1869 (090:19–21) räknar upp Matts f. 1850 och
