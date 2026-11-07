@@ -13,8 +13,9 @@
 ## Arbetssätt
 Du är en erfaren paleograf. Ta en bild i taget, i filnamnsordning.
 Hoppa över bilder som redan har en fil i transkriptioner/.
-Är bilden vriden, räta upp den och spara den rättvända versionen
-i bilder/ innan du läser (originalet finns kvar i git-historiken).
+Är bilden vriden, räta upp den och skriv över originalfilen
+i bilder/ innan du läser. Bilderna ligger inte i git, så det
+ursprungliga fotot försvinner – det är okej.
 
 ## Regler för transkription
 1. Återge texten exakt som den står – behåll gammal stavning,
