@@ -66,6 +66,15 @@ anmäler. Och om Greta dog 1864 kan Petter f. 1867 bara vara Beatas.
 **Status:** ÖPPET – troligen anmäler Beata för hela barnkullen och protokollets formulering är
 slarvig, men du kanske vet från kyrkböckerna.
 
+### 2026-11-07 – Klyvningen 1911 (128–): moderns namn och gode männen
+- Lantmäteriprotokollet kallar jordägaren på littera 1 "Enkan **Maria** Eriksdotter, mor till
+  bonden Jakob Jakobsson" (129:20). Överallt annars heter hon Maja/Maria Lena Eriksdotter.
+  Återgivet som det står.
+- Gode män: 129 nämner Anders Fredriksson Kornjärvi och Anders Pettersson [Emaus?]; 130 och 133
+  nämner Johan Liljeström och Johan Andersson Haapbacka. Troligen olika sammanträden.
+- 128/129 är åter en dubblett med/utan post-it; samma konvention som 077/078 användes.
+**Status:** information.
+
 ### 2026-11-07 – Motsägelser i källorna (097–104)
 - Bouppteckningen efter Greta Mattsdotter: "7. Juni 1864" (097:6) mot "7 Juli 1864" (032:3).
   Läsaren av 097 läste bokstäverna "Juni"; båda står kvar.
@@ -186,6 +195,7 @@ skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarn
 | Bild | Problem | Status |
 |---|---|---|
 | 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
+| 136 | Talet i kolumnen Impedimenter (rad 15, "4,1[...]") döljs av en riven, invikt pappersbit – ny närbild med biten tillbakavikt | ÖPPET |
 | 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | ÖPPET |
 | 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | ÖPPET |
 

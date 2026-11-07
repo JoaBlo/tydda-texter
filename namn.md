@@ -112,7 +112,14 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Anders Lassen (1925) / Ivar Lasén (1949–50) | Nämndeman, ombud 1925 resp. 1950; köpvittne och godeman 1949 | 057:11, 062:11 | Blyerts "Lassén"/"Lasén"; oklart om samma person |
 | Johan Bäcksbacka eller Bäcksfors, hustru Lovisa | Ägare av Bäcksbacka N:o 23 (fastebrev 1894-09-08) | 057:23–24, 058:2 | |
 | Anders Nyman | Torpare; köpte Brännkärret 1922-02-10, sålde 1922-03-16 till Jakob Björklund | 058:4 | |
-| Aino Berger | Äldre lantmäteriingeniör, parcellering 1923 | 058:10 | Efternamnet något osäkert |
+| Aino Berger | Kommissionslantmätare, klyvningen av Sandnabba 1911 (förrättningen N:o 938); äldre lantmäteriingeniör, parcellering 1923 | 129:5–6, 134:5, 058:10 | Egenhändig namnteckning 134 bekräftar namnet |
+| Gustaf Jonasson Sandnabba | Bonde, sökande till klyvningen 1911 | 129:7–8 | = Gustaf Jonass. i mantalslängden 1915 (046)? |
+| Maria Eriksdotter (enkan) | Jordägare littera 1 vid klyvningen 1911, "mor till bonden Jakob Jakobsson" | 129:20, 130:28 | Annars "Maja Lena Eriksdotter" (047:9) – se beslut.md |
+| Kajsa Lovisa Andersdotter (enkan) | Jordägare littera 2, 1911 | 129:21 | |
+| Anders Isaksson (litt. 3), Matts Simonsson (4), Simon Simonsson (5), Jonas Simonsson (6), Gustaf och Johan Jonassöner (7, 8) | Jordägare vid klyvningen 1911 | 129:22–24, 131:24 | Jfr mantalslängden 1915 (045–046) |
+| Anders Fredriksson Kornjärvi; Anders Pettersson [Emaus/Emans?] | Gode män 1911-05-17 | 129:17–18 | |
+| Johan Liljeström; Johan Andersson Haapbacka | Gode män 1911 (senare sammanträden) | 130:14–15, 133:28 | |
+| Bror Erik Uunila | Notarie, bestyrker avskrift "Ex officio", Jakobstad 1942-12-05 | 127:5–6 | |
 | Bruno Sarlin; Joel Jurvelius | Landshövding resp. kontrasignant, utslag 1923-12-28 | 060:2–3 | |
 | Herman Uddström | Vasa läns länslantmäterikontor, jordregistret 1924-01-16 | 060:6 | |
 | Anders Liljeström | Poliskonstapel, Purmo, delgivning 1924-02-07 | 060:9–10 | |
@@ -237,6 +244,9 @@ Omslaget (012) anger: "b) 1–13, Utdrag av lagfartsprotokoll 1848 – – 1950"
 Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1942"): d: 1 = 089–091 (1869-03-15 § 14), d: 2 = 092–099 (1869-10-01 § 47, fastställelse av försäljningen av de omyndigas andel), d: 3 = 100–101 (1909-02-06 § 6), d: 4 = 102–104 (urtima ting 1942-12-14 § 2, godmanskap för syskonen Svanbäck).
 Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39); e: 3 = 117–123 (vräkningsmål Björklund mot Asp, 1934-09-07 § 41 – Björklund förlorar och åläggs ge Asps gåvobrev på stugan och två kappland); e: 4 = 124– (testamentsbevakning efter Anders Svanbäck, 1936-08-31 § 18).
 
+e: 4 = 124–127 (avskrift bestyrkt 1942).
+Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet = 135– (tryckt tvåspråkig blankett "Kaava Formulär N:o 5").
+
 Omslag c (077 post-it: "utdrag av inteckningsprotokoll C:1 C:2 1867 – – 1877"): c: 1 = 077–082, c: 2 = 083–.
 
 Omslaget på 076 listar nästa grupper: "c: utdrag av lagfartsprotokoll 1848–1950" (= b ovan?), "d: utdrag av förmynderskapsprotokoll 1869–1942", "e: utdrag ur Häradsrättens protokoll 1909–1936", "f: klyvning av Sandnabba skattehemman 19[11?]".
@@ -268,7 +278,8 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Skrivmaskin 1925 | 057–061 | Ljust/slitet färgband; P och R svagt tryckta; exponenter (RN:o 23⁴) på raden ovanför; felslag ("dedan", "omb det", "Ört") |
 | Skrivmaskin 1950 | 062– | Tydligare, mörkare typsnitt; spärrad skrift för lägenhetsnamn; understrykningar av namn; exponenter på raden ovanför |
 | Skrivmaskin 1934 | 112–123 | Mörkt tydligt typsnitt, dubbelt radavstånd, mellanslag efter komma |
-| Skrivmaskin 1936 | 124– | Smalare, ljusare typer; versalerna P/E/K/M/J/S står upphöjda och svagt tryckta |
+| J – lantmäterihand 1911 (Berger) | 129–136– | Jämn, lutande; §-slinga; ä-tecknet som ett z ovanför; litterasiffror med upphöjt understruket s ("8ˢ" = 8:s); o liknar a |
+| Skrivmaskin 1936 | 124–126 | Smalare, ljusare typer; versalerna P/E/K/M/J/S står upphöjda och svagt tryckta |
 | Stämplar och sena anteckningar 1925–1970 | 057, 062 | Blå stämpel "Merkitty v. 19… henkikirjaan / Annot. i 19… års mantalslängd / H. L. HARRI"; lodrät bläckanteckning 1951 i vänstermarginalen; blått bläck "Sålt till John Nymark 1966"; makuleringsstämplar "MAKULERAD … MITÄTÖN" 1966 och 3 juli 1970 |
 | Modern blyerts | 001, 012, 013, 015, 027, 037, 039, 042, 051, 054, 057, 062 | Handlingsnummer "b: 1" … "b: 13" och omslagstext. (017–026 saknar synligt b-nummer; b: 4–5 är troligen 016 och 024.) |
 | Bläck överst mitt på bladet | 016 ("§: 2."), 024 ("§ 44"), 042 ("№: 55. 191[?]") | Akt-/löpnummer, inte paragrafnummer |
