@@ -42,6 +42,26 @@ filens sektion "Dubbelläsning" med motivering. Du avgör rad för rad.
 (b) jag får rätta transkriptionen när andra läsaren ger tydlig motivering och
 första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 
+### 2026-11-07 – VIKTIGT: Vems söner är Matts (f. 1850) och Jakob (f. 1851)?
+**Fråga:** namn.md säger (från bouppteckningen 1864, 032) att Matts och Jakob är söner till
+Greta Mattsdotter (d. 1864), och att Beata Simonsdotter är deras styvmor (035:16 säger
+"styfmodern"). Men förmynderskapsprotokollet 1869 (090:19–21) räknar upp Matts f. 1850 och
+Jakob f. 1851 bland barnen "under äktenskapet med dess aflidne man sammanaflade" när Beata
+anmäler. Och om Greta dog 1864 kan Petter f. 1867 bara vara Beatas.
+**Vad jag gjorde:** Inget ändrat; båda källorna återgivna som de står.
+**Status:** ÖPPET – troligen anmäler Beata för hela barnkullen och protokollets formulering är
+slarvig, men du kanske vet från kyrkböckerna.
+
+### 2026-11-07 – Initialt s som ser versalt ut (093–096)
+Skrivaren (hand E, 1869) skriver ordinitialt s högt, så att det liknar versalt S ("ſytning",
+"ſeng", "ſilfver"). Default: gement s i vanliga ord, versal vid meningsbörjan och där bokstaven
+klart är versal; allt listat under Osäkra passager.
+**Status:** ÖPPET – godkänn eller välj annan regel.
+
+### 2026-11-07 – Ovidkommande anteckningar på handlingar (109)
+109 har en lång blyertskolumn med belopp som inte hör till handlingen. Läsaren återgav den i
+marginalsektionen, utanför radnumreringen. **Status:** ÖPPET – ska sådant alls återges?
+
 ### 2026-11-07 – Post-it-lappar och dubblettfoton (077/078)
 **Fråga:** 077 och 078 är samma sida – en gång med en modern gul lapp över rad 10–16,
 en gång utan. Båda har fått egna filer; i 077 är den dolda texten markerad [...]

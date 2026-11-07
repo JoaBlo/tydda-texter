@@ -40,7 +40,23 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Gustaf Johansson Sandnabba; Johan Mattsson Sandnabba | Vittnen 1868 | 031:8–9 | |
 | Anders Haapbacka | "af Anders Haapbacka" – troligen skrivare av afhandlingen 1868 | 031:11 | |
 | Bruno Brunberg; Anders Backa | Vittnen till änkans påskrift 1869 | 031:19–20 | Förnamnet Bruno något osäkert |
-| [Hj. W. Sarck?] | "På Häradsrättens vägnar" 1867-10-15 och 1869-10-01 | 036:5, 082:23 | Mycket osäker läsning; läsaren av 082 ser "N. N. [B/Wz]arck" |
+| Simon Johansson Sandnabba | Bonde, förmyndare 1869 för Beatas barn | 090:12–13 | Ägarpåskrift "B:ne Simon Sandnabba och Petter Stennabba" 090:26 |
+| Petter Simonsson Stennabba | Torpare, förmyndare 1869 | 090:14–15 | I d: 2 (092:13–14) står "Petter Johansson och Simon Petter Simonsson Stennabba" – källan inkonsekvent |
+| Petter Jakobsson (f. 1867) | Yngsta sonen till Jakob Jakobsson och Beata Simonsdotter | 090:21 | = "Simon Petter" 028:11? |
+| [J/E?]. S. [Castrén/Carlén?] | "På Häradsrättens vägnar" på inteckningsförnyelsen 1877 | 088:17 | Violett bläck; låg säkerhet |
+| Isidor Taucher | "På Häradsrättens vägnar" 1909-02-02 | 108:19, 110:35 | Bekräftat av maskinskriven avskrift |
+| Matts Sandnabba | Landthandlande, testamentsvittne 1909 | 107:4–5 | = "M. Sandnabba" 044:18? |
+| Johan Jonasson Sandnabba | Bonde, testamentsvittne 1909 | 107:5–6 | |
+| Jakob Häggman | Nämndeman, ombud 1909 | 106/110:10 | |
+| Herman Jakobsson Asp eller Sandnabba (f. 1894-09-27) | = Herman (048:11), son till Jakob Jakobsson; arbetare/backstuguman; svarande i betesmålet 1934 | 063:4, 112:12, 115:7 | |
+| Hilma Amanda Asp (f. 1894-06-28) | Hustru till Herman Asp, svarande 1934 | 112:13, 115:18 | |
+| Sanfrid Staffans | T.f. domhavande, Nykarleby domsaga 1934 | 113:19, 116:24 | |
+| Ejnar Harjulin; Carl Eugén Wenelius; Sven Adolf Berger | Biträden 1934 (hovrättsauskultant; vicehäradshövding; hovr. ausk., Jakobstad) | 112:18–20, 114:14 | |
+| Paul Danielsson | Kyrkoherde i Purmo 1934 | 115:12 | |
+| A. Lasen | Nämndeman, delgivning Purmo 1934 | 114:20 | Jfr Anders Lassen 1925, Ivar Lasén 1949 |
+| Per [Thodén?]; Vidar Backlund | Bestyrker maskinskriven avskrift av e: 1 | 111:18 | |
+| Vittnen 1913: A. Willman, August Erikson Wilobacka, Anders Isaksson Sandnabba, Alina Andersdotter Sandnabba, Maria Blomberg, Anders Sandnabba | Delgivningspåskrifter 1913 | 109, 111 | Handskrivna former avviker (Erekson, ijssak son) |
+| [Hj. W. Sarck?] | "På Häradsrättens vägnar" 1867-10-15, 1869-03-15 och 1869-10-01 | 036:5, 082:23, 091:15 | Mycket osäker läsning; läsaren av 082 ser "N. N. [B/Wz]arck" |
 | Theodor Wilander | "På Häradsrättens vägnar" 1870 | 038:19, 041:2 | Wilander/Welander; liten förkortning "[Gd:?]" med paraf under |
 | Jakob Jakobsson Sandnabba (f. 1850-12-23, d. 1908-09-24) | Bonde (= den yngre Jakob av 1870); far till Jakob Björklund; muntligt testamente till hustrun bevakat 1909 | 045:1, 047:19–20 | Kallas "Jakob Johansson Sandnabba" i 047:13 – troligen skrivfel i källan |
 | M. Sandnabba | Vittne vid gåvobrevet 1913 | 044:18 | |
@@ -200,6 +216,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1966 | "Sålt till John Nymark" (Brännkärret); makuleringsstämplar 1966 och 1970-07-03 | 062 marg. |
 
 Omslaget (012) anger: "b) 1–13, Utdrag av lagfartsprotokoll 1848 – – 1950". Handlingarna är numrerade med blyerts "b: 1" … "b: 13" i övre högra hörnet. b: 13 slutar på 075.
+
+Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1942"): d: 1 = 089–091 (1869-03-15 § 14), d: 2 = 092– (1869-10-01 § 47). Blyerts "d: 3" står på 096 – kontrollera mot 097.
+Omslag e: e: 1 = 106–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39).
 
 Omslag c (077 post-it: "utdrag av inteckningsprotokoll C:1 C:2 1867 – – 1877"): c: 1 = 077–082, c: 2 = 083–.
 
