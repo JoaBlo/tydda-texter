@@ -57,6 +57,9 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Hugo Blomberg; Irene Blomberg | Vittnen 1948 | 258:10–11 | |
 | A. Svarfvar; [J?] Haapbaka | Granskar förmyndarredovisningen 1914 (med S. Nybränn) | 264:10–11 | A. Svarfvar även 191 marg. |
 | Alfred Villman (Alfr. [Villman?]) | Sampos agent, Bennäs, Lillby; premiekvitto 1940 | 271:2, 272:9 | Kan vara "Lillman" |
+| Magnus Ström (undersergeant); Wilh. [Oskar?]; Albert Södergård; [Henrik?] Harald | Vittnen till fullmakterna vid Svir-fronten 1943 | 241:8–9, 242:16–17 | |
+| [Lyli?] Bäckström; Gretel Krohn | Vittnen till Ines Sundstedts fullmakt 1943 | 243:8 | |
+| Hugo [Bramberg/Bromberg?] | Vittne till köpekontraktet 1951 | 239:23 | |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
 | Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
@@ -141,8 +144,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Emil Forssén | Stadsfiskal, ombud 1877 | 083:18 | |
 | Aron Brunberg | Bestyrker avskrift av skuldsedeln 1867 tillsammans med Bruno Brunberg | 080:14 | Bruno Brunberg skrev även ansökan: "af (BrunoBrunberg)" 079:13 |
 | A. Jung; C. A. Forbus | Vittnen på skuldsedeln 1867 | 080:12 | Efter Jung står oklart "Afdito." |
-| Karl Milton Björklund / Milton Björklund (f. 1918-07-29) | Son till Jakob o. Hilda; köpare 1949, sökande 1950 | 062:10 | Ägarpåskrift "Bonden Karl Milton Björklund." 062:31 |
-| Jakob Osvald Björklund (f. 1914-06-11) | Son | 062:30, 063:9 | |
+| Karl Milton Björklund / Milton Björklund (f. 1918-07-29) | Son till Jakob o. Hilda; sanitetssoldat vid Svir 1943 (egenhändig fullmakt 242); köpare 1949, sökande 1950; sålde tomt och del av Storbacksmossan till Herman Asp 1951 | 062:10 | Ägarpåskrift "Bonden Karl Milton Björklund." 062:31 |
+| Jakob Osvald Björklund (f. 1914-06-11) | Son; soldat vid Svir-fronten, Ostkarelen, fullmakt 1943-01-22 | 062:30, 063:9, 241 | |
 | Ines / Inäs Maria Björklund, gift Sundstedt, senare Wennberg (f. 1916-08-29) | Dotter; kvitterar 1965 att brodern Milton lagt plåttak på hennes stuga som betalning för utlösen | 062:30, 064:27, 260:8 | Båda stavningarna i källan |
 | Agnes Gertrud Björklund, gift Novén (f. 1922-07-07) | Dotter; make Sven-Erik Novén, Trelleborg | 062:30, 063:10 | |
 | Dagny Alexandra Björklund (f. 1925-05-18) | Dotter | 062:30 | |
@@ -179,7 +182,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | J. Liljeström; Wilhelm Höglund; Matts Myhrman; [Wicktor?] Långnabbo; Maria Bäcksbacka; Hilma Grankvist | Vittnen 1922 | 228–229 | |
 | Herman Asp | Erhållit gårdstomt ca 22 ar av Jakob Björklund | 063:4 | |
 | Arno Sund | Vittne vid köpebrevet 1949 | 063:22 | |
-| A. L. Månsson | Överkonstapel, Norregatan 35, Trelleborg; vittne till fullmakten | 064:2–3 | |
+| A. L. Månsson | Norregatan 35, Trelleborg; vittne till Novéns fullmakt 1949 | 064:2–3, 244 | Titeln "Överkonstapel" hör till det andra vittnet (originalet 244) |
+| [K. G. Sjölin?] | Överkonstapel, [Bonnkillegatan?] 22, Trelleborg; vittne 1949 | 244:10–12 | = "(otydl.namn)" i avskriften 064:2 |
 | J A Strömsnäs | Ordförande i Pedersöre skattedistrikt, Jakobstad 1950-01-25 | 064:16 | |
 | John Myhrman; Vilhelm Blomberg; Bertel Lindqvist | Godemän vid bouppteckningarna 1940 (Myhrman, Blomberg) och 1949 (Myhrman, Lindqvist) | 065:25, 066:27 | |
 
@@ -252,6 +256,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1928-07-02 – 1940-08-21 | Jakob Björklund lånar 35 000 mark av torparen Anders Svanbäck (sin svärfar) till 7 %; avbetalt 1929–1940 | 253–256 |
 | 1849-09-28 | Fastebrev § 135 för B:n Jacob Jacobsson Sandnabba (Carl Wilhelm Roschier) – omslag u | 276– |
 | 1939-06-09 | Sampo skogsbrandförsäkring N:o 43064, Björklund N:o 1, ca 13 ha, 40 000 Fmk | 271–275 |
+| 1943-01-22/30 | Fullmakter för arvskiftet efter Edla Svanbäck: Osvald och Karl Milton från fronten vid Svir, Ines i Purmo | 241–243 |
+| 1951-04-01 | Köpekontrakt: Milton och Karin Björklund säljer gårdstomt och 1,45 ha av Storbacksmossan till Herman Asp för 60 000 mark | 239 |
 | 1876-06-20 | Köpebrev (Svartå, Karis): Matts Jakobsson säljer sin halva av Sandnabba till brodern Jakob för 2500 mark – g: 2 | 224–226 |
 | 1911-07-01 | Arrendekontrakt: Maria Andersdotter arrenderar ut sin torplägenhet till Jakob Jakobsson (Björklund) | 217–218 |
 | 1848-05-15 | Bouppteckning efter Lisa Andersdotter (Jakob Jakobsson d.y. ärver 5/504) | 032:23–033:2 |
@@ -315,7 +321,9 @@ g: 5 forts.: arrendekvitto 1932 (257), Agnes Novéns arvskvitto 1948 (258), Dagn
 g: 6 (261 post-it: "g:6 Övriga räkenskapshandlingar 1913 – – 1939"): g:6.1 räkning till Milton Björklund ca 1950 (262); förmyndarredovisningar för Herman 1913–1916, akt "N:o 95" (263–267–).
 g: 6 forts.: Maja Lena Eriksdotters förmyndarredovisning för Herman t.o.m. 1913 (268, höger halva); fånghistoria för 5/96 Sandnabba 1843–1916, maskinskriven, "g: 6. 3" (269–270); Sampos skogsbrandförsäkring N:o 43064 för Björklund N:o 1, 1939, "g: 6. 4" (271–275).
 Omslag u (276 post-it: "u: Diverse handlingar 1849 – – 1949"): fastebrev § 135, 1849-09-28 (276–).
-g: 3 (232 post-it: "Kontrakt 1913 – – [1951/1957?]") = 232– (sytningskontrakt 1913-01-20, två exemplar 233–236).
+g: 4 (240 post-it: "g: 4 Fullmakter 1943 -- 1949"): g: 4.1–4.3 fullmakter 1943 för arvskiftet efter Edla Svanbäck (Osvald och Karl Milton vid Svir-fronten, Ines i Purmo; 241–243); g: 4.4 Novéns fullmakt 1949 i original (244).
+g: 5 (245 post-it: "g: 5 Kvitton 1867 -- 1965") börjar med skuldsedeln 1867 i original (245–246).
+g: 3 (232 post-it: "Kontrakt 1913 – – [1951?]") = 232–239: sytningskontrakt 1913 (233–236), köpebrevet 1949 i original med lagfartspåskrift 1950 (g: 3.2, 237–238), köpekontrakt 1951 Björklund → Herman Asp (g: 3.3, 239).
 Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
 
 Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
@@ -433,6 +441,7 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | 0055 | belopp utan decimalkomma (= 0,055), delningsinstrumentet 1911 |
 | Transport | överförd summa överst/nederst på tabellsida |
 | Kållby utskiftes mark | Gräns för Brännkärret (227:16); Brännkärrets kartnummer N:o 142 |
+| Ost-Karelen, Svir | Fronten 1943 (fortsättningskriget) | 241:5, 242:10–11 |
 | Nikolaistad | Vasa (officiellt namn 1855–1917) |
 | Hemskiftet, Nabbskiftet, Storbacksmossan; Forsaskyttan; Baptist bönehustomt parcellen | ägonamn vid klyvningen 1911 |
 | K. B. I sid. 253 | kyrkbok (kommunionbok) del I, sida (067:1) |
