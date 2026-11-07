@@ -52,6 +52,20 @@ anmäler. Och om Greta dog 1864 kan Petter f. 1867 bara vara Beatas.
 **Status:** ÖPPET – troligen anmäler Beata för hela barnkullen och protokollets formulering är
 slarvig, men du kanske vet från kyrkböckerna.
 
+### 2026-11-07 – Motsägelser i källorna (097–104)
+- Bouppteckningen efter Greta Mattsdotter: "7. Juni 1864" (097:6) mot "7 Juli 1864" (032:3).
+  Läsaren av 097 läste bokstäverna "Juni"; båda står kvar.
+- 1942 kallas sökanden "Jakob **Andersson** Björklund" i "**Nederpurmo**" (102:9–10) men
+  ämbetsbetyget (103:3) visar att det är Jakob Jakobsson Björklund f. 1876. Troligen fel i källan.
+- 101:2 skriver "Jakob Jakobsson Sandnabba" – bekräftar att "Jakob Johansson" i 047:13 är
+  avskrivarens fel.
+- 099:5–6 kallar Jakob Jakobsson d.y. "aflidne" 1869 – han dog alltså mellan nov 1868 och mars 1869.
+**Status:** information; inget att ändra i transkriptionerna.
+
+### 2026-11-07 – Hand 1909 (100–101, 105–108): F eller ny bokstav?
+Två läsare har oberoende sett att 1909-handlingarna har en kanslihand mycket lik F (1915).
+Filerna säger "F?" resp. "F (eller mycket lik F)". **Status:** ÖPPET, kosmetiskt.
+
 ### 2026-11-07 – Initialt s som ser versalt ut (093–096)
 Skrivaren (hand E, 1869) skriver ordinitialt s högt, så att det liknar versalt S ("ſytning",
 "ſeng", "ſilfver"). Default: gement s i vanliga ord, versal vid meningsbörjan och där bokstaven
@@ -158,6 +172,7 @@ skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarn
 | Bild | Problem | Status |
 |---|---|---|
 | 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
+| 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | ÖPPET |
 | 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | ÖPPET |
 
 ---

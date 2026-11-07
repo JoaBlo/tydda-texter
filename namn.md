@@ -44,7 +44,15 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Petter Simonsson Stennabba | Torpare, förmyndare 1869 | 090:14–15 | I d: 2 (092:13–14) står "Petter Johansson och Simon Petter Simonsson Stennabba" – källan inkonsekvent |
 | Petter Jakobsson (f. 1867) | Yngsta sonen till Jakob Jakobsson och Beata Simonsdotter | 090:21 | = "Simon Petter" 028:11? |
 | [J/E?]. S. [Castrén/Carlén?] | "På Häradsrättens vägnar" på inteckningsförnyelsen 1877 | 088:17 | Violett bläck; låg säkerhet |
-| Isidor Taucher | "På Häradsrättens vägnar" 1909-02-02 | 108:19, 110:35 | Bekräftat av maskinskriven avskrift |
+| Isidor Taucher | "På Häradsrättens vägnar" 1909-02-02 och 1909-02-06 | 101:8, 108:19, 110:35 | Bekräftat av maskinskriven avskrift |
+| John Alarik Berg | Kronolänsman, ombud för Jakob Björklund 1942 | 102:17 | |
+| E. [A?]. Hahne; A. Appelgren | Vittnen till fullmakten 1942 | 102:16 | |
+| Anders Johansson Svanbäck (f. 1856-03-08, d. 1936-03-02) | Torpare, Mattjus N:o 9, Nederpurmo; far till Hilda Maria Björklund | 102:22 | |
+| Edla Sofia Simonsdotter Käld / Svanbäck (f. 1862-06-18, d. 1942-10-13) | Hustru till Anders Svanbäck | 102:23–24 | |
+| Anders Vilhelm (f. 1882), Johan Axel (f. 1886) Svanbäck | Hildas bröder, "vistas i Amerika"; Jakob Björklund deras godman 1942 | 103:1, 103:9 | |
+| Hilma Sofia Svanbäck (f. 1898-03-02) | Hildas syster, fl. t. Pedersöre 1917; Björklund godman 1942 | 103:13 | |
+| Aina Charlotta (1889), Matts Leander (1894, "Sinnessjuk (i Nykarleby)"), Edla Johanna (1896–1899), Ivar (1900) Svanbäck | Övriga syskon till Hilda | 103:10–14 | |
+| Paul Krokfors | T.f. kyrkoherde i Purmo 1942 | 103:16–17 | |
 | Matts Sandnabba | Landthandlande, testamentsvittne 1909 | 107:4–5 | = "M. Sandnabba" 044:18? |
 | Johan Jonasson Sandnabba | Bonde, testamentsvittne 1909 | 107:5–6 | |
 | Jakob Häggman | Nämndeman, ombud 1909 | 106/110:10 | |
@@ -217,7 +225,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 
 Omslaget (012) anger: "b) 1–13, Utdrag av lagfartsprotokoll 1848 – – 1950". Handlingarna är numrerade med blyerts "b: 1" … "b: 13" i övre högra hörnet. b: 13 slutar på 075.
 
-Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1942"): d: 1 = 089–091 (1869-03-15 § 14), d: 2 = 092– (1869-10-01 § 47). Blyerts "d: 3" står på 096 – kontrollera mot 097.
+Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1942"): d: 1 = 089–091 (1869-03-15 § 14), d: 2 = 092–099 (1869-10-01 § 47, fastställelse av försäljningen av de omyndigas andel), d: 3 = 100–101 (1909-02-06 § 6), d: 4 = 102–104 (urtima ting 1942-12-14 § 2, godmanskap för syskonen Svanbäck).
 Omslag e: e: 1 = 106–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39).
 
 Omslag c (077 post-it: "utdrag av inteckningsprotokoll C:1 C:2 1867 – – 1877"): c: 1 = 077–082, c: 2 = 083–.
