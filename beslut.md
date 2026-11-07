@@ -56,6 +56,19 @@ första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 finns redan i namn.md; de nya agenterna (117–156) har fått den.
 **Status:** ÖPPET – samma fråga som för 001–016: ska jag rätta de tydliga fallen?
 
+### 2026-11-08 – Roschier: "Ulrich" var en överrättelse – nu [Wilhelm/Ulrich?]
+Rättelseomgången ändrade namnteckningen i 014:26/015:25 från "Erich" till "Carl Ulrich Roschier"
+på dubbelläsarens bokstavsanalys. Men fastebrevet 1849 (276:1, samma kansli) skriver i klartext
+"Jag Carl Wilhelm Roschier". Den "U-liknande dubbelbågen" är troligen ett W.
+**Vad jag gjorde:** 014/015 ändrade till `Carl [Wilhelm/Ulrich?] Roschier` med förklaring i
+rättelsetabellen; namn.md: Carl Wilhelm Roschier. **Lärdom:** en namnteckning ska inte rättas
+till en säker läsning bara på bokstavsform när namnet kan ha en klartextform någon annanstans –
+den markeras hellre osäker. **Status:** AVGJORT av källan (om du vill: ta bort [?] helt).
+
+### 2026-11-08 – Tryckta villkor och blanketter (274–275)
+Sampos tryckta försäkringsvillkor är transkriberade i sin helhet (regeln: exakt återgivning).
+**Status:** ÖPPET – vill du att tryckt standardtext hellre sammanfattas framöver?
+
 ### 2026-11-07 – Originalen i omslag g bekräftar eller rättar tidiga läsningar
 Omslag g innehåller originalen till handlingar som 001–050 bara citerar i avskrift. De ger stöd
 för flera tidigare osäkra läsningar:
@@ -272,6 +285,7 @@ skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarn
 | Bild | Problem | Status |
 |---|---|---|
 | 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
+| 276 | Gul post-it döljer mitten av rad 10–17 i fastebrevet 1849 – fotografera utan lappen | ÖPPET |
 | 171 | Underskrifterna längst ner (bouppteckningen 1864) avskurna av bildkanten – ta om | ÖPPET |
 | 136 | Talet i kolumnen Impedimenter (rad 15, "4,1[...]") döljs av en riven, invikt pappersbit – ny närbild med biten tillbakavikt | ÖPPET |
 | 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | ÖPPET |
