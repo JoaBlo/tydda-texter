@@ -125,7 +125,9 @@ en människa med kännedom om österbottniska bondetermer vore värdefull.
   summeringen och jämförelse med handens 7:or. Läsningen står i transkriptionen som `5,075`
   utan [?]-markering, men är listad under Osäkra passager med motivering. Strikt enligt
   CLAUDE.md borde den skrivas `[5,075?]`.
-**Status:** ÖPPET – (1) normalisera decimaler eller inte, (2) ska fyllnadsstreck numreras,
+**Ditt besked 2026-11-07:** låt det stå som det är (137–145 bokstavligt, 147–149 normaliserat);
+ni återkommer till frågan senare. Inga filer ändras tills dess.
+**Status:** VILANDE – (1) normalisera decimaler eller inte, (2) ska fyllnadsstreck numreras,
 (3) är kontrollräkning ett godtagbart stöd för en läsning (jag tycker ja, men med [?]-markering).
 
 ### 2026-11-07 – Klyvningen 1911 (128–): moderns namn och gode männen
