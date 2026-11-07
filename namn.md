@@ -116,7 +116,16 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Bruno Sarlin; Joel Jurvelius | Landshövding resp. kontrasignant, utslag 1923-12-28 | 060:2–3 | |
 | Herman Uddström | Vasa läns länslantmäterikontor, jordregistret 1924-01-16 | 060:6 | |
 | Anders Liljeström | Poliskonstapel, Purmo, delgivning 1924-02-07 | 060:9–10 | |
-| [Odo?] [Sandelin?] | "På Häradsrättens vägnar" 1925 | 061:9 | Namnteckning, låg säkerhet |
+| Odo Sandelin | "På Häradsrättens vägnar" 1925 (namnteckning); "På Domareembetets vägnar" 1934 (maskinskrivet) | 061:9, 119:2 | Maskinskrivet namn 1934 bekräftar läsningen av namnteckningen 1925 |
+| Aili Skog; Aina Nyman; Aune Kielinen | Vittnen till fullmakter 1934 | 118:4, 118:9 | |
+| Anders Lasén | Stämningsman, delgivning Purmo 1934-08-16 | 119:22 | = "A. Lasen" 114:20; jfr Anders Lassen 1925 |
+| Johannes Lindahl | Vittne till delgivningen 1934 | 119:24 | |
+| Johannes Enlund | Nämndeman, delgivning 1934-08-23 | 122:1 | |
+| Wilhelm / Vilhelm Blomberg | Vittne 1934; godeman 1940 | 118:4, 122:3, 065:25 | |
+| Matts Sandstedt (bonde); Otto Nyman (affärsman) | Vittnen i vräkningsmålet 1934, Överpurmo | 122:12 | |
+| August Kecklund; Senja Kecklund | Vittnen till Edla Svanbäcks fullmakt 1936; August även testamentsvittne 1929 | 124:16, 125:12 | |
+| Edla Cederberg | Testamentsvittne 1929 | 125:12 | |
+| Nils Berg | "På domarämbetets vägnar", t.f., 1936 | 125:18 | |
 | H. L. Harri | Mantalsskrivare (stämpel) | 057 marg. | |
 | Herman [Hästö?] | Intygar annotation i 1951 års mantalslängd, Purmo 1951-05-08 | 062 marg. | Efternamnet osäkert |
 | John Nymark | "Sålt till John Nymark 1966" (Brännkärret) | 062 marg. | Kan läsas Nymans |
@@ -226,7 +235,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 Omslaget (012) anger: "b) 1–13, Utdrag av lagfartsprotokoll 1848 – – 1950". Handlingarna är numrerade med blyerts "b: 1" … "b: 13" i övre högra hörnet. b: 13 slutar på 075.
 
 Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1942"): d: 1 = 089–091 (1869-03-15 § 14), d: 2 = 092–099 (1869-10-01 § 47, fastställelse av försäljningen av de omyndigas andel), d: 3 = 100–101 (1909-02-06 § 6), d: 4 = 102–104 (urtima ting 1942-12-14 § 2, godmanskap för syskonen Svanbäck).
-Omslag e: e: 1 = 106–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39).
+Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39); e: 3 = 117–123 (vräkningsmål Björklund mot Asp, 1934-09-07 § 41 – Björklund förlorar och åläggs ge Asps gåvobrev på stugan och två kappland); e: 4 = 124– (testamentsbevakning efter Anders Svanbäck, 1936-08-31 § 18).
 
 Omslag c (077 post-it: "utdrag av inteckningsprotokoll C:1 C:2 1867 – – 1877"): c: 1 = 077–082, c: 2 = 083–.
 
@@ -258,6 +267,8 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Skrivmaskin 1916 | 054–056 | Spärrad maskinskrift, "-" som avstavning, kommatecken utan mellanslag; handskriven bläckrättelse "(lagfarts)" 054:2 |
 | Skrivmaskin 1925 | 057–061 | Ljust/slitet färgband; P och R svagt tryckta; exponenter (RN:o 23⁴) på raden ovanför; felslag ("dedan", "omb det", "Ört") |
 | Skrivmaskin 1950 | 062– | Tydligare, mörkare typsnitt; spärrad skrift för lägenhetsnamn; understrykningar av namn; exponenter på raden ovanför |
+| Skrivmaskin 1934 | 112–123 | Mörkt tydligt typsnitt, dubbelt radavstånd, mellanslag efter komma |
+| Skrivmaskin 1936 | 124– | Smalare, ljusare typer; versalerna P/E/K/M/J/S står upphöjda och svagt tryckta |
 | Stämplar och sena anteckningar 1925–1970 | 057, 062 | Blå stämpel "Merkitty v. 19… henkikirjaan / Annot. i 19… års mantalslängd / H. L. HARRI"; lodrät bläckanteckning 1951 i vänstermarginalen; blått bläck "Sålt till John Nymark 1966"; makuleringsstämplar "MAKULERAD … MITÄTÖN" 1966 och 3 juli 1970 |
 | Modern blyerts | 001, 012, 013, 015, 027, 037, 039, 042, 051, 054, 057, 062 | Handlingsnummer "b: 1" … "b: 13" och omslagstext. (017–026 saknar synligt b-nummer; b: 4–5 är troligen 016 och 024.) |
 | Bläck överst mitt på bladet | 016 ("§: 2."), 024 ("§ 44"), 042 ("№: 55. 191[?]") | Akt-/löpnummer, inte paragrafnummer |
