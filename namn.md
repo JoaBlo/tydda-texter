@@ -25,7 +25,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Johan Jonesson Lassfolk | Vittne 1843 | 004:13 | "Jonesson" som det står; väntat "Jonasson" |
 | Carl Carlsson Lassfolk | Vittne 1843 | 004:15 | |
 | J: Bäck | Skrivare av köpebrevet 1843 ("af J: Bäck") | 004:17 | |
-| Carl Ulrich Roschier | Undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25 | Rättat från "Erich" efter dubbelläsning. Under namnet en liten förkortning "[ssl/fsl?]" |
+| Carl Wilhelm Roschier | Vice häradshövding, förordnad domhavande; undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25, 276:1 | 276:1 skriver namnet i klartext "Carl Wilhelm Roschier". Namnteckningen 014/015 lästes först "Erich", sedan "Ulrich" – nu [Wilhelm/Ulrich?]. Under namnet "[ssl/fsl?]" |
 | [...?] Aminoff; [Hans?] Ernst Aminoff | "På Härads Rättens vägnar" 1848; påteckning "Belagdt såsom Bilaga" på köpebrevet 1836 | 011:7, 205 marg. | Efternamnet enligt dubbelläsaren (A-m-i-n-o-ff); förnamnet oläsligt |
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
 | Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868; d. 1868-11-06, bouppteckning 1869-03-30 (178–183, två exemplar, inventarium 85 mark) | 016:24, 017:15–17, 178 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
@@ -56,6 +56,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | V Bäckfors | Tar emot arrende för Brännkärr t.o.m. 1932 (2 mark/år) | 257:5 | |
 | Hugo Blomberg; Irene Blomberg | Vittnen 1948 | 258:10–11 | |
 | A. Svarfvar; [J?] Haapbaka | Granskar förmyndarredovisningen 1914 (med S. Nybränn) | 264:10–11 | A. Svarfvar även 191 marg. |
+| Alfred Villman (Alfr. [Villman?]) | Sampos agent, Bennäs, Lillby; premiekvitto 1940 | 271:2, 272:9 | Kan vara "Lillman" |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
 | Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
@@ -249,6 +250,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1881-08-16 | Slutavräkning av Strengbergslånet: 681,88 mark | 247 |
 | 1914-06-05 – 1916-07-14 | Utlösningskvitton: syskonen får 125 Fmk vardera av Jakob Björklund; Herman 1726,91 Fmk i föräldraarv | 248–251 |
 | 1928-07-02 – 1940-08-21 | Jakob Björklund lånar 35 000 mark av torparen Anders Svanbäck (sin svärfar) till 7 %; avbetalt 1929–1940 | 253–256 |
+| 1849-09-28 | Fastebrev § 135 för B:n Jacob Jacobsson Sandnabba (Carl Wilhelm Roschier) – omslag u | 276– |
+| 1939-06-09 | Sampo skogsbrandförsäkring N:o 43064, Björklund N:o 1, ca 13 ha, 40 000 Fmk | 271–275 |
 | 1876-06-20 | Köpebrev (Svartå, Karis): Matts Jakobsson säljer sin halva av Sandnabba till brodern Jakob för 2500 mark – g: 2 | 224–226 |
 | 1911-07-01 | Arrendekontrakt: Maria Andersdotter arrenderar ut sin torplägenhet till Jakob Jakobsson (Björklund) | 217–218 |
 | 1848-05-15 | Bouppteckning efter Lisa Andersdotter (Jakob Jakobsson d.y. ärver 5/504) | 032:23–033:2 |
@@ -310,6 +313,8 @@ Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): tro
 Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–223, originalhandlingar (blyerts "g: 1. 2" på 207, "g: 1. 6" på 215, "g: 1. 7" på 217): köpebrev 1836 (204–206), köpebrev 1843 med kvittens (207–208), köpebrev 1878 (209), afhandling 1856 med uppbudspåskrift 1857 (210–211), afhandling 1868 med uppbudspåskrifter 1869–70 (212–213), utlösenkvitto 1878 (214), torpkontrakt 1889 i två exemplar (215–216), arrendekontrakt 1911 i två exemplar 217–218, gåvobrevet 1913 i original 219–223 med uppbudspåskrifter 1915–16; blyerts "g: 1. 7" på 217). g: 2 (224 post-it: "Köpebrev 1876 -- 1966") = 224–231 (köpebrev 1876-06-20 Svartå, Karis; köpebrev Brännkärret 1922 Bäckfors→Nyman→Björklund, 227–229; köpebrev 1966 Björklund→Nymark, 230–231). g: 5 (blyerts "g:5.4" på 250, "g:5.7" på 253) = kvitton och skuldsedlar: originalskuldsedeln 1867 (246–247) med räntekvittenser till slutavräkningen 1881; utlösningskvitton 1914 (248–250), Hermans arv 1916 (251), Bergers räkning 1923 (252), skuldsedel till Anders Svanbäck 1928–1940 (253–256).
 g: 5 forts.: arrendekvitto 1932 (257), Agnes Novéns arvskvitto 1948 (258), Dagny Björklunds utlösningskvitto 1950, g:5.10 (259), Ines Wennbergs kvitto 1965, g:5.1[1/4?] (260).
 g: 6 (261 post-it: "g:6 Övriga räkenskapshandlingar 1913 – – 1939"): g:6.1 räkning till Milton Björklund ca 1950 (262); förmyndarredovisningar för Herman 1913–1916, akt "N:o 95" (263–267–).
+g: 6 forts.: Maja Lena Eriksdotters förmyndarredovisning för Herman t.o.m. 1913 (268, höger halva); fånghistoria för 5/96 Sandnabba 1843–1916, maskinskriven, "g: 6. 3" (269–270); Sampos skogsbrandförsäkring N:o 43064 för Björklund N:o 1, 1939, "g: 6. 4" (271–275).
+Omslag u (276 post-it: "u: Diverse handlingar 1849 – – 1949"): fastebrev § 135, 1849-09-28 (276–).
 g: 3 (232 post-it: "Kontrakt 1913 – – [1951/1957?]") = 232– (sytningskontrakt 1913-01-20, två exemplar 233–236).
 Namnen på lägenheterna efter klyvningen 1911 (149): 8¹ Björklund, 8² Uppgård, 8³ Södergård, 8⁴ Gammalgård, 8⁵ Rönnbacka, 8⁶ Nygård, 8⁷ Sandnabba, 8⁸ Norrgård.
 
