@@ -245,7 +245,7 @@ Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1
 Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39); e: 3 = 117–123 (vräkningsmål Björklund mot Asp, 1934-09-07 § 41 – Björklund förlorar och åläggs ge Asps gåvobrev på stugan och två kappland); e: 4 = 124– (testamentsbevakning efter Anders Svanbäck, 1936-08-31 § 18).
 
 e: 4 = 124–127 (avskrift bestyrkt 1942).
-Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet = 135– (tryckt tvåspråkig blankett "Kaava Formulär N:o 5").
+Omslag f (128 post-it: "f / Klyvning av Sandnabba / Skattehemman, 1911"): förrättningsprotokoll N:o 938 = 128–134 (Aino Berger, bestyrkt Jakobstad 1911-11-20); utdrag ur delningsinstrumentet för 8¹ Björklund = 135–145 (tryckt tvåspråkig blankett "Kaava Formulär N:o 5", Purmo 1911-08-01, bestyrkt Jakobstad 1912-[03?]-06; Björklund ⅛ = 0,0521 mantal, 65,160 ha, tre skiften: Hemskiftet, Nabbskiftet, Storbacksmossan); titelblad till fullständigt delningsinstrument = 146 (godkänt Nikolaistad 1913-05-09, infört i jordregistret 1913-05-30), fortsätter troligen 147–.
 
 Omslag c (077 post-it: "utdrag av inteckningsprotokoll C:1 C:2 1867 – – 1877"): c: 1 = 077–082, c: 2 = 083–.
 
@@ -335,6 +335,14 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Lösen & stämpelm. / Kungörelse / Summa; Lösen / Stämpel / Reg. / Kung. / Bevis / Summa | maskinskriven avgiftsspecifikation 1925 resp. 1950 |
 | LEIMAMERKKI / STÄMPELMÄRKE, MARKKAA / MARK | stämpelmärken med finsk/svensk text (1925–1950) |
 | ha, ar | hektar, ar |
+| Kytta / Kyttor | svedjemark (fi. kytö) – ägoslag 1911 |
+| Ren; Mo, Myra, Lågmo, Lågmark | åkerren; ägoslag |
+| 479ᵃ | egofigur med upphöjt understruket a |
+| 6₅ | grad med nedsänkt decimal (= 6,5) |
+| 0055 | belopp utan decimalkomma (= 0,055), delningsinstrumentet 1911 |
+| Transport | överförd summa överst/nederst på tabellsida |
+| Nikolaistad | Vasa (officiellt namn 1855–1917) |
+| Hemskiftet, Nabbskiftet, Storbacksmossan; Forsaskyttan; Baptist bönehustomt parcellen | ägonamn vid klyvningen 1911 |
 | K. B. I sid. 253 | kyrkbok (kommunionbok) del I, sida (067:1) |
 | Uppsl. i förs.-boken | uppslag i församlingsboken (067:24) |
 | sk. | skatte (naturkolumn i jordregistret) |

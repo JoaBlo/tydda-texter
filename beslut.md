@@ -66,6 +66,18 @@ anmäler. Och om Greta dog 1864 kan Petter f. 1867 bara vara Beatas.
 **Status:** ÖPPET – troligen anmäler Beata för hela barnkullen och protokollets formulering är
 slarvig, men du kanske vet från kyrkböckerna.
 
+### 2026-11-07 – Siffertabellerna i delningsinstrumentet (136–)
+- **Decimalkomma:** lantmätaren skriver oftast "0055" utan komma (= 0,055), ibland "37.530",
+  ibland "5,075". Återgivet bokstavligt med förklaring i varje fil.
+- **Fyllnadsstreck "= = =":** har inte fått egna radnummer, bara en anmärkning.
+- **Kontrollräkning:** läsaren räknade areal × grad / 10 och alla summor – allt går ihop, vilket
+  ger hög säkerhet. Men i 143:24 läste den en siffra som ser ut som 9 som en 7, med stöd av
+  summeringen och jämförelse med handens 7:or. Läsningen står i transkriptionen som `5,075`
+  utan [?]-markering, men är listad under Osäkra passager med motivering. Strikt enligt
+  CLAUDE.md borde den skrivas `[5,075?]`.
+**Status:** ÖPPET – (1) normalisera decimaler eller inte, (2) ska fyllnadsstreck numreras,
+(3) är kontrollräkning ett godtagbart stöd för en läsning (jag tycker ja, men med [?]-markering).
+
 ### 2026-11-07 – Klyvningen 1911 (128–): moderns namn och gode männen
 - Lantmäteriprotokollet kallar jordägaren på littera 1 "Enkan **Maria** Eriksdotter, mor till
   bonden Jakob Jakobsson" (129:20). Överallt annars heter hon Maja/Maria Lena Eriksdotter.
