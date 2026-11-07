@@ -46,6 +46,17 @@ läsaren av 037–046 behöll snedstrecken.
 **Status:** ÖPPET. Mitt förslag: behåll snedstrecken bokstavligt ("som det står")
 och låt mig rätta 047–053. Säg till så gör jag det.
 
+### 2026-11-07 – Lokalkännedom efterfrågas
+Läsarna har bett om hjälp med några namn som kräver lokal- eller släktkännedom:
+- 031:17 Beata Simonsdotters gårdsnamn: `[Hennabba/Stennabba?]`
+- 036:5 domhavandens namnteckning 1869: `[Hj. W. Sarck?]`
+- 023:16 / 026:21 samma oläsliga namnteckning 1857–58 ("Jondre Kujulin"?)
+- 061:9 namnteckning 1925: `[Odo?] [Sandelin?]`
+- 057/062 Anders Lassen (1925) och Ivar Lasén (1949–50) – samma person?
+- 018:24 sytningsvara "quins [Riaxa?]"
+- 033:7 bråket "5/436" (ger inget rimligt mantal; 336 eller 432?)
+**Status:** ÖPPET.
+
 ### 2026-11-07 – Parallella omgångar och dokumentgränser
 **Fråga:** Omgångarna om 10 bilder körs av olika läsare samtidigt, så den som
 börjar på t.ex. 027 vet inte säkert vad 026 innehåller.
@@ -67,7 +78,9 @@ skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarn
 | 2026-11-07 | Vem committar | Bara jag, per omgång; agenterna rör inte git | Undviker krockar | – |
 | 2026-11-07 | Vem skriver i namn.md | Bara jag; agenterna rapporterar nya namn till mig | Undviker skrivkrockar | – |
 | 2026-11-07 | Avgiftsanteckningen "Chsa" i 001 | Tolkad som "Ch. S:a" = Charta Sigillata, efter att 013 visade formeln tydligt | Jämförelse inom materialet | Ja |
-| 2026-11-07 | Beteckning på skrivarhänder | Två läsare döpte olika händer till "E". namn.md gäller: E = 1870 (Wilander), F = 1915. Filerna 047–053 säger "E" men menar F | Först till kvarn i namn.md | Ja, kosmetiskt |
+| 2026-11-07 | Beteckning på skrivarhänder | Flera läsare döpte olika händer till "E"/"F". namn.md gäller (A–H + skrivmaskiner), och namn.md listar vilka filer som använder fel bokstav. Filerna är inte ändrade | Billigare än att ändra 30 filer; kosmetiskt | Ja |
+| 2026-11-07 | Maskinskrivna dokument (054–066, troligen fler) | Samma filformat och radnumrering som för handskrift; skrivfel i originalet återges som de står och noteras | Konsekvens | Ja |
+| 2026-11-07 | Strukna ord i rubriken 027:4–7 (fel tingslag) | Återgivna som ~~överstrukna~~ följda av den rättade texten | CLAUDE.md: behåll överstrykningar | – |
 | 2026-11-07 | Dubbelläsarens fynd av omarkerade fel (t.ex. "april" med gement a, 003:20, 008:2; "hu=" 004:9; "alltså"/"deltså" 010:2) | Står kvar i sektionen Dubbelläsning; transkriptionen oförändrad | Samma princip som för markerade avvikelser | Ja – se öppen post ovan |
 
 ---
