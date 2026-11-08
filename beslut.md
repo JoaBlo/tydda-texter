@@ -11,6 +11,55 @@ Status markeras så här:
 
 ## Beslut som väntar på dig
 
+### 2026-11-08 – namn.md: "Förekomster" med alla förekomster och belägg för varje roll
+**Vad jag gjorde:** tre läsare gick igenom alla 242 rader (206 personer, 36 orter) med
+sökning i all källtext, också över avstavningar. Kolumnen heter nu **Förekomster**, och
+varje påstående i Roll/Vad har fått en källhänvisning (bild:rad). Hänvisningarna är klickbara i
+webbvisaren. Osäker tillskrivning markeras `?`, obelagt `(ej belagt)`. Förklaringen står överst
+under "Personer". CLAUDE.md säger nu "alla förekomster" i stället för "första förekomst".
+**Fel i namn.md som rättats (med källa):** Johan Hansson Philpus var förmyndare för båda barnen
+1818 (151:16–21); H. [Forsgård?] var inte vittne 1878 utan intygar en mantalsanteckning (209);
+"kanslist" Solferin obelagt, struket; Malms hemort anges inte (Jacobstad är utfärdandeorten);
+"Hans Johansson [Vilåfous?]" = Klåfous (323:24); Wilander bara 1870, inte 1869; Maja Lena
+**gåvade** (inte sålde) hemmanet 1913 (219:5); Gotteleben övertog förvaltningen av arvet
+(085:23–086:3), inte "fordran"; Johan Bäcksbacka ägde Nygård 23², inte hela N:o 23 (227:5–6);
+Enlund var vittne 1935 och kvitterade 1940, inte ombud; godemän 1949 var Ivar Lasén och Bertel
+Lindqvist, inte Myhrman (066:27); "Sverige" står inte i 068:3.
+**Kvar som behöver ditt beslut eller kunskap:**
+- *Dubbletter i namn.md* (samma person på två rader): Elisa Andersdotter; Beata Simonsdotter;
+  Herman (f. 1894, två rader); Jusefina/Fina Maria; Jakob 1850–1908; Hilda/Hilma Björklund
+  f. Svanbäck; Anders Lassen 1925 = Anders Lasén 1934 = A. Lasen; Simon/S. Nybränn; Stennabba
+  (två ortrader); förmyndarraderna 1869. Jag har låtit dem stå – vill du att jag slår ihop?
+- *Förmyndarna 1869 motsäger varandra i källan:* 090 "Simon Johansson Sandnabba + Petter
+  Simonsson Stennabba", 092/178/179 "Petter Johansson Sandnabba + Simon Petter Simonsson
+  Stennabba". Troligen skrivfel i 090. Lokalkännedom/kyrkböcker avgör.
+- *Osäkra tillskrivningar* (markerade `?`): "B:n Jacob … Sandnabba" 1857–58 (016:27, 023:17,
+  024:27) – fadern eller sonen? Kuvertet 285 – Jakob d. 1908 eller Jakob Björklund? m.fl.
+- *Källfel:* 089/090 ger Matts och Jakob födelseåren 1850/1851 (HisKi: 1849/1850) och räknar
+  Gretas söner till Beatas barn; 102:9 "Jakob Andersson Björklund" (= Jakobsson); 270:4 ger
+  Fina Marias födelsedag 19/[8?] 1885 mot 048:7 19/2.
+- *Nya fynd att föra in:* Rosbergs förnamn Axel (283:18); Hilda kallas "min mor Maria
+  Björklund" (258:5); roller som saknas: Ingman 1942/1950 (104, 238), Aron Brunberg 1864
+  (177:14), Milton säljer till Nymark 1966, Ines 1943 (243), Agnes 1948 (258), Dagny 1950
+  (259), Ivar Lasén köpvittne 1951 (239), Strömsnäs 1950 (203), Sandelin 1934 (194).
+**Status:** ÖPPET (dubbletter, förmyndarna 1869); övrigt information.
+
+### 2026-11-08 – Tredje läsningen: modellbyte mitt i arbetet (Fable → Opus)
+Du bad om en tredje läsning med **Fable**. Läsarna avbröts av användningsgränsen och när jag
+återupptog dem kl. 12.23 hade sessionen bytts till Opus, så de fortsatte på **Opus 5.5**. Det
+står ärligt på modellraden i varje fil ("Modell: …").
+**Vad jag gjorde:** stoppade läsarna efter pågående fil. Filer som helt lästs av Fable rättas
+nu som vanligt. Filer som lästs helt eller delvis av Opus behåller sin sektion (omdöpt till
+"## Tredje läsning (Opus 5.5)") och läses dessutom om av nya läsare som uttryckligen körs på
+**Fable** ("## Tredje läsning (Fable 5.1)"), tillsammans med de filer som inte hunnit läsas.
+Rättelser görs först när Fable-läsningen finns, och båda läsningarna vägs in.
+**Konvention som behöver ditt beslut:** läsarna föreslår att interlinjära tillägg och
+insättningstecken förs in i själva transkriptionsblocket (t.ex. 229:1 "parcell" ovanför raden,
+228:19 insättningstecken som lästs som "&", 326:16 tecken före "förordnad"). I dag beskrivs
+sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** ÖPPET.
+**Bekräftar-rader:** när tredje läsaren läser samma som de tidigare och anser att [?] kan
+tas bort har jag ändå låtit markeringen stå (default). Säg till om du vill att de tas bort.
+
 ### 2026-11-07 – Dubbelläsningen av 001–016 hittade systematiska fel hos första läsaren (mig)
 **Resultat:** 53 Överens, 9 AVVIKER (4 på rader jag inte markerat som osäkra), 8 Osäker.
 **Avvikelser som troligen ska rättas:**

@@ -15,7 +15,7 @@ Du är en erfaren paleograf. Ta en bild i taget, i filnamnsordning.
 Hoppa över bilder som redan har en fil i transkriptioner/.
 Läs namn.md innan du börjar: där finns personer, orter, skrivarhänder,
 lösta förkortningar och konventioner. Nya namn, orter, händer och
-förkortningar förs in i namn.md med första förekomst (bild:rad).
+förkortningar förs in i namn.md med alla förekomster (bild:rad).
 Efter varje omgång dubbelläses de osäkra passagerna av en annan läsare
 som inte sett transkriptionen; avvikande läsningar antecknas i filen
 under rubriken "Dubbelläsning".
