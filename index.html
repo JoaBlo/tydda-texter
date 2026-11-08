@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tydda texter – Sandnabba</title>
+<meta name="description" content="Bild och transkription sida vid sida för handlingarna från Sandnabba och Härmälä i Purmo, 1802–1966.">
+<style>
+  :root {
+    --bg: #f6f3ec; --panel: #fffdf8; --ink: #22201c; --muted: #6b665c; --line: #ddd6c6;
+    --accent: #7a4a1e; --accent-ink: #fff;
+    --m-unsure: #fff1a8; --m-alt: #ffd59a; --m-unread: #ffb3b3; --m-missing: #d9d9d9; --m-note: #e3ecf7;
+    --ok: #2f7d4f; --mid: #b07a12; --low: #b3261e;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1c1a17; --panel: #262320; --ink: #ece7dc; --muted: #a79f90; --line: #3d382f;
+      --accent: #d9a46a; --accent-ink: #1c1a17;
+      --m-unsure: #6b5a00; --m-alt: #7a4a12; --m-unread: #7a2222; --m-missing: #4a4a4a; --m-note: #2c3d55;
+      --ok: #6fcf97; --mid: #e3b341; --low: #ff7b72;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1c1a17; --panel: #262320; --ink: #ece7dc; --muted: #a79f90; --line: #3d382f;
+    --accent: #d9a46a; --accent-ink: #1c1a17;
+    --m-unsure: #6b5a00; --m-alt: #7a4a12; --m-unread: #7a2222; --m-missing: #4a4a4a; --m-note: #2c3d55;
+    --ok: #6fcf97; --mid: #e3b341; --low: #ff7b72;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-size: 16px; display: flex; flex-direction: column; }
+  a { color: var(--accent); }
+  button, input, select { font: inherit; color: inherit; }
+  button { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  button[disabled] { opacity: .4; cursor: default; }
+  input[type=text], input[type=search], select { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; }
+
+  header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 8px 16px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 5; }
+  header h1 { font-size: 17px; margin: 0 12px 0 0; font-family: var(--serif); font-weight: normal; }
+  header nav { display: flex; gap: 4px; }
+  header nav button.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .spacer { flex: 1; }
+  .pager { display: flex; gap: 4px; align-items: center; }
+  .pager input { width: 4.5em; text-align: center; font-family: var(--mono); }
+  .pager select { max-width: 42vw; }
+  .kbd { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+
+  main { flex: 1; min-height: 0; display: grid; grid-template-columns: 1fr 6px 1fr; }
+  main.list-mode { display: block; overflow: auto; }
+  #splitter { background: var(--line); cursor: col-resize; }
+  #splitter:hover { background: var(--accent); }
+
+  /* bild */
+  #imgpane { position: relative; overflow: hidden; background: #2a2a2a; user-select: none; touch-action: none; }
+  #imgpane img { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; cursor: grab; max-width: none; }
+  #imgpane img.dragging { cursor: grabbing; }
+  #imgtools { position: absolute; left: 10px; top: 10px; display: flex; gap: 4px; z-index: 2; }
+  #imgtools button { padding: 4px 9px; }
+  #imgstatus { position: absolute; right: 10px; bottom: 8px; color: #ddd; font-size: 12px; background: rgba(0,0,0,.45); padding: 2px 6px; border-radius: 4px; }
+  #imgload { position: absolute; inset: 0; display: grid; place-items: center; color: #bbb; pointer-events: none; }
+
+  /* text */
+  #textpane { overflow: auto; padding: 16px 20px 60px; background: var(--panel); }
+  #textpane.fs-s { font-size: 14px; } #textpane.fs-l { font-size: 18px; } #textpane.fs-xl { font-size: 21px; }
+  .pagehead { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+  .pagehead h2 { margin: 0; font-family: var(--serif); font-weight: normal; font-size: 1.5em; }
+  .badge { font-size: .8em; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .badge.sak-hög { border-color: var(--ok); color: var(--ok); }
+  .badge.sak-medel { border-color: var(--mid); color: var(--mid); }
+  .badge.sak-låg { border-color: var(--low); color: var(--low); }
+  .doktyp { font-family: var(--serif); line-height: 1.45; margin: 4px 0 14px; }
+  .muted { color: var(--muted); }
+
+  .transk { font-family: var(--mono); line-height: 1.6; margin: 0 0 8px; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--bg); overflow-x: auto; }
+  .ln { display: grid; grid-template-columns: 3.2em 1fr auto; gap: 0 8px; align-items: baseline; }
+  .ln:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .ln .n { color: var(--muted); text-align: right; font-size: .85em; user-select: none; }
+  .ln .t { white-space: pre-wrap; word-break: break-word; }
+  .ln .q { border: 0; background: none; color: var(--accent); padding: 0 4px; font-size: .85em; visibility: hidden; }
+  .ln.has-note .q { visibility: visible; }
+  .ln .expl { grid-column: 2 / 4; font-family: var(--sans); font-size: .85em; color: var(--muted); border-left: 3px solid var(--accent); padding: 2px 8px; margin: 2px 0 6px; white-space: normal; }
+  .ln .expl b { color: var(--ink); }
+  .ln .expl.hidden { display: none; }
+  mark { padding: 0 2px; border-radius: 3px; color: inherit; }
+  mark.unsure { background: var(--m-unsure); }
+  mark.alt { background: var(--m-alt); }
+  mark.unread { background: var(--m-unread); }
+  mark.missing { background: var(--m-missing); }
+  mark.note { background: var(--m-note); font-style: italic; }
+  del { background: color-mix(in srgb, var(--low) 15%, transparent); }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .8em; color: var(--muted); margin: 4px 0 16px; }
+  .legend mark { font-family: var(--mono); }
+
+  details { border: 1px solid var(--line); border-radius: 8px; margin: 8px 0; background: var(--bg); }
+  details > summary { cursor: pointer; padding: 8px 12px; font-weight: 600; list-style: none; display: flex; align-items: center; gap: 8px; }
+  details > summary::before { content: "▸"; color: var(--muted); font-size: .9em; }
+  details[open] > summary::before { content: "▾"; }
+  details > .body { padding: 2px 14px 12px; line-height: 1.5; }
+  .md table { border-collapse: collapse; width: 100%; margin: 6px 0; font-size: .92em; }
+  .md th, .md td { border: 1px solid var(--line); padding: 4px 8px; vertical-align: top; text-align: left; }
+  .md th { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+  .md code { font-family: var(--mono); font-size: .92em; background: color-mix(in srgb, var(--accent) 10%, transparent); padding: 0 3px; border-radius: 3px; }
+  .md pre { font-family: var(--mono); white-space: pre-wrap; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+  .md h1 { font-size: 1.5em; font-family: var(--serif); font-weight: normal; }
+  .md h2 { font-size: 1.25em; margin-top: 1.4em; border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+  .md h3 { font-size: 1.05em; }
+  .md ul { padding-left: 1.3em; }
+  .md tr.avviker td { background: color-mix(in srgb, var(--mid) 12%, transparent); }
+  .md tr.overens td { }
+  .filelink { font-size: .85em; }
+
+  /* lista / sök */
+  .listwrap { max-width: 1100px; margin: 0 auto; padding: 16px 20px 60px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .filters input[type=search] { flex: 1; min-width: 240px; }
+  table.pages { width: 100%; border-collapse: collapse; font-size: .95em; }
+  table.pages th, table.pages td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+  table.pages th { position: sticky; top: 0; background: var(--panel); cursor: pointer; }
+  table.pages td.nr a { font-family: var(--mono); font-weight: 600; text-decoration: none; }
+  table.pages tr:hover td { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .snip { font-family: var(--mono); font-size: .85em; color: var(--muted); white-space: pre-wrap; }
+  .snip b { color: var(--ink); background: var(--m-unsure); }
+  .stats { display: flex; flex-wrap: wrap; gap: 14px; margin: 8px 0 16px; color: var(--muted); font-size: .9em; }
+
+  .imghint { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); color: #ccc; font-size: 12px; background: rgba(0,0,0,.45); padding: 2px 8px; border-radius: 4px; pointer-events: none; }
+
+  @media (max-width: 900px) {
+    main { grid-template-columns: 1fr; grid-template-rows: 45vh 0 1fr; }
+    #splitter { display: none; }
+    main.text-only { grid-template-rows: 0 0 1fr; } main.text-only #imgpane { display: none; }
+    main.img-only { grid-template-rows: 1fr 0 0; } main.img-only #textpane { display: none; }
+    .pager select { max-width: 60vw; }
+    .onlymobile { display: inline-flex; }
+  }
+  @media (min-width: 901px) { .onlymobile { display: none; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Tydda texter · Sandnabba &amp; Härmälä</h1>
+  <nav>
+    <button data-view="page" class="active">Sida</button>
+    <button data-view="list">Översikt &amp; sök</button>
+    <button data-view="namn">Namn &amp; orter</button>
+    <button data-view="beslut">Beslut</button>
+    <button data-view="om">Om</button>
+  </nav>
+  <span class="spacer"></span>
+  <div class="pager" id="pager">
+    <button id="first" title="Första (Home)">⏮</button>
+    <button id="prev" title="Föregående (←)">◀ Föreg.</button>
+    <input type="text" id="goto" inputmode="numeric" title="Skriv sidnummer och tryck Enter">
+    <span class="muted">/ <span id="total">–</span></span>
+    <button id="next" title="Nästa (→)">Nästa ▶</button>
+    <button id="last" title="Sista (End)">⏭</button>
+    <select id="jump" title="Hoppa till sida"></select>
+  </div>
+  <div class="pager">
+    <button class="onlymobile" id="togglePane" title="Växla bild/text">Bild/Text</button>
+    <button id="fsMinus" title="Mindre text">A−</button>
+    <button id="fsPlus" title="Större text">A+</button>
+    <button id="theme" title="Ljust/mörkt">☾</button>
+  </div>
+</header>
+
+<main id="main">
+  <div id="imgpane">
+    <div id="imgtools">
+      <button id="zfit" title="Anpassa till rutan (0)">Anpassa</button>
+      <button id="zout" title="Zooma ut (−)">−</button>
+      <button id="zin" title="Zooma in (+)">+</button>
+      <button id="z100" title="Full upplösning (1)">1:1</button>
+      <button id="zrot" title="Vrid 90°">⟳</button>
+    </div>
+    <div id="imgload">Laddar bild …</div>
+    <img id="img" alt="" draggable="false">
+    <div id="imgstatus"></div>
+    <div class="imghint">Scrolla = zooma · dra = flytta · dubbelklick = zooma in</div>
+  </div>
+  <div id="splitter"></div>
+  <div id="textpane"></div>
+</main>
+
+<script>
+(() => {
+  const $ = s => document.querySelector(s);
+  const REPO = "https://github.com/JoaBlo/tydda-texter/blob/main/";
+  let pages = [], idx = 0, view = "page", mdCache = {};
+  const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+  /* ---------- liten markdown-renderare ---------- */
+  function inline(s) {
+    s = esc(s);
+    s = s.replace(/`([^`]+)`/g, (m, c) => "<code>" + markUp(c) + "</code>");
+    s = s.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");
+    s = s.replace(/~~([^~]+)~~/g, "<del>$1</del>");
+    s = s.replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s).,;:]|$)/g, "$1<i>$2</i>");
+    s = s.replace(/\[\[([^\]]+)\]\]/g, "$1");
+    s = s.replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+    s = s.replace(/(^|[^"'>])(https?:\/\/[^\s<)]+)/g, '$1<a href="$2" target="_blank" rel="noopener">$2</a>');
+    s = s.replace(/\b(\d{3}):(\d{1,3})\b/g, (m, p, r) => pages.find(x => x.nr === p) ? `<a href="#${p}" title="Gå till bild ${p}, rad ${r}" data-rad="${r}">${m}</a>` : m);
+    return s;
+  }
+  function renderMd(src, opts = {}) {
+    const lines = src.split("\n"); let out = [], i = 0;
+    while (i < lines.length) {
+      let l = lines[i];
+      if (/^```/.test(l)) { let b = []; i++; while (i < lines.length && !/^```/.test(lines[i])) b.push(lines[i++]); i++; out.push("<pre>" + esc(b.join("\n")) + "</pre>"); continue; }
+      if (/^#{1,4} /.test(l)) { const n = l.match(/^#+/)[0].length; out.push(`<h${n}>${inline(l.replace(/^#+ /, ""))}</h${n}>`); i++; continue; }
+      if (/^---+\s*$/.test(l)) { out.push("<hr>"); i++; continue; }
+      if (/^\|/.test(l)) {
+        let rows = []; while (i < lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
+        rows = rows.filter(r => !/^\|[\s:|-]+\|?\s*$/.test(r));
+        const cells = r => r.replace(/^\||\|\s*$/g, "").split("|").map(c => c.trim());
+        let h = "<table>"; rows.forEach((r, k) => {
+          const cs = cells(r); const cls = /AVVIKER/.test(r) ? ' class="avviker"' : "";
+          h += `<tr${cls}>` + cs.map(c => `<${k ? "td" : "th"}>${inline(c)}</${k ? "td" : "th"}>`).join("") + "</tr>";
+        }); out.push(h + "</table>"); continue;
+      }
+      if (/^\s*[-*] /.test(l)) { let h = "<ul>"; while (i < lines.length && /^\s*[-*] /.test(lines[i])) h += "<li>" + inline(lines[i++].replace(/^\s*[-*] /, "")) + "</li>"; out.push(h + "</ul>"); continue; }
+      if (/^\s*\d+\. /.test(l)) { let h = "<ol>"; while (i < lines.length && /^\s*\d+\. /.test(lines[i])) h += "<li>" + inline(lines[i++].replace(/^\s*\d+\. /, "")) + "</li>"; out.push(h + "</ol>"); continue; }
+      if (!l.trim()) { i++; continue; }
+      let p = []; while (i < lines.length && lines[i].trim() && !/^(#|\||```|---|\s*[-*] )/.test(lines[i])) p.push(lines[i++]);
+      out.push("<p>" + inline(p.join(" ")) + "</p>");
+    }
+    return out.join("\n");
+  }
+
+  /* ---------- markeringar i transkriptionen ---------- */
+  function markUp(s) {
+    // s är redan HTML-escapad
+    return s
+      .replace(/~~([^~]+)~~/g, "<del>$1</del>")
+      .replace(/\[oläsligt\]/g, '<mark class="unread" title="Går inte att läsa">[oläsligt]</mark>')
+      .replace(/\[\.\.\.\]/g, '<mark class="missing" title="Skadad, dold eller saknad text">[...]</mark>')
+      .replace(/\[([^\[\]]*?)\?\]/g, (m, w) => /\//.test(w) ? `<mark class="alt" title="Två möjliga läsningar">[${w}?]</mark>` : `<mark class="unsure" title="Osäker läsning">[${w}?]</mark>`)
+      .replace(/\[(bomärke|sigill|stämpel|oläslig[^\]]*|[^\]]*namnteckning[^\]]*|[^\]]*struket[^\]]*|[^\]]*överstruket[^\]]*)\]/gi, '<mark class="note" title="Läsarens beskrivning, inte text i källan">[$1]</mark>')
+      .replace(/\((bomärke)\)/g, '<mark class="note" title="Läsarens beskrivning">($1)</mark>');
+  }
+
+  /* ---------- sidvisning ---------- */
+  function splitSections(md) {
+    // returnerar {head, sections:[{title, body}]}
+    const parts = md.split(/^(?=## )/m);
+    const head = parts.shift() || "";
+    return { head, sections: parts.map(p => { const m = p.match(/^## (.*)\n?/); return { title: m ? m[1].trim() : "", body: p.slice(m ? m[0].length : 0) }; }) };
+  }
+  function parseOsakra(body) {
+    const map = {};
+    body.split("\n").filter(l => /^\|/.test(l) && !/^\|[\s:|-]+\|?\s*$/.test(l)).slice(1).forEach(r => {
+      const c = r.replace(/^\||\|\s*$/g, "").split("|").map(x => x.trim());
+      if (c.length < 3) return;
+      const key = c[0].replace(/[`*]/g, "").trim();
+      (map[key] = map[key] || []).push({ guess: c[1], why: c.slice(2).join(" | ") });
+    });
+    return map;
+  }
+  function renderTransk(block, notes) {
+    const rows = block.split("\n");
+    let h = '<div class="transk">';
+    for (const r of rows) {
+      if (!r.trim()) continue;
+      const m = r.match(/^(\S{1,5})\s{2,}(.*)$/) || r.match(/^([0-9]+|[A-Z][0-9]+)$/);
+      let n = "", t = r;
+      if (m) { n = m[1]; t = m[2] || ""; } else if (/^\s{4,}/.test(r)) { n = ""; t = r.replace(/^\s+/, ""); }
+      const key = n.replace(/\.$/, "");
+      const ns = (notes[key] || []).concat(n === "" ? [] : []);
+      const has = ns.length > 0;
+      h += `<div class="ln${has ? " has-note" : ""}" data-rad="${esc(key)}"><span class="n">${esc(n)}</span><span class="t">${markUp(esc(t))}</span>`;
+      h += has ? `<button class="q" title="Visa varför raden är osäker">?</button>` : "<span></span>";
+      if (has) h += `<div class="expl hidden">` + ns.map(x => `<div><b>${inline(x.guess)}</b> – ${inline(x.why)}</div>`).join("") + `</div>`;
+      h += "</div>";
+    }
+    return h + "</div>";
+  }
+  function sakClass(s) { s = (s || "").toLowerCase(); if (s.startsWith("hög")) return "sak-hög"; if (s.startsWith("låg")) return "sak-låg"; return "sak-medel"; }
+
+  async function loadMd(path) {
+    if (mdCache[path]) return mdCache[path];
+    const r = await fetch(path, { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status + " " + path);
+    return (mdCache[path] = await r.text());
+  }
+
+  async function showPage(i, rad) {
+    idx = Math.max(0, Math.min(pages.length - 1, i));
+    const p = pages[idx];
+    location.hash = p.nr + (rad ? ":" + rad : "");
+    $("#goto").value = p.nr; $("#jump").value = p.nr;
+    $("#prev").disabled = idx === 0; $("#next").disabled = idx === pages.length - 1;
+    document.title = `${p.nr} – Tydda texter`;
+    loadImage(p.bild);
+    const tp = $("#textpane");
+    tp.innerHTML = `<p class="muted">Laddar ${p.fil} …</p>`;
+    let md; try { md = await loadMd(p.fil); } catch (e) { tp.innerHTML = `<p>Kunde inte läsa ${esc(p.fil)} (${esc(e.message)}).</p>`; return; }
+    const { head, sections } = splitSections(md);
+    const dok = (head.match(/^\*\*Dokumenttyp:\*\*\s*(.+)$/m) || [, ""])[1];
+    const headRest = head.replace(/^# .*\n/, "").replace(/^\*\*Dokumenttyp:\*\*.*$/m, "").trim();
+    const transk = sections.find(s => s.title === "Transkription");
+    const osak = sections.find(s => /^Osäkra passager/.test(s.title));
+    const notes = osak ? parseOsakra(osak.body) : {};
+    let block = "", anm = "";
+    if (transk) { const m = transk.body.match(/```\n([\s\S]*?)```([\s\S]*)/); if (m) { block = m[1]; anm = m[2].trim(); } else block = transk.body; }
+    const flags = [];
+    if (p.dubbel) flags.push("dubbelläst"); if (p.rattad) flags.push("rättad"); if (p.tredje) flags.push("tredje läsning"); if (p.extern) flags.push("extern källa");
+    let h = `<div class="pagehead"><h2>Bild ${p.nr}</h2>
+      <span class="badge ${sakClass(p.sakerhet)}" title="Läsarens helhetsbedömning">Säkerhet: ${esc(p.sakerhet || "–")}</span>
+      <span class="badge" title="Antal osäkerhetsmarkeringar i transkriptionen">${p.osakra} osäkra</span>
+      ${flags.map(f => `<span class="badge">${f}</span>`).join("")}
+      <a class="filelink" href="${REPO}${p.fil}" target="_blank" rel="noopener">.md på GitHub</a></div>`;
+    h += `<div class="doktyp">${inline(dok)}</div>`;
+    h += renderTransk(block, notes);
+    h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
+    const det = (title, body, open) => body && body.trim() ? `<details${open ? " open" : ""}><summary>${esc(title)}</summary><div class="body md">${renderMd(body)}</div></details>` : "";
+    if (anm) h += det("Anmärkningar till transkriptionen", anm.replace(/^Anmärkningar:\s*/i, ""), false);
+    const before = sections.filter(s => !/^(Transkription|Osäkra passager|Helhetsbedömning|Dubbelläsning|Rättelser|Tredje läsning)/.test(s.title));
+    h += det("Om bilden och handen", headRest, false);
+    for (const s of before) h += det(s.title, s.body, false);
+    if (osak) h += det("Osäkra passager", osak.body, true);
+    for (const t of ["Helhetsbedömning", "Dubbelläsning", "Rättelser efter dubbelläsning", "Tredje läsning"]) { const s = sections.find(x => x.title === t); if (s) h += det(t, s.body, t === "Helhetsbedömning" || t === "Rättelser efter dubbelläsning" || t === "Tredje läsning"); }
+    tp.innerHTML = h;
+    tp.scrollTop = 0;
+    tp.querySelectorAll(".ln .q").forEach(b => b.addEventListener("click", () => b.parentElement.querySelector(".expl").classList.toggle("hidden")));
+    if (rad) { const el = tp.querySelector(`.ln[data-rad="${CSS.escape(rad)}"]`); if (el) { el.scrollIntoView({ block: "center" }); el.style.outline = "2px solid var(--accent)"; const ex = el.querySelector(".expl"); if (ex) ex.classList.remove("hidden"); } }
+    // förladda nästa bild
+    if (pages[idx + 1]) { const im = new Image(); im.src = pages[idx + 1].bild; }
+  }
+
+  /* ---------- bildvisare ---------- */
+  const img = $("#img"), pane = $("#imgpane");
+  let scale = 1, tx = 0, ty = 0, rot = 0, natW = 0, natH = 0, dragging = false, sx = 0, sy = 0, stx = 0, sty = 0;
+  function apply() {
+    img.style.transform = `translate(${tx}px,${ty}px) scale(${scale}) rotate(${rot}deg)`;
+    $("#imgstatus").textContent = natW ? `${Math.round(scale * 100)} % · ${natW}×${natH}` : "";
+  }
+  function dims() { return rot % 180 ? [natH, natW] : [natW, natH]; }
+  function fit() {
+    if (!natW) return;
+    const [w, h] = dims(); const pw = pane.clientWidth, ph = pane.clientHeight;
+    scale = Math.min(pw / w, ph / h);
+    center();
+  }
+  function center() {
+    const [w, h] = dims(); const pw = pane.clientWidth, ph = pane.clientHeight;
+    // rotation runt origo: kompensera förskjutning
+    let ox = 0, oy = 0; if (rot === 90) ox = natH; if (rot === 180) { ox = natW; oy = natH; } if (rot === 270) oy = natW;
+    tx = (pw - w * scale) / 2 + ox * scale; ty = (ph - h * scale) / 2 + oy * scale; apply();
+  }
+  function zoomAt(f, cx, cy) {
+    const ns = Math.max(0.05, Math.min(8, scale * f));
+    tx = cx - (cx - tx) * (ns / scale); ty = cy - (cy - ty) * (ns / scale); scale = ns; apply();
+  }
+  function loadImage(src) {
+    $("#imgload").style.display = "grid"; img.style.visibility = "hidden"; natW = 0; rot = 0;
+    img.onload = () => { natW = img.naturalWidth; natH = img.naturalHeight; $("#imgload").style.display = "none"; img.style.visibility = ""; fit(); };
+    img.onerror = () => { $("#imgload").textContent = "Bilden kunde inte laddas: " + src; };
+    img.src = src;
+  }
+  pane.addEventListener("wheel", e => { e.preventDefault(); const r = pane.getBoundingClientRect(); zoomAt(e.deltaY < 0 ? 1.15 : 1 / 1.15, e.clientX - r.left, e.clientY - r.top); }, { passive: false });
+  pane.addEventListener("pointerdown", e => { if (e.target.closest("#imgtools")) return; dragging = true; sx = e.clientX; sy = e.clientY; stx = tx; sty = ty; img.classList.add("dragging"); pane.setPointerCapture(e.pointerId); });
+  pane.addEventListener("pointermove", e => { if (!dragging) return; tx = stx + e.clientX - sx; ty = sty + e.clientY - sy; apply(); });
+  pane.addEventListener("pointerup", () => { dragging = false; img.classList.remove("dragging"); });
+  pane.addEventListener("dblclick", e => { const r = pane.getBoundingClientRect(); zoomAt(2, e.clientX - r.left, e.clientY - r.top); });
+  $("#zfit").onclick = fit; $("#zin").onclick = () => zoomAt(1.3, pane.clientWidth / 2, pane.clientHeight / 2); $("#zout").onclick = () => zoomAt(1 / 1.3, pane.clientWidth / 2, pane.clientHeight / 2);
+  $("#z100").onclick = () => { scale = 1; center(); }; $("#zrot").onclick = () => { rot = (rot + 90) % 360; fit(); };
+  new ResizeObserver(() => { if (natW && !dragging) fit(); }).observe(pane);
+
+  /* ---------- delare ---------- */
+  (() => { const sp = $("#splitter"), main = $("#main"); let on = false;
+    sp.addEventListener("pointerdown", e => { on = true; sp.setPointerCapture(e.pointerId); });
+    sp.addEventListener("pointermove", e => { if (!on) return; const r = main.getBoundingClientRect(); const f = Math.min(.8, Math.max(.2, (e.clientX - r.left) / r.width)); main.style.gridTemplateColumns = `${f}fr 6px ${1 - f}fr`; });
+    sp.addEventListener("pointerup", () => on = false);
+  })();
+
+  /* ---------- lista & sök ---------- */
+  let sortKey = "nr", sortDir = 1;
+  function renderList() {
+    const q = ($("#q")?.value || "").trim().toLowerCase();
+    const fs = $("#fsak")?.value || "", fo = $("#fosak")?.checked;
+    let rows = pages.filter(p => (!fs || sakClass(p.sakerhet) === fs) && (!fo || p.osakra > 0));
+    if (q) rows = rows.filter(p => (p.text + " " + p.doktyp + " " + p.nr).toLowerCase().includes(q));
+    rows.sort((a, b) => { const va = sortKey === "nr" ? a.nr : sortKey === "osakra" ? a.osakra : sortKey === "sak" ? a.sakerhet : a.doktyp; const vb = sortKey === "nr" ? b.nr : sortKey === "osakra" ? b.osakra : sortKey === "sak" ? b.sakerhet : b.doktyp; return (va > vb ? 1 : va < vb ? -1 : 0) * sortDir; });
+    const snip = p => { if (!q) return ""; const t = p.text; const i = t.toLowerCase().indexOf(q); if (i < 0) return ""; const a = Math.max(0, i - 50), b = Math.min(t.length, i + q.length + 70); return `<div class="snip">…${esc(t.slice(a, i))}<b>${esc(t.slice(i, i + q.length))}</b>${esc(t.slice(i + q.length, b))}…</div>`; };
+    $("#listbody").innerHTML = rows.map(p => `<tr><td class="nr"><a href="#${p.nr}">${p.nr}</a></td><td>${inline(p.doktyp)}${snip(p)}</td><td><span class="badge ${sakClass(p.sakerhet)}">${esc(p.sakerhet)}</span></td><td>${p.osakra}</td><td class="muted">${[p.dubbel && "D", p.rattad && "R", p.tredje && "T", p.extern && "E"].filter(Boolean).join(" ")}</td></tr>`).join("");
+    $("#hits").textContent = `${rows.length} av ${pages.length} sidor`;
+  }
+  function viewList() {
+    const tot = pages.length, s = k => pages.filter(p => sakClass(p.sakerhet) === k).length;
+    $("#main").className = "list-mode";
+    $("#main").innerHTML = `<div class="listwrap">
+      <div class="stats"><span><b>${tot}</b> sidor</span><span><b>${pages.reduce((a, p) => a + p.rader, 0)}</b> rader</span><span><b>${pages.reduce((a, p) => a + p.osakra, 0)}</b> osäkra markeringar</span>
+        <span>Säkerhet: <b>${s("sak-hög")}</b> hög · <b>${s("sak-medel")}</b> medel · <b>${s("sak-låg")}</b> låg</span><span><b>${pages.filter(p => p.dubbel).length}</b> dubbellästa · <b>${pages.filter(p => p.rattad).length}</b> rättade · <b>${pages.filter(p => p.tredje).length}</b> tredje läsning</span></div>
+      <div class="filters"><input type="search" id="q" placeholder="Sök i alla transkriptioner (t.ex. Sandnabba, bomärke, 1843) …">
+        <select id="fsak"><option value="">Alla säkerheter</option><option value="sak-hög">hög</option><option value="sak-medel">medel</option><option value="sak-låg">låg</option></select>
+        <label><input type="checkbox" id="fosak"> bara sidor med osäkra ställen</label><span id="hits" class="muted"></span></div>
+      <table class="pages"><thead><tr><th data-k="nr">Bild</th><th data-k="doktyp">Dokument</th><th data-k="sak">Säkerhet</th><th data-k="osakra" title="Osäkra markeringar">Osäkra</th><th title="D = dubbelläst, R = rättad, T = tredje läsning, E = extern källa">D R T E</th></tr></thead><tbody id="listbody"></tbody></table></div>`;
+    ["q", "fsak", "fosak"].forEach(id => $("#" + id).addEventListener("input", renderList));
+    $("#main").querySelectorAll("th[data-k]").forEach(th => th.onclick = () => { const k = th.dataset.k; sortDir = sortKey === k ? -sortDir : 1; sortKey = k; renderList(); });
+    renderList(); $("#q").focus();
+  }
+  async function viewDoc(path, title) {
+    $("#main").className = "list-mode";
+    $("#main").innerHTML = `<div class="listwrap md"><p class="muted">Laddar ${esc(path)} …</p></div>`;
+    try { const md = await loadMd(path); $("#main").innerHTML = `<div class="listwrap md"><p class="filelink"><a href="${REPO}${path}" target="_blank" rel="noopener">${esc(path)} på GitHub</a></p>${renderMd(md)}</div>`; }
+    catch (e) { $("#main").innerHTML = `<div class="listwrap"><p>Kunde inte läsa ${esc(path)}.</p></div>`; }
+  }
+  function viewOm() {
+    $("#main").className = "list-mode";
+    $("#main").innerHTML = `<div class="listwrap md">
+      <h1>Om materialet</h1>
+      <p>Handlingar från ett hemman i Överpurmo by, Pedersöre socken i Österbotten: Härmälä N:o 6 och från 1843 Sandnabba N:o 8. Papperen följer samma släkt i sex generationer – Härmälä, Sandnabba och Björklund – från en bouppteckning 1802 till ett köpebrev 1966: lagfarter, inteckningar, förmynderskap, bouppteckningar, sytningskontrakt, räkenskaper och brev.</p>
+      <h2>Hur transkriptionerna är gjorda</h2>
+      <ul><li>Texten återges exakt som den står: gammal stavning, förkortningar, radbrytningar och överstrykningar. Inget är moderniserat.</li>
+      <li>Varje rad är numrerad som i originalet. Långt s (ſ) återges som s, c med krok som c.</li>
+      <li>Osäkerhet markeras i texten: <mark class="unsure">[ord?]</mark> osäker läsning, <mark class="alt">[a/b?]</mark> två möjliga läsningar, <mark class="unread">[oläsligt]</mark>, <mark class="missing">[...]</mark> skadad eller dold text.</li>
+      <li>Under varje transkription finns läsarens lista över osäkra passager med motivering, en helhetsbedömning (hög/medel/låg), en oberoende <b>dubbelläsning</b> av de osäkra ställena och de <b>rättelser</b> som gjorts efter den, med grund för varje ändring. De svåraste sidorna har dessutom en <b>tredje läsning</b> av en annan modell.</li>
+      <li>Uppgifter från källor utanför materialet (kyrkböcker i HisKi, Ylioppilasmatrikkeli) markeras alltid med <b>"Extern källa"</b> och förs aldrig in i själva transkriptionen.</li>
+      <li>Läsningen har gjorts av språkmodeller (Claude) under mänsklig ledning. Fel förekommer, särskilt i 1800-talets äldsta händer; jämför alltid med bilden.</li></ul>
+      <h2>Tangenter</h2>
+      <p><span class="kbd">← →</span> föregående/nästa sida · <span class="kbd">Home / End</span> första/sista · <span class="kbd">+ − 0 1</span> zooma in/ut, anpassa, 1:1 · <span class="kbd">/</span> sök · <span class="kbd">Esc</span> tillbaka till sidvyn</p>
+      <h2>Länkar</h2>
+      <ul><li><a href="${REPO.replace("/blob/main/", "")}" target="_blank" rel="noopener">Hela materialet på GitHub</a> (bilder och .md-filer)</li>
+      <li><a href="#" data-view="namn">Namn, orter, skrivarhänder och kronologi</a></li>
+      <li><a href="#" data-view="beslut">Beslutslogg</a> – öppna frågor och bilder som bör tas om</li></ul></div>`;
+    $("#main").querySelectorAll("a[data-view]").forEach(a => a.onclick = e => { e.preventDefault(); setView(a.dataset.view); });
+  }
+  function restoreMain() {
+    const main = $("#main"); if (main.querySelector("#imgpane")) return;
+    main.className = ""; main.innerHTML = "";
+    main.appendChild(paneImg); main.appendChild(paneSplit); main.appendChild(paneText);
+  }
+  const paneImg = $("#imgpane"), paneSplit = $("#splitter"), paneText = $("#textpane");
+  function setView(v) {
+    view = v; document.querySelectorAll("header nav button").forEach(b => b.classList.toggle("active", b.dataset.view === v));
+    $("#pager").style.visibility = v === "page" ? "visible" : "hidden";
+    if (v !== "page") history.replaceState(null, "", "#" + (v === "list" ? "lista" : v));
+    if (v === "page") { restoreMain(); showPage(idx); }
+    else if (v === "list") viewList(); else if (v === "namn") viewDoc("namn.md"); else if (v === "beslut") viewDoc("beslut.md"); else viewOm();
+  }
+  document.querySelectorAll("header nav button").forEach(b => b.onclick = () => setView(b.dataset.view));
+
+  /* ---------- navigering ---------- */
+  function goHash() {
+    const v = location.hash.match(/^#(lista|namn|beslut|om)$/);
+    if (v) { setView(v[1] === "lista" ? "list" : v[1]); return true; }
+    const m = location.hash.match(/^#(\d{3})(?::(\S+))?/); if (!m) return false;
+    const i = pages.findIndex(p => p.nr === m[1]); if (i < 0) return false;
+    if (view !== "page") { view = "page"; document.querySelectorAll("header nav button").forEach(b => b.classList.toggle("active", b.dataset.view === "page")); $("#pager").style.visibility = "visible"; restoreMain(); }
+    showPage(i, m[2]); return true;
+  }
+  $("#prev").onclick = () => showPage(idx - 1); $("#next").onclick = () => showPage(idx + 1);
+  $("#first").onclick = () => showPage(0); $("#last").onclick = () => showPage(pages.length - 1);
+  $("#goto").addEventListener("keydown", e => { if (e.key === "Enter") { const n = e.target.value.padStart(3, "0"); const i = pages.findIndex(p => p.nr === n); if (i >= 0) showPage(i); } });
+  $("#jump").onchange = e => showPage(pages.findIndex(p => p.nr === e.target.value));
+  $("#togglePane").onclick = () => { const m = $("#main"); m.classList.toggle("text-only", !m.classList.contains("text-only") && !m.classList.contains("img-only")); if (!m.classList.contains("text-only")) m.classList.remove("img-only"); };
+  window.addEventListener("hashchange", goHash);
+  document.addEventListener("keydown", e => {
+    if (e.target.matches("input,select,textarea")) { if (e.key === "Escape") e.target.blur(); return; }
+    if (e.key === "/") { e.preventDefault(); setView("list"); return; }
+    if (e.key === "Escape") { setView("page"); return; }
+    if (view !== "page") return;
+    if (e.key === "ArrowRight" || e.key === "PageDown") showPage(idx + 1);
+    else if (e.key === "ArrowLeft" || e.key === "PageUp") showPage(idx - 1);
+    else if (e.key === "Home") showPage(0); else if (e.key === "End") showPage(pages.length - 1);
+    else if (e.key === "+" || e.key === "=") $("#zin").click(); else if (e.key === "-") $("#zout").click();
+    else if (e.key === "0") fit(); else if (e.key === "1") $("#z100").click();
+  });
+
+  /* ---------- textstorlek & tema ---------- */
+  const sizes = ["fs-s", "", "fs-l", "fs-xl"]; let fsi = 1;
+  try { fsi = +(localStorage.getItem("fs") ?? 1); if (localStorage.getItem("theme")) document.documentElement.dataset.theme = localStorage.getItem("theme"); } catch (e) {}
+  function applyFs() { paneText.className = sizes[fsi]; try { localStorage.setItem("fs", fsi); } catch (e) {} }
+  $("#fsPlus").onclick = () => { fsi = Math.min(3, fsi + 1); applyFs(); }; $("#fsMinus").onclick = () => { fsi = Math.max(0, fsi - 1); applyFs(); }; applyFs();
+  $("#theme").onclick = () => { const d = document.documentElement; const cur = d.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); d.dataset.theme = cur === "dark" ? "light" : "dark"; try { localStorage.setItem("theme", d.dataset.theme); } catch (e) {} };
+
+  /* ---------- start ---------- */
+  fetch("pages.json", { cache: "no-cache" }).then(r => r.json()).then(d => {
+    pages = d; $("#total").textContent = pages.length;
+    $("#jump").innerHTML = pages.map(p => `<option value="${p.nr}">${p.nr} · ${esc(p.doktyp.slice(0, 70))}</option>`).join("");
+    if (!goHash()) showPage(0);
+  }).catch(e => { $("#textpane").innerHTML = `<p>Kunde inte läsa pages.json (${esc(e.message)}). Sidan måste köras via en webbserver (GitHub Pages eller <code>python3 -m http.server</code>), inte öppnas som fil.</p>`; });
+})();
+</script>
+</body>
+</html>
