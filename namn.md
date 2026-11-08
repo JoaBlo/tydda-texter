@@ -6,9 +6,11 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 
 ## Personer
 
+Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861, d. 1868, d. 1908 och Jakob Björklund d. 1949). Källorna använder "d.ä."/"d.y." för olika personer beroende på år, så här skiljs de åt med **dödsår**.
+
 | Namn (varianter) | Roll | Första förekomst | Anm. |
 |---|---|---|---|
-| Jacob Jacobsson Sandnabba eller Härmälä (d. 1861-12-22) | Bonde, köpare 1843, sökande vid alla uppbud; "sytningsmannen" 1861; bouppteckning och skifte 1862-01-07 (166–167), behållning delas mellan Jakob, Annalina, Maialisa, Greta, BritaCaisa, Beata; "Bondesonen" 1857 (016:24) | 001:13 | Hustru Elisa Andersdotter (002:11). Ägarpåskrift "B:n Jacob Jacobsson Sandnabba" på flera handlingar |
+| Jacob Jacobsson Sandnabba eller Härmälä (d. 1861-12-22) | Bonde på Härmälä till 1840, köpare av Sandnabba 1843, sökande vid uppbuden 1848–49; överlåter hemmanet till sonen 1856; "sytningsmannen" 1861; bouppteckning och skifte 1862-01-07 (166–167), behållning delas mellan Jakob, Annalina, Maialisa, Greta, BritaCaisa, Beata | 001:13 | Hustru Elisa Andersdotter (002:11). Ägarpåskrift "B:n Jacob Jacobsson Sandnabba" på flera handlingar. Obs: "Bondesonen" 1857 (016:24) är **sonen**, inte han (017:15–17). Troligen sonen Jacob, 17 år 1802 (304:9) – obekräftat, se beslut.md |
 | Elisa Andersdotter | Hustru till Jacob Jacobsson | 002:11 | |
 | Matts Pehrsson Kjäldbacka / Käldbacka / Kjeldbacka | Bonde, säljare 1843 ("afhändaren") | 001:23 | Samma skrivare stavar gården olika; Matts skrivs "Mattis"-liknande i 001:23 |
 | Maria Hansdotter | Hustru till Matts Pehrsson; dotter till Hans Jacobsson Sandnabba | 002:1, 004:10 | Ej att förväxla med nedan |
@@ -77,8 +79,8 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | [A. H.?] [Grönberg?] | "På Härads Rättens vägnar", förordnad, 1839 | 326:15–16 | Namnteckning |
 | J. F. [Grottelin?]; C. Fr. [Hellstén?]; Petr: [Lithén?]; Hans Johansson [Vilåfous?]; Johan Jonasson [Slip?]; Gustaf [Nicklin?] | Vittnen och skrivare 1819 och 1833 | 319, 323–324 | |
 | Jacob Jacobsson Härmelä (d. 1802-08-17) | Bonde på Härmälä N:o 6 (25/96 mantal); bouppteckning 1802-10-06 (304–311; inventarium 417 rdr 31 ß, att dela 219 rdr 45 ß), uppläst vid mantalsskrivningen 1810-11-06, avskrift till häradsarkivet 1810-03-15 | 304:5 | Far till Johan och Jacob Jacobssöner Härmälä; Jacob (17 år 1802) är troligen Jacob Jacobsson "Sandnabba eller Härmälä" (köpare 1843) – obekräftat |
-| Anna Isac(s)dotter | Änka efter Jacob Jacobsson Härmelä d.ä.; avstår giftorätt 1826 | 304:8, 298:10–11, 312:3 | 311:3 skriver "maria isac dater Härmela" – källfel (förväxling med styvdottern Maria), bekräftat av dubbelläsning |
-| Maria Jacobsdotter (g. Eric Mats(s)on Ede); Gretalena Jacobsdotter (g. Anders Nars/Narsträsk); Britacaisa Jacobsdotter (g. Pehr Mattsson Käldbacka) | Döttrar till Jacob Jacobsson Härmelä d.ä.; mågarna avstår lotterna 1826 | 304:12–14, 298–300 | Pehr Mattsson Käldbacka – far till Matts Pehrsson Kjäldbacka (1843)? |
+| Anna Isac(s)dotter | Änka efter Jacob Jacobsson Härmelä (d. 1802); avstår giftorätt 1826 | 304:8, 298:10–11, 312:3 | 311:3 skriver "maria isac dater Härmela" – källfel (förväxling med styvdottern Maria), bekräftat av dubbelläsning |
+| Maria Jacobsdotter (g. Eric Mats(s)on Ede); Gretalena Jacobsdotter (g. Anders Nars/Narsträsk); Britacaisa Jacobsdotter (g. Pehr Mattsson Käldbacka) | Döttrar till Jacob Jacobsson Härmelä (d. 1802); mågarna avstår lotterna 1826 | 304:12–14, 298–300 | Pehr Mattsson Käldbacka – far till Matts Pehrsson Kjäldbacka (1843)? |
 | Pähr Isacson [Flisa?]; Abraham Stormåres | Förmyndare 1802 | 304:11, 304:15–16 | |
 | Matts Carlsson [Lasfolk?]; Jacob Pehrsson [Lasfolk?]; Brita Carlsdotter; Jonas Jonesson [Lasfolk?] | Köpare resp. vittne 1840 | 302:5–7, 302:26 | |
 | Pähr Isacson Slipp; Abraham Stormånes (Stormåres, Stormånz) | Förmyndare 1802 (Pähr = änkans bror) | 304:11, 304:16, 310:12, 311:16 | Rättat från [Flisa?] resp. [Stormans?] |
@@ -91,12 +93,12 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
 | Jakob Lillqvist (Lilequist) | Inspektor, borgenär 1864 | 170:35, 175:9 | |
 | Matts Mattsson Grägg; Henrik Heikel (prost) | Borgenärer 1864 | 170:39, 171:2 | |
-| Lena, Maria Lisa / Maja Lisa, Kaisa, Greta, Bata / Beata (Jacobsdöttrar) | Döttrar till Jacob Jacobsson d.ä.; utlösen 5 rubel var 1856 | 017:24, 018:1–2, 025:4–5 | "Bata" 018:2 = Beata; i 033:5–12 nämns systrarna Anna, Maja, Greta, Brita, Beata |
+| Lena, Maria Lisa / Maja Lisa, Kaisa, Greta, Bata / Beata (Jacobsdöttrar) | Döttrar till Jacob Jacobsson (d. 1861); utlösen 5 rubel var 1856 | 017:24, 018:1–2, 025:4–5 | "Bata" 018:2 = Beata; i 033:5–12 nämns systrarna Anna, Maja, Greta, Brita, Beata |
 | Johan Johansson Bäck (Joh: Bäck) | Vittne till och skrivare av afhandlingen 1856 | 021:1–4 | Jfr "J: Bäck" 004:17 |
 | Wilhelm Lindbohm | "På Härads Rättens vägnar" 1858-02-26 | 025:12 | Paraf "[fd?]" under |
 | Johan Fredrik [Tujulin?] | Häradshövding, Österbottens "medledets" Öfra domsaga; utfärdar fastebrevet 1858-10-12 i klartext; troligen = den oläsliga namnteckningen 1857–58 ("Jondre Kujulin") | 279:1, 280:8, 023:16, 026:21, 211 | Klartextformen i 279:1 bör jämföras med namnteckningarna |
 | Matts och Jakob Jakobssöner Sandnabba | Bönder, mottagare 1868, sökande 1869–1870 (1:a–3:e uppbud) på 5/48 mantal "till hälften hvardera"; söner till Jakob Jakobsson d.y. och Greta Mattsdotter | 027:19, 037:14–15 | Ägarpåskrift "Bönderne Matts och Jakob Sandnabba" 037:27; "B:ne Matts och Jakob Jakobss. Sandnabba" 039:27 |
-| Beata Simonsdotter | **Andra** hustru till Jacob/Jakob Jakobsson d.y. (d. 1868-11-06); styvmor till Matts, Jakob, Johan, Anders, Gustaf (Greta Mattsdotters söner); mor till Simon Petter (f. ca 1867, d. 1877); sytningstagare 1868; änka och ägare med styvsonen Jakob 1877 | 038:7, 040:16–17, 178:6–13 | Tidigare felaktigt angiven som hustru till Jacob Jacobsson d.ä. – rättat efter 178 |
+| Beata Simonsdotter | **Andra** hustru till Jacob/Jakob Jakobsson d.y. (d. 1868-11-06); styvmor till Matts, Jakob, Johan, Anders, Gustaf (Greta Mattsdotters söner); mor till Simon Petter (f. ca 1867, d. 1877); sytningstagare 1868; änka och ägare med styvsonen Jakob 1877 | 038:7, 040:16–17, 178:6–13 | Tidigare felaktigt angiven som hustru till Jacob Jacobsson (d. 1861) – rättat efter 178 |
 | Johan, Anders, Gustaf (och Simon Petter) Jakobssöner | Bröder till Matts och Jakob; utlösen 200 mark vardera 1868 | 028:10–11, 038:8–9 | Simon Petter nämns 028:11 men inte i bouppteckningen 1864 eller 035:18 |
 | Beata Simonsdotter Stennabba | Se ovan; "enka efter afträdaren" 1869 | 031:17 | Gårdsnamnet rättat till Stennabba (stöd: originalet 213:5) |
 | Gustaf Johansson Sandnabba; Johan Mattsson Sandnabba | Vittnen 1868 | 031:8–9 | |
@@ -266,11 +268,11 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1836-02-24 | Köpebref: Hans Jacobsson säljer 5/72 mantal till Eric Jacobsson; förmyndaren för dottern Maria 5/432 | 005:14–24, 006:1–9 |
 | 1843-02-06 | Afhandling: Eric Jacobsson säljer 5/48 mantal till Matts Pehrsson Käldbacka | 005:5–14 |
 | 1843-03-09 | Köpebref: Matts Pehrsson säljer 5/48 mantal till Jacob Jacobsson för 582 rubel 85 5/7 kop. silver | 001:21–004:17 |
-| 1802-08-17 / 1802-10-06 | Jacob Jacobsson Härmelä d.ä. dör; bouppteckning – **äldsta handlingen i materialet** | 304–306– |
+| 1802-08-17 / 1802-10-06 | Jacob Jacobsson Härmelä (d. 1802) dör; bouppteckning – **äldsta handlingen i materialet** | 304–306– |
 | 1810-03-15 / 1810-11-06 | Avskrift av bouppteckningen 1802 inlämnad till häradsarkivet; bouppteckningen uppläst vid mantalsskrivningen | 304:1, 311 |
 | 1816-05-10 / 1816-05-27 | [Erek?] Johanson, Öfwerpurmo, dör; bouppteckning | 312–316 |
 | 1819-02-16 / 1819-03-04 | Förskrivning (Jacobstad) och inteckning: Isaac Christophersson Harmala till kommerserådet Malm, 476 rdr 40 | 317–321 |
-| 1826-01-26 | Köpebrev: Isaac Christophersson Härmälä säljer 25/144 mantal av Härmälä N:o 6 till Johan och Jacob Jacobssöner för 790 Rb 12 kop; samma dag arvsutredning efter Jacob Jacobsson Härmelä d.ä. (Johan och Jacob får 25/192 var) | 296–301 |
+| 1826-01-26 | Köpebrev: Isaac Christophersson Härmälä säljer 25/144 mantal av Härmälä N:o 6 till Johan och Jacob Jacobssöner för 790 Rb 12 kop; samma dag arvsutredning efter Jacob Jacobsson Härmelä (d. 1802) (Johan och Jacob får 25/192 var) | 296–301 |
 | 1840-02-10 | Köpebrev: Jacob Jacobsson Härmälä och hustrun Elisa Andersdotter säljer hälften av 125/576 mantal Härmälä till Matts Carlsson och Jacob Pehrsson [Lasfolk?] – tre år före köpet av Sandnabba | 302 |
 | 1833-10-05 / 1839-10-07 | Förskrivning och utslag: Jacob Jacobsson Härmelä åläggs betala Johan Mattsson Sandberg 30 rdr + 6 % | 322–326 |
 | 1839-11-01 / 1839-12-12 | Skuldsedel och guvernörens utslag: Jacob Jacobsson Härmälä åläggs betala Johan Simonsson Willbacka 51 rdr 36 sk + 6 % | 290–295 |
@@ -298,12 +300,12 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1876-06-20 | Köpebrev (Svartå, Karis): Matts Jakobsson säljer sin halva av Sandnabba till brodern Jakob för 2500 mark – g: 2 | 224–226 |
 | 1911-07-01 | Arrendekontrakt: Maria Andersdotter arrenderar ut sin torplägenhet till Jakob Jakobsson (Björklund) | 217–218 |
 | 1848-05-15 | Bouppteckning efter Lisa Andersdotter (Jakob Jakobsson d.y. ärver 5/504) | 032:23–033:2 |
-| 1856-02-18 | Afhandling (Purmo): Jacob Jacobsson d.ä. överlåter 5/48 mantal till sonen Jacob o. Greta Mattsdotter, 400 rubel, skuld 50 rubel, utlösen 5 rubel till var syster, sytning | 017–021 |
+| 1856-02-18 | Afhandling (Purmo): Jacob Jacobsson (d. 1861) överlåter 5/48 mantal till sonen Jacob o. Greta Mattsdotter, 400 rubel, skuld 50 rubel, utlösen 5 rubel till var syster, sytning | 017–021 |
 | 1857-09-25 | Protokoll § 14, lagfart och första uppbudet (Bondesonen Jacob Jacobsson) | 016–023 |
 | 1858-02-26 | Protokoll § 2, andra uppbudet | 024–025 |
 | 1858-10-12 | Protokoll § 44, tredje uppbudet; fastebref samma dag (033:14–21) | 026 |
 | 1848-05-08 / 1848-05-15 | Elisa Andersdotter dör; bouppteckning och skifte (två exemplar) | 158–165 |
-| 1861-12-22 / 1862-01-07 | Jacob Jacobsson d.ä. dör; bouppteckning och skifte | 166–167 |
+| 1861-12-22 / 1862-01-07 | Jacob Jacobsson (d. 1861) dör; bouppteckning och skifte | 166–167 |
 | 1864-02-15 | Greta Mattsdotter Sandnabba dör; bouppteckning 1864-07-07 (original 168–171, avskrift 172–) | 032:1–7, 168– |
 | 1865-09-29 | Domstolens registreringsanteckning på bouppteckningen 1864 ([…] Sarck) | 168:1–3 |
 | 1867-08-07 | Skuldsedel (Jakobstad): Jakob Jakobsson Sandnabba lånar 650 mark av rådman Ph. U. Strengberg, 6 % | 079:18–080:12 |
@@ -351,7 +353,7 @@ Omslag d (089 post-it: "d: 1–4, utdrag av förmynderskapsprotokoll 1869––1
 Omslag e: e: 1 = 105–109 (testamentsbevakning 1909-02-02 § 2, original) och 110–111 (maskinskriven avskrift, samma nummer); e: 2 = 112–116 (betesmål 1934-09-07 § 39); e: 3 = 117–123 (vräkningsmål Björklund mot Asp, 1934-09-07 § 41 – Björklund förlorar och åläggs ge Asps gåvobrev på stugan och två kappland); e: 4 = 124– (testamentsbevakning efter Anders Svanbäck, 1936-08-31 § 18).
 
 e: 4 = 124–127 (avskrift bestyrkt 1942).
-Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson d.ä., blyerts "a: 3" på 166); 168–177 (1864 efter Greta Mattsdotter, original och avskrift); 178–183 (1869 efter Jakob Jakobsson d.y., två exemplar); 184–189 (1878 efter Simon Petter Jakobsson, två exemplar); 190–193 (1899 efter Sanna Maja Johansdotter); 194–197 (1908 efter Jakob Jakobsson Sandnabba, "a: 8"); a: 9 = 198–201 (1940 efter Hilda Maria Björklund, original; avskrift i 064–065); a: 10 = 202–203 (kompletteringsbouppteckning 1949, original). Omslag a slutar på 203.
+Omslag a (150 blyerts: "5.3.19.1 / a) 1-10 Bouppteckningar / 1818 -- 1949"): troligen a: 1 = 151–157 (bouppteckning 1818 efter Marja Hansdotter, avskrift ingiven till häradsrätten 1848-02-23); a: 2 = 158–165 (1848 efter Elisa Andersdotter, två exemplar); a: 3 = 166–167 (1862 efter Jacob Jacobsson (d. 1861), blyerts "a: 3" på 166); 168–177 (1864 efter Greta Mattsdotter, original och avskrift); 178–183 (1869 efter Jakob Jakobsson d.y., två exemplar); 184–189 (1878 efter Simon Petter Jakobsson, två exemplar); 190–193 (1899 efter Sanna Maja Johansdotter); 194–197 (1908 efter Jakob Jakobsson Sandnabba, "a: 8"); a: 9 = 198–201 (1940 efter Hilda Maria Björklund, original; avskrift i 064–065); a: 10 = 202–203 (kompletteringsbouppteckning 1949, original). Omslag a slutar på 203.
 
 Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande/ utarrenderande / 1836 -- 1913"): g: 1 = 204–223, originalhandlingar (blyerts "g: 1. 2" på 207, "g: 1. 6" på 215, "g: 1. 7" på 217): köpebrev 1836 (204–206), köpebrev 1843 med kvittens (207–208), köpebrev 1878 (209), afhandling 1856 med uppbudspåskrift 1857 (210–211), afhandling 1868 med uppbudspåskrifter 1869–70 (212–213), utlösenkvitto 1878 (214), torpkontrakt 1889 i två exemplar (215–216), arrendekontrakt 1911 i två exemplar 217–218, gåvobrevet 1913 i original 219–223 med uppbudspåskrifter 1915–16; blyerts "g: 1. 7" på 217). g: 2 (224 post-it: "Köpebrev 1876 -- 1966") = 224–231 (köpebrev 1876-06-20 Svartå, Karis; köpebrev Brännkärret 1922 Bäckfors→Nyman→Björklund, 227–229; köpebrev 1966 Björklund→Nymark, 230–231). g: 5 (blyerts "g:5.4" på 250, "g:5.7" på 253) = kvitton och skuldsedlar: originalskuldsedeln 1867 (246–247) med räntekvittenser till slutavräkningen 1881; utlösningskvitton 1914 (248–250), Hermans arv 1916 (251), Bergers räkning 1923 (252), skuldsedel till Anders Svanbäck 1928–1940 (253–256).
 g: 5 forts.: arrendekvitto 1932 (257), Agnes Novéns arvskvitto 1948 (258), Dagny Björklunds utlösningskvitto 1950, g:5.10 (259), Ines Wennbergs kvitto 1965, g:5.1[1/4?] (260).

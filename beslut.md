@@ -72,6 +72,22 @@ och des Hustru Elisa" Sandnabba. Han är troligen sonen Jacob, 17 år vid fadern
 Kedjan går då från **1802 till 1950** – sex generationer.
 **Status:** ÖPPET – mycket sannolikt, men en slutsats, inte källans ord.
 
+**Omprövning 2026-11-08 (din fråga: kan det vara en son till 1826 års Jacob?).** Länken
+1840 = 1843 = 1848 = 1861 är säker: samma hustru Elisa Andersdotter (302, 207, 158, 166) och
+samma bomärke 1840 och 1843. Osäker är bara länken **1826 → 1840**:
+- *Talar för samma man:* 1840 äger han 125/576 mantal = exakt Jacobs andel 1826 (25/192 + 25/288).
+  Han är "sytningsman" 1856–61, vilket passar en man född ca 1785 (71–76 år). Fyra av Elisas barn
+  är gifta 1848 och sonen får barn 1850, så fadern bör vara född senast ca 1805. Ingen bouppteckning
+  efter en Jacob som dött 1826–40 finns i materialet.
+- *Talar emot / försvagar:* Johan hade samma andel 1826, så bråktalet visar bara att andelen gått
+  oförändrad vidare, och familjen överlät hela andelen till sonen 1856. Bomärket 1840/1843 liknar
+  mer det som står under *Johan* 1826 än det under Jacob (297:24). Det kan vara bröders varianter
+  av samma släktmärke eller skrivaren som placerat märkena slarvigt, men det bekräftar inte identiteten.
+- *Avgörs av:* kyrkböckerna. Om Jacob Jacobsson Sandnabba, d. 1861-12-22 i Purmo, är ca 76 år i
+  död- och begravningsboken (HisKi / Purmo kommunionbok), då är det samma man.
+**Rättat i namn.md:** "d.ä." användes för både mannen d. 1802 och mannen d. 1861. Nu skiljs de åt
+med dödsår. "Bondesonen" 1857 (016:24) var felaktigt förd till köparen 1843; det är sonen (017:15–17).
+
 ### 2026-11-08 – Roschier: "Ulrich" var en överrättelse – nu [Wilhelm/Ulrich?]
 Rättelseomgången ändrade namnteckningen i 014:26/015:25 från "Erich" till "Carl Ulrich Roschier"
 på dubbelläsarens bokstavsanalys. Men fastebrevet 1849 (276:1, samma kansli) skriver i klartext
