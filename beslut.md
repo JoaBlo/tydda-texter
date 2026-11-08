@@ -123,7 +123,7 @@ den markeras hellre osäker. **Status:** AVGJORT av källan (om du vill: ta bort
 Dubbelläsaren av 278:13 (namnteckningen under fastebrevet 1849) ser bokstäverna U-l-r-i-c-h, medan
 klartexten i 276:1/277:1 säger "Carl Wilhelm Roschier". Möjligen hade han båda namnen (Carl
 Wilhelm Ulrich?) och skrev under med ett annat än det kansliet skrev ut. Läsningen står som
-[Wilhelm/Ulrich?] i 014, 015 och 278. **Status:** ÖPPET – avgörs bäst med en extern källa
+[Wilhelm/Ulrich?] i 014, 015 och 278. **Status:** AVGJORT 2026-11-08: Ylioppilasmatrikkeli 1640–1852 (#13387) har Carl Wilhelm Roschier (f. 1802, vice häradshövding 1830, t.f. domare i Ilmajoki tingslag, d. 1869); någon Ulrich Roschier finns inte. 014/015 → `Carl [Wilhelm?]`, 278 → `Carl [Wilh.?]`. Tidigare text: avgörs bäst med en extern källa
 (t.ex. matrikel över häradshövdingar i Österbotten 1849).
 
 ### 2026-11-08 – Häradshövdingen 1857–58: "Tujulin", inte "Kujulin"

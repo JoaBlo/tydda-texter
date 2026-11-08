@@ -27,7 +27,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | Johan Jonesson Lassfolk | Vittne 1843 | 004:13, 207:28 | "Jonesson" bekräftat av originalet ("Jone son"); möjligen diakrit över a i Lassfolk (Låssfolk?) – okontrollerat |
 | Carl Carlsson Lassfolk | Vittne 1843 | 004:15 | |
 | J: Bäck | Skrivare av köpebrevet 1843 ("af J: Bäck") | 004:17 | |
-| Carl Wilhelm Roschier | Vice häradshövding, förordnad domhavande; undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25, 276:1 | 276:1 skriver namnet i klartext "Carl Wilhelm Roschier". Namnteckningen 014/015 lästes först "Erich", sedan "Ulrich" – nu [Wilhelm/Ulrich?]. Under namnet "[ssl/fsl?]" |
+| Carl Wilhelm Roschier | Vice häradshövding, förordnad domhavande; undertecknar "På Härads Rättens vägnar" 1849 | 014:26, 015:25, 276:1 | 276:1 skriver namnet i klartext "Carl Wilhelm Roschier". Namnteckningen 014/015 lästes först "Erich", sedan "Ulrich". **Avgjort 2026-11-08:** Ylioppilasmatrikkeli 1640–1852 #13387: Carl Wilhelm Roschier, f. 1802 Saarijärvi, vice häradshövding 1830, t.f. domare i Ilmajoki tingslag, lantbrukare på Alakorpi i Ilmajoki, d. 1869. Någon Ulrich Roschier finns inte i matrikeln. Under namnet "[ssl/fsl?]" |
 | [...?] Aminoff; [Hans?] Ernst Aminoff | "På Härads Rättens vägnar" 1848; påteckning "Belagdt såsom Bilaga" på köpebrevet 1836 | 011:7, 205 marg. | Efternamnet enligt dubbelläsaren (A-m-i-n-o-ff); förnamnet oläsligt |
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
 | Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868; d. 1868-11-06, bouppteckning 1869-03-30 (178–183, två exemplar, inventarium 85 mark) | 016:24, 017:15–17, 178 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
@@ -220,6 +220,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 ## Källor utanför materialet
 
 - **HisKi, Purmo** (Genealogiska Samfundet i Finland, https://hiski.genealogia.fi/hiski?se+0420): döpta 1774–1851, vigda 1775–1894, begravda 1775–1853 och 1894. Använd 2026-11-08 för släktkedjan Härmälä–Sandnabba. HisKi är en index-avskrift av kyrkböckerna. Uppgifterna markeras "HisKi Purmo" och förs inte in i transkriptionerna.
+- **Ylioppilasmatrikkeli 1640–1852** (Helsingfors universitet, https://ylioppilasmatrikkeli.fi): studentregister med biografier för ämbetsmän. Använd för Roschier (#13387).
 
 ## Orter och gårdar
 
