@@ -24,7 +24,7 @@ Status markeras så här:
 **Vad jag gjorde:** Transkriptionerna är oförändrade (se nästa post). Konventionerna i namn.md
 har skärpts: versal/gemen exakt som i källan; aldrig fylla i från en formel på en annan sida.
 Kommande läsare får dessa regler i sin instruktion.
-**Status:** ÖPPET – vill du att jag rättar de sex raderna ovan (och namn.md: Ulrich) nu, eller
+**Status:** AVGJORT 2026-11-07 ("Kör på 2") – rättat med grund, se "Rättelser efter dubbelläsning" i filerna. Ursprunglig fråga: vill du att jag rättar de sex raderna ovan (och namn.md: Ulrich) nu, eller
 vill du titta själv först? Bilderna som dubbelläsaren använde: scratchpad/dubbel/015_r10.jpg,
 014_r26_27.jpg, 011_r7.jpg.
 
@@ -38,7 +38,7 @@ filens sektion "Dubbelläsning" med motivering. Du avgör rad för rad.
   004:10) är starkare. Jag lutar åt H.
 - 002 rad 20: `K:k` mot `K[p]:r` – båda betyder Kopek; valet spelar liten roll.
 - 001 rad 26: `B:n` mot `Bd:n`/`B:dn` – båda betyder Bonden.
-**Status:** ÖPPET. Alternativ: (a) du går igenom AVVIKER-raderna själv,
+**Status:** AVGJORT 2026-11-07 ("Kör på 2") – rättat med grund, se "Rättelser efter dubbelläsning" i filerna. Ursprunglig fråga: Alternativ: (a) du går igenom AVVIKER-raderna själv,
 (b) jag får rätta transkriptionen när andra läsaren ger tydlig motivering och
 första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 
@@ -54,7 +54,7 @@ första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 - 027 har ett ostruket "b:6" överst till höger som inte noterades.
 **Mönster:** första läsarna normaliserar mot förväntad form (stavning, V/W, qv/qu). Lärdomen
 finns redan i namn.md; de nya agenterna (117–156) har fått den.
-**Status:** ÖPPET – samma fråga som för 001–016: ska jag rätta de tydliga fallen?
+**Status:** AVGJORT 2026-11-07 ("Kör på 2") – rättat med grund, se "Rättelser efter dubbelläsning" i filerna. Ursprunglig fråga: ska jag rätta de tydliga fallen?
 
 ### 2026-11-08 – Andra omslagsserien (288) har samma bokstäver som den första
 Omslaget på 288 har "a) Bouppteckningar, b) Utdrag ur protokoll, c) försäljning, d) Diverse
@@ -70,7 +70,14 @@ inget dokument säger det uttryckligen. **Nytt stöd (302, 207):** 1840 säljer 
 Härmälä och hustrun Elisa Andersdotter" sin andel av Härmälä; 1843 köper "Jacob Jacob son Härmälä
 och des Hustru Elisa" Sandnabba. Han är troligen sonen Jacob, 17 år vid faderns död 1802 (304:9).
 Kedjan går då från **1802 till 1950** – sex generationer.
-**Status:** ÖPPET – mycket sannolikt, men en slutsats, inte källans ord.
+**Status:** AVGJORT 2026-11-08 av kyrkböckerna (HisKi Purmo) – samma man, ingen generation saknas.
+Dopboken: Jacob, son till Jacob Jacobsson och Anna Isaksdotter på Härmälä, född **1793-02-06**.
+En äldre halvbror Jacob (f. 1781) dog i koppor samma år. Lysning 1813-11-14: "Bs. Jacob Jacobsson"
+på Härmelä och Elisab. Andersdotter. Paret låter döpa Anna Lena 1814, Majalisa 1816, Greta 1819,
+Britha Caisa 1821, Jacob 1825 och Beatha 1829 på Härmelä. Det är exakt arvingarna 1848 och 1862.
+Elisa dör 8.5.1848 på Sandnabba, 56 år. Han var alltså 68 år när han dog 1861. "17 år" i 304:9
+stämmer inte med 1802 (då 9 år) men med 1810, när avskriften lämnades in. Läsningen står kvar
+och en anmärkning är tillagd.
 
 **Omprövning 2026-11-08 (din fråga: kan det vara en son till 1826 års Jacob?).** Länken
 1840 = 1843 = 1848 = 1861 är säker: samma hustru Elisa Andersdotter (302, 207, 158, 166) och
@@ -172,7 +179,7 @@ felen låg på rader som första läsaren INTE markerat som osäkra:
 - 109 marg. `[4/7?]25–85` → `425–85` (summan bekräftar). 070:7 "felslag" i RN:o är blankettens linje.
 - Namnteckningen "Hj. W. Sarck": bara "-arck" är säkert; "Hj. W." har förts vidare från 036
   utan stöd. namn.md uppdaterad.
-**Status:** ÖPPET – samma fråga som tidigare: ska jag rätta de tydliga fallen?
+**Status:** AVGJORT 2026-11-07 ("Kör på 2") – rättat med grund, se "Rättelser efter dubbelläsning" i filerna. Ursprunglig fråga: ska jag rätta de tydliga fallen?
 
 ### 2026-11-07 – AVGJORT av källan: Vems söner är Matts (f. 1850) och Jakob (f. 1851)?
 Bouppteckningen 1869 (178:6–13) och 1878 (184:10) säger uttryckligen: Matts, Jakob, Johan,
@@ -188,8 +195,9 @@ Greta Mattsdotter (d. 1864), och att Beata Simonsdotter är deras styvmor (035:1
 Jakob f. 1851 bland barnen "under äktenskapet med dess aflidne man sammanaflade" när Beata
 anmäler. Och om Greta dog 1864 kan Petter f. 1867 bara vara Beatas.
 **Vad jag gjorde:** Inget ändrat; båda källorna återgivna som de står.
-**Status:** ÖPPET – troligen anmäler Beata för hela barnkullen och protokollets formulering är
-slarvig, men du kanske vet från kyrkböckerna.
+**Status:** AVGJORT 2026-11-08 (HisKi Purmo): Matts döpt 1849-07-27 och Jacob 1850-12-23, båda med
+modern Greta Mattsdotter. Beata (lysning 1866) är styvmor; protokollet 090 är slarvigt formulerat
+och har dessutom fel födelseår (1850/1851).
 
 ### 2026-11-07 – RÄTTAT: Mitt fel i namn.md – Marja Hansdotter dog 1817, inte 1847
 Jag hade i namn.md räknat "nästförvikna år" i 007:7 som 1847, utifrån att handlingen är från
@@ -308,7 +316,7 @@ och låt mig rätta 047–053. Säg till så gör jag det.
 
 ### 2026-11-07 – Lokalkännedom efterfrågas
 Läsarna har bett om hjälp med några namn som kräver lokal- eller släktkännedom:
-- 031:17 Beata Simonsdotters gårdsnamn: `[Hennabba/Stennabba?]`
+- ~~031:17 Beata Simonsdotters gårdsnamn~~ – Stennabba, rättat efter originalet 213 och bekräftat av lysningen 1866 (HisKi)
 - 036:5 domhavandens namnteckning 1869: `[Hj. W. Sarck?]`
 - 023:16 / 026:21 samma oläsliga namnteckning 1857–58 ("Jondre Kujulin"?)
 - 061:9 namnteckning 1925: `[Odo?] [Sandelin?]`
