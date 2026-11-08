@@ -496,7 +496,7 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Ost-Karelen, Svir | Fronten 1943 (fortsättningskriget) | 241:5, 242:10–11 |
 | Duluth, Minnesota | Avsändarort för kuvert (Lake Sup. & Western Mining Co.) till Jakob Jakobson, Sandnabba, Bennäs – emigrantkontakt | 285 |
 | Lappajervi (Lappajärvi) | Socken med gemensamt ting med Pedersö 1819 | 318:4 |
-| Härmälä / Harmala / Härmelä skattehemman N:o 6 | I Öfverpurmo by; Jacob Jacobssons hemman före Sandnabba (1826) | 296:3–4 |
+| Härmälä / Harmala / Härmelä / H[a/ä?]rmel[a/å?] (321 dorsal) skattehemman N:o 6 | I Öfverpurmo by; Jacob Jacobssons hemman före Sandnabba (1826) | 296:3–4 |
 | Bennäs ("Bennes") | Postort för Purmo | 285:5 |
 | Nikolaistad | Vasa (officiellt namn 1855–1917) |
 | Hemskiftet, Nabbskiftet, Storbacksmossan; Forsaskyttan; Baptist bönehustomt parcellen | ägonamn vid klyvningen 1911 |
