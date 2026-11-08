@@ -66,7 +66,11 @@ Härmälä) i filerna?
 
 ### 2026-11-08 – Är Jacob Jacobsson Härmälä (1826, 1839) = Jacob Jacobsson Sandnabba eller Härmälä?
 001:13 kallar köparen 1843 "Jacob Jacobsson Sandnabba eller Härmälä". Troligen samma man, men
-inget dokument säger det uttryckligen. **Status:** ÖPPET – din släktkännedom.
+inget dokument säger det uttryckligen. **Nytt stöd (302, 207):** 1840 säljer "Jacob Jacobsson
+Härmälä och hustrun Elisa Andersdotter" sin andel av Härmälä; 1843 köper "Jacob Jacob son Härmälä
+och des Hustru Elisa" Sandnabba. Han är troligen sonen Jacob, 17 år vid faderns död 1802 (304:9).
+Kedjan går då från **1802 till 1950** – sex generationer.
+**Status:** ÖPPET – mycket sannolikt, men en slutsats, inte källans ord.
 
 ### 2026-11-08 – Roschier: "Ulrich" var en överrättelse – nu [Wilhelm/Ulrich?]
 Rättelseomgången ändrade namnteckningen i 014:26/015:25 från "Erich" till "Carl Ulrich Roschier"
