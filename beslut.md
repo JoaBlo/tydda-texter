@@ -81,6 +81,21 @@ rättelsetabellen; namn.md: Carl Wilhelm Roschier. **Lärdom:** en namnteckning 
 till en säker läsning bara på bokstavsform när namnet kan ha en klartextform någon annanstans –
 den markeras hellre osäker. **Status:** AVGJORT av källan (om du vill: ta bort [?] helt).
 
+### 2026-11-08 – SLUTLÄGE: alla 326 bilder transkriberade, dubbellästa och rättade
+- Transkription: 326 av 326. Dubbelläsning: alla filer med osäkra passager. Rättelser: alla
+  AVVIKER-rader med konkret stöd i bilden; några lämnade med motivering i respektive fil.
+- Varje rättad fil har sektionen "Rättelser efter dubbelläsning" med tidigare läsning och grund.
+**Kvar att titta på (ingen brådska):**
+- 312–313 (1816-handen): "og" kan ha återgetts som "och" på några rader som ingen dubbelläsare
+  flaggade (t.ex. 312:14, 313:3–4); 311:15 "Ens Kommelse" ser ut att vara "Ent Sommelse".
+- 318:12 och 320:11 rättades till `[sexhundrade?]` (bråket 25/672) fast dubbelläsaren märkt dem
+  "Osäker – båda möjliga" – jag bad rättningsagenten göra det konsekvent med 319:24, som är tydlig.
+  Osäkerhetsmarkeringen är kvar. Säg till om du vill backa det.
+- 289:23–24 har samma text som 290 men rättades inte (inga AVVIKER-rader där).
+- Gruppering i omslag (b: 4–6 m.fl.) och handbokstäver är inte helt konsekventa mellan filerna;
+  namn.md är referensen.
+**Status:** information.
+
 ### 2026-11-08 – Roschier igen: namnteckningen säger Ulrich, klartexten Wilhelm
 Dubbelläsaren av 278:13 (namnteckningen under fastebrevet 1849) ser bokstäverna U-l-r-i-c-h, medan
 klartexten i 276:1/277:1 säger "Carl Wilhelm Roschier". Möjligen hade han båda namnen (Carl

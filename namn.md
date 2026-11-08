@@ -62,10 +62,11 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Anders Pass | Pastor, t.f. kyrkoherde i Purmo, ämbetsbetyg 1943-01-26 | 284:24 | |
 | K. J. Nygård; A. [M?] Grägg | Bestyrker avskriften av fastebrevet 1916 | 283:23 | |
 | Danielson | Ingav fullmakt 1866-09-15 | 286:1 | |
-| Isaac Christophersson Härmälä / Harmala | Gäldenär 1819 (inteckning i 25/72 [?] av Harmala N:o 6); säljer 1826 25/144 mantal av Härmälä skattehemman N:o 6 till Johan och Jacob Jacobssöner Härmälä | 296:1–2 | |
+| Isaac Christophersson Härmälä / Harmala | Gäldenär 1819 (inteckning i [25/672?] av Harmala N:o 6 – samma som döttrarnas andel 1826); säljer 1826 25/144 mantal av Härmälä skattehemman N:o 6 till Johan och Jacob Jacobssöner Härmälä | 296:1–2 | |
 | Johan och Jacob Jacobssöner Härmälä | Bönder, köpare 1826 hälften var | 296:6, 23, 27 | Jacob = troligen Jacob Jacobsson "Sandnabba eller Härmälä" (001:13) – obekräftat |
 | Simon Andersson Härmälä | Sytningstagare 1826 | 296:16–17 | |
-| Hans Klåfors; Anders [Willbacka?]; And: Brunberg (skrivare) | Vittnen resp. skrivare 1826 | 296:25–26 | |
+| Hans Klåfvus / Hans Johansson Klåfous / Hans Klåfwås | Vittne 1826 och 1833; häradsnämndeman 1816 | 297:25, 301:5, 323:24, 312:12, 313:2 | Samma person; = byn Klåvus i Purmo |
+| Anders [Willbacka?]; And: Brunberg (skrivare) | Vittne resp. skrivare 1826 | 296:25–26 | |
 | Johan Simonsson Willbacka | Bonde; borgenär 1839 (51 rdr 36 sk riksgäldssedlar) mot Jacob Jacobsson Härmälä; kvitterar betalningen Jacobstad 1840-02-17 | 290:3–4, 295:18 | |
 | [Hamilton?] | Guvernör (Kejsarens Befallningshafvande) i Wasa län, undertecknar utslaget 1839 | 295:12 | låg säkerhet |
 | J. [Sacklén/Hacklén?]; [Engelt?]; [Carl Joh. Solferin?] | Bestyrkare, vittne och kanslist 1839–40 | 291:14, 295:21, 290 marg. | Inte "Backlén" – versalen är S/H (dubbelläsning 291) |
@@ -74,15 +75,15 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Johan Mattsson Sandberg | Bonde, [Neder?]purmo; borgenär 1833 (30 rdr), kärande 1839 mot Jacob Jacobsson Härmelä | 322:10–11, 323:8 | |
 | Anders Willbacka | Nämndeman, ombud 1839 | 322:8–9 | = Anders [Willbacka?] 1826 (296)? |
 | [A. H.?] [Grönberg?] | "På Härads Rättens vägnar", förordnad, 1839 | 326:15–16 | Namnteckning |
-| J. F. [Grottlén?]; C. Fr. [Hellstén?]; Petr: [Lithén?]; Hans Johansson [Vilåfous?]; Johan Jonasson [Slip?]; Gustaf [Nicklin?] | Vittnen och skrivare 1819 och 1833 | 319, 323–324 | |
+| J. F. [Grottelin?]; C. Fr. [Hellstén?]; Petr: [Lithén?]; Hans Johansson [Vilåfous?]; Johan Jonasson [Slip?]; Gustaf [Nicklin?] | Vittnen och skrivare 1819 och 1833 | 319, 323–324 | |
 | Jacob Jacobsson Härmelä (d. 1802-08-17) | Bonde på Härmälä N:o 6 (25/96 mantal); bouppteckning 1802-10-06 (304–311; inventarium 417 rdr 31 ß, att dela 219 rdr 45 ß), uppläst vid mantalsskrivningen 1810-11-06, avskrift till häradsarkivet 1810-03-15 | 304:5 | Far till Johan och Jacob Jacobssöner Härmälä; Jacob (17 år 1802) är troligen Jacob Jacobsson "Sandnabba eller Härmälä" (köpare 1843) – obekräftat |
-| Anna Isac(s)dotter | Änka efter Jacob Jacobsson Härmelä d.ä.; avstår giftorätt 1826 | 304:8, 298:10–11 | Undertecknar 311:3 som "maria Isac dotter Härmela" – motsägelse eller läsfel; läsaren av 307–311 visste inte att dokumentet är 1802 års bouppteckning |
+| Anna Isac(s)dotter | Änka efter Jacob Jacobsson Härmelä d.ä.; avstår giftorätt 1826 | 304:8, 298:10–11, 312:3 | 311:3 skriver "maria isac dater Härmela" – källfel (förväxling med styvdottern Maria), bekräftat av dubbelläsning |
 | Maria Jacobsdotter (g. Eric Mats(s)on Ede); Gretalena Jacobsdotter (g. Anders Nars/Narsträsk); Britacaisa Jacobsdotter (g. Pehr Mattsson Käldbacka) | Döttrar till Jacob Jacobsson Härmelä d.ä.; mågarna avstår lotterna 1826 | 304:12–14, 298–300 | Pehr Mattsson Käldbacka – far till Matts Pehrsson Kjäldbacka (1843)? |
 | Pähr Isacson [Flisa?]; Abraham Stormåres | Förmyndare 1802 | 304:11, 304:15–16 | |
 | Matts Carlsson [Lasfolk?]; Jacob Pehrsson [Lasfolk?]; Brita Carlsdotter; Jonas Jonesson [Lasfolk?] | Köpare resp. vittne 1840 | 302:5–7, 302:26 | |
-| Pähr Isacson Slipp / [Flisa?]; Abraham Stormåres / [Stormans?] | Förmyndare 1802/1810 | 304:11, 311:16 | Samma personer i 304 och 311 – läsningarna skiljer sig |
+| Pähr Isacson Slipp; Abraham Stormånes (Stormåres, Stormånz) | Förmyndare 1802 (Pähr = änkans bror) | 304:11, 304:16, 310:12, 311:16 | Rättat från [Flisa?] resp. [Stormans?] |
 | [Gab:?] [Dalmqvist/Palmqvist?] | Antecknade bouppteckningen 1802 vid mantalsskrivningen 1810-11-06 | 311:26 | Jfr häradsskrivaren Gabriel Palmquist 1848 (008:10) – möjligen samma ämbete/familj |
-| [Erek?] Johanson [Konsatoe?] (d. 1816-05-10) | Öfwerpurmo; bouppteckning 1816-05-27 (313–315, 312/316); änka Anna Isacks Dotter, första hustru Elisabetta Hans Dotter, söner Johan och Jacob Ersson, döttrar Helena (g. byskräddaren Anders Söderlund) och Elisabetta (g. Mats Johanson [Wet?]) | 313:6 | |
+| Erek Johanson Kon[s?]jåtoe (d. 1816-05-10) | Sytningsman ("Dÿtningz"); Öfwerpurmo; bouppteckning 1816-05-27 (313–315, 312/316); änka Anna Isacks Dotter, första hustru Elisabetta Hans Dotter, söner Johan och Jacob Ersson, döttrar Helena (g. byskräddaren Anders Söderlund) och Elisabetta (g. Mats Johanson [Wet?]) | 313:6 | |
 | Petter Kylenpää | Kyrkvärd, kvitterar 1816 | 312:18 | |
 | Hinric Kylenpää; Anders Isacson Kylenpää; Johan Hanson [Kalsierf?]; Eric Hanson Kalierf; Simon Isacson [Kejerf?]; Eric Anderson [Sislaka?] | Gäldenärer i bouppteckningen 1802 | 308:19–30 | |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
