@@ -68,7 +68,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Hans Klåfors; Anders [Willbacka?]; And: Brunberg (skrivare) | Vittnen resp. skrivare 1826 | 296:25–26 | |
 | Johan Simonsson Willbacka | Bonde; borgenär 1839 (51 rdr 36 sk riksgäldssedlar) mot Jacob Jacobsson Härmälä; kvitterar betalningen Jacobstad 1840-02-17 | 290:3–4, 295:18 | |
 | [Hamilton?] | Guvernör (Kejsarens Befallningshafvande) i Wasa län, undertecknar utslaget 1839 | 295:12 | låg säkerhet |
-| J. [Backlén/Hacklén?]; [Engelt?]; [Carl Joh. Solferin?] | Bestyrkare, vittne och kanslist 1839–40 | 290–295 | låg säkerhet |
+| J. [Sacklén/Hacklén?]; [Engelt?]; [Carl Joh. Solferin?] | Bestyrkare, vittne och kanslist 1839–40 | 291:14, 295:21, 290 marg. | Inte "Backlén" – versalen är S/H (dubbelläsning 291) |
 | [Pehr?] Malm ("H:r Com: Rådet Malm") | Kommerseråd, Jacobstad; borgenär 1819 för 476 rdr 40 med inteckning i Isaac Christophersson Harmalas andel | 318:9–10, 319:8 | |
 | Carl [Stenhagen?] | "På Härads Rättens Wägnar" 1819 | 321:5 | Namnteckning, låg säkerhet |
 | Johan Mattsson Sandberg | Bonde, [Neder?]purmo; borgenär 1833 (30 rdr), kärande 1839 mot Jacob Jacobsson Härmelä | 322:10–11, 323:8 | |
