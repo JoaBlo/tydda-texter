@@ -43,7 +43,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | Eric Johansson Sandnabba | Vittne 1848 (161:19–20) | 008:22?; 161:20, 32; 165:20, 30 |  |
 | Simon Petter[s?] Nygård | Kyrkvärd (161:36), kvittens 1858-09-17 (161:33–35) | 161:35; 165:33 |  |
 | Johan Nikola; Lars [Gref?]; Handland Strängberg | Borgenärer 1848 (160:18–22, 164:17–21) | 160:18, 20, 22; 164:17, 19, 21 | Strängberg = Strengberg? |
-| A. [Grotelin?]; Jonas Sandnabba; Jacob [Eide/Lide?] | Underskrifter på bouppteckningen 1818 (157:22–23) | 151:5–6; 157:22–23; 312:12?; 313:3?; 316:12? |  |
+| A. [Grotelin?]; Jonas Sandnabba; Jacob [Eide/Lide?] | Underskrifter på bouppteckningen 1818 (157:22–23); Jonas = nämndemannen **Jonas Månsson** Sandnabba (151:5, rättat från "Hansson" efter tredje läsningen) och Jacob = Bonden Jacob [Eide/Lide?] å Sandnabba (151:6) | 151:5–6; 157:22–23; 312:12?; 313:3?; 316:12? |  |
 | And. Söderlund | Ordförande i arvsskattenämnden 1940 (198:marg) | 198:marg; 253:19? |  |
 | [Christoffer?] [Teuden/Tenden?] | T.f. (198:marg), "På domareämbetets vägnar" jan 1940 (198:marg) | 198:marg | låg säkerhet |
 | And: Brunberg; Carl Ant: Brunberg; Henrik Törnvik | Vittnen 1836 (206:5–6, 16–18) | 206:17–18; 296:26?; 297:27?; 301:8? |  |
