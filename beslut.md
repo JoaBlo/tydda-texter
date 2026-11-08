@@ -11,6 +11,30 @@ Status markeras så här:
 
 ## Beslut som väntar på dig
 
+### 2026-11-08 – TREDJE LÄSNINGEN KLAR: 45 svåra sidor lästa och rättade
+**Omfattning:** 151–158, 166, 137, 146, 205, 207, 213, 220, 225, 228, 229, 247, 276, 295–302,
+304–316, 318–321, 326, 105, 148. Varje sida lästes i sin helhet av en ny läsare *innan* den
+såg transkriptionen; resultatet står i "## Tredje läsning (Fable 5.1)" och/eller "(Opus 5.5)".
+Modell per fil står på modellraden. Fable läste 30 sidor; 16 lästes av båda; 7 sidor
+(155–157, 310 fullständigt, 311, 321, 326) bara av Opus efter Fable-gränsen (ditt beslut).
+**Rättelser:** bara AVVIKER med konkret grund i bilden, granskade av en separat rättare; varje
+rättelse har grund i "## Rättelser efter dubbelläsning", avvisade förslag står som "Ej rättat".
+**Det viktigaste fyndet:** de tidigare läsarna (inklusive dubbelläsaren) normaliserade stavning
+och fyllde i formler även på rader de inte markerat som osäkra – "infunno sig" för "instälte
+sig", "bonden" för "bunden", "Beata" för "Biata", "Söner" för "söner", "upteckningar" för
+"uptekningar", "dess" för "deras". Transkribus Swedish Lion bekräftar oberoende de flesta av
+dessa rättelser (151, 157, 304, 313). Belopp, datum och namn på parterna var däremot nästan alltid rätt.
+**Ändringar som berör namn.md (införda):** Jonas **Månsson** (151:5); Abraham Stormånes i
+**Ytterpurmo** (304:16); 1816: Hans **Klåfwus**, Erek Johanson **Konjär…e**/"Konsarfve",
+**Kylenpä**; Härmelä-formen på 321.
+**Ägaren bör titta på** (oenighet som ingen läsare kunnat avgöra):
+- 137:7 "Ån"/"Ren"; 166:3 "Äcklingen"; 313:2 "Nämdemannen"/"Nämdeman" (Swedish Lion: Nämdeman);
+  313:17 "aflidnes"/"efterlefnes"; 315 "sämmare" (sju rader); 314:21 "Par" versal mot 315:s "par";
+  152:2 möjligen "wilkor"; 304:6 "Socken"/"sokn"; 306:7 "Ett"/"En".
+- 151:17 "på"/"går i" – Swedish Lion läser "på" (jämförs nu).
+**Konventionsfrågor (ÖPPET):** interlinjära tillägg i blocket (229:1 "parcell", 228:19
+insättningstecken, 326:16, 318:10 c); dekorativ slutslinga (312/316) beskrivs i anmärkningen.
+
 ### 2026-11-08 – Maskinläsning med Transkribus "The Swedish Lion I" som fjärde läsare
 Du körde modellen (55158; tränad på 61 356 sidor svensk handskrift 1600–1800-tal, bl.a.
 Riksarkivet och Kansallisarkisto) på 151, 157, 304 och 313. Den bekräftade de flesta rättelserna
