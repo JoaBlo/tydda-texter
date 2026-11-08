@@ -126,7 +126,7 @@ Wilhelm Ulrich?) och skrev under med ett annat än det kansliet skrev ut. Läsni
 [Wilhelm/Ulrich?] i 014, 015 och 278. **Status:** AVGJORT 2026-11-08: Ylioppilasmatrikkeli 1640–1852 (#13387) har Carl Wilhelm Roschier (f. 1802, vice häradshövding 1830, t.f. domare i Ilmajoki tingslag, d. 1869); någon Ulrich Roschier finns inte. 014/015 → `Carl [Wilhelm?]`, 278 → `Carl [Wilh.?]`. Tidigare text: avgörs bäst med en extern källa
 (t.ex. matrikel över häradshövdingar i Österbotten 1849).
 
-### 2026-11-08 – Häradshövdingen 1857–58: "Tujulin", inte "Kujulin"
+### 2026-11-08 – Häradshövdingen 1857–58: "Tujulin", inte "Kujulin" (AVGJORT 2026-11-08, extern källa: Ylioppilasmatrikkeli #13523)
 Dubbelläsaren av 280:8 ser att den långa vågräta linjen över namnteckningen är takstrecket i ett
 T, följt av "-ujulin" – samma som klartexten "Johan Fredrik [Tujulin?]" i 279:1. Den oläsliga
 namnteckningen 1857–58 (023:16, 026:21, 211) är troligen samma person. **Status:** information;
@@ -317,12 +317,12 @@ och låt mig rätta 047–053. Säg till så gör jag det.
 ### 2026-11-07 – Lokalkännedom efterfrågas
 Läsarna har bett om hjälp med några namn som kräver lokal- eller släktkännedom:
 - ~~031:17 Beata Simonsdotters gårdsnamn~~ – Stennabba, rättat efter originalet 213 och bekräftat av lysningen 1866 (HisKi)
-- 036:5 domhavandens namnteckning 1869: `[Hj. W. Sarck?]`
-- 023:16 / 026:21 samma oläsliga namnteckning 1857–58 ("Jondre Kujulin"?)
-- 061:9 namnteckning 1925: `[Odo?] [Sandelin?]`
-- 057/062 Anders Lassen (1925) och Ivar Lasén (1949–50) – samma person?
-- 018:24 sytningsvara "quins [Riaxa?]"
-- 033:7 bråket "5/436" (ger inget rimligt mantal; 336 eller 432?)
+- ~~036:5 domhavandens namnteckning 1869 `[Hj. W. Sarck?]`~~ → **N. M. Barck** (Nils Magnus Barck, domare i Nykarleby domsaga 1863–71). Extern källa: Ylioppilasmatrikkeli 1640–1852 #13003. Bilden ger efter ny kontroll "N.M.Barck.". Rättat i 036, 082, 091, 099, 168, 213 och 246.
+- ~~023:16 / 026:21 "Jondre Kujulin"~~ → **[Joh. Fr.?] Tujulin** (Johan Fredrik Tujulin, domare i Mellersta Österbottens övre domsaga 1849–59). Extern källa: Ylioppilasmatrikkeli 1640–1852 #13523, samt klartexten 279:1. Rättat i 023, 026, 211, 279 och 280.
+- ~~061:9 `[Odo?] [Sandelin?]`~~ → **Odo Sandelin** (häradshövding i Nykarleby domsaga 1916–38). Extern källa: Ylioppilasmatrikkeli 1853–1899 #22304.
+- ~~057/062 Lassen/Lasén samma person?~~ → **Nej**: olika förnamn (Anders 1925/1934, Ivar 1949–50). Ingen extern källa behövdes.
+- 018:24 "quins [Riaxa?]" → nu `[Riaxa/Pjaxa?]`. Ingen extern källa; parallellerna 029:9 och 094:18 ("två par quins/qvins pjexor") och originalet 210:15 tyder på pjäxor. Ordboken över Finlands svenska folkmål (kaino.kotus.fi/fo) gick inte att söka automatiskt. **Fortfarande öppet** om du vill kontrollera själv.
+- 033:7 bråket "5/436" (ger inget rimligt mantal; 336 eller 432?) – går inte att avgöra med extern källa (räknefel eller skrivfel i protokollet). **Fortfarande öppet.**
 **Status:** ÖPPET.
 
 ### 2026-11-07 – Parallella omgångar och dokumentgränser

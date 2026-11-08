@@ -37,6 +37,10 @@ i bilder/ innan du läser (originalet finns kvar i git-historiken).
 5. Under transkriptionen i samma fil: lista osäkra passager med
    radnummer, bästa gissning och varför du är osäker.
 6. Sist i filen: hur säker du är på helheten (hög/medel/låg)
+7. Används en extern källa (kyrkböcker/HisKi, studentmatriklar, ordböcker m.m.)
+   ska det alltid stå i filen: "Extern källa:", källans namn, post-ID eller
+   URL och vad den stöder. Externa uppgifter förs aldrig in omarkerade i
+   transkriptionen.
 
 ## Efter varje omgång
 Committa de nya filerna med meddelandet "Transkription 001–010"

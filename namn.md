@@ -10,8 +10,8 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 
 | Namn (varianter) | Roll | Första förekomst | Anm. |
 |---|---|---|---|
-| Jacob Jacobsson Sandnabba eller Härmälä (f. 1793-02-06, d. 1861-12-22) | Bonde på Härmälä till 1840, köpare av Sandnabba 1843, sökande vid uppbuden 1848–49; överlåter hemmanet till sonen 1856; "sytningsmannen" 1861; bouppteckning och skifte 1862-01-07 (166–167), behållning delas mellan Jakob, Annalina, Maialisa, Greta, BritaCaisa, Beata | 001:13 | Hustru Elisa Andersdotter (002:11). Ägarpåskrift "B:n Jacob Jacobsson Sandnabba" på flera handlingar. Obs: "Bondesonen" 1857 (016:24) är **sonen**, inte han (017:15–17). **Bekräftat (HisKi Purmo):** son till Jacob Jacobsson Härmälä (d. 1802) och Anna Isaksdotter, född 1793-02-06; lysning med Elisab. Andersdotter 1813-11-14 ("Bs." Härmelä); barn döpta på Härmelä 1814–1830 = arvingarna 1848 (se Elisa). 304:9 "17 år" är 9 år räknat till 1802, men 17 år vid avskriften 1810 |
-| Elisa / Lisa Andersdotter (ca 1792 – 1848-05-08) | Hustru till Jacob Jacobsson (d. 1861), gift 1813/14 | 002:11 | HisKi Purmo: död 8.5.1848 på Sandnabba, "colik", 56 år. Barn (dop): Anna Lena 1814-10-29, Majalisa 1816-06-06, Greta 1819-07-14, Britha Caisa 1821-12-17, Jacob 1825-07-20, Beatha 1829-02-21, Clara 1830-08-23 (Clara inte med 1848 – troligen död) |
+| Jacob Jacobsson Sandnabba eller Härmälä (f. 1793-02-06, d. 1861-12-22) | Bonde på Härmälä till 1840, köpare av Sandnabba 1843, sökande vid uppbuden 1848–49; överlåter hemmanet till sonen 1856; "sytningsmannen" 1861; bouppteckning och skifte 1862-01-07 (166–167), behållning delas mellan Jakob, Annalina, Maialisa, Greta, BritaCaisa, Beata | 001:13 | Hustru Elisa Andersdotter (002:11). Ägarpåskrift "B:n Jacob Jacobsson Sandnabba" på flera handlingar. Obs: "Bondesonen" 1857 (016:24) är **sonen**, inte han (017:15–17). **Bekräftat (extern källa: HisKi Purmo):** son till Jacob Jacobsson Härmälä (d. 1802) och Anna Isaksdotter, född 1793-02-06; lysning med Elisab. Andersdotter 1813-11-14 ("Bs." Härmelä); barn döpta på Härmelä 1814–1830 = arvingarna 1848 (se Elisa). 304:9 "17 år" är 9 år räknat till 1802, men 17 år vid avskriften 1810 |
+| Elisa / Lisa Andersdotter (ca 1792 – 1848-05-08) | Hustru till Jacob Jacobsson (d. 1861), gift 1813/14 | 002:11 | Extern källa, HisKi Purmo: död 8.5.1848 på Sandnabba, "colik", 56 år. Barn (dop): Anna Lena 1814-10-29, Majalisa 1816-06-06, Greta 1819-07-14, Britha Caisa 1821-12-17, Jacob 1825-07-20, Beatha 1829-02-21, Clara 1830-08-23 (Clara inte med 1848 – troligen död) |
 | Matts Pehrsson Kjäldbacka / Käldbacka / Kjeldbacka | Bonde, säljare 1843 ("afhändaren") | 001:23 | Samma skrivare stavar gården olika; Matts skrivs "Mattis"-liknande i 001:23 |
 | Maria Hansdotter | Hustru till Matts Pehrsson; dotter till Hans Jacobsson Sandnabba | 002:1, 004:10 | Ej att förväxla med nedan |
 | Hans Jacobsson Sandnabba | "Förra bonden", sytningstagare | 003:4 | Hustru Marja/Maria Hansdotter d. juni 1817 (151:10, 007:6–8); barn Johan (16 år 1818) och Marja (007:15–16, 151:16–17). Syskon enl. gåvobrev 1811: Eric, Petrus, Jonas, Greta, Beata, Anna (155:21–24) |
@@ -31,7 +31,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | [...?] Aminoff; [Hans?] Ernst Aminoff | "På Härads Rättens vägnar" 1848; påteckning "Belagdt såsom Bilaga" på köpebrevet 1836 | 011:7, 205 marg. | Efternamnet enligt dubbelläsaren (A-m-i-n-o-ff); förnamnet oläsligt |
 | Jacob Mattsson, Simon Johansson, Eric Johansson | Övriga åbor på Sandnabba 1848 (tabell) | 008:20–22 | Vardera 1/16 skatte + 1/24 krono |
 | Jacob Jacobsson Sandnabba d.y. / Jakob Jakobsson Sandnabba (d.ä. i 1868 års handling) | Son till Jacob Jacobsson (1848) och Lisa Andersdotter; mottog 5/48 mantal 1856; "Bondesonen" 1857–58, "Bonden" från okt 1858; fastebref 1858; "afträdare" 1868; d. 1868-11-06, bouppteckning 1869-03-30 (178–183, två exemplar, inventarium 85 mark) | 016:24, 017:15–17, 178 | Första hustru Greta Mattsdotter (d. 1864), andra Beata Simonsdotter. Stavas med k från 024 |
-| Greta Mattsdotter Sandnabba | Hustru till Jacob Jacobsson d.y. (från Grägg; lysning 1848-12-26, HisKi Purmo); d. 1864-02-15; bouppteckning 1864-07-07, original 168–171 och avskrift 172– (fast egendom 5/48 = 3 200 mark, inventarium 4 024,70, behållning 3 254,39) | 017:18–19, 032:5, 168 | |
+| Greta Mattsdotter Sandnabba | Hustru till Jacob Jacobsson d.y. (från Grägg; lysning 1848-12-26, extern källa: HisKi Purmo); d. 1864-02-15; bouppteckning 1864-07-07, original 168–171 och avskrift 172– (fast egendom 5/48 = 3 200 mark, inventarium 4 024,70, behållning 3 254,39) | 017:18–19, 032:5, 168 | |
 | Elisa / Lisa Andersdotter (d. 1848-05-08) | Hustru till Jacob Jacobsson (1843); bouppteckning och skifte 1848-05-15 i två exemplar (158–161, 162–165): fastighet 5/48 = 400 rubel, inventarium 490:04, behållning 231:77 | 002:11, 033:1, 158 | |
 | Hendric / Hindrik Jacobsson Pass | Backstugukarl, gift med dottern Annalena | 158:6, 166:6 | |
 | Johan Andersson Nybrän | Bondeson, gift med Majalisa | 158:7–8 | |
@@ -46,7 +46,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | [Christoffer?] [Teuden/Tenden?] | T.f., "På domareämbetets vägnar" jan 1940 | 198 marg. | låg säkerhet |
 | And: Brunberg; Carl Ant: Brunberg; Henrik Törnvik | Vittnen 1836 | 206:17–18 | |
 | Maria Andersdotter Sandnabba | Ägare av en torplägenhet på Sandnabba; utarrenderar den 1911 till Jakob Jakobsson Sandnabba (Björklund) för 25 mark/år, enl. torpkontrakt 1888-03-14 | 217:1 | |
-| Matts Jakobsson Sandström / Sandnabba ("M Sandström") | Säljer 1876 sin "halfva Sandnabba skatte hemman N:o 8" till brodern Jakob för 2500 mark; undertecknar i Svartå, Karis socken | 225:2, 226:7 | = Matts (f. 1849-07-27, HisKi), son till Jakob d.y. och Greta Mattsdotter |
+| Matts Jakobsson Sandström / Sandnabba ("M Sandström") | Säljer 1876 sin "halfva Sandnabba skatte hemman N:o 8" till brodern Jakob för 2500 mark; undertecknar i Svartå, Karis socken | 225:2, 226:7 | = Matts (f. 1849-07-27, extern källa: HisKi), son till Jakob d.y. och Greta Mattsdotter |
 | Jakob Jakobsson Lilqvist (= Jakob Jakobsson Sandnabba, 1850–1908) | Köpare 1876; mottagare av broderns brev 1876 ("Sandnabba Jacob / Lilqvist") | 225:4, 226:11, 282:1–2 | Bekräftat av brevets utanskrift; inte inspektor Lillqvist 1864 |
 | Johan Danielsson; Thomas Mattsson; J. [Koivula?] (banmästare) | Vittnen 1876 | 226:13–18 | |
 | Simon Petter Johansson Sandnabba | Bonde; köpte 5/96 av Jakob Jakobsson 1878-02-25 för 3 000 mark och tog halva sytningen till Beata | 209:3–4 | = förmyndaren 1878 (187:14)? |
@@ -65,7 +65,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | K. J. Nygård; A. [M?] Grägg | Bestyrker avskriften av fastebrevet 1916 | 283:23 | |
 | Danielson | Ingav fullmakt 1866-09-15 | 286:1 | |
 | Isaac Christophersson Härmälä / Harmala | Gäldenär 1819 (inteckning i [25/672?] av Harmala N:o 6 – samma som döttrarnas andel 1826); säljer 1826 25/144 mantal av Härmälä skattehemman N:o 6 till Johan och Jacob Jacobssöner Härmälä | 296:1–2 | |
-| Johan och Jacob Jacobssöner Härmälä | Bönder, köpare 1826 hälften var | 296:6, 23, 27 | Halvbröder: Johan f. 1782-10-14 (mor Margareta Johansdotter, d. 1788), Jacob f. 1793-02-06 (mor Anna Isaksdotter) (HisKi Purmo). Jacob = Jacob Jacobsson "Sandnabba eller Härmälä" (001:13) – bekräftat |
+| Johan och Jacob Jacobssöner Härmälä | Bönder, köpare 1826 hälften var | 296:6, 23, 27 | Halvbröder: Johan f. 1782-10-14 (mor Margareta Johansdotter, d. 1788), Jacob f. 1793-02-06 (mor Anna Isaksdotter) (extern källa: HisKi Purmo). Jacob = Jacob Jacobsson "Sandnabba eller Härmälä" (001:13) – bekräftat |
 | Simon Andersson Härmälä | Sytningstagare 1826 | 296:16–17 | |
 | Hans Klåfvus / Hans Johansson Klåfous / Hans Klåfwås | Vittne 1826 och 1833; häradsnämndeman 1816 | 297:25, 301:5, 323:24, 312:12, 313:2 | Samma person; = byn Klåvus i Purmo |
 | Anders [Willbacka?]; And: Brunberg (skrivare) | Vittne resp. skrivare 1826 | 296:25–26 | |
@@ -78,7 +78,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | Anders Willbacka | Nämndeman, ombud 1839 | 322:8–9 | = Anders [Willbacka?] 1826 (296)? |
 | [A. H.?] [Grönberg?] | "På Härads Rättens vägnar", förordnad, 1839 | 326:15–16 | Namnteckning |
 | J. F. [Grottelin?]; C. Fr. [Hellstén?]; Petr: [Lithén?]; Hans Johansson [Vilåfous?]; Johan Jonasson [Slip?]; Gustaf [Nicklin?] | Vittnen och skrivare 1819 och 1833 | 319, 323–324 | |
-| Jacob Jacobsson Härmelä (d. 1802-08-17) | Bonde på Härmälä N:o 6 (25/96 mantal); bouppteckning 1802-10-06 (304–311; inventarium 417 rdr 31 ß, att dela 219 rdr 45 ß), uppläst vid mantalsskrivningen 1810-11-06, avskrift till häradsarkivet 1810-03-15 | 304:5 | HisKi Purmo: 1:a hustru Margareta Johansdotter (d. 1788-09-14, 42 år): Maria 1776, Margareta Helena 1778, Jacob 1781 (d. 1781, koppor), Johan 1782, Brita Catharina 1786; 2:a hustru Anna Isaksdotter: Isaac 1790 (d. 1791), **Jacob 1793-02-06** (= köparen 1843, d. 1861), Elisabet 1798 (d. 1798). Överlevande 1802 = arvingarna i 304:9–15 |
+| Jacob Jacobsson Härmelä (d. 1802-08-17) | Bonde på Härmälä N:o 6 (25/96 mantal); bouppteckning 1802-10-06 (304–311; inventarium 417 rdr 31 ß, att dela 219 rdr 45 ß), uppläst vid mantalsskrivningen 1810-11-06, avskrift till häradsarkivet 1810-03-15 | 304:5 | Extern källa, HisKi Purmo: 1:a hustru Margareta Johansdotter (d. 1788-09-14, 42 år): Maria 1776, Margareta Helena 1778, Jacob 1781 (d. 1781, koppor), Johan 1782, Brita Catharina 1786; 2:a hustru Anna Isaksdotter: Isaac 1790 (d. 1791), **Jacob 1793-02-06** (= köparen 1843, d. 1861), Elisabet 1798 (d. 1798). Överlevande 1802 = arvingarna i 304:9–15 |
 | Anna Isac(s)dotter | Änka efter Jacob Jacobsson Härmelä (d. 1802); avstår giftorätt 1826 | 304:8, 298:10–11, 312:3 | 311:3 skriver "maria isac dater Härmela" – källfel (förväxling med styvdottern Maria), bekräftat av dubbelläsning |
 | Maria Jacobsdotter (g. Eric Mats(s)on Ede); Gretalena Jacobsdotter (g. Anders Nars/Narsträsk); Britacaisa Jacobsdotter (g. Pehr Mattsson Käldbacka) | Döttrar till Jacob Jacobsson Härmelä (d. 1802); mågarna avstår lotterna 1826 | 304:12–14, 298–300 | Pehr Mattsson Käldbacka – far till Matts Pehrsson Kjäldbacka (1843)? |
 | Pähr Isacson [Flisa?]; Abraham Stormåres | Förmyndare 1802 | 304:11, 304:15–16 | |
@@ -96,11 +96,11 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | Lena, Maria Lisa / Maja Lisa, Kaisa, Greta, Bata / Beata (Jacobsdöttrar) | Döttrar till Jacob Jacobsson (d. 1861); utlösen 5 rubel var 1856 | 017:24, 018:1–2, 025:4–5 | "Bata" 018:2 = Beata; i 033:5–12 nämns systrarna Anna, Maja, Greta, Brita, Beata |
 | Johan Johansson Bäck (Joh: Bäck) | Vittne till och skrivare av afhandlingen 1856 | 021:1–4 | Jfr "J: Bäck" 004:17 |
 | Wilhelm Lindbohm | "På Härads Rättens vägnar" 1858-02-26 | 025:12 | Paraf "[fd?]" under |
-| Johan Fredrik [Tujulin?] | Häradshövding, Österbottens "medledets" Öfra domsaga; utfärdar fastebrevet 1858-10-12 i klartext; troligen = den oläsliga namnteckningen 1857–58 ("Jondre Kujulin") | 279:1, 280:8, 023:16, 026:21, 211 | Klartextformen i 279:1 bör jämföras med namnteckningarna |
-| Matts och Jakob Jakobssöner Sandnabba | Bönder, mottagare 1868, sökande 1869–1870 (1:a–3:e uppbud) på 5/48 mantal "till hälften hvardera"; söner till Jakob Jakobsson d.y. och Greta Mattsdotter – bekräftat av dopen: Matts 1849-07-27, Jacob 1850-12-23, båda med modern Greta Mattsdotter (HisKi Purmo) | 027:19, 037:14–15 | Ägarpåskrift "Bönderne Matts och Jakob Sandnabba" 037:27; "B:ne Matts och Jakob Jakobss. Sandnabba" 039:27 |
+| Johan Fredrik Tujulin (1803–1859) | Häradshövding, Mellersta Österbottens övre domsaga 1849–59; utfärdar fastebrevet 1858-10-12; namnteckning "På Härads Rättens vägnar" 1857–58 | 279:1, 280:8, 023:16, 026:21, 211:7 | **Extern källa:** Ylioppilasmatrikkeli 1640–1852 #13523 (https://ylioppilasmatrikkeli.fi/henkilo.php?id=13523). Namnteckningen lästes tidigare "Jondre Kujulin" |
+| Matts och Jakob Jakobssöner Sandnabba | Bönder, mottagare 1868, sökande 1869–1870 (1:a–3:e uppbud) på 5/48 mantal "till hälften hvardera"; söner till Jakob Jakobsson d.y. och Greta Mattsdotter – bekräftat av dopen: Matts 1849-07-27, Jacob 1850-12-23, båda med modern Greta Mattsdotter (extern källa: HisKi Purmo) | 027:19, 037:14–15 | Ägarpåskrift "Bönderne Matts och Jakob Sandnabba" 037:27; "B:ne Matts och Jakob Jakobss. Sandnabba" 039:27 |
 | Beata Simonsdotter | **Andra** hustru till Jacob/Jakob Jakobsson d.y. (d. 1868-11-06); styvmor till Matts, Jakob, Johan, Anders, Gustaf (Greta Mattsdotters söner); mor till Simon Petter (f. ca 1867, d. 1877); sytningstagare 1868; änka och ägare med styvsonen Jakob 1877 | 038:7, 040:16–17, 178:6–13 | Tidigare felaktigt angiven som hustru till Jacob Jacobsson (d. 1861) – rättat efter 178 |
 | Johan, Anders, Gustaf (och Simon Petter) Jakobssöner | Bröder till Matts och Jakob; utlösen 200 mark vardera 1868 | 028:10–11, 038:8–9 | Simon Petter nämns 028:11 men inte i bouppteckningen 1864 eller 035:18 |
-| Beata Simonsdotter Stennabba | Se ovan; "enka efter afträdaren" 1869 | 031:17 | Gårdsnamnet rättat till Stennabba (stöd: originalet 213:5). Bekräftat: lysning 1866-11-18 "B.Enkl. Jakob Jakobsson" och "Pig. Beata Simonsdr Stennabba" (HisKi Purmo) |
+| Beata Simonsdotter Stennabba | Se ovan; "enka efter afträdaren" 1869 | 031:17 | Gårdsnamnet rättat till Stennabba (stöd: originalet 213:5). Bekräftat: lysning 1866-11-18 "B.Enkl. Jakob Jakobsson" och "Pig. Beata Simonsdr Stennabba" (extern källa: HisKi Purmo) |
 | Gustaf Johansson Sandnabba; Johan Mattsson Sandnabba | Vittnen 1868 | 031:8–9 | |
 | Anders Haapbacka | "af Anders Haapbacka" – troligen skrivare av afhandlingen 1868 | 031:11 | |
 | Bruno Brunberg; Anders Backa | Vittnen till änkans påskrift 1869 | 031:19–20 | Förnamnet Bruno något osäkert |
@@ -133,7 +133,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | A. Lasen | Nämndeman, delgivning Purmo 1934 | 114:20 | Jfr Anders Lassen 1925, Ivar Lasén 1949 |
 | Per [Thodén?]; Vidar Backlund | Bestyrker maskinskriven avskrift av e: 1 | 111:18 | |
 | Vittnen 1913: A. Willman, August Erikson Wilobacka, Anders Isaksson Sandnabba, Alina Andersdotter Sandnabba, Maria Blomberg, Anders Sandnabba | Delgivningspåskrifter 1913 | 109, 111 | Handskrivna former avviker (Erekson, ijssak son) |
-| [...] [S/Z?]arck | "På Häradsrättens vägnar" 1865–1869 | 036:5, 082:23, 091:15, 099:15, 168:3 | "-arck" säkert (dubbelläsaren); initialerna "Hj. W." har inget stöd i bokstäverna – bara en gissning från 036 | Mycket osäker läsning; läsaren av 082 ser "N. N. [B/Wz]arck" |
+| Nils Magnus Barck (1796–1871) ("N. M. Barck") | "På Häradsrättens vägnar" 1865–1869; domare i Mellersta Österbottens nedre domsaga 1842, Nykarleby domsaga 1863–71 | 036:5, 082:23, 091:15, 099:15, 168:3, 213:19, 246:21 | **Extern källa:** Ylioppilasmatrikkeli 1640–1852 #13003 (https://ylioppilasmatrikkeli.fi/henkilo.php?id=13003). Namnteckningen lästes tidigare "Hj. W. Sarck"; ny kontroll av 036 ger "N.M.Barck." |
 | Theodor Wilander | "På Häradsrättens vägnar" 1869–1870 | 038:19, 041:2, 213:26, 213:33 | Liten förkortning "[fd:?]" med paraf under (rättat från [Gd:?] i 213; samma paraf som under Lindbohm) |
 | Jakob Jakobsson Sandnabba (f. 1850-12-23, d. 1908-09-24) | Bonde (= den yngre av bröderna Matts och Jakob 1870, son till Greta Mattsdotter); far till Jakob Björklund; muntligt testamente till hustrun bevakat 1909 | 045:1, 047:19–20 | Kallas "Jakob Johansson Sandnabba" i 047:13 – troligen skrivfel i källan |
 | M. Sandnabba | Vittne vid gåvobrevet 1913 | 044:18 | |
@@ -181,7 +181,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | Dagny Alexandra Björklund (f. 1925-05-18) | Dotter | 062:30 | |
 | Sven-Erik Novén | Fullmakt Trelleborg 1949-08-30 | 063:30 | |
 | Karin Björklund, Signe Björklund | Medundertecknare av köpebrevet 1949 (troligen svärdöttrar) | 063:8–9 | |
-| Anders Lassen (1925) / Ivar Lasén (1949–50) | Nämndeman, ombud 1925 resp. 1950; köpvittne och godeman 1949 | 057:11, 062:11 | Blyerts "Lassén"/"Lasén"; oklart om samma person |
+| Anders Lassen (1925) / Ivar Lasén (1949–50) | Nämndeman, ombud 1925 resp. 1950; köpvittne och godeman 1949 | 057:11, 062:11 | Olika förnamn, alltså **två personer** (troligen släktingar). Anders Lassen 1925 = Anders Lasén/A. Lasen 1934 (114:20, 119:22). Stavningen varierar i källorna |
 | Johan Bäcksbacka eller Bäcksfors / Bäckfors, hustru Lovisa | Ägare av Bäcksbacka N:o 23 (fastebrev 1894-09-08); sålde Brännkärr-torpet till Anders Nyman 1922-02-10 för 1000 mark (bomärken) | 057:23–24, 058:2, 228:8 | "Bäckfors" i köpebrevet 1922 |
 | Anders Nyman | Torpare; köpte Brännkärret 1922-02-10, sålde 1922-03-16 till Jakob Björklund | 058:4 | |
 | Aino Berger | Kommissionslantmätare, klyvningen av Sandnabba 1911 (förrättningen N:o 938); äldre lantmäteriingeniör, parcellering 1923 | 129:5–6, 134:5, 058:10 | Egenhändig namnteckning 134 bekräftar namnet |
@@ -195,7 +195,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | Bruno Sarlin; Joel Jurvelius | Landshövding resp. kontrasignant, utslag 1923-12-28 | 060:2–3 | |
 | Herman Uddström | Vasa läns länslantmäterikontor, jordregistret 1924-01-16 | 060:6 | |
 | Anders Liljeström | Poliskonstapel, Purmo, delgivning 1924-02-07; kvitterar Bergers räkning 1923-12-24 | 060:9–10, 252:6–7 | |
-| Odo Sandelin | "På Häradsrättens vägnar" 1925 (namnteckning); "På Domareembetets vägnar" 1934 (maskinskrivet) | 061:9, 119:2 | Maskinskrivet namn 1934 bekräftar läsningen av namnteckningen 1925 |
+| Odo (Johannes) Sandelin (1868–1945) | Häradshövding, Nykarleby domsaga 1916–38; "På Häradsrättens vägnar" 1925 (namnteckning); "På Domareembetets vägnar" 1934 (maskinskrivet) | 061:9, 119:2 | Maskinskrivet namn 1934 bekräftar läsningen. **Extern källa:** Ylioppilasmatrikkeli 1853–1899 #22304 (https://ylioppilasmatrikkeli.fi/1853-1899/henkilo.php?id=22304) |
 | Aili Skog; Aina Nyman; Aune Kielinen | Vittnen till fullmakter 1934 | 118:4, 118:9 | |
 | Anders Lasén | Stämningsman, delgivning Purmo 1934-08-16 | 119:22 | = "A. Lasen" 114:20; jfr Anders Lassen 1925 |
 | Johannes Lindahl | Vittne till delgivningen 1934 | 119:24 | |
@@ -219,8 +219,10 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 
 ## Källor utanför materialet
 
+**Regel:** varje uppgift som bygger på en extern källa markeras **"Extern källa:"** i den .md-fil där den används (transkriptionsfil, namn.md, beslut.md), med källans namn, post-ID eller URL och vad den stöder. Externa uppgifter förs aldrig in i själva transkriptionen utan markering; de står i rättelsetabellen eller i en anmärkning.
+
 - **HisKi, Purmo** (Genealogiska Samfundet i Finland, https://hiski.genealogia.fi/hiski?se+0420): döpta 1774–1851, vigda 1775–1894, begravda 1775–1853 och 1894. Använd 2026-11-08 för släktkedjan Härmälä–Sandnabba. HisKi är en index-avskrift av kyrkböckerna. Uppgifterna markeras "HisKi Purmo" och förs inte in i transkriptionerna.
-- **Ylioppilasmatrikkeli 1640–1852** (Helsingfors universitet, https://ylioppilasmatrikkeli.fi): studentregister med biografier för ämbetsmän. Använd för Roschier (#13387).
+- **Ylioppilasmatrikkeli 1640–1852** (Helsingfors universitet, https://ylioppilasmatrikkeli.fi): studentregister med biografier för ämbetsmän. Använd för Roschier (#13387), Tujulin (#13523) och Barck (#13003); 1853–1899-delen (https://ylioppilasmatrikkeli.fi/1853-1899/) för Sandelin (#22304).
 
 ## Orter och gårdar
 
@@ -312,7 +314,7 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 | 1848-05-08 / 1848-05-15 | Elisa Andersdotter dör; bouppteckning och skifte (två exemplar) | 158–165 |
 | 1861-12-22 / 1862-01-07 | Jacob Jacobsson (d. 1861) dör; bouppteckning och skifte | 166–167 |
 | 1864-02-15 | Greta Mattsdotter Sandnabba dör; bouppteckning 1864-07-07 (original 168–171, avskrift 172–) | 032:1–7, 168– |
-| 1865-09-29 | Domstolens registreringsanteckning på bouppteckningen 1864 ([…] Sarck) | 168:1–3 |
+| 1865-09-29 | Domstolens registreringsanteckning på bouppteckningen 1864 (N. M. Barck) | 168:1–3 |
 | 1867-08-07 | Skuldsedel (Jakobstad): Jakob Jakobsson Sandnabba lånar 650 mark av rådman Ph. U. Strengberg, 6 % | 079:18–080:12 |
 | 1867-10-15 | Inteckningsprotokoll § 8: inteckning beviljad, gäller tio år – c: 1 | 077–082 |
 | 1868–1877 | Årlig ränta 39 mark betald 7 aug (1870 saknas; 1871 två år) | 085:5–13 |
