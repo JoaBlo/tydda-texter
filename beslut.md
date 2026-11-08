@@ -81,6 +81,24 @@ rättelsetabellen; namn.md: Carl Wilhelm Roschier. **Lärdom:** en namnteckning 
 till en säker läsning bara på bokstavsform när namnet kan ha en klartextform någon annanstans –
 den markeras hellre osäker. **Status:** AVGJORT av källan (om du vill: ta bort [?] helt).
 
+### 2026-11-08 – Roschier igen: namnteckningen säger Ulrich, klartexten Wilhelm
+Dubbelläsaren av 278:13 (namnteckningen under fastebrevet 1849) ser bokstäverna U-l-r-i-c-h, medan
+klartexten i 276:1/277:1 säger "Carl Wilhelm Roschier". Möjligen hade han båda namnen (Carl
+Wilhelm Ulrich?) och skrev under med ett annat än det kansliet skrev ut. Läsningen står som
+[Wilhelm/Ulrich?] i 014, 015 och 278. **Status:** ÖPPET – avgörs bäst med en extern källa
+(t.ex. matrikel över häradshövdingar i Österbotten 1849).
+
+### 2026-11-08 – Häradshövdingen 1857–58: "Tujulin", inte "Kujulin"
+Dubbelläsaren av 280:8 ser att den långa vågräta linjen över namnteckningen är takstrecket i ett
+T, följt av "-ujulin" – samma som klartexten "Johan Fredrik [Tujulin?]" i 279:1. Den oläsliga
+namnteckningen 1857–58 (023:16, 026:21, 211) är troligen samma person. **Status:** information;
+kan tas med i en sista rättelseomgång om du vill.
+
+### 2026-11-08 – Tekniskt: EXIF-orientering rättad på 13 bilder
+085, 285, 286 och 317–326 hade rättvända pixlar men behöll EXIF-taggen för vridning, så att
+bildvisare (t.ex. Finder, webbläsare) visade dem på sidan. Taggen är satt till 1 direkt i filerna,
+utan omkodning. Alla 326 bilder har nu orientering 1 eller ingen tagg. **Status:** AVGJORT.
+
 ### 2026-11-08 – Tryckta villkor och blanketter (274–275)
 Sampos tryckta försäkringsvillkor är transkriberade i sin helhet (regeln: exakt återgivning).
 **Status:** ÖPPET – vill du att tryckt standardtext hellre sammanfattas framöver?
