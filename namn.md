@@ -75,6 +75,11 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Anders Willbacka | Nämndeman, ombud 1839 | 322:8–9 | = Anders [Willbacka?] 1826 (296)? |
 | [A. H.?] [Grönberg?] | "På Härads Rättens vägnar", förordnad, 1839 | 326:15–16 | Namnteckning |
 | J. F. [Grottlén?]; C. Fr. [Hellstén?]; Petr: [Lithén?]; Hans Johansson [Vilåfous?]; Johan Jonasson [Slip?]; Gustaf [Nicklin?] | Vittnen och skrivare 1819 och 1833 | 319, 323–324 | |
+| Jacob Jacobsson Härmelä (d. 1802-08-17) | Bonde på Härmälä N:o 6 (25/96 mantal); bouppteckning 1802-10-06 (304–306), avskrift till häradsarkivet 1810 | 304:5 | Far till Johan och Jacob Jacobssöner Härmälä; Jacob (17 år 1802) är troligen Jacob Jacobsson "Sandnabba eller Härmälä" (köpare 1843) – obekräftat |
+| Anna Isac(s)dotter | Änka efter Jacob Jacobsson Härmelä d.ä.; avstår giftorätt 1826 | 304:8, 298:10–11 | |
+| Maria Jacobsdotter (g. Eric Mats(s)on Ede); Gretalena Jacobsdotter (g. Anders Nars/Narsträsk); Britacaisa Jacobsdotter (g. Pehr Mattsson Käldbacka) | Döttrar till Jacob Jacobsson Härmelä d.ä.; mågarna avstår lotterna 1826 | 304:12–14, 298–300 | Pehr Mattsson Käldbacka – far till Matts Pehrsson Kjäldbacka (1843)? |
+| Pähr Isacson [Flisa?]; Abraham Stormåres | Förmyndare 1802 | 304:11, 304:15–16 | |
+| Matts Carlsson [Lasfolk?]; Jacob Pehrsson [Lasfolk?]; Brita Carlsdotter; Jonas Jonesson [Lasfolk?] | Köpare resp. vittne 1840 | 302:5–7, 302:26 | |
 | Petter Johansson Sandnabba | Bonde, "Skyldeman" som bevakar sönernas rätt 1864 | 168:12–13 | Avskriften skriver "Petter Jakobsson" (172:10–11) |
 | Hindrik Jakobsson Pass; Johan och Jakob Andersson Nybrän; Matts Andersson [Säxiärfve?]; Simon Jonasson Nars | Undertecknar skiftet 1862 (bomärken) – troligen mågar | 167:13–17 | |
 | Erik Stennabba | "af Erik Stennabba" – skrivare 1862 | 167:21 | |
@@ -255,8 +260,11 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | 1836-02-24 | Köpebref: Hans Jacobsson säljer 5/72 mantal till Eric Jacobsson; förmyndaren för dottern Maria 5/432 | 005:14–24, 006:1–9 |
 | 1843-02-06 | Afhandling: Eric Jacobsson säljer 5/48 mantal till Matts Pehrsson Käldbacka | 005:5–14 |
 | 1843-03-09 | Köpebref: Matts Pehrsson säljer 5/48 mantal till Jacob Jacobsson för 582 rubel 85 5/7 kop. silver | 001:21–004:17 |
-| 1819-02-16 / 1819-03-04 | Förskrivning (Jacobstad) och inteckning: Isaac Christophersson Harmala till kommerserådet Malm, 476 rdr 40 – **äldsta handlingen i materialet** | 317–321 |
-| 1826-01-26 | Köpebrev: Isaac Christophersson Härmälä säljer 25/144 mantal av Härmälä N:o 6 till Johan och Jacob Jacobssöner | 296– |
+| 1802-08-17 / 1802-10-06 | Jacob Jacobsson Härmelä d.ä. dör; bouppteckning – **äldsta handlingen i materialet** | 304–306– |
+| 1810-03-15 | Avskrift av bouppteckningen 1802 inlämnad till häradsarkivet | 304:1 |
+| 1819-02-16 / 1819-03-04 | Förskrivning (Jacobstad) och inteckning: Isaac Christophersson Harmala till kommerserådet Malm, 476 rdr 40 | 317–321 |
+| 1826-01-26 | Köpebrev: Isaac Christophersson Härmälä säljer 25/144 mantal av Härmälä N:o 6 till Johan och Jacob Jacobssöner för 790 Rb 12 kop; samma dag arvsutredning efter Jacob Jacobsson Härmelä d.ä. (Johan och Jacob får 25/192 var) | 296–301 |
+| 1840-02-10 | Köpebrev: Jacob Jacobsson Härmälä och hustrun Elisa Andersdotter säljer hälften av 125/576 mantal Härmälä till Matts Carlsson och Jacob Pehrsson [Lasfolk?] – tre år före köpet av Sandnabba | 302 |
 | 1833-10-05 / 1839-10-07 | Förskrivning och utslag: Jacob Jacobsson Härmelä åläggs betala Johan Mattsson Sandberg 30 rdr + 6 % | 322–326 |
 | 1839-11-01 / 1839-12-12 | Skuldsedel och guvernörens utslag: Jacob Jacobsson Härmälä åläggs betala Johan Simonsson Willbacka 51 rdr 36 sk + 6 % | 290–295 |
 | 1811-03-01 | Gåvobrev: 5/24 mantal till Hans (och Matts) Jacobsson mot utlösen till syskonen | 155:24–25 |
@@ -342,7 +350,7 @@ Omslag g (204 post-it: "räkenskapshandlingar / g:1 försäljning /överlåtande
 g: 5 forts.: arrendekvitto 1932 (257), Agnes Novéns arvskvitto 1948 (258), Dagny Björklunds utlösningskvitto 1950, g:5.10 (259), Ines Wennbergs kvitto 1965, g:5.1[1/4?] (260).
 g: 6 (261 post-it: "g:6 Övriga räkenskapshandlingar 1913 – – 1939"): g:6.1 räkning till Milton Björklund ca 1950 (262); förmyndarredovisningar för Herman 1913–1916, akt "N:o 95" (263–267–).
 g: 6 forts.: Maja Lena Eriksdotters förmyndarredovisning för Herman t.o.m. 1913 (268, höger halva); fånghistoria för 5/96 Sandnabba 1843–1916, maskinskriven, "g: 6. 3" (269–270); Sampos skogsbrandförsäkring N:o 43064 för Björklund N:o 1, 1939, "g: 6. 4" (271–275).
-**Andra omslagsserien (288, brunt papper):** "a) Boupptäckningar / b) Utdrag ur protokoll / c) försäljning / d) Diverse handlingar". Obs: bokstäverna krockar med första serien (a–g, u). Här: d = 289–295 (guvernörens utslag 1839–40, Willbacka mot Härmälä); c: 1–2 = 296– (köpebrev 1826, Härmälä N:o 6); b: 1–2 (317 post-it "b / b: 1-2 / Utdrag ur protokoll") = 317–321 (inteckningsprotokoll 1819-03-04 § 264, Pedersö och Lappajervi) och 322–326 (protokoll 1839-10-07 § 95, Sandberg mot Jacob Jacobsson Härmelä). Materialet slutar med b: 2 på 326. Dödsannons för Jakob Björklund 1949 (287) ligger före omslaget.
+**Andra omslagsserien (288, brunt papper):** "a) Boupptäckningar / b) Utdrag ur protokoll / c) försäljning / d) Diverse handlingar". Obs: bokstäverna krockar med första serien (a–g, u). Här: d = 289–295 (guvernörens utslag 1839–40, Willbacka mot Härmälä); c: 1–2 (296 post-it "c: 1-2 Försäljning") = 296–302 (köpebrev 1826, arvsutredning 1826, köpebrev 1840); a: 1–2 (303 post-it "a: 1-2 Bouppteckningar") = 303–316? (bouppteckning 1802 efter Jacob Jacobsson Härmelä, 304–); b: 1–2 (317 post-it "b / b: 1-2 / Utdrag ur protokoll") = 317–321 (inteckningsprotokoll 1819-03-04 § 264, Pedersö och Lappajervi) och 322–326 (protokoll 1839-10-07 § 95, Sandberg mot Jacob Jacobsson Härmelä). Materialet slutar med b: 2 på 326. Dödsannons för Jakob Björklund 1949 (287) ligger före omslaget.
 
 Omslag u (276 post-it: "u: Diverse handlingar 1849 – – 1949"): fastebrev § 135, 1849-09-28, original (276–278); fastebrev § 120, 1858-10-12, original (279–280); brev från Matts Sandström, Svartå 1876-10-09, till brodern "Sandnabba Jacob Lilqvist" (281–282); avskrift av fastebrevet 1916-02-18 § 74 (283); ämbetsbetyg 1943 (284); kuvert från Lake Sup. & Western Mining Co., Duluth, Minn., till Jakob Jakobson (285); remsa "Ingif: d. 15/9 1866" (286).
 g: 4 (240 post-it: "g: 4 Fullmakter 1943 -- 1949"): g: 4.1–4.3 fullmakter 1943 för arvskiftet efter Edla Svanbäck (Osvald och Karl Milton vid Svir-fronten, Ines i Purmo; 241–243); g: 4.4 Novéns fullmakt 1949 i original (244).
@@ -446,6 +454,9 @@ säger "F" (= skrivmaskin 1950). Se beslut.md.
 | Lösen & stämpelm. / Kungörelse / Summa; Lösen / Stämpel / Reg. / Kung. / Bevis / Summa | maskinskriven avgiftsspecifikation 1925 resp. 1950 |
 | LEIMAMERKKI / STÄMPELMÄRKE, MARKKAA / MARK | stämpelmärken med finsk/svensk text (1925–1950) |
 | ha, ar | hektar, ar |
+| ß; r:st; Rb:; Rd:r | skilling; runstycken; rubel; riksdaler (48 ß = 1 Rd) |
+| 1. SCH.; 72. KOP.; 96. KOP. | stämpelpapper 1802–1826 |
+| Mt:; ds | mantal; dels |
 | (e. g. h.), (Eh.) | egen hand |
 | af/ | upprättat av |
 | Landth. | landthandlare |
