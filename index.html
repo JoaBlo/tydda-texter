@@ -45,7 +45,7 @@
   header nav { display: flex; gap: 4px; }
   header nav button.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
   .spacer { flex: 1; }
-  .pager { display: flex; gap: 4px; align-items: center; }
+  .pager { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
   .pager input { width: 4.5em; text-align: center; font-family: var(--mono); }
   .pager select { max-width: 42vw; }
   .kbd { font-family: var(--mono); font-size: 12px; color: var(--muted); }
@@ -65,7 +65,9 @@
   #imgload { position: absolute; inset: 0; display: grid; place-items: center; color: #bbb; pointer-events: none; }
 
   /* text */
-  #textpane { overflow: auto; padding: 16px 20px 60px; background: var(--panel); }
+  #textpane { overflow: auto; padding: 16px 20px 60px; background: var(--panel); min-width: 0; overflow-wrap: anywhere; }
+  .md td, .md th { overflow-wrap: anywhere; }
+  details > .body { overflow-x: auto; }
   #textpane.fs-s { font-size: 14px; } #textpane.fs-l { font-size: 18px; } #textpane.fs-xl { font-size: 21px; }
   .pagehead { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
   .pagehead h2 { margin: 0; font-family: var(--serif); font-weight: normal; font-size: 1.5em; }
@@ -130,10 +132,11 @@
   .imghint { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); color: #ccc; font-size: 12px; background: rgba(0,0,0,.45); padding: 2px 8px; border-radius: 4px; pointer-events: none; }
 
   @media (max-width: 900px) {
-    main { grid-template-columns: 1fr; grid-template-rows: 45vh 0 1fr; }
+    main { grid-template-columns: 1fr; grid-template-rows: 45vh 1fr; }
     #splitter { display: none; }
-    main.text-only { grid-template-rows: 0 0 1fr; } main.text-only #imgpane { display: none; }
-    main.img-only { grid-template-rows: 1fr 0 0; } main.img-only #textpane { display: none; }
+    main.text-only { grid-template-rows: 1fr; } main.text-only #imgpane { display: none; }
+    main.img-only { grid-template-rows: 1fr; } main.img-only #textpane { display: none; }
+    #textpane { min-width: 0; }
     .pager select { max-width: 60vw; }
     .onlymobile { display: inline-flex; }
   }
@@ -457,7 +460,10 @@
   $("#first").onclick = () => showPage(0); $("#last").onclick = () => showPage(pages.length - 1);
   $("#goto").addEventListener("keydown", e => { if (e.key === "Enter") { const n = e.target.value.padStart(3, "0"); const i = pages.findIndex(p => p.nr === n); if (i >= 0) showPage(i); } });
   $("#jump").onchange = e => showPage(pages.findIndex(p => p.nr === e.target.value));
-  $("#togglePane").onclick = () => { const m = $("#main"); m.classList.toggle("text-only", !m.classList.contains("text-only") && !m.classList.contains("img-only")); if (!m.classList.contains("text-only")) m.classList.remove("img-only"); };
+  $("#togglePane").onclick = () => { const m = $("#main"); // båda → bara text → bara bild → båda
+    if (m.classList.contains("text-only")) { m.classList.remove("text-only"); m.classList.add("img-only"); }
+    else if (m.classList.contains("img-only")) m.classList.remove("img-only");
+    else m.classList.add("text-only"); };
   window.addEventListener("hashchange", goHash);
   document.addEventListener("keydown", e => {
     if (e.target.matches("input,select,textarea")) { if (e.key === "Escape") e.target.blur(); return; }
