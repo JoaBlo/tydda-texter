@@ -129,6 +129,28 @@
   .snip b { color: var(--ink); background: var(--m-unsure); }
   .stats { display: flex; flex-wrap: wrap; gap: 14px; margin: 8px 0 16px; color: var(--muted); font-size: .9em; }
 
+  .ln.hit { background: color-mix(in srgb, var(--accent) 18%, transparent); outline: 1px solid var(--accent); }
+  a.ref { text-decoration: none; border-bottom: 1px dotted var(--accent); white-space: nowrap; }
+  a.ref:hover { background: color-mix(in srgb, var(--accent) 15%, transparent); }
+  a.plain { color: inherit; text-decoration: none; }
+  .dokrad { font-size: .9em; margin: 2px 0 6px; }
+  .vh { font-family: var(--serif); font-weight: normal; font-size: 1.5em; margin: 4px 0 6px; }
+  .doknav { display: flex; gap: 10px; align-items: center; justify-content: space-between; margin: 6px 0 14px; }
+  .dokpage { display: grid; grid-template-columns: 220px 1fr; gap: 16px; padding: 14px 0; border-top: 1px solid var(--line); }
+  .dokpage .thumb { display: block; text-decoration: none; color: var(--muted); font-size: .85em; text-align: center; position: sticky; top: 64px; align-self: start; }
+  .dokpage .thumb img { width: 100%; border-radius: 6px; border: 1px solid var(--line); display: block; margin-bottom: 4px; background: #2a2a2a; min-height: 120px; }
+  .dokpage h3 { margin: 0 0 8px; font-family: var(--serif); font-weight: normal; }
+  .dokpage h3 a { color: inherit; text-decoration: none; }
+  .tidslinje { border-left: 3px solid var(--line); margin-left: 8px; padding-left: 16px; }
+  .tidslinje .year { font-family: var(--serif); font-size: 1.35em; color: var(--accent); margin: 18px 0 6px -30px; background: var(--bg); padding: 2px 6px; display: inline-block; border: 1px solid var(--line); border-radius: 6px; }
+  .tidslinje .ev { display: grid; grid-template-columns: 11em 1fr; gap: 2px 14px; padding: 6px 0; border-bottom: 1px dashed var(--line); }
+  .tidslinje .dt { font-family: var(--mono); font-size: .88em; color: var(--muted); }
+  .tidslinje .src { grid-column: 2; font-size: .88em; color: var(--muted); }
+  .stickyfilter { position: sticky; top: 0; background: var(--bg); padding: 8px 0; z-index: 2; }
+  @media (max-width: 900px) {
+    .dokpage { grid-template-columns: 1fr; } .dokpage .thumb { position: static; max-width: 260px; }
+    .tidslinje .ev { grid-template-columns: 1fr; } .tidslinje .src { grid-column: 1; }
+  }
   .imghint { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); color: #ccc; font-size: 12px; background: rgba(0,0,0,.45); padding: 2px 8px; border-radius: 4px; pointer-events: none; }
 
   @media (max-width: 900px) {
@@ -148,6 +170,8 @@
   <h1>Tydda texter · Sandnabba &amp; Härmälä</h1>
   <nav>
     <button data-view="page" class="active">Sida</button>
+    <button data-view="dok">Dokument</button>
+    <button data-view="tid">Tidslinje</button>
     <button data-view="list">Översikt &amp; sök</button>
     <button data-view="namn">Namn &amp; orter</button>
     <button data-view="beslut">Beslut</button>
@@ -193,11 +217,11 @@
 (() => {
   const $ = s => document.querySelector(s);
   const REPO = "https://github.com/JoaBlo/tydda-texter/blob/main/";
-  let pages = [], idx = 0, view = "page", mdCache = {};
+  let pages = [], docs = [], kron = [], idx = 0, view = "page", mdCache = {};
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
   /* ---------- liten markdown-renderare ---------- */
-  function inline(s) {
+  function inline(s, opts = {}) {
     s = esc(s);
     s = s.replace(/`([^`]+)`/g, (m, c) => "<code>" + markUp(c) + "</code>");
     s = s.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");
@@ -206,8 +230,47 @@
     s = s.replace(/\[\[([^\]]+)\]\]/g, "$1");
     s = s.replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
     s = s.replace(/(^|[^"'>])(https?:\/\/[^\s<)]+)/g, '$1<a href="$2" target="_blank" rel="noopener">$2</a>');
-    s = s.replace(/\b(\d{3}):(\d{1,3})\b/g, (m, p, r) => pages.find(x => x.nr === p) ? `<a href="#${p}" title="Gå till bild ${p}, rad ${r}" data-rad="${r}">${m}</a>` : m);
-    return s;
+    return linkRefs(s, opts);
+  }
+
+  /* ---------- snabblänkar: bild- och radhänvisningar ---------- */
+  const isPage = n => pageSet.has(n);
+  let pageSet = new Set();
+  let refStore = [];
+  const ref = (nr, rad, txt) => { refStore.push(`<a class="ref" href="#${nr}${rad ? ":" + rad : ""}" title="Bild ${nr}${rad ? (rad === "marg" ? ", marginalen" : ", rad " + rad) : ""}">${txt}</a>`); return "\u0001" + String.fromCharCode(0xE000 + refStore.length - 1) + "\u0002"; };
+  function refify(t, bare) {
+    refStore = [];
+    t = refRules(t, bare);
+    return t.replace(/\u0001([\uE000-\uF8FF])\u0002/g, (m, c) => refStore[c.charCodeAt(0) - 0xE000]);
+  }
+  function refRules(t, bare) {
+    // 1) bild:rad, med fortsatta radnummer efter komma ("001:13, 23") och radintervall ("151:16–17")
+    t = t.replace(/(?<![\d/])(\d{3}):((?:marg|\d{1,3}(?:[–-]\d{1,3})?)(?:,\s?(?:marg|\d{1,3}(?:[–-]\d{1,3})?)(?![\d:/]))*)/g, (m, nr, rest) => {
+      if (!isPage(nr)) return m;
+      const parts = rest.split(/(,\s?)/);
+      return parts.map((p, k) => {
+        if (k % 2) return p;
+        const r = p.replace("–", "-");
+        return ref(nr, r, k === 0 ? `${nr}:${p}` : p);
+      }).join("");
+    });
+    // 2) bildintervall 166–167 (inte bråk, inte belopp med enhet direkt efter)
+    t = t.replace(/(?<![\d/:.,])(\d{3})([–-])(\d{3})(?![\d/:])/g, (m, a, d, b) =>
+      isPage(a) && isPage(b) && +b > +a && +b - +a <= 90 ? ref(a, "", a) + d + ref(b, "", b) : m);
+    // 3) "bild 157", "bilder 151", "(156)", "(156,", "156.jpg", "jfr 160"
+    t = t.replace(/((?:[Bb]ild(?:en|er|erna)?|jfr|[Jj]fr\.?)\s)(\d{3})(?![\d/:])/g, (m, w, nr) => isPage(nr) ? w + ref(nr, "", nr) : m);
+    t = t.replace(/(\()(\d{3})(?=[),;])/g, (m, p, nr) => isPage(nr) ? p + ref(nr, "", nr) : m);
+    t = t.replace(/(?<![\d/])(\d{3})(\.(?:jpg|md))/g, (m, nr, e) => isPage(nr) ? ref(nr, "", nr + e) : m);
+    // 4) i källkolumner (Förekomster, Källa, Bilder): alla fristående bildnummer
+    if (bare) t = t.replace(/(?<![\d/:.])(\d{3})(?![\d/:.])/g, (m, nr) => isPage(nr) ? ref(nr, "", nr) : m);
+    return t;
+  }
+  function linkRefs(html, opts = {}) {
+    let inA = 0;
+    return html.split(/(<[^>]+>)/).map(seg => {
+      if (seg.startsWith("<")) { if (/^<a\b/i.test(seg)) inA++; else if (/^<\/a>/i.test(seg)) inA = Math.max(0, inA - 1); return seg; }
+      return inA ? seg : refify(seg, opts.bare);
+    }).join("");
   }
   function renderMd(src, opts = {}) {
     const lines = src.split("\n"); let out = [], i = 0;
@@ -220,9 +283,10 @@
         let rows = []; while (i < lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
         rows = rows.filter(r => !/^\|[\s:|-]+\|?\s*$/.test(r));
         const cells = r => r.replace(/^\||\|\s*$/g, "").split("|").map(c => c.trim());
+        const refCols = cells(rows[0] || "").map(c => /förekomst|källa|bilder|^bild$/i.test(c));
         let h = "<table>"; rows.forEach((r, k) => {
           const cs = cells(r); const cls = /AVVIKER/.test(r) ? ' class="avviker"' : "";
-          h += `<tr${cls}>` + cs.map(c => `<${k ? "td" : "th"}>${inline(c)}</${k ? "td" : "th"}>`).join("") + "</tr>";
+          h += `<tr${cls}>` + cs.map((c, j) => `<${k ? "td" : "th"}>${inline(c, { bare: k > 0 && refCols[j] })}</${k ? "td" : "th"}>`).join("") + "</tr>";
         }); out.push(h + "</table>"); continue;
       }
       if (/^\s*[-*] /.test(l)) { let h = "<ul>"; while (i < lines.length && /^\s*[-*] /.test(lines[i])) h += "<li>" + inline(lines[i++].replace(/^\s*[-*] /, "")) + "</li>"; out.push(h + "</ul>"); continue; }
@@ -293,7 +357,8 @@
   async function showPage(i, rad) {
     idx = Math.max(0, Math.min(pages.length - 1, i));
     const p = pages[idx];
-    location.hash = p.nr + (rad ? ":" + rad : "");
+    const nh = "#" + p.nr + (rad ? ":" + rad : "");
+    if (decodeURIComponent(location.hash) !== nh) history.pushState(null, "", nh);
     $("#goto").value = p.nr; $("#jump").value = p.nr;
     $("#prev").disabled = idx === 0; $("#next").disabled = idx === pages.length - 1;
     document.title = `${p.nr} – Tydda texter`;
@@ -311,12 +376,14 @@
     if (transk) { const m = transk.body.match(/```\n([\s\S]*?)```([\s\S]*)/); if (m) { block = m[1]; anm = m[2].trim(); } else block = transk.body; }
     const flags = [];
     if (p.dubbel) flags.push("dubbelläst"); if (p.rattad) flags.push("rättad"); if (p.tredje) flags.push("tredje läsning"); if (p.extern) flags.push("extern källa");
+    const d = docs[p.dok];
+    const dokRad = d ? `<div class="dokrad">Ingår i dokument: <a href="#dok-${d.id}">${esc(d.titel)}</a> <span class="muted">· bild ${d.sidor.indexOf(p.nr) + 1} av ${d.sidor.length}${d.sidor.length > 1 ? ` (${d.sidor[0]}–${d.sidor[d.sidor.length - 1]})` : ""}</span></div>` : "";
     let h = `<div class="pagehead"><h2>Bild ${p.nr}</h2>
       <span class="badge ${sakClass(p.sakerhet)}" title="Läsarens helhetsbedömning">Säkerhet: ${esc(p.sakerhet || "–")}</span>
       <span class="badge" title="Antal osäkerhetsmarkeringar i transkriptionen">${p.osakra} osäkra</span>
       ${flags.map(f => `<span class="badge">${f}</span>`).join("")}
       <a class="filelink" href="${REPO}${p.fil}" target="_blank" rel="noopener">.md på GitHub</a></div>`;
-    h += `<div class="doktyp">${inline(dok)}</div>`;
+    h += dokRad + `<div class="doktyp">${inline(dok)}</div>`;
     h += renderTransk(block, notes);
     h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
     const det = (title, body, open) => body && body.trim() ? `<details${open ? " open" : ""}><summary>${esc(title)}</summary><div class="body md">${renderMd(body)}</div></details>` : "";
@@ -329,9 +396,76 @@
     tp.innerHTML = h;
     tp.scrollTop = 0;
     tp.querySelectorAll(".ln .q").forEach(b => b.addEventListener("click", () => b.parentElement.querySelector(".expl").classList.toggle("hidden")));
-    if (rad) { const el = tp.querySelector(`.ln[data-rad="${CSS.escape(rad)}"]`); if (el) { el.scrollIntoView({ block: "center" }); el.style.outline = "2px solid var(--accent)"; const ex = el.querySelector(".expl"); if (ex) ex.classList.remove("hidden"); } }
+    if (rad) markRows(tp, rad);
     // förladda nästa bild
     if (pages[idx + 1]) { const im = new Image(); im.src = pages[idx + 1].bild; }
+  }
+
+  /* markera en rad, ett radintervall ("16-17") eller marginalen ("marg") */
+  function markRows(root, rad) {
+    if (rad === "marg") {
+      const det = [...root.querySelectorAll("details")].find(d => /^Marginal|^Lappen|^Tryckt|^Post-it/.test(d.querySelector("summary").textContent));
+      if (det) { det.open = true; det.scrollIntoView({ block: "start" }); det.style.outline = "2px solid var(--accent)"; }
+      return;
+    }
+    const [a, b] = rad.split("-");
+    const lines = [...root.querySelectorAll(".ln")];
+    const num = x => parseInt(x, 10);
+    let hit = lines.filter(el => el.dataset.rad === a);
+    if (b && !isNaN(num(a)) && !isNaN(num(b))) hit = lines.filter(el => !isNaN(num(el.dataset.rad)) && num(el.dataset.rad) >= num(a) && num(el.dataset.rad) <= num(b) && /^\d+$/.test(el.dataset.rad));
+    hit.forEach(el => { el.classList.add("hit"); const ex = el.querySelector(".expl"); if (ex) ex.classList.remove("hidden"); });
+    if (hit[0]) hit[0].scrollIntoView({ block: "center" });
+  }
+
+  /* ---------- dokumentvy ---------- */
+  function viewDokIndex() {
+    $("#main").className = "list-mode";
+    $("#main").innerHTML = `<div class="listwrap"><h2 class="vh">Dokument</h2>
+      <p class="muted">${docs.length} handlingar, sammanställda av bilderna (en handling börjar där transkriptionen anger ett nytt dokument). Klicka för att läsa hela handlingen i följd.</p>
+      <div class="filters"><input type="search" id="dq" placeholder="Filtrera dokument …"></div>
+      <table class="pages"><thead><tr><th>Bilder</th><th>Dokument</th><th>Sidor</th><th>Osäkra</th></tr></thead><tbody id="dbody"></tbody></table></div>`;
+    const draw = () => {
+      const q = $("#dq").value.trim().toLowerCase();
+      $("#dbody").innerHTML = docs.filter(d => !q || (d.titel + " " + d.sidor.join(" ")).toLowerCase().includes(q)).map(d => {
+        const ps = d.sidor.map(n => pages.find(p => p.nr === n));
+        return `<tr><td class="nr"><a href="#dok-${d.id}">${d.sidor[0]}${d.sidor.length > 1 ? "–" + d.sidor[d.sidor.length - 1] : ""}</a></td><td><a href="#dok-${d.id}" class="plain">${esc(d.titel)}</a></td><td>${d.sidor.length}</td><td>${ps.reduce((a, p) => a + p.osakra, 0)}</td></tr>`;
+      }).join("");
+    };
+    $("#dq").addEventListener("input", draw); draw();
+  }
+  async function viewDok(id) {
+    const d = docs[id]; if (!d) return viewDokIndex();
+    $("#main").className = "list-mode";
+    const nav = `<div class="doknav"><button ${id ? "" : "disabled"} data-dok="${id - 1}">◀ Föregående dokument</button><a href="#dokument">Alla dokument</a><button ${id < docs.length - 1 ? "" : "disabled"} data-dok="${id + 1}">Nästa dokument ▶</button></div>`;
+    $("#main").innerHTML = `<div class="listwrap dokwrap">${nav}<h2 class="vh">${esc(d.titel)}</h2>
+      <p class="muted">Bild ${d.sidor[0]}${d.sidor.length > 1 ? "–" + d.sidor[d.sidor.length - 1] : ""} · ${d.sidor.length} ${d.sidor.length === 1 ? "sida" : "sidor"}. Klicka på en bild för att jämföra rad för rad.</p><div id="dokbody"></div>${nav}</div>`;
+    $("#main").querySelectorAll("[data-dok]").forEach(b => b.onclick = () => { location.hash = "dok-" + b.dataset.dok; });
+    let h = "";
+    for (const nr of d.sidor) {
+      const p = pages.find(x => x.nr === nr);
+      let md = ""; try { md = await loadMd(p.fil); } catch (e) {}
+      const { sections } = splitSections(md);
+      const osak = sections.find(s => /^Osäkra passager/.test(s.title));
+      h += `<section class="dokpage"><a class="thumb" href="#${nr}" title="Öppna bild ${nr} med bilden bredvid"><img loading="lazy" src="bilder/thumb/${nr}.jpg" onerror="this.onerror=null;this.src='${p.bild}'" alt="Bild ${nr}"><span>Bild ${nr}</span></a>
+        <div class="doktext"><h3><a href="#${nr}">Bild ${nr}</a> <span class="badge ${sakClass(p.sakerhet)}">${esc(p.sakerhet)}</span></h3>${renderTransk(p.text, osak ? parseOsakra(osak.body) : {})}</div></section>`;
+    }
+    $("#dokbody").innerHTML = h;
+    $("#dokbody").querySelectorAll(".ln .q").forEach(b => b.addEventListener("click", () => b.parentElement.querySelector(".expl").classList.toggle("hidden")));
+  }
+
+  /* ---------- tidslinje ---------- */
+  function viewTid() {
+    $("#main").className = "list-mode";
+    let h = `<div class="listwrap"><h2 class="vh">Tidslinje</h2><p class="muted">Ur tabellen "Handlingar och kronologi" i namn.md. Klicka på bildhänvisningarna för att se källan.</p>
+      <div class="filters"><input type="search" id="tq" placeholder="Filtrera händelser (namn, år, handling) …"></div><div class="tidslinje" id="tl">`;
+    let year = "";
+    for (const k of kron) {
+      const y = (k.datum.match(/1[789]\d\d/) || ["?"])[0];
+      if (y !== year) { year = y; h += `<div class="year" data-y="${y}">${y}</div>`; }
+      h += `<div class="ev"><div class="dt">${esc(k.datum)}</div><div class="what">${inline(k.handling)}</div><div class="src">${inline(k.kalla, { bare: true })}</div></div>`;
+    }
+    $("#main").innerHTML = h + "</div></div>";
+    $("#tq").addEventListener("input", e => { const q = e.target.value.trim().toLowerCase(); $("#tl").querySelectorAll(".ev").forEach(el => el.style.display = !q || el.textContent.toLowerCase().includes(q) ? "" : "none"); $("#tl").querySelectorAll(".year").forEach(y => { let n = y.nextElementSibling, any = false; while (n && n.classList.contains("ev")) { if (n.style.display !== "none") any = true; n = n.nextElementSibling; } y.style.display = any ? "" : "none"; }); });
   }
 
   /* ---------- bildvisare ---------- */
@@ -409,7 +543,17 @@
   async function viewDoc(path, title) {
     $("#main").className = "list-mode";
     $("#main").innerHTML = `<div class="listwrap md"><p class="muted">Laddar ${esc(path)} …</p></div>`;
-    try { const md = await loadMd(path); $("#main").innerHTML = `<div class="listwrap md"><p class="filelink"><a href="${REPO}${path}" target="_blank" rel="noopener">${esc(path)} på GitHub</a></p>${renderMd(md)}</div>`; }
+    try {
+      const md = await loadMd(path);
+      $("#main").innerHTML = `<div class="listwrap md"><div class="filters stickyfilter"><input type="search" id="nq" placeholder="Filtrera rader (t.ex. Härmälä, 1843, Björklund) …"><span class="muted" id="nhits"></span><a class="filelink" href="${REPO}${path}" target="_blank" rel="noopener">${esc(path)} på GitHub</a></div><div id="mdbody">${renderMd(md)}</div></div>`;
+      const els = [...$("#mdbody").querySelectorAll("tr:not(:first-child), li, p")];
+      $("#nq").addEventListener("input", e => {
+        const q = e.target.value.trim().toLowerCase(); let n = 0;
+        els.forEach(el => { const ok = !q || el.textContent.toLowerCase().includes(q); el.style.display = ok ? "" : "none"; if (ok && q) n++; });
+        $("#nhits").textContent = q ? `${n} träffar` : "";
+      });
+      if (mdTarget) { const q = mdTarget; mdTarget = ""; $("#nq").value = q; $("#nq").dispatchEvent(new Event("input")); }
+    }
     catch (e) { $("#main").innerHTML = `<div class="listwrap"><p>Kunde inte läsa ${esc(path)}.</p></div>`; }
   }
   function viewOm() {
@@ -424,6 +568,13 @@
       <li>Under varje transkription finns läsarens lista över osäkra passager med motivering, en helhetsbedömning (hög/medel/låg), en oberoende <b>dubbelläsning</b> av de osäkra ställena och de <b>rättelser</b> som gjorts efter den, med grund för varje ändring. De svåraste sidorna har dessutom en <b>tredje läsning</b> av en annan modell.</li>
       <li>Uppgifter från källor utanför materialet (kyrkböcker i HisKi, Ylioppilasmatrikkeli) markeras alltid med <b>"Extern källa"</b> och förs aldrig in i själva transkriptionen.</li>
       <li>Läsningen har gjorts av språkmodeller (Claude) under mänsklig ledning. Fel förekommer, särskilt i 1800-talets äldsta händer; jämför alltid med bilden.</li></ul>
+      <h2>Vyer</h2>
+      <ul><li><b>Sida</b> – bilden och transkriptionen sida vid sida, med läsarens motiveringar vid varje osäker rad (klicka <b>?</b>).</li>
+      <li><b>Dokument</b> – bilderna sammanförda till hela handlingar (t.ex. lagfartsprotokollet 1848, bild 001–011) som löpande text, med miniatyr av varje bild.</li>
+      <li><b>Tidslinje</b> – händelserna 1802–1966 år för år, med länkar till källorna.</li>
+      <li><b>Översikt &amp; sök</b> – sök i all transkriberad text, filtrera på säkerhet.</li>
+      <li><b>Namn &amp; orter</b> och <b>Beslut</b> – referenslistorna, filtrerbara.</li></ul>
+      <p>Alla hänvisningar av typen <a class="ref" href="#151:16">151:16</a> (bild 151, rad 16), <a class="ref" href="#151:16-17">151:16–17</a> eller <a class="ref" href="#166">166</a>–<a class="ref" href="#167">167</a> är länkar: de öppnar bilden och markerar raderna, så att varje uppgift kan kontrolleras mot källan. Varje sida, dokument och vy har en egen adress som kan delas.</p>
       <h2>Tangenter</h2>
       <p><span class="kbd">← →</span> föregående/nästa sida · <span class="kbd">Home / End</span> första/sista · <span class="kbd">+ − 0 1</span> zooma in/ut, anpassa, 1:1 · <span class="kbd">/</span> sök · <span class="kbd">Esc</span> tillbaka till sidvyn</p>
       <h2>Länkar</h2>
@@ -438,20 +589,26 @@
     main.appendChild(paneImg); main.appendChild(paneSplit); main.appendChild(paneText);
   }
   const paneImg = $("#imgpane"), paneSplit = $("#splitter"), paneText = $("#textpane");
-  function setView(v) {
+  const HASH = { list: "lista", dok: "dokument", tid: "tidslinje", namn: "namn", beslut: "beslut", om: "om" };
+  function setView(v, arg) {
     view = v; document.querySelectorAll("header nav button").forEach(b => b.classList.toggle("active", b.dataset.view === v));
     $("#pager").style.visibility = v === "page" ? "visible" : "hidden";
-    if (v !== "page") history.replaceState(null, "", "#" + (v === "list" ? "lista" : v));
+    if (v !== "page") { const h = "#" + (v === "dok" && arg != null ? "dok-" + arg : HASH[v]); if (location.hash !== h) history.pushState(null, "", h); }
     if (v === "page") { restoreMain(); showPage(idx); }
-    else if (v === "list") viewList(); else if (v === "namn") viewDoc("namn.md"); else if (v === "beslut") viewDoc("beslut.md"); else viewOm();
+    else if (v === "list") viewList(); else if (v === "dok") (arg != null ? viewDok(+arg) : viewDokIndex());
+    else if (v === "tid") viewTid(); else if (v === "namn") viewDoc("namn.md"); else if (v === "beslut") viewDoc("beslut.md"); else viewOm();
+    if (v !== "page") $("#main").scrollTop = 0;
   }
+  let mdTarget = "";
   document.querySelectorAll("header nav button").forEach(b => b.onclick = () => setView(b.dataset.view));
 
   /* ---------- navigering ---------- */
   function goHash() {
-    const v = location.hash.match(/^#(lista|namn|beslut|om)$/);
-    if (v) { setView(v[1] === "lista" ? "list" : v[1]); return true; }
-    const m = location.hash.match(/^#(\d{3})(?::(\S+))?/); if (!m) return false;
+    const h = decodeURIComponent(location.hash);
+    const dk = h.match(/^#dok-(\d+)$/); if (dk) { setView("dok", dk[1]); return true; }
+    const v = h.match(/^#(lista|dokument|tidslinje|namn|beslut|om)$/);
+    if (v) { const back = { lista: "list", dokument: "dok", tidslinje: "tid" }; setView(back[v[1]] || v[1]); return true; }
+    const m = h.match(/^#(\d{3})(?::(\S+))?/); if (!m) return false;
     const i = pages.findIndex(p => p.nr === m[1]); if (i < 0) return false;
     if (view !== "page") { view = "page"; document.querySelectorAll("header nav button").forEach(b => b.classList.toggle("active", b.dataset.view === "page")); $("#pager").style.visibility = "visible"; restoreMain(); }
     showPage(i, m[2]); return true;
@@ -486,7 +643,8 @@
 
   /* ---------- start ---------- */
   fetch("pages.json", { cache: "no-cache" }).then(r => r.json()).then(d => {
-    pages = d; $("#total").textContent = pages.length;
+    pages = Array.isArray(d) ? d : d.sidor; docs = d.dokument || []; kron = d.kronologi || [];
+    pageSet = new Set(pages.map(p => p.nr)); $("#total").textContent = pages.length;
     $("#jump").innerHTML = pages.map(p => `<option value="${p.nr}">${p.nr} · ${esc(p.doktyp.slice(0, 70))}</option>`).join("");
     if (!goHash()) showPage(0);
   }).catch(e => { $("#textpane").innerHTML = `<p>Kunde inte läsa pages.json (${esc(e.message)}). Sidan måste köras via en webbserver (GitHub Pages eller <code>python3 -m http.server</code>), inte öppnas som fil.</p>`; });
