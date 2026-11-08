@@ -47,6 +47,16 @@ rättelser bara med egen grund i bilden, märkta "Extern källa: Transkribus …
 Modellen är aldrig facit: den markerar ingen osäkerhet och förvanskar namn och siffror.
 **Nästa steg:** du laddar upp fler svåra sidor (152–156, 305–312, 314–321, 296–302 m.fl.);
 klistra in texten så jämför jag på samma sätt. **Status:** pågår.
+**Resultat 151, 157, 304, 313 (klart):** modellen avgjorde flera oenigheter mellan läsarna:
+Jacob **Lide** (inte Eide); 157:7 **upgif** (inte angif); 151:22 **An=tyddes**; 157:15 **[åtgärd?]**;
+151:16–17 **"på 16:de" / "på andra året"** (inte "går i" – din öppna fråga är därmed avgjord);
+151:24 ordet **"noga"** hade fallit bort; 151:30 **"then Högtärade"** (fortsätter på 152:1:
+"Härads Rättens Fasta Bref af den 3: April 1812"); 157:4 **Härvid** (var [oläsligt]); 304:16
+"så på[mintes]". Modellen fick också fel och avvisades: 304:2 tillbaka till **[nämnde/nämde?]**
+(den tredje läsningens "grännde" återkallad), 304:9 står kvar **17** (inte 14), 313:3 "Socman"
+står kvar (inte "Toman"), 313:6 **Konjärt[o/w?]e** (j, inte s).
+**Att titta på:** 151:5 "Nämndemannen" (inget d syns), 151:2 "1848" (modellen: 1818), och om
+157 verkligen är "tysk kurrent" – rättaren menar att versalerna är desamma som i 151.
 
 ### 2026-11-08 – namn.md: "Förekomster" med alla förekomster och belägg för varje roll
 **Vad jag gjorde:** tre läsare gick igenom alla 242 rader (206 personer, 36 orter) med
