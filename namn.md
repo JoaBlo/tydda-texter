@@ -131,7 +131,7 @@ Skriv varje namn *som det står* i källan; ange stavningsvarianter.
 | Per [Thodén?]; Vidar Backlund | Bestyrker maskinskriven avskrift av e: 1 | 111:18 | |
 | Vittnen 1913: A. Willman, August Erikson Wilobacka, Anders Isaksson Sandnabba, Alina Andersdotter Sandnabba, Maria Blomberg, Anders Sandnabba | Delgivningspåskrifter 1913 | 109, 111 | Handskrivna former avviker (Erekson, ijssak son) |
 | [...] [S/Z?]arck | "På Häradsrättens vägnar" 1865–1869 | 036:5, 082:23, 091:15, 099:15, 168:3 | "-arck" säkert (dubbelläsaren); initialerna "Hj. W." har inget stöd i bokstäverna – bara en gissning från 036 | Mycket osäker läsning; läsaren av 082 ser "N. N. [B/Wz]arck" |
-| Theodor Wilander | "På Häradsrättens vägnar" 1870 | 038:19, 041:2 | Wilander/Welander; liten förkortning "[Gd:?]" med paraf under |
+| Theodor Wilander | "På Häradsrättens vägnar" 1869–1870 | 038:19, 041:2, 213:26, 213:33 | Liten förkortning "[fd:?]" med paraf under (rättat från [Gd:?] i 213; samma paraf som under Lindbohm) |
 | Jakob Jakobsson Sandnabba (f. 1850-12-23, d. 1908-09-24) | Bonde (= den yngre av bröderna Matts och Jakob 1870, son till Greta Mattsdotter); far till Jakob Björklund; muntligt testamente till hustrun bevakat 1909 | 045:1, 047:19–20 | Kallas "Jakob Johansson Sandnabba" i 047:13 – troligen skrivfel i källan |
 | M. Sandnabba | Vittne vid gåvobrevet 1913 | 044:18 | |
 | Osk. E. Hellemaa | Häradsskrivarekontoret i Pedersöre, bestyrker mantalslängdsutdrag 1915-03-13 | 046:6 | Efternamnet osäkert |
