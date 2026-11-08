@@ -11,6 +11,19 @@ Status markeras så här:
 
 ## Beslut som väntar på dig
 
+### 2026-11-08 – Maskinläsning med Transkribus "The Swedish Lion I" som fjärde läsare
+Du körde modellen (55158; tränad på 61 356 sidor svensk handskrift 1600–1800-tal, bl.a.
+Riksarkivet och Kansallisarkisto) på 151, 157, 304 och 313. Den bekräftade de flesta rättelserna
+från tredje läsningen (instälte, Månsson, deras, bunden, yterpurmoby, Nämdeman Klåfvus, Sytnings
+…), motsade några (304:2 "nämde man" mot [grännde?], 304:9 "14 år", 313:6 "Konsarfve") och gav
+förslag på [oläsligt]-ställen (157:4 "härvid", 151:16–17 "på 16de"/"på andra året", "Lide").
+**Vad jag gjorde:** råtexten sparad i `htr/swedish-lion/NNN.txt` (README i `htr/`). Varje skillnad
+prövas mot bilden och redovisas i filen under "## Maskinläsning (Transkribus, The Swedish Lion I)";
+rättelser bara med egen grund i bilden, märkta "Extern källa: Transkribus …" (regel 7).
+Modellen är aldrig facit: den markerar ingen osäkerhet och förvanskar namn och siffror.
+**Nästa steg:** du laddar upp fler svåra sidor (152–156, 305–312, 314–321, 296–302 m.fl.);
+klistra in texten så jämför jag på samma sätt. **Status:** pågår.
+
 ### 2026-11-08 – namn.md: "Förekomster" med alla förekomster och belägg för varje roll
 **Vad jag gjorde:** tre läsare gick igenom alla 242 rader (206 personer, 36 orter) med
 sökning i all källtext, också över avstavningar. Kolumnen heter nu **Förekomster**, och
@@ -43,6 +56,15 @@ Lindqvist, inte Myhrman (066:27); "Sverige" står inte i 068:3.
   (177:14), Milton säljer till Nymark 1966, Ines 1943 (243), Agnes 1948 (258), Dagny 1950
   (259), Ivar Lasén köpvittne 1951 (239), Strömsnäs 1950 (203), Sandelin 1934 (194).
 **Status:** ÖPPET (dubbletter, förmyndarna 1869); övrigt information.
+
+### 2026-11-08 – Fable-gränsen nådd: 7 sidor saknar Fable-läsning
+Kl. 17.35 svarade API:t "You've reached your Fable limit" (egen gräns, ingen återställningstid
+angiven). Fable-läsning saknas för **155, 156, 157, 310, 311, 321, 326** (326 och 310 har en
+Opus-läsning; 155–157, 311 och 321 har ingen tredje läsning alls).
+**Vad jag gjorde:** rättar de sidor som har sin Fable-läsning klar; försöker återuppta
+Fable-läsarna vid varje schemakörning. **Default om gränsen inte släpper:** jag låter de sju
+sidorna vänta hellre än att låta Opus läsa dem som "tredje läsning" – du bad uttryckligen om
+Fable. Säg till om du hellre vill att Opus slutför dem. **Status:** AVGJORT – du sa "Du kan byta till Opus". 155–157, 311 och 321 läses av Opus; 310 får en fullständig Opus-läsning (den förra var ofullständig); 326 behåller sin Opus-läsning. Modellraden i varje fil anger vilken modell som läst.
 
 ### 2026-11-08 – Tredje läsningen: modellbyte mitt i arbetet (Fable → Opus)
 Du bad om en tredje läsning med **Fable**. Läsarna avbröts av användningsgränsen och när jag

@@ -388,11 +388,13 @@
     h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
     const det = (title, body, open) => body && body.trim() ? `<details${open ? " open" : ""}><summary>${esc(title)}</summary><div class="body md">${renderMd(body)}</div></details>` : "";
     if (anm) h += det("Anmärkningar till transkriptionen", anm.replace(/^Anmärkningar:\s*/i, ""), false);
-    const before = sections.filter(s => !/^(Transkription|Osäkra passager|Helhetsbedömning|Dubbelläsning|Rättelser|Tredje läsning)/.test(s.title));
+    const before = sections.filter(s => !/^(Transkription|Osäkra passager|Helhetsbedömning|Dubbelläsning|Rättelser|Tredje läsning|Maskinläsning)/.test(s.title));
     h += det("Om bilden och handen", headRest, false);
     for (const s of before) h += det(s.title, s.body, false);
     if (osak) h += det("Osäkra passager", osak.body, true);
-    for (const t of ["Helhetsbedömning", "Dubbelläsning", "Rättelser efter dubbelläsning", "Tredje läsning"]) { const s = sections.find(x => x.title === t); if (s) h += det(t, s.body, t === "Helhetsbedömning" || t === "Rättelser efter dubbelläsning" || t === "Tredje läsning"); }
+    for (const t of ["Helhetsbedömning", "Dubbelläsning"]) { const s = sections.find(x => x.title === t); if (s) h += det(t, s.body, t === "Helhetsbedömning"); }
+    sections.filter(x => /^(Tredje läsning|Maskinläsning)/.test(x.title)).forEach(s => h += det(s.title, s.body, false));
+    { const s = sections.find(x => x.title === "Rättelser efter dubbelläsning"); if (s) h += det("Rättelser (efter dubbel- och tredje läsning)", s.body, true); }
     tp.innerHTML = h;
     tp.scrollTop = 0;
     tp.querySelectorAll(".ln .q").forEach(b => b.addEventListener("click", () => b.parentElement.querySelector(".expl").classList.toggle("hidden")));
