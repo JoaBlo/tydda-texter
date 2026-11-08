@@ -46,7 +46,7 @@ prövas mot bilden och redovisas i filen under "## Maskinläsning (Transkribus, 
 rättelser bara med egen grund i bilden, märkta "Extern källa: Transkribus …" (regel 7).
 Modellen är aldrig facit: den markerar ingen osäkerhet och förvanskar namn och siffror.
 **Nästa steg:** du laddar upp fler svåra sidor (152–156, 305–312, 314–321, 296–302 m.fl.);
-klistra in texten så jämför jag på samma sätt. **Status:** pågår.
+klistra in texten så jämför jag på samma sätt. **Status:** klart för alla 32 sidor; nya filer i htr/swedish-lion/ plockas upp av schemat.
 **Resultat 151, 157, 304, 313 (klart):** modellen avgjorde flera oenigheter mellan läsarna:
 Jacob **Lide** (inte Eide); 157:7 **upgif** (inte angif); 151:22 **An=tyddes**; 157:15 **[åtgärd?]**;
 151:16–17 **"på 16:de" / "på andra året"** (inte "går i" – din öppna fråga är därmed avgjord);
@@ -57,6 +57,16 @@ Jacob **Lide** (inte Eide); 157:7 **upgif** (inte angif); 151:22 **An=tyddes**; 
 står kvar (inte "Toman"), 313:6 **Konjärt[o/w?]e** (j, inte s).
 **Att titta på:** 151:5 "Nämndemannen" (inget d syns), 151:2 "1848" (modellen: 1818), och om
 157 verkligen är "tysk kurrent" – rättaren menar att versalerna är desamma som i 151.
+**Resultat övriga 28 sidor (152–156, 296–302, 305–312, 314–321), klart 2026-11-08:** alla jämförda
+mot bilden; varje fil har en "## Maskinläsning"-sektion. Modellen var mest värdefull där läsarna
+varit oeniga eller texten [oläslig]: 152:2 "**Sytnings wilkor**", 320 (inteckningsprotokollet
+1819) fick läsbar text på ett tiotal rader, 305–306 nya föremålsnamn (half stop, hammar og hof
+tång, björnskinn), 296:25 vittnet heter troligen **Anders [Sillbacka?]** (inte Willbacka),
+**Carl Stenhagen** (321:5) bekräftad. Siffror och belopp läste modellen genomgående fel – inga
+belopp har ändrats, alla summakontroller håller.
+**Att titta på:** 154:3 "Brun Wallack" (brun valack?) mot "Häst [wärderad?]"; 152:5–6 "Kittel
+med hatt och [Pigor/pipor?]"; 296/297/301 "Klåfvus" mot modellens "Klåfvers"; "And: Brunberg"
+står bokstavstroget "Brunuerg"; 155:30 Tunnbergs titel "[Kårdmakaren?]".
 
 ### 2026-11-08 – namn.md: "Förekomster" med alla förekomster och belägg för varje roll
 **Vad jag gjorde:** tre läsare gick igenom alla 242 rader (206 personer, 36 orter) med
