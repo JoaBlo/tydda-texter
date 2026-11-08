@@ -339,6 +339,9 @@ skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarn
 
 | Datum | Vad | Mitt val | Varför | Kan ändras? |
 |---|---|---|---|---|
+| 2026-11-08 | Miniatyrer för webbvisarens dokumentvy | `bilder/thumb/NNN.jpg`, 600 px, 21 MB, byggs av `bygg_index.py` | Originalen är ~6 MB styck; dokumentvyn skulle annars ladda 50–100 MB per handling | Ja – ta bort mappen, då faller vyn tillbaka på originalen |
+| 2026-11-08 | Hur bilderna grupperas till dokument i webbvisaren | Automatiskt: ett nytt dokument börjar när "Dokumenttyp" inte börjar med Fortsättning/Baksida/Sista sidan o.d. (118 dokument) | Bygger på läsarnas egna angivelser; inget nytt behöver skrivas in | Ja – några gränser är inte perfekta (t.ex. 296/297 och 312/316 är dubblettfoton; omslag och post-its blir egna "dokument"). En handskriven lista kan ersätta regeln |
+| 2026-11-08 | Snabblänkar i webbvisaren | Alla `NNN:rad`, `NNN:rad–rad`, `NNN–NNN`, "bild NNN", "(NNN)" och bildnummer i kolumnerna Förekomster/Källa/Bilder blir länkar som öppnar bilden och markerar raderna | Ägarens önskemål: varje uppgift ska gå att verifiera | Ja |
 | 2026-11-07 | Långt s (ſ) och c-med-krok (ç) | Återges som s och c, noteras i varje fil | Läsbarhet; tecknen är rent paleografiska, inte stavning | Ja, men kräver omläsning av alla filer |
 | 2026-11-07 | Fortsättningstecknet ./. | Får eget radnummer | CLAUDE.md: numreringen ska motsvara originalets rader | Ja, enkelt |
 | 2026-11-07 | Tabeller (t.ex. 008) | Radvis med \| som kolumnavgränsare, lodräta rubriker i läsordning | Inget annat sätt bevarar radnumreringen | Ja |
