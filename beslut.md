@@ -36,16 +36,16 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 | D | **Siffertabellerna 1911** (decimalkomma, fyllnadsstreck, kontrollräkning som stöd) | – | **AVGJORT 2026-11-09:** (1) siffror exakt som i bilden – 147 (12 rader), 148 (19), 149 (6) återställda; komma, punkt eller inget tecken som det står. (2) Fyllnadsstreck utskrivna som egna numrerade rader: 137 (7), 138 (4), 144 (2), 145 (2); radnumren ändrade och alla hänvisningar uppdaterade (namn.md, beslut.md, 143, 146, 148, 149); 137:13 fick strecken efter "Ån" på samma rad; 136, 139–143, 146–149 har inga streckrader. (3) Kontrollräkning får stödja en läsning men osäkerheten markeras: 143:24 `5,0[7/9?]5`. **Följdfrågor (ÖPPET):** graderingarna skrivs i bilden som siffra + nedsänkt 5 (`2₅`) men återges `2,5` i 137–148 – ändra till `2₅`?; 148: tre dubbla streck i **blå färgpenna** under rad 30 (sen hand, står i marginalsektionen) – egen rad eller kvar i marginalen?; 137: punkterna "12" och "13" ser ut att ha snedstreck (`12/`, `13/`) där 6–11 har parentes – kontrolleras. |
 
 ### Hög 3 – att göra (bara du kan)
-**Fotografera om:**
+**Fotografera om:** *(Ägarens beslut 2026-11-09: inget fotograferas om. Listan står kvar som dokumentation av vad bilderna inte visar.)*
 
 | Bild | Problem | Status |
 |---|---|---|
-| 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
-| 276 | Gul post-it döljer mitten av rad 10–17 i fastebrevet 1849 – fotografera utan lappen | ÖPPET |
-| 171 | Underskrifterna längst ner (bouppteckningen 1864) avskurna av bildkanten – ta om | ÖPPET |
-| 136 | Talet i kolumnen Impedimenter (rad 15, "4,1[...]") döljs av en riven, invikt pappersbit – ny närbild med biten tillbakavikt | ÖPPET |
-| 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | ÖPPET |
-| 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | ÖPPET |
+| 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
+| 276 | Gul post-it döljer mitten av rad 10–17 i fastebrevet 1849 – fotografera utan lappen | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
+| 171 | Underskrifterna längst ner (bouppteckningen 1864) avskurna av bildkanten – ta om | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
+| 136 | Talet i kolumnen Impedimenter (rad 15, "4,1[...]") döljs av en riven, invikt pappersbit – ny närbild med biten tillbakavikt | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
+| 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
+| 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
 
 **Arkiv (originalhandlingar, t.ex. Kansallisarkisto/Astia):**
 - 151:2 – avskriften inlämnad till häradsrätten 1818 eller 1848? (häradsrättens bouppteckningsarkiv)
@@ -111,6 +111,7 @@ Lindqvist, inte Myhrman (066:27); "Sverige" står inte i 068:3.
   Stennabba". Troligen skrivfel i 090. Lokalkännedom/kyrkböcker avgör.
 - *Osäkra tillskrivningar* (markerade `?`): "B:n Jacob … Sandnabba" 1857–58 (016:27, 023:17,
   024:27) – fadern eller sonen? Kuvertet 285 – Jakob d. 1908 eller Jakob Björklund? m.fl.
+  **Undersökt 2026-11-09 (HisKi):** 1857–58 = **troligen fadern** (d. 1861) – HisKi-dopen 1849 och 1850 kallar sonen "Bs." (bondeson), protokollen 1857–58 kallar honom "Bondesonen" och först 026:9 (okt 1858) "Bonden". Infört i namn.md med "?" och Extern källa. Kuvertet 285 går **inte** att avgöra: HisKi slutar 1894 (vigslar) resp. 1851/1853, poststämpelns år är oläsligt och frimärkena (rött 2-centsmärke) användes både före och efter 1908.
 - *Källfel:* 089/090 ger Matts och Jakob födelseåren 1850/1851 (HisKi: 1849/1850) och räknar
   Gretas söner till Beatas barn; 102:9 "Jakob Andersson Björklund" (= Jakobsson); 270:4 ger
   Fina Marias födelsedag 19/[8?] 1885 mot 048:7 19/2.
