@@ -11,6 +11,28 @@ Status markeras så här:
 
 ## Beslut som väntar på dig
 
+### 2026-11-09 – Öppna frågor prövade mot andra källor (HisKi och kontrollräkning)
+Extern källa: HisKi Purmo (https://hiski.genealogia.fi/hiski?se+0420).
+- **Förmyndarna 1869 – LÖST.** "Simon Petrus" är ett dubbelnamn i Purmo. 090 skriver förnamnets
+  första led, 092/178/179 det andra: det är samma två män, Simon Petter Johansson Sandnabba och
+  Simon Petter Simonsson Stennabba (f. 1836). Den senare var **bror till Beata Simonsdotter**
+  (f. 1834 på Stennabba) – morbror till barnet han var förmyndare för. Ingen källa skrev fel.
+- **"5/436" (033:7) – LÖST genom räkning.** Hustruns giftorätt på landet var 1/3, och sonen fick
+  dubbel lott. Då går alla bråk i 033 jämnt ut: 5/504 + 5/336 + 5/72 + 5/504 = 5/48. Rad 7 är
+  **5/336**. Rad 11 måste av samma skäl vara **5/72**, inte 5/42; tecknet liknar en 4, så det står
+  `5/[72/42?]`.
+- **Klåfvus – i stort sett LÖST.** Prästerna skrev gården Klåfvus, Klåfvos, Klofvos och Klåfos,
+  aldrig "Klåfvers". Nytt fynd: häradsnämndemannen Hans Johansson på Klofvos **dog 1829**. Vittnet
+  "Hans Johansson Klåfous" 1833 (323:24) är alltså en annan man med samma namn, kanske en son.
+- **"Nämndemannen" (151:5) – inte löst.** Jonas Månsson Sandnabba finns i HisKi (bonde, d. 1847,
+  78 år), men prästerna kallar honom bara "Bd.". Det avgör inte saken; domböckerna skulle göra det.
+- **1818 eller 1848 (151:2) – inte löst.** Båda passar: 1818, om bouppteckningen lämnades in fem
+  veckor efter förrättningen som lagen krävde; 1848, om avskriften gjordes för lagfarten.
+  Anmärkning i 151.md.
+- **Kvar för arkiv eller ordbok:** "Brun Wallack"/"Häst" (154:3) kräver originalet i häradsrättens
+  arkiv; bondetermerna kräver Ordbok över Finlands svenska folkmål.
+**Status:** information; namn.md och 033.md uppdaterade.
+
 ### 2026-11-08 – TREDJE LÄSNINGEN KLAR: 45 svåra sidor lästa och rättade
 **Omfattning:** 151–158, 166, 137, 146, 205, 207, 213, 220, 225, 228, 229, 247, 276, 295–302,
 304–316, 318–321, 326, 105, 148. Varje sida lästes i sin helhet av en ny läsare *innan* den
