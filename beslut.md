@@ -112,6 +112,7 @@ Lindqvist, inte Myhrman (066:27); "Sverige" står inte i 068:3.
 - *Osäkra tillskrivningar* (markerade `?`): "B:n Jacob … Sandnabba" 1857–58 (016:27, 023:17,
   024:27) – fadern eller sonen? Kuvertet 285 – Jakob d. 1908 eller Jakob Björklund? m.fl.
   **Undersökt 2026-11-09 (HisKi):** 1857–58 = **troligen fadern** (d. 1861) – HisKi-dopen 1849 och 1850 kallar sonen "Bs." (bondeson), protokollen 1857–58 kallar honom "Bondesonen" och först 026:9 (okt 1858) "Bonden". Infört i namn.md med "?" och Extern källa. Kuvertet 285 går **inte** att avgöra: HisKi slutar 1894 (vigslar) resp. 1851/1853, poststämpelns år är oläsligt och frimärkena (rött 2-centsmärke) användes både före och efter 1908.
+  **Uppdatering 2026-11-09:** avsändarbolaget Lake Superior & Western Mining Co. bildades **1912** (extern källa: The Mines Handbook 1916, archive.org) → kuvertet är från 1912 eller senare → **troligen Jakob Björklund**. Infört i 285.md och namn.md.
 - *Källfel:* 089/090 ger Matts och Jakob födelseåren 1850/1851 (HisKi: 1849/1850) och räknar
   Gretas söner till Beatas barn; 102:9 "Jakob Andersson Björklund" (= Jakobsson); 270:4 ger
   Fina Marias födelsedag 19/[8?] 1885 mot 048:7 19/2.
