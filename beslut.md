@@ -48,7 +48,7 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 | 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
 
 **Arkiv (originalhandlingar, t.ex. Kansallisarkisto/Astia):**
-- 151:2 – avskriften inlämnad till häradsrätten 1818 eller 1848? (häradsrättens bouppteckningsarkiv) – **2026-11-09:** ägaren läser 1818 men osäkert; återges `18[4/1?]8`.
+- 151:2 – avskriften inlämnad till häradsrätten 1818 eller 1848? (häradsrättens bouppteckningsarkiv) – **2026-11-09:** ägaren läser 1818 men osäkert; återges `18[4/1?]8`. Ägarens sökning i Domboksök 2026-11-09: 1848 års domböcker (KO b:22 s. 376) nämner bouppteckningen 1818 som åtkomsthandling i lagfartsärendet (hösttinget 14 sept 1848) – avgör inte "23 Februarii". Nästa sökning: 1818 års domböcker (se nedan).
 - 151:5 – var Jonas Månsson Sandnabba nämndeman 1818? (Pedersöre domböcker)
 - 154:3 – "Häst [wärderad?]" eller "Brun Wallack"? (originalet till bouppteckningen 1818)
 
