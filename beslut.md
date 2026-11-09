@@ -32,8 +32,8 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 |---|---|---|---|
 | A | **Tillägg ovanför raden och insättningstecken** (229:1 "parcell", 228:19, 326:16, 318:10) | (a) bara i anmärkningen, som nu; (b) in i texten med markering, t.ex. `⸌parcell⸍` där tecknet sitter | (b) | **AVGJORT 2026-11-09: (b)** – genomfört i 15 filer (015, 037, 054, 079, 080, 213, 216, 219, 228, 229, 237, 254, 300, 317, 318); regeln står i CLAUDE.md och namn.md. 326:16 visade sig inte vara ett tillägg (står kvar i anmärkningen). Tre tillägg hade av första läsaren fått **egen rad** (213:22 "klanderfritt", 216:5 "Sandnabba", 216:17 "qvitteras"): **AVGJORT 2026-11-09** – raderna behåller sina nummer (ingen omnumrering, så hänvisningar i namn.md/215.md står sig) och skrivs `⸌klanderfritt⸍` med anmärkning om vilken rad ordet läses in på. 216:5-anmärkningen var felaktigt märkt "Inaktuell" – rättat.
 | B | **Dubbletter i namn.md** (Elisa, Beata, Herman, Jusefina/Fina Maria, Jakob 1850–1908, Hilda/Hilma, Anders Lassen/Lasén, Nybränn, Stennabba) | slå ihop / låt stå | Slå ihop, alla förekomster behålls | **AVGJORT 2026-11-09** – sex säkra sammanslagna (Elisa; Beata/Beata Stennabba; Jakob 1850–1908/Lilqvist; Herman/Herman Asp – tre rader blev en; Hilda/Hilma/Hilda Maria; Stennabba-ortraden), var och en med anmärkning om namnformerna och var de står. Troliga står kvar som egna rader med "troligen = … (grund: …)": Jusefina ↔ Fina Maria, Simon ↔ S. Nybränn, A. Lasen ↔ Anders Lasén ↔ Anders Lassen 1925. Raden "Anders Lassen (1925) / Ivar Lasén (1949–50)" delad i två personer. Simon Petter Johansson Sandnabba-raderna slås **inte** ihop (HisKi: två pojkar med det namnet döpta på Sandnabba 1814 och 1820). Förekomstlistorna för de troliga raderna har samtidigt rensats så att varje rad bara har sin egen namnform. |
-| C | **[?] där flera läsare är överens** ("Bekräftar"-rader i tredje läsningen) | (a) låt [?] stå, som nu; (b) ta bort när minst tre oberoende läsare (inkl. Swedish Lion) läser samma och ingen avviker | Diskutera – (b) gör texten mer läsbar men döljer att bilden är svår |
-| D | **Siffertabellerna 1911** (decimalkomma, fyllnadsstreck, kontrollräkning som stöd) | – | VILANDE enligt ditt besked |
+| C | **[?] där flera läsare är överens** ("Bekräftar"-rader i tredje läsningen) | (a) låt [?] stå, som nu; (b) ta bort när minst tre oberoende läsare (inkl. Swedish Lion) läser samma och ingen avviker | Diskutera – (b) gör texten mer läsbar men döljer att bilden är svår | **AVGJORT 2026-11-09: (a) låt stå.** [?] står kvar även där senare läsare bekräftat; överensstämmelsen syns i tabellerna Dubbelläsning/Tredje läsning/Maskinläsning. Ingen fil ändrad. |
+| D | **Siffertabellerna 1911** (decimalkomma, fyllnadsstreck, kontrollräkning som stöd) | – | **AVGJORT 2026-11-09:** (1) siffror exakt som i bilden – 147 (12 rader), 148 (19), 149 (6) återställda; komma, punkt eller inget tecken som det står. (2) Fyllnadsstreck utskrivna som egna numrerade rader: 137 (7), 138 (4), 144 (2), 145 (2); radnumren ändrade och alla hänvisningar uppdaterade (namn.md, beslut.md, 143, 146, 148, 149); 137:13 fick strecken efter "Ån" på samma rad; 136, 139–143, 146–149 har inga streckrader. (3) Kontrollräkning får stödja en läsning men osäkerheten markeras: 143:24 `5,0[7/9?]5`. **Följdfrågor (ÖPPET):** graderingarna skrivs i bilden som siffra + nedsänkt 5 (`2₅`) men återges `2,5` i 137–148 – ändra till `2₅`?; 148: tre dubbla streck i **blå färgpenna** under rad 30 (sen hand, står i marginalsektionen) – egen rad eller kvar i marginalen?; 137: punkterna "12" och "13" ser ut att ha snedstreck (`12/`, `13/`) där 6–11 har parentes – kontrolleras. |
 
 ### Hög 3 – att göra (bara du kan)
 **Fotografera om:**
@@ -60,11 +60,11 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 - Är 157 tysk kurrent, eller samma hand som 151?
 
 **Senare (arbete för mig, när du vill):**
-- **Exakta tabeller.** Tryckta jordregisterblanketter (069–073) och andra tabeller (008, 136–149, inventarierna 1802–1818) återges i dag radvis med `|`. Se över om de kan visas som riktiga tabeller med kolumner – i transkriptionen och/eller i webbvisaren – utan att radnumreringen går förlorad. (Ditt önskemål 2026-11-09.)
+- ~~**Exakta tabeller.**~~ **KLART 2026-11-09:** webbvisaren visar rader med `|` som riktiga tabeller (radnummer, markeringar och ?-förklaringar behålls; knappen ▦/≡ växlar till råa rader med `|`). Blankettrubrikerna med två nivåer i 069 och 072 har fått tomma celler så att varje rubrik står över sin kolumn (texten oförändrad). .md-filerna har kvar formatet med `|` i kodblocket.
 - 019:23 `kok [tjärild?]` → troligen "Kok Kärild" enligt originalet 210:22.
 
 **Ställen där läsarna förblev oeniga** (titta om du vill; står i respektive fil):
-137:7 Ån/Ren · 166:3 Äcklingen · 304:6 Socken/sokn · 306:7 Ett/En · 314:21 Par/par ·
+137:13 Ån/Ren · 166:3 Äcklingen · 304:6 Socken/sokn · 306:7 Ett/En · 314:21 Par/par ·
 315 sämmare (sju rader) · 151:17 på/går i (Swedish Lion: på) · 152:2 wilkor (rättat).
 
 ---
@@ -257,7 +257,7 @@ dessa rättelser (151, 157, 304, 313). Belopp, datum och namn på parterna var d
 **Ytterpurmo** (304:16); 1816: Hans **Klåfwus**, Erek Johanson **Konjär…e**/"Konsarfve",
 **Kylenpä**; Härmelä-formen på 321.
 **Ägaren bör titta på** (oenighet som ingen läsare kunnat avgöra):
-- 137:7 "Ån"/"Ren"; 166:3 "Äcklingen"; 313:2 "Nämdemannen"/"Nämdeman" (Swedish Lion: Nämdeman);
+- 137:13 "Ån"/"Ren"; 166:3 "Äcklingen"; 313:2 "Nämdemannen"/"Nämdeman" (Swedish Lion: Nämdeman);
   313:17 "aflidnes"/"efterlefnes"; 315 "sämmare" (sju rader); 314:21 "Par" versal mot 315:s "par";
   152:2 möjligen "wilkor"; 304:6 "Socken"/"sokn"; 306:7 "Ett"/"En".
 - 151:17 "på"/"går i" – Swedish Lion läser "på" (jämförs nu).

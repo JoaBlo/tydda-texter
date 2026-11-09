@@ -42,7 +42,7 @@
 
   header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 8px 16px; border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 5; }
   header h1 { font-size: 17px; margin: 0 12px 0 0; font-family: var(--serif); font-weight: normal; }
-  header nav { display: flex; gap: 4px; }
+  header nav { display: flex; flex-wrap: wrap; gap: 4px; max-width: 100%; }
   header nav button.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
   .spacer { flex: 1; }
   .pager { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
@@ -80,6 +80,15 @@
 
   .transk { font-family: var(--mono); line-height: 1.6; margin: 0 0 8px; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--bg); overflow-x: auto; }
   .ln { display: grid; grid-template-columns: 3.2em 1fr auto; gap: 0 8px; align-items: baseline; }
+  .tblwrap { overflow-x: auto; margin: 2px 0 6px; }
+  table.ttab { border-collapse: collapse; font-size: .92em; }
+  table.ttab td { border: 1px solid var(--line); padding: 1px 7px; vertical-align: top; white-space: normal; overflow-wrap: normal; word-break: normal; max-width: 16em; }
+  table.ttab td.n { border: 0; color: var(--muted); text-align: right; font-size: .85em; user-select: none; padding: 1px 8px 1px 0; min-width: 2.6em; }
+  table.ttab td.num { text-align: right; white-space: nowrap; }
+  table.ttab td.qc { border: 0; padding: 0; }
+  table.ttab td.full { border-left: 0; border-right: 0; }
+  table.ttab tr.exrow td { border: 0; padding: 0; }
+  tr.ln { display: table-row; }
   .ln:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
   .ln .n { color: var(--muted); text-align: right; font-size: .85em; user-select: none; }
   .ln .t { white-space: pre-wrap; word-break: break-word; }
@@ -191,6 +200,7 @@
     <button class="onlymobile" id="togglePane" title="Växla bild/text">Bild/Text</button>
     <button id="fsMinus" title="Mindre text">A−</button>
     <button id="fsPlus" title="Större text">A+</button>
+    <button id="tblBtn" title="Visa tabellrader som tabell eller som rader med | (exakt som i filen)">▦</button>
     <button id="theme" title="Ljust/mörkt">☾</button>
   </div>
 </header>
@@ -282,7 +292,7 @@
       if (/^\|/.test(l)) {
         let rows = []; while (i < lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
         rows = rows.filter(r => !/^\|[\s:|-]+\|?\s*$/.test(r));
-        const cells = r => r.replace(/^\||\|\s*$/g, "").split("|").map(c => c.trim());
+        const cells = r => r.replace(/^\||\|\s*$/g, "").split(/(?<!\\)\|/).map(c => c.trim().replace(/\\\|/g, "|"));
         const refCols = cells(rows[0] || "").map(c => /förekomst|källa|bilder|^bild$/i.test(c));
         let h = "<table>"; rows.forEach((r, k) => {
           const cs = cells(r); const cls = /AVVIKER/.test(r) ? ' class="avviker"' : "";
@@ -321,31 +331,70 @@
   function parseOsakra(body) {
     const map = {};
     body.split("\n").filter(l => /^\|/.test(l) && !/^\|[\s:|-]+\|?\s*$/.test(l)).slice(1).forEach(r => {
-      const c = r.replace(/^\||\|\s*$/g, "").split("|").map(x => x.trim());
+      const c = r.replace(/^\||\|\s*$/g, "").split(/(?<!\\)\|/).map(x => x.trim().replace(/\\\|/g, "|"));
       if (c.length < 3) return;
       const key = c[0].replace(/[`*]/g, "").trim();
       (map[key] = map[key] || []).push({ guess: c[1], why: c.slice(2).join(" | ") });
     });
     return map;
   }
+  let tblMode = true;
+  try { tblMode = localStorage.getItem("tbl") !== "0"; } catch (e) {}
+  function lineHtml(r, notes) {
+    const has = r.ns.length > 0;
+    let h = `<div class="ln${has ? " has-note" : ""}" data-rad="${esc(r.key)}"><span class="n">${esc(r.n)}</span><span class="t">${markUp(esc(r.t))}</span>`;
+    h += has ? `<button class="q" title="Visa varför raden är osäker">?</button>` : "<span></span>";
+    if (has) h += explHtml(r.ns);
+    return h + "</div>";
+  }
+  function explHtml(ns) { return `<div class="expl hidden">` + ns.map(x => `<div><b>${inline(x.guess)}</b> – ${inline(x.why)}</div>`).join("") + `</div>`; }
+  function isNum(c) { return /\d/.test(c) && !/[A-Za-zÅÄÖåäöÉéÜü]/.test(c.replace(/\[[^\]]*\]/g, "")); }
+  function tableHtml(group) {
+    const cols = Math.max(...group.map(r => r.cells ? r.cells.length : 1));
+    let h = '<div class="tblwrap"><table class="ttab"><tbody>';
+    for (const r of group) {
+      const has = r.ns.length > 0;
+      h += `<tr class="ln${has ? " has-note" : ""}" data-rad="${esc(r.key)}"><td class="n">${esc(r.n)}</td>`;
+      if (r.cells) {
+        r.cells.forEach(c => { const s = c.trim(); h += `<td${isNum(s) ? ' class="num"' : ""}>${markUp(esc(s))}</td>`; });
+        h += "<td></td>".repeat(cols - r.cells.length);
+      } else h += `<td class="full" colspan="${cols}">${markUp(esc(r.t))}</td>`;
+      h += `<td class="qc">${has ? '<button class="q" title="Visa varför raden är osäker">?</button>' : ""}</td></tr>`;
+      if (has) h += `<tr class="exrow"><td></td><td colspan="${cols + 1}">${explHtml(r.ns)}</td></tr>`;
+    }
+    return h + "</tbody></table></div>";
+  }
   function renderTransk(block, notes) {
-    const rows = block.split("\n");
-    let h = '<div class="transk">';
-    for (const r of rows) {
+    const rows = [];
+    for (const r of block.split("\n")) {
       if (!r.trim()) continue;
       const m = r.match(/^(\S{1,5})\s{2,}(.*)$/) || r.match(/^([0-9]+|[A-Z][0-9]+)$/);
       let n = "", t = r;
       if (m) { n = m[1]; t = m[2] || ""; } else if (/^\s{4,}/.test(r)) { n = ""; t = r.replace(/^\s+/, ""); }
       const key = n.replace(/\.$/, "");
-      const ns = (notes[key] || []).concat(n === "" ? [] : []);
-      const has = ns.length > 0;
-      h += `<div class="ln${has ? " has-note" : ""}" data-rad="${esc(key)}"><span class="n">${esc(n)}</span><span class="t">${markUp(esc(t))}</span>`;
-      h += has ? `<button class="q" title="Visa varför raden är osäker">?</button>` : "<span></span>";
-      if (has) h += `<div class="expl hidden">` + ns.map(x => `<div><b>${inline(x.guess)}</b> – ${inline(x.why)}</div>`).join("") + `</div>`;
-      h += "</div>";
+      rows.push({ n, t, key, ns: notes[key] || [], cells: t.includes("|") ? t.split("|") : null });
+    }
+    let h = '<div class="transk">';
+    for (let i = 0; i < rows.length; i++) {
+      if (tblMode && rows[i].cells) {
+        // en tabell = sammanhängande rader med |, inklusive enstaka rader utan | mellan två tabellrader
+        let j = i + 1;
+        while (j < rows.length) {
+          if (rows[j].cells) { j++; continue; }
+          let k = j; while (k < rows.length && !rows[k].cells && k - j < 2) k++;
+          if (k < rows.length && rows[k].cells) { j = k; continue; }
+          break;
+        }
+        h += tableHtml(rows.slice(i, j)); i = j - 1;
+      } else h += lineHtml(rows[i], notes);
     }
     return h + "</div>";
   }
+  function explOf(el) {
+    const ex = el.querySelector(".expl"); if (ex) return ex;
+    const nx = el.nextElementSibling; return nx && nx.classList.contains("exrow") ? nx.querySelector(".expl") : null;
+  }
+  function wireQ(root) { root.querySelectorAll(".ln .q").forEach(b => b.addEventListener("click", () => { const ex = explOf(b.closest(".ln")); if (ex) ex.classList.toggle("hidden"); })); }
   function sakClass(s) { s = (s || "").toLowerCase(); if (s.startsWith("hög")) return "sak-hög"; if (s.startsWith("låg")) return "sak-låg"; return "sak-medel"; }
 
   async function loadMd(path) {
@@ -398,7 +447,7 @@
     { const s = sections.find(x => x.title === "Rättelser efter dubbelläsning"); if (s) h += det("Rättelser (efter dubbel- och tredje läsning)", s.body, true); }
     tp.innerHTML = h;
     tp.scrollTop = 0;
-    tp.querySelectorAll(".ln .q").forEach(b => b.addEventListener("click", () => b.parentElement.querySelector(".expl").classList.toggle("hidden")));
+    wireQ(tp);
     if (rad) markRows(tp, rad);
     // förladda nästa bild
     if (pages[idx + 1]) { const im = new Image(); im.src = pages[idx + 1].bild; }
@@ -416,7 +465,7 @@
     const num = x => parseInt(x, 10);
     let hit = lines.filter(el => el.dataset.rad === a);
     if (b && !isNaN(num(a)) && !isNaN(num(b))) hit = lines.filter(el => !isNaN(num(el.dataset.rad)) && num(el.dataset.rad) >= num(a) && num(el.dataset.rad) <= num(b) && /^\d+$/.test(el.dataset.rad));
-    hit.forEach(el => { el.classList.add("hit"); const ex = el.querySelector(".expl"); if (ex) ex.classList.remove("hidden"); });
+    hit.forEach(el => { el.classList.add("hit"); const ex = explOf(el); if (ex) ex.classList.remove("hidden"); });
     if (hit[0]) hit[0].scrollIntoView({ block: "center" });
   }
 
@@ -453,7 +502,7 @@
         <div class="doktext"><h3><a href="#${nr}">Bild ${nr}</a> <span class="badge ${sakClass(p.sakerhet)}">${esc(p.sakerhet)}</span></h3>${renderTransk(p.text, osak ? parseOsakra(osak.body) : {})}</div></section>`;
     }
     $("#dokbody").innerHTML = h;
-    $("#dokbody").querySelectorAll(".ln .q").forEach(b => b.addEventListener("click", () => b.parentElement.querySelector(".expl").classList.toggle("hidden")));
+    wireQ($("#dokbody"));
   }
 
   /* ---------- tidslinje ---------- */
@@ -641,6 +690,9 @@
   try { fsi = +(localStorage.getItem("fs") ?? 1); if (localStorage.getItem("theme")) document.documentElement.dataset.theme = localStorage.getItem("theme"); } catch (e) {}
   function applyFs() { paneText.className = sizes[fsi]; try { localStorage.setItem("fs", fsi); } catch (e) {} }
   $("#fsPlus").onclick = () => { fsi = Math.min(3, fsi + 1); applyFs(); }; $("#fsMinus").onclick = () => { fsi = Math.max(0, fsi - 1); applyFs(); }; applyFs();
+  function applyTbl() { const b = $("#tblBtn"); b.setAttribute("aria-pressed", tblMode); b.textContent = tblMode ? "▦" : "≡"; }
+  $("#tblBtn").onclick = () => { tblMode = !tblMode; try { localStorage.setItem("tbl", tblMode ? "1" : "0"); } catch (e) {} applyTbl(); goHash() || showPage(idx); };
+  applyTbl();
   $("#theme").onclick = () => { const d = document.documentElement; const cur = d.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); d.dataset.theme = cur === "dark" ? "light" : "dark"; try { localStorage.setItem("theme", d.dataset.theme); } catch (e) {} };
 
   /* ---------- start ---------- */
