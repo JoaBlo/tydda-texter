@@ -1,15 +1,222 @@
 # Beslutslogg
 
-Saker som behöver ditt beslut, och vad jag gjorde under tiden. Nyast överst
-inom varje sektion. Datum avser när posten skrevs.
+Det som behöver ditt beslut, vad jag gjorde under tiden, och vad som är avgjort.
+**Läs bara översikten** – resten är underlag. Senast städad 2026-11-09 (inget innehåll
+borttaget; avgjorda poster flyttade till arkivet längst ner).
 
-Status markeras så här:
-- **ÖPPET** – väntar på ditt beslut; jag har valt en tillfällig default.
-- **AVGJORT** – du har tagit ställning; posten står kvar som dokumentation.
+Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILANDE** = du har sagt
+"vi återkommer" · **AVGJORT** = klart, står kvar som dokumentation.
 
 ---
 
-## Beslut som väntar på dig
+## Översikt – det som väntar på dig
+
+### Hög 1 – små konventionsfrågor (godkänn i klump)
+Mitt förslag gäller redan i filerna, utom punkt 9. Svara "ja till hög 1", eller lyft ut en punkt.
+
+| # | Fråga | Mitt förslag | Påverkar |
+|---|---|---|---|
+| 1 | Andra omslagsserien (288) använder samma bokstäver a–d som den första | Inget prefix; namn.md förklarar att det är en andra serie | Inget |
+| 2 | Tryckt standardtext (försäkringsvillkor 274–275) | Transkribera i sin helhet, som nu | Inget |
+| 3 | 1909-handen (100–101, 105–108): hand F eller egen bokstav? | Låt "F?" stå | Inget (kosmetiskt) |
+| 4 | Ordinitialt högt s som ser versalt ut (093–096) | Gement s i vanliga ord, versal vid meningsbörjan | Inget |
+| 5 | Blyertssummor som inte hör till handlingen (109) | Återges i marginalsektionen, utanför radnumreringen | Inget |
+| 6 | Post-it-lappar och dubblettfoton (077/078 m.fl.) | En fil per bild som nu; lappen som egen enhet L1–Ln | Inget |
+| 7 | Tryckta jordregisterblanketter (069–073) | Tabellhuvud som egna rader, poster med \|, registernummer upphöjda (8¹⁵) | Inget |
+| 8 | Skrivfel i källan som "Jakob Johansson" för Jakobsson (047:13) | Ingen [sic]; återges som det står, förklaras i anmärkningen | Inget |
+| 9 | Snedstreck som parenteser "/5/96/" | Snedstrecken återges bokstavligt; jag rättar 047–053 (där de blivit parenteser) | 7 filer ändras |
+| 10 | Den dekorativa slutslingan efter ord (312/316) | Beskrivs i anmärkningen, inget eget tecken | Inget |
+
+### Hög 2 – riktiga val (tar vi en i taget)
+| # | Fråga | Alternativ | Mitt förslag |
+|---|---|---|---|
+| A | **Tillägg ovanför raden och insättningstecken** (229:1 "parcell", 228:19, 326:16, 318:10) | (a) bara i anmärkningen, som nu; (b) in i texten med markering, t.ex. `⸌parcell⸍` där tecknet sitter | (b) |
+| B | **Dubbletter i namn.md** (Elisa, Beata, Herman, Jusefina/Fina Maria, Jakob 1850–1908, Hilda/Hilma, Anders Lassen/Lasén, Nybränn, Stennabba) | slå ihop / låt stå | Slå ihop, alla förekomster behålls |
+| C | **[?] där flera läsare är överens** ("Bekräftar"-rader i tredje läsningen) | (a) låt [?] stå, som nu; (b) ta bort när minst tre oberoende läsare (inkl. Swedish Lion) läser samma och ingen avviker | Diskutera – (b) gör texten mer läsbar men döljer att bilden är svår |
+| D | **Siffertabellerna 1911** (decimalkomma, fyllnadsstreck, kontrollräkning som stöd) | – | VILANDE enligt ditt besked |
+
+### Hög 3 – att göra (bara du kan)
+**Fotografera om:**
+
+| Bild | Problem | Status |
+|---|---|---|
+| 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
+| 276 | Gul post-it döljer mitten av rad 10–17 i fastebrevet 1849 – fotografera utan lappen | ÖPPET |
+| 171 | Underskrifterna längst ner (bouppteckningen 1864) avskurna av bildkanten – ta om | ÖPPET |
+| 136 | Talet i kolumnen Impedimenter (rad 15, "4,1[...]") döljs av en riven, invikt pappersbit – ny närbild med biten tillbakavikt | ÖPPET |
+| 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | ÖPPET |
+| 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | ÖPPET |
+
+**Arkiv (originalhandlingar, t.ex. Kansallisarkisto/Astia):**
+- 151:2 – avskriften inlämnad till häradsrätten 1818 eller 1848? (häradsrättens bouppteckningsarkiv)
+- 151:5 – var Jonas Månsson Sandnabba nämndeman 1818? (Pedersöre domböcker)
+- 154:3 – "Häst [wärderad?]" eller "Brun Wallack"? (originalet till bouppteckningen 1818)
+
+**Ordbok och lokalkännedom (Ordbok över Finlands svenska folkmål, kaino.kotus.fi/fo):**
+- Bondetermer i bouppteckningarna 1802–1818 (krinda, kytta, kummet, hamlar, möldnings-ahl, Påtella …)
+- 018:24 "quins [Riaxa/Pjaxa?]" (pjäxor?), 152:5–6 "Kittel med hatt och [Pigor/pipor?]"
+- 155:30 Eric Tunnbergs titel "[Kårdmakaren?]"; "And: Brunberg" skrivet "Brunuerg"
+- Är 157 tysk kurrent, eller samma hand som 151?
+
+**Ställen där läsarna förblev oeniga** (titta om du vill; står i respektive fil):
+137:7 Ån/Ren · 166:3 Äcklingen · 304:6 Socken/sokn · 306:7 Ett/En · 314:21 Par/par ·
+315 sämmare (sju rader) · 151:17 på/går i (Swedish Lion: på) · 152:2 wilkor (rättat).
+
+---
+
+## Öppna poster (underlag till översikten)
+
+### 2026-11-08 – Tredje läsningen: modellbyte mitt i arbetet (Fable → Opus)
+Du bad om en tredje läsning med **Fable**. Läsarna avbröts av användningsgränsen och när jag
+återupptog dem kl. 12.23 hade sessionen bytts till Opus, så de fortsatte på **Opus 5.5**. Det
+står ärligt på modellraden i varje fil ("Modell: …").
+**Vad jag gjorde:** stoppade läsarna efter pågående fil. Filer som helt lästs av Fable rättas
+nu som vanligt. Filer som lästs helt eller delvis av Opus behåller sin sektion (omdöpt till
+"## Tredje läsning (Opus 5.5)") och läses dessutom om av nya läsare som uttryckligen körs på
+**Fable** ("## Tredje läsning (Fable 5.1)"), tillsammans med de filer som inte hunnit läsas.
+Rättelser görs först när Fable-läsningen finns, och båda läsningarna vägs in.
+**Konvention som behöver ditt beslut:** läsarna föreslår att interlinjära tillägg och
+insättningstecken förs in i själva transkriptionsblocket (t.ex. 229:1 "parcell" ovanför raden,
+228:19 insättningstecken som lästs som "&", 326:16 tecken före "förordnad"). I dag beskrivs
+sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** ÖPPET.
+**Bekräftar-rader:** när tredje läsaren läser samma som de tidigare och anser att [?] kan
+tas bort har jag ändå låtit markeringen stå (default). Säg till om du vill att de tas bort.
+
+### 2026-11-08 – namn.md: "Förekomster" med alla förekomster och belägg för varje roll
+**Vad jag gjorde:** tre läsare gick igenom alla 242 rader (206 personer, 36 orter) med
+sökning i all källtext, också över avstavningar. Kolumnen heter nu **Förekomster**, och
+varje påstående i Roll/Vad har fått en källhänvisning (bild:rad). Hänvisningarna är klickbara i
+webbvisaren. Osäker tillskrivning markeras `?`, obelagt `(ej belagt)`. Förklaringen står överst
+under "Personer". CLAUDE.md säger nu "alla förekomster" i stället för "första förekomst".
+**Fel i namn.md som rättats (med källa):** Johan Hansson Philpus var förmyndare för båda barnen
+1818 (151:16–21); H. [Forsgård?] var inte vittne 1878 utan intygar en mantalsanteckning (209);
+"kanslist" Solferin obelagt, struket; Malms hemort anges inte (Jacobstad är utfärdandeorten);
+"Hans Johansson [Vilåfous?]" = Klåfous (323:24); Wilander bara 1870, inte 1869; Maja Lena
+**gåvade** (inte sålde) hemmanet 1913 (219:5); Gotteleben övertog förvaltningen av arvet
+(085:23–086:3), inte "fordran"; Johan Bäcksbacka ägde Nygård 23², inte hela N:o 23 (227:5–6);
+Enlund var vittne 1935 och kvitterade 1940, inte ombud; godemän 1949 var Ivar Lasén och Bertel
+Lindqvist, inte Myhrman (066:27); "Sverige" står inte i 068:3.
+**Kvar som behöver ditt beslut eller kunskap:**
+- *Dubbletter i namn.md* (samma person på två rader): Elisa Andersdotter; Beata Simonsdotter;
+  Herman (f. 1894, två rader); Jusefina/Fina Maria; Jakob 1850–1908; Hilda/Hilma Björklund
+  f. Svanbäck; Anders Lassen 1925 = Anders Lasén 1934 = A. Lasen; Simon/S. Nybränn; Stennabba
+  (två ortrader); förmyndarraderna 1869. Jag har låtit dem stå – vill du att jag slår ihop?
+- *Förmyndarna 1869 motsäger varandra i källan:* 090 "Simon Johansson Sandnabba + Petter
+  Simonsson Stennabba", 092/178/179 "Petter Johansson Sandnabba + Simon Petter Simonsson
+  Stennabba". Troligen skrivfel i 090. Lokalkännedom/kyrkböcker avgör.
+- *Osäkra tillskrivningar* (markerade `?`): "B:n Jacob … Sandnabba" 1857–58 (016:27, 023:17,
+  024:27) – fadern eller sonen? Kuvertet 285 – Jakob d. 1908 eller Jakob Björklund? m.fl.
+- *Källfel:* 089/090 ger Matts och Jakob födelseåren 1850/1851 (HisKi: 1849/1850) och räknar
+  Gretas söner till Beatas barn; 102:9 "Jakob Andersson Björklund" (= Jakobsson); 270:4 ger
+  Fina Marias födelsedag 19/[8?] 1885 mot 048:7 19/2.
+- *Nya fynd att föra in:* Rosbergs förnamn Axel (283:18); Hilda kallas "min mor Maria
+  Björklund" (258:5); roller som saknas: Ingman 1942/1950 (104, 238), Aron Brunberg 1864
+  (177:14), Milton säljer till Nymark 1966, Ines 1943 (243), Agnes 1948 (258), Dagny 1950
+  (259), Ivar Lasén köpvittne 1951 (239), Strömsnäs 1950 (203), Sandelin 1934 (194).
+**Status:** ÖPPET (dubbletter) – förmyndarna 1869 löstes 2026-11-09 (se posten om andra källor).
+
+### 2026-11-07 – Siffertabellerna i delningsinstrumentet (136–)
+**Obs:** läsaren av 147–149 normaliserade "0015" till "0,015", medan läsaren av 137–145 behöll
+"0015". Inkonsekvent – avgörs med punkt (1) nedan.
+- **Decimalkomma:** lantmätaren skriver oftast "0055" utan komma (= 0,055), ibland "37.530",
+  ibland "5,075". Återgivet bokstavligt med förklaring i varje fil.
+- **Fyllnadsstreck "= = =":** har inte fått egna radnummer, bara en anmärkning.
+- **Kontrollräkning:** läsaren räknade areal × grad / 10 och alla summor – allt går ihop, vilket
+  ger hög säkerhet. Men i 143:24 läste den en siffra som ser ut som 9 som en 7, med stöd av
+  summeringen och jämförelse med handens 7:or. Läsningen står i transkriptionen som `5,075`
+  utan [?]-markering, men är listad under Osäkra passager med motivering. Strikt enligt
+  CLAUDE.md borde den skrivas `[5,075?]`.
+**Ditt besked 2026-11-07:** låt det stå som det är (137–145 bokstavligt, 147–149 normaliserat);
+ni återkommer till frågan senare. Inga filer ändras tills dess.
+**Status:** VILANDE – (1) normalisera decimaler eller inte, (2) ska fyllnadsstreck numreras,
+(3) är kontrollräkning ett godtagbart stöd för en läsning (jag tycker ja, men med [?]-markering).
+
+### 2026-11-08 – Andra omslagsserien (288) har samma bokstäver som den första
+Omslaget på 288 har "a) Bouppteckningar, b) Utdrag ur protokoll, c) försäljning, d) Diverse
+handlingar" – men a–d används redan av första serien (012/076/089/150 …). Innehållet här gäller
+Härmälä 1826–1840, alltså Jacob Jacobssons tid före Sandnabba.
+**Vad jag gjorde:** Bokstäverna återgivna som de står; namn.md beskriver serien som
+"andra omslagsserien (288)". **Status:** ÖPPET – vill du ha ett prefix (t.ex. "H-c: 1" för
+Härmälä) i filerna?
+
+### 2026-11-08 – Tryckta villkor och blanketter (274–275)
+Sampos tryckta försäkringsvillkor är transkriberade i sin helhet (regeln: exakt återgivning).
+**Status:** ÖPPET – vill du att tryckt standardtext hellre sammanfattas framöver?
+
+### 2026-11-07 – Hand 1909 (100–101, 105–108): F eller ny bokstav?
+Två läsare har oberoende sett att 1909-handlingarna har en kanslihand mycket lik F (1915).
+Filerna säger "F?" resp. "F (eller mycket lik F)". **Status:** ÖPPET, kosmetiskt.
+
+### 2026-11-07 – Initialt s som ser versalt ut (093–096)
+Skrivaren (hand E, 1869) skriver ordinitialt s högt, så att det liknar versalt S ("ſytning",
+"ſeng", "ſilfver"). Default: gement s i vanliga ord, versal vid meningsbörjan och där bokstaven
+klart är versal; allt listat under Osäkra passager.
+**Status:** ÖPPET – godkänn eller välj annan regel.
+
+### 2026-11-07 – Ovidkommande anteckningar på handlingar (109)
+109 har en lång blyertskolumn med belopp som inte hör till handlingen. Läsaren återgav den i
+marginalsektionen, utanför radnumreringen. **Status:** ÖPPET – ska sådant alls återges?
+
+### 2026-11-07 – Post-it-lappar och dubblettfoton (077/078)
+**Fråga:** 077 och 078 är samma sida – en gång med en modern gul lapp över rad 10–16,
+en gång utan. Båda har fått egna filer; i 077 är den dolda texten markerad [...]
+och lappen transkriberad som egen enhet L1–L5.
+**Vad jag gjorde:** Lät det stå (CLAUDE.md: en fil per bild).
+**Status:** ÖPPET – vill du ha en kortare konvention, t.ex. att 077.md bara transkriberar
+lappen och hänvisar till 078 för sidan?
+
+### 2026-11-07 – Nya dokumenttyper i 067–076: tryckta jordregisterblanketter
+**Fråga:** 069–073 är maskinskrivna poster på tryckta tvåspråkiga blanketter med
+kolumner, upphöjda registernummer och röda strykningar över avförda poster.
+**Vad läsaren gjorde (default):** tryckt tabellhuvud som egna rader; poster radvis
+med `|`; registernummer som Unicode-exponenter (8¹⁵, 23⁴); röda linjer tolkade som
+avförda poster och beskrivna i marginalsektionen, inte som ~~överstrykning~~;
+bläckklamrar (senare läsares markering) beskrivna men inte transkriberade.
+**Status:** ÖPPET – godkänn eller ändra; fler sådana blanketter väntas.
+
+### 2026-11-07 – "Jakob Johansson Sandnabba" (047:13)
+**Fråga:** Källan skriver "Jakob Johansson" där sammanhanget (047:19, 045) ger
+"Jakob Jakobsson". Troligen skrivfel i originalet.
+**Vad jag gjorde:** Återgivet som det står, med anmärkning i filen och namn.md.
+**Status:** ÖPPET bara om du vill ha en annan markering (t.ex. "[sic]").
+
+### 2026-11-07 – Snedstreck som parenteser (042–053)
+**Fråga:** 1915-skrivaren skriver parenteser som snedstreck: "/5/96/". Läsaren
+av 047–056 återgav dem med vanliga parenteser "(5/96)" och noterade det;
+läsaren av 037–046 behöll snedstrecken.
+**Vad jag gjorde:** Lät båda stå tills vidare; antecknat i namn.md.
+**Status:** ÖPPET. Mitt förslag: behåll snedstrecken bokstavligt ("som det står")
+och låt mig rätta 047–053. Säg till så gör jag det.
+
+### 2026-11-07 – Snedstreck behållna bokstavligt från 077
+Läsaren av 077–086 behöll "/650/" bokstavligt enligt mitt förslag i posten om
+snedstreck nedan. Det är alltså nu blandat: 047–053 har parenteser, övriga snedstreck.
+**Status:** information – hör till posten "Snedstreck som parenteser" (Hög 1, punkt 9).
+
+---
+
+## Beslut jag tagit åt dig (defaults)
+
+| Datum | Vad | Mitt val | Varför | Kan ändras? |
+|---|---|---|---|---|
+| 2026-11-08 | Miniatyrer för webbvisarens dokumentvy | `bilder/thumb/NNN.jpg`, 600 px, 21 MB, byggs av `bygg_index.py` | Originalen är ~6 MB styck; dokumentvyn skulle annars ladda 50–100 MB per handling | Ja – ta bort mappen, då faller vyn tillbaka på originalen |
+| 2026-11-08 | Hur bilderna grupperas till dokument i webbvisaren | Automatiskt: ett nytt dokument börjar när "Dokumenttyp" inte börjar med Fortsättning/Baksida/Sista sidan o.d. (118 dokument) | Bygger på läsarnas egna angivelser; inget nytt behöver skrivas in | Ja – några gränser är inte perfekta (t.ex. 296/297 och 312/316 är dubblettfoton; omslag och post-its blir egna "dokument"). En handskriven lista kan ersätta regeln |
+| 2026-11-08 | Snabblänkar i webbvisaren | Alla `NNN:rad`, `NNN:rad–rad`, `NNN–NNN`, "bild NNN", "(NNN)" och bildnummer i kolumnerna Förekomster/Källa/Bilder blir länkar som öppnar bilden och markerar raderna | Ägarens önskemål: varje uppgift ska gå att verifiera | Ja |
+| 2026-11-07 | Långt s (ſ) och c-med-krok (ç) | Återges som s och c, noteras i varje fil | Läsbarhet; tecknen är rent paleografiska, inte stavning | Ja, men kräver omläsning av alla filer |
+| 2026-11-07 | Fortsättningstecknet ./. | Får eget radnummer | CLAUDE.md: numreringen ska motsvara originalets rader | Ja, enkelt |
+| 2026-11-07 | Tabeller (t.ex. 008) | Radvis med \| som kolumnavgränsare, lodräta rubriker i läsordning | Inget annat sätt bevarar radnumreringen | Ja |
+| 2026-11-07 | Liggande bilder | Vrids rätt och skrivs över i bilder/ (originalet i git-historiken) | CLAUDE.md-regeln | – |
+| 2026-11-07 | Vem committar | Bara jag, per omgång; agenterna rör inte git | Undviker krockar | – |
+| 2026-11-07 | Vem skriver i namn.md | Bara jag; agenterna rapporterar nya namn till mig | Undviker skrivkrockar | – |
+| 2026-11-07 | Avgiftsanteckningen "Chsa" i 001 | Tolkad som "Ch. S:a" = Charta Sigillata, efter att 013 visade formeln tydligt | Jämförelse inom materialet | Ja |
+| 2026-11-07 | Beteckning på skrivarhänder | Flera läsare döpte olika händer till "E"/"F". namn.md gäller (A–H + skrivmaskiner), och namn.md listar vilka filer som använder fel bokstav. Filerna är inte ändrade | Billigare än att ändra 30 filer; kosmetiskt | Ja |
+| 2026-11-07 | Maskinskrivna dokument (054–066, troligen fler) | Samma filformat och radnumrering som för handskrift; skrivfel i originalet återges som de står och noteras | Konsekvens | Ja |
+| 2026-11-07 | Strukna ord i rubriken 027:4–7 (fel tingslag) | Återgivna som ~~överstrukna~~ följda av den rättade texten | CLAUDE.md: behåll överstrykningar | – |
+| 2026-11-07 | Dubbelläsarens fynd av omarkerade fel (t.ex. "april" med gement a, 003:20, 008:2; "hu=" 004:9; "alltså"/"deltså" 010:2) | Står kvar i sektionen Dubbelläsning; transkriptionen oförändrad | Samma princip som för markerade avvikelser | Ja – se öppen post ovan |
+
+---
+
+## Arkiv – avgjort och information (nyast först)
 
 ### 2026-11-09 – Öppna frågor prövade mot andra källor (HisKi och kontrollräkning)
 Extern källa: HisKi Purmo (https://hiski.genealogia.fi/hiski?se+0420).
@@ -90,39 +297,6 @@ belopp har ändrats, alla summakontroller håller.
 med hatt och [Pigor/pipor?]"; 296/297/301 "Klåfvus" mot modellens "Klåfvers"; "And: Brunberg"
 står bokstavstroget "Brunuerg"; 155:30 Tunnbergs titel "[Kårdmakaren?]".
 
-### 2026-11-08 – namn.md: "Förekomster" med alla förekomster och belägg för varje roll
-**Vad jag gjorde:** tre läsare gick igenom alla 242 rader (206 personer, 36 orter) med
-sökning i all källtext, också över avstavningar. Kolumnen heter nu **Förekomster**, och
-varje påstående i Roll/Vad har fått en källhänvisning (bild:rad). Hänvisningarna är klickbara i
-webbvisaren. Osäker tillskrivning markeras `?`, obelagt `(ej belagt)`. Förklaringen står överst
-under "Personer". CLAUDE.md säger nu "alla förekomster" i stället för "första förekomst".
-**Fel i namn.md som rättats (med källa):** Johan Hansson Philpus var förmyndare för båda barnen
-1818 (151:16–21); H. [Forsgård?] var inte vittne 1878 utan intygar en mantalsanteckning (209);
-"kanslist" Solferin obelagt, struket; Malms hemort anges inte (Jacobstad är utfärdandeorten);
-"Hans Johansson [Vilåfous?]" = Klåfous (323:24); Wilander bara 1870, inte 1869; Maja Lena
-**gåvade** (inte sålde) hemmanet 1913 (219:5); Gotteleben övertog förvaltningen av arvet
-(085:23–086:3), inte "fordran"; Johan Bäcksbacka ägde Nygård 23², inte hela N:o 23 (227:5–6);
-Enlund var vittne 1935 och kvitterade 1940, inte ombud; godemän 1949 var Ivar Lasén och Bertel
-Lindqvist, inte Myhrman (066:27); "Sverige" står inte i 068:3.
-**Kvar som behöver ditt beslut eller kunskap:**
-- *Dubbletter i namn.md* (samma person på två rader): Elisa Andersdotter; Beata Simonsdotter;
-  Herman (f. 1894, två rader); Jusefina/Fina Maria; Jakob 1850–1908; Hilda/Hilma Björklund
-  f. Svanbäck; Anders Lassen 1925 = Anders Lasén 1934 = A. Lasen; Simon/S. Nybränn; Stennabba
-  (två ortrader); förmyndarraderna 1869. Jag har låtit dem stå – vill du att jag slår ihop?
-- *Förmyndarna 1869 motsäger varandra i källan:* 090 "Simon Johansson Sandnabba + Petter
-  Simonsson Stennabba", 092/178/179 "Petter Johansson Sandnabba + Simon Petter Simonsson
-  Stennabba". Troligen skrivfel i 090. Lokalkännedom/kyrkböcker avgör.
-- *Osäkra tillskrivningar* (markerade `?`): "B:n Jacob … Sandnabba" 1857–58 (016:27, 023:17,
-  024:27) – fadern eller sonen? Kuvertet 285 – Jakob d. 1908 eller Jakob Björklund? m.fl.
-- *Källfel:* 089/090 ger Matts och Jakob födelseåren 1850/1851 (HisKi: 1849/1850) och räknar
-  Gretas söner till Beatas barn; 102:9 "Jakob Andersson Björklund" (= Jakobsson); 270:4 ger
-  Fina Marias födelsedag 19/[8?] 1885 mot 048:7 19/2.
-- *Nya fynd att föra in:* Rosbergs förnamn Axel (283:18); Hilda kallas "min mor Maria
-  Björklund" (258:5); roller som saknas: Ingman 1942/1950 (104, 238), Aron Brunberg 1864
-  (177:14), Milton säljer till Nymark 1966, Ines 1943 (243), Agnes 1948 (258), Dagny 1950
-  (259), Ivar Lasén köpvittne 1951 (239), Strömsnäs 1950 (203), Sandelin 1934 (194).
-**Status:** ÖPPET (dubbletter, förmyndarna 1869); övrigt information.
-
 ### 2026-11-08 – Fable-gränsen nådd: 7 sidor saknar Fable-läsning
 Kl. 17.35 svarade API:t "You've reached your Fable limit" (egen gräns, ingen återställningstid
 angiven). Fable-läsning saknas för **155, 156, 157, 310, 311, 321, 326** (326 och 310 har en
@@ -131,22 +305,6 @@ Opus-läsning; 155–157, 311 och 321 har ingen tredje läsning alls).
 Fable-läsarna vid varje schemakörning. **Default om gränsen inte släpper:** jag låter de sju
 sidorna vänta hellre än att låta Opus läsa dem som "tredje läsning" – du bad uttryckligen om
 Fable. Säg till om du hellre vill att Opus slutför dem. **Status:** AVGJORT – du sa "Du kan byta till Opus". 155–157, 311 och 321 läses av Opus; 310 får en fullständig Opus-läsning (den förra var ofullständig); 326 behåller sin Opus-läsning. Modellraden i varje fil anger vilken modell som läst.
-
-### 2026-11-08 – Tredje läsningen: modellbyte mitt i arbetet (Fable → Opus)
-Du bad om en tredje läsning med **Fable**. Läsarna avbröts av användningsgränsen och när jag
-återupptog dem kl. 12.23 hade sessionen bytts till Opus, så de fortsatte på **Opus 5.5**. Det
-står ärligt på modellraden i varje fil ("Modell: …").
-**Vad jag gjorde:** stoppade läsarna efter pågående fil. Filer som helt lästs av Fable rättas
-nu som vanligt. Filer som lästs helt eller delvis av Opus behåller sin sektion (omdöpt till
-"## Tredje läsning (Opus 5.5)") och läses dessutom om av nya läsare som uttryckligen körs på
-**Fable** ("## Tredje läsning (Fable 5.1)"), tillsammans med de filer som inte hunnit läsas.
-Rättelser görs först när Fable-läsningen finns, och båda läsningarna vägs in.
-**Konvention som behöver ditt beslut:** läsarna föreslår att interlinjära tillägg och
-insättningstecken förs in i själva transkriptionsblocket (t.ex. 229:1 "parcell" ovanför raden,
-228:19 insättningstecken som lästs som "&", 326:16 tecken före "förordnad"). I dag beskrivs
-sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** ÖPPET.
-**Bekräftar-rader:** när tredje läsaren läser samma som de tidigare och anser att [?] kan
-tas bort har jag ändå låtit markeringen stå (default). Säg till om du vill att de tas bort.
 
 ### 2026-11-07 – Dubbelläsningen av 001–016 hittade systematiska fel hos första läsaren (mig)
 **Resultat:** 53 Överens, 9 AVVIKER (4 på rader jag inte markerat som osäkra), 8 Osäker.
@@ -192,14 +350,6 @@ första läsaren inte gjort det, (c) tredje läsare vid avvikelse.
 **Mönster:** första läsarna normaliserar mot förväntad form (stavning, V/W, qv/qu). Lärdomen
 finns redan i namn.md; de nya agenterna (117–156) har fått den.
 **Status:** AVGJORT 2026-11-07 ("Kör på 2") – rättat med grund, se "Rättelser efter dubbelläsning" i filerna. Ursprunglig fråga: ska jag rätta de tydliga fallen?
-
-### 2026-11-08 – Andra omslagsserien (288) har samma bokstäver som den första
-Omslaget på 288 har "a) Bouppteckningar, b) Utdrag ur protokoll, c) försäljning, d) Diverse
-handlingar" – men a–d används redan av första serien (012/076/089/150 …). Innehållet här gäller
-Härmälä 1826–1840, alltså Jacob Jacobssons tid före Sandnabba.
-**Vad jag gjorde:** Bokstäverna återgivna som de står; namn.md beskriver serien som
-"andra omslagsserien (288)". **Status:** ÖPPET – vill du ha ett prefix (t.ex. "H-c: 1" för
-Härmälä) i filerna?
 
 ### 2026-11-08 – Är Jacob Jacobsson Härmälä (1826, 1839) = Jacob Jacobsson Sandnabba eller Härmälä?
 001:13 kallar köparen 1843 "Jacob Jacobsson Sandnabba eller Härmälä". Troligen samma man, men
@@ -274,10 +424,6 @@ kan tas med i en sista rättelseomgång om du vill.
 bildvisare (t.ex. Finder, webbläsare) visade dem på sidan. Taggen är satt till 1 direkt i filerna,
 utan omkodning. Alla 326 bilder har nu orientering 1 eller ingen tagg. **Status:** AVGJORT.
 
-### 2026-11-08 – Tryckta villkor och blanketter (274–275)
-Sampos tryckta försäkringsvillkor är transkriberade i sin helhet (regeln: exakt återgivning).
-**Status:** ÖPPET – vill du att tryckt standardtext hellre sammanfattas framöver?
-
 ### 2026-11-07 – Originalen i omslag g bekräftar eller rättar tidiga läsningar
 Omslag g innehåller originalen till handlingar som 001–050 bara citerar i avskrift. De ger stöd
 för flera tidigare osäkra läsningar:
@@ -289,7 +435,7 @@ för flera tidigare osäkra läsningar:
   troligen "Kok Kärild" (kokkärl, 210:22).
 **Vad jag gjorde:** Inget ännu. Jag tar med dessa i nästa rättelseomgång enligt samma regel
 (rättas när stödet är konkret – en originalhandling räknas som parallelltext).
-**Status:** pågår enligt ditt beslut om rättelser.
+**Status:** AVGJORT – 004:5, 004:13, 031:17, 031:19 och 018:24 är rättade. **Kvar:** 019:23 `kok [tjärild?]` → troligen "Kok Kärild" (originalet 210:22) – rättas vid nästa tillfälle.
 
 ### 2026-11-07 – AVGJORT: Rättelser efter dubbelläsning
 **Ditt beslut:** rätta transkriptionen där dubbelläsaren avviker med tydlig grund (alternativ 2).
@@ -348,23 +494,7 @@ Handen är mycket snirklig och många föremålsnamn (bondetermer som krinda, ky
 hamlar) är osäkra. Beloppen är kontrollräknade och stämmer nästan överallt (153:13 och 155:17
 avviker – troligen skrivarens räknefel, återgivet som det står). Dubbelläsningen tar det, men
 en människa med kännedom om österbottniska bondetermer vore värdefull.
-**Status:** ÖPPET.
-
-### 2026-11-07 – Siffertabellerna i delningsinstrumentet (136–)
-**Obs:** läsaren av 147–149 normaliserade "0015" till "0,015", medan läsaren av 137–145 behöll
-"0015". Inkonsekvent – avgörs med punkt (1) nedan.
-- **Decimalkomma:** lantmätaren skriver oftast "0055" utan komma (= 0,055), ibland "37.530",
-  ibland "5,075". Återgivet bokstavligt med förklaring i varje fil.
-- **Fyllnadsstreck "= = =":** har inte fått egna radnummer, bara en anmärkning.
-- **Kontrollräkning:** läsaren räknade areal × grad / 10 och alla summor – allt går ihop, vilket
-  ger hög säkerhet. Men i 143:24 läste den en siffra som ser ut som 9 som en 7, med stöd av
-  summeringen och jämförelse med handens 7:or. Läsningen står i transkriptionen som `5,075`
-  utan [?]-markering, men är listad under Osäkra passager med motivering. Strikt enligt
-  CLAUDE.md borde den skrivas `[5,075?]`.
-**Ditt besked 2026-11-07:** låt det stå som det är (137–145 bokstavligt, 147–149 normaliserat);
-ni återkommer till frågan senare. Inga filer ändras tills dess.
-**Status:** VILANDE – (1) normalisera decimaler eller inte, (2) ska fyllnadsstreck numreras,
-(3) är kontrollräkning ett godtagbart stöd för en läsning (jag tycker ja, men med [?]-markering).
+**Status:** delvis gjort – tredje läsningen och Transkribus har läst om 151–157. Kvar: bondetermerna (Hög 3).
 
 ### 2026-11-07 – Klyvningen 1911 (128–): moderns namn och gode männen
 - Lantmäteriprotokollet kallar jordägaren på littera 1 "Enkan **Maria** Eriksdotter, mor till
@@ -385,46 +515,11 @@ ni återkommer till frågan senare. Inga filer ändras tills dess.
 - 099:5–6 kallar Jakob Jakobsson d.y. "aflidne" 1869 – han dog alltså mellan nov 1868 och mars 1869.
 **Status:** information; inget att ändra i transkriptionerna.
 
-### 2026-11-07 – Hand 1909 (100–101, 105–108): F eller ny bokstav?
-Två läsare har oberoende sett att 1909-handlingarna har en kanslihand mycket lik F (1915).
-Filerna säger "F?" resp. "F (eller mycket lik F)". **Status:** ÖPPET, kosmetiskt.
-
-### 2026-11-07 – Initialt s som ser versalt ut (093–096)
-Skrivaren (hand E, 1869) skriver ordinitialt s högt, så att det liknar versalt S ("ſytning",
-"ſeng", "ſilfver"). Default: gement s i vanliga ord, versal vid meningsbörjan och där bokstaven
-klart är versal; allt listat under Osäkra passager.
-**Status:** ÖPPET – godkänn eller välj annan regel.
-
-### 2026-11-07 – Ovidkommande anteckningar på handlingar (109)
-109 har en lång blyertskolumn med belopp som inte hör till handlingen. Läsaren återgav den i
-marginalsektionen, utanför radnumreringen. **Status:** ÖPPET – ska sådant alls återges?
-
-### 2026-11-07 – Post-it-lappar och dubblettfoton (077/078)
-**Fråga:** 077 och 078 är samma sida – en gång med en modern gul lapp över rad 10–16,
-en gång utan. Båda har fått egna filer; i 077 är den dolda texten markerad [...]
-och lappen transkriberad som egen enhet L1–L5.
-**Vad jag gjorde:** Lät det stå (CLAUDE.md: en fil per bild).
-**Status:** ÖPPET – vill du ha en kortare konvention, t.ex. att 077.md bara transkriberar
-lappen och hänvisar till 078 för sidan?
-
-### 2026-11-07 – Snedstreck behållna bokstavligt från 077
-Läsaren av 077–086 behöll "/650/" bokstavligt enligt mitt förslag i posten om
-snedstreck nedan. Det är alltså nu blandat: 047–053 har parenteser, övriga snedstreck.
-
-### 2026-11-07 – Nya dokumenttyper i 067–076: tryckta jordregisterblanketter
-**Fråga:** 069–073 är maskinskrivna poster på tryckta tvåspråkiga blanketter med
-kolumner, upphöjda registernummer och röda strykningar över avförda poster.
-**Vad läsaren gjorde (default):** tryckt tabellhuvud som egna rader; poster radvis
-med `|`; registernummer som Unicode-exponenter (8¹⁵, 23⁴); röda linjer tolkade som
-avförda poster och beskrivna i marginalsektionen, inte som ~~överstrykning~~;
-bläckklamrar (senare läsares markering) beskrivna men inte transkriberade.
-**Status:** ÖPPET – godkänn eller ändra; fler sådana blanketter väntas.
-
 ### 2026-11-07 – Korshänvisningar "§ 55 lgf" / "§ 46 lgf" (042, 051)
 Dubbelläsaren läste bläck-/blyertsanteckningarna överst på 042 och 051 som
 "№: 55. lgf" resp. "§: 46. lgf" – alltså hänvisningar framåt till nästa uppbuds
 paragraf (lgf = lagfart). Första läsaren läste siffror. Transkriptionerna oförändrade.
-**Status:** ÖPPET – samma princip som övriga avvikelser.
+**Status:** AVGJORT – rättat till "№: 55. lgf" resp. "§: 46. lgf" i rättelseomgången (se 042.md, 051.md).
 
 ### 2026-11-07 – Omslagsbokstäver
 012 kallar lagfartsgruppen "b) 1–13"; omslaget på 076 kallar samma grupp "c" och
@@ -435,21 +530,7 @@ f: klyvning av Sandnabba skattehemman 19[11?]". Antecknat i namn.md.
 ### 2026-11-07 – "Hilda" eller "Hilma" Björklund (042–056) – AVGJORT av källan
 Ämbetsbetyget 067:8 ger "Hilda Maria Svanbäck", vigd 1905-11-26. Hon hette Hilda;
 "Hilma" i 042, 051, 053 är kansliets fel. Transkriptionerna står som de står.
-**Status:** AVGJORT (flyttas till Avgjorda beslut när du bekräftat).
-
-### 2026-11-07 – "Jakob Johansson Sandnabba" (047:13)
-**Fråga:** Källan skriver "Jakob Johansson" där sammanhanget (047:19, 045) ger
-"Jakob Jakobsson". Troligen skrivfel i originalet.
-**Vad jag gjorde:** Återgivet som det står, med anmärkning i filen och namn.md.
-**Status:** ÖPPET bara om du vill ha en annan markering (t.ex. "[sic]").
-
-### 2026-11-07 – Snedstreck som parenteser (042–053)
-**Fråga:** 1915-skrivaren skriver parenteser som snedstreck: "/5/96/". Läsaren
-av 047–056 återgav dem med vanliga parenteser "(5/96)" och noterade det;
-läsaren av 037–046 behöll snedstrecken.
-**Vad jag gjorde:** Lät båda stå tills vidare; antecknat i namn.md.
-**Status:** ÖPPET. Mitt förslag: behåll snedstrecken bokstavligt ("som det står")
-och låt mig rätta 047–053. Säg till så gör jag det.
+**Status:** AVGJORT av källan.
 
 ### 2026-11-07 – Lokalkännedom efterfrågas
 Läsarna har bett om hjälp med några namn som kräver lokal- eller släktkännedom:
@@ -459,8 +540,8 @@ Läsarna har bett om hjälp med några namn som kräver lokal- eller släktkänn
 - ~~061:9 `[Odo?] [Sandelin?]`~~ → **Odo Sandelin** (häradshövding i Nykarleby domsaga 1916–38). Extern källa: Ylioppilasmatrikkeli 1853–1899 #22304.
 - ~~057/062 Lassen/Lasén samma person?~~ → **Nej**: olika förnamn (Anders 1925/1934, Ivar 1949–50). Ingen extern källa behövdes.
 - 018:24 "quins [Riaxa?]" → nu `[Riaxa/Pjaxa?]`. Ingen extern källa; parallellerna 029:9 och 094:18 ("två par quins/qvins pjexor") och originalet 210:15 tyder på pjäxor. Ordboken över Finlands svenska folkmål (kaino.kotus.fi/fo) gick inte att söka automatiskt. **Fortfarande öppet** om du vill kontrollera själv.
-- 033:7 bråket "5/436" (ger inget rimligt mantal; 336 eller 432?) – går inte att avgöra med extern källa (räknefel eller skrivfel i protokollet). **Fortfarande öppet.**
-**Status:** ÖPPET.
+- 033:7 bråket "5/436" (ger inget rimligt mantal; 336 eller 432?) – **LÖST 2026-11-09** genom kontrollräkning: 5/336.
+**Status:** AVGJORT utom 018:24 (Riaxa/Pjaxa), som står i Hög 3.
 
 ### 2026-11-07 – Parallella omgångar och dokumentgränser
 **Fråga:** Omgångarna om 10 bilder körs av olika läsare samtidigt, så den som
@@ -468,44 +549,5 @@ börjar på t.ex. 027 vet inte säkert vad 026 innehåller.
 **Vad jag gjorde:** Läsarna får titta på föregående bild för sammanhang och
 skriva "fortsätter troligen från föregående bild". Jag kontrollerar skarvarna
 (026/027, 036/037 …) när omgångarna är klara och rättar dokumenttypsraderna.
-**Status:** ÖPPET bara om du tycker skarvarna blev dåliga; annars inget att göra.
+**Status:** AVGJORT – skarvarna kontrollerades; dokumentgränserna används nu i webbvisarens dokumentvy.
 
----
-
-## Beslut jag tagit åt dig (defaults)
-
-| Datum | Vad | Mitt val | Varför | Kan ändras? |
-|---|---|---|---|---|
-| 2026-11-08 | Miniatyrer för webbvisarens dokumentvy | `bilder/thumb/NNN.jpg`, 600 px, 21 MB, byggs av `bygg_index.py` | Originalen är ~6 MB styck; dokumentvyn skulle annars ladda 50–100 MB per handling | Ja – ta bort mappen, då faller vyn tillbaka på originalen |
-| 2026-11-08 | Hur bilderna grupperas till dokument i webbvisaren | Automatiskt: ett nytt dokument börjar när "Dokumenttyp" inte börjar med Fortsättning/Baksida/Sista sidan o.d. (118 dokument) | Bygger på läsarnas egna angivelser; inget nytt behöver skrivas in | Ja – några gränser är inte perfekta (t.ex. 296/297 och 312/316 är dubblettfoton; omslag och post-its blir egna "dokument"). En handskriven lista kan ersätta regeln |
-| 2026-11-08 | Snabblänkar i webbvisaren | Alla `NNN:rad`, `NNN:rad–rad`, `NNN–NNN`, "bild NNN", "(NNN)" och bildnummer i kolumnerna Förekomster/Källa/Bilder blir länkar som öppnar bilden och markerar raderna | Ägarens önskemål: varje uppgift ska gå att verifiera | Ja |
-| 2026-11-07 | Långt s (ſ) och c-med-krok (ç) | Återges som s och c, noteras i varje fil | Läsbarhet; tecknen är rent paleografiska, inte stavning | Ja, men kräver omläsning av alla filer |
-| 2026-11-07 | Fortsättningstecknet ./. | Får eget radnummer | CLAUDE.md: numreringen ska motsvara originalets rader | Ja, enkelt |
-| 2026-11-07 | Tabeller (t.ex. 008) | Radvis med \| som kolumnavgränsare, lodräta rubriker i läsordning | Inget annat sätt bevarar radnumreringen | Ja |
-| 2026-11-07 | Liggande bilder | Vrids rätt och skrivs över i bilder/ (originalet i git-historiken) | CLAUDE.md-regeln | – |
-| 2026-11-07 | Vem committar | Bara jag, per omgång; agenterna rör inte git | Undviker krockar | – |
-| 2026-11-07 | Vem skriver i namn.md | Bara jag; agenterna rapporterar nya namn till mig | Undviker skrivkrockar | – |
-| 2026-11-07 | Avgiftsanteckningen "Chsa" i 001 | Tolkad som "Ch. S:a" = Charta Sigillata, efter att 013 visade formeln tydligt | Jämförelse inom materialet | Ja |
-| 2026-11-07 | Beteckning på skrivarhänder | Flera läsare döpte olika händer till "E"/"F". namn.md gäller (A–H + skrivmaskiner), och namn.md listar vilka filer som använder fel bokstav. Filerna är inte ändrade | Billigare än att ändra 30 filer; kosmetiskt | Ja |
-| 2026-11-07 | Maskinskrivna dokument (054–066, troligen fler) | Samma filformat och radnumrering som för handskrift; skrivfel i originalet återges som de står och noteras | Konsekvens | Ja |
-| 2026-11-07 | Strukna ord i rubriken 027:4–7 (fel tingslag) | Återgivna som ~~överstrukna~~ följda av den rättade texten | CLAUDE.md: behåll överstrykningar | – |
-| 2026-11-07 | Dubbelläsarens fynd av omarkerade fel (t.ex. "april" med gement a, 003:20, 008:2; "hu=" 004:9; "alltså"/"deltså" 010:2) | Står kvar i sektionen Dubbelläsning; transkriptionen oförändrad | Samma princip som för markerade avvikelser | Ja – se öppen post ovan |
-
----
-
-## Bilder som behöver tas om eller har problem
-
-| Bild | Problem | Status |
-|---|---|---|
-| 002 | Övre högra hörnet bortrivet i originalet; om den lösa biten finns bör den fotograferas | ÖPPET |
-| 276 | Gul post-it döljer mitten av rad 10–17 i fastebrevet 1849 – fotografera utan lappen | ÖPPET |
-| 171 | Underskrifterna längst ner (bouppteckningen 1864) avskurna av bildkanten – ta om | ÖPPET |
-| 136 | Talet i kolumnen Impedimenter (rad 15, "4,1[...]") döljs av en riven, invikt pappersbit – ny närbild med biten tillbakavikt | ÖPPET |
-| 102, 104 | Sista tecknet på rad 22 resp. 7 delvis avskuret vid bildens högerkant – ny bild med mer marginal vore bra, inte kritiskt | ÖPPET |
-| 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | ÖPPET |
-
----
-
-## Avgjorda beslut
-
-(inga ännu)
