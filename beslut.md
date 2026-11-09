@@ -12,19 +12,19 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 ## Översikt – det som väntar på dig
 
 ### Hög 1 – små konventionsfrågor (godkänn i klump)
-Mitt förslag gäller redan i filerna, utom punkt 9. **2026-11-09:** punkt 2, 5, 6, 7, 8 och 10 godkända; 1, 3, 4 och 9 förklaras och avgörs separat.
+**Hög 1 är helt avgjord 2026-11-09.**
 
 | # | Fråga | Mitt förslag | Påverkar |
 |---|---|---|---|
-| 1 | Andra omslagsserien (288) använder samma bokstäver a–d som den första | Inget prefix; namn.md förklarar att det är en andra serie | Inget |
+| 1 | Andra omslagsserien (288) använder samma bokstäver a–d som den första | Inget prefix; namn.md förklarar att det är en andra serie | **AVGJORT 2026-11-09:** Ja, inget prefix |
 | 2 | Tryckt standardtext (försäkringsvillkor 274–275) | Transkribera i sin helhet, som nu | **AVGJORT 2026-11-09:** Ja, som nu |
-| 3 | 1909-handen (100–101, 105–108): hand F eller egen bokstav? | Låt "F?" stå | Inget (kosmetiskt) |
-| 4 | Ordinitialt högt s som ser versalt ut (093–096) | Gement s i vanliga ord, versal vid meningsbörjan | Inget |
+| 3 | 1909-handen (100–101, 105–108): hand F eller egen bokstav? | Låt "F?" stå | **AVGJORT 2026-11-09:** "F?" står kvar |
+| 4 | Ordinitialt högt s som ser versalt ut (093–096) | Gement s i vanliga ord, versal vid meningsbörjan | **AVGJORT 2026-11-09:** står som nu |
 | 5 | Blyertssummor som inte hör till handlingen (109) | Återges i marginalsektionen, utanför radnumreringen | **AVGJORT 2026-11-09:** Ja – marginalsektionen |
 | 6 | Post-it-lappar och dubblettfoton (077/078 m.fl.) | En fil per bild som nu; lappen som egen enhet L1–Ln | **AVGJORT 2026-11-09:** Ja – en fil per bild |
 | 7 | Tryckta jordregisterblanketter (069–073) | Tabellhuvud som egna rader, poster med \|, registernummer upphöjda (8¹⁵) | **AVGJORT 2026-11-09:** Ja – läsarens format; **to-do:** exakta tabeller senare (Hög 3) |
 | 8 | Skrivfel i källan som "Jakob Johansson" för Jakobsson (047:13) | Ingen [sic]; återges som det står, förklaras i anmärkningen | **AVGJORT 2026-11-09:** Ja – står som i källan, förklaras i anmärkningen |
-| 9 | Snedstreck som parenteser "/5/96/" | Snedstrecken återges bokstavligt; jag rättar 047–053 (där de blivit parenteser) | 7 filer ändras |
+| 9 | Snedstreck som parenteser "/5/96/" | Snedstrecken återges bokstavligt | **AVGJORT 2026-11-09:** snedstreck skrivs överallt där källan har dem, med förklaring i anmärkningarna. Rättat i 042, 043, 046, 049, 051, 052; övriga handskrivna fall kontrolleras mot bilden |
 | 10 | Den dekorativa slutslingan efter ord (312/316) | Beskrivs i anmärkningen, inget eget tecken | **AVGJORT 2026-11-09:** Ja |
 
 ### Hög 2 – riktiga val (tar vi en i taget)
@@ -83,7 +83,7 @@ Rättelser görs först när Fable-läsningen finns, och båda läsningarna väg
 **Konvention som behöver ditt beslut:** läsarna föreslår att interlinjära tillägg och
 insättningstecken förs in i själva transkriptionsblocket (t.ex. 229:1 "parcell" ovanför raden,
 228:19 insättningstecken som lästs som "&", 326:16 tecken före "förordnad"). I dag beskrivs
-sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** AVGJORT 2026-11-09 – läsarens format godkänt; to-do att se på exakta tabeller.
+sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** ÖPPET – Hög 2, punkt A.
 **Bekräftar-rader:** när tredje läsaren läser samma som de tidigare och anser att [?] kan
 tas bort har jag ändå låtit markeringen stå (default). Säg till om du vill att de tas bort.
 
@@ -141,8 +141,7 @@ Omslaget på 288 har "a) Bouppteckningar, b) Utdrag ur protokoll, c) försäljni
 handlingar" – men a–d används redan av första serien (012/076/089/150 …). Innehållet här gäller
 Härmälä 1826–1840, alltså Jacob Jacobssons tid före Sandnabba.
 **Vad jag gjorde:** Bokstäverna återgivna som de står; namn.md beskriver serien som
-"andra omslagsserien (288)". **Status:** ÖPPET – vill du ha ett prefix (t.ex. "H-c: 1" för
-Härmälä) i filerna?
+"andra omslagsserien (288)". **Status:** AVGJORT 2026-11-09 – inget prefix.
 
 ### 2026-11-08 – Tryckta villkor och blanketter (274–275)
 Sampos tryckta försäkringsvillkor är transkriberade i sin helhet (regeln: exakt återgivning).
@@ -150,13 +149,13 @@ Sampos tryckta försäkringsvillkor är transkriberade i sin helhet (regeln: exa
 
 ### 2026-11-07 – Hand 1909 (100–101, 105–108): F eller ny bokstav?
 Två läsare har oberoende sett att 1909-handlingarna har en kanslihand mycket lik F (1915).
-Filerna säger "F?" resp. "F (eller mycket lik F)". **Status:** ÖPPET, kosmetiskt.
+Filerna säger "F?" resp. "F (eller mycket lik F)". **Status:** AVGJORT 2026-11-09 – "F?" står kvar.
 
 ### 2026-11-07 – Initialt s som ser versalt ut (093–096)
 Skrivaren (hand E, 1869) skriver ordinitialt s högt, så att det liknar versalt S ("ſytning",
 "ſeng", "ſilfver"). Default: gement s i vanliga ord, versal vid meningsbörjan och där bokstaven
 klart är versal; allt listat under Osäkra passager.
-**Status:** ÖPPET – godkänn eller välj annan regel.
+**Status:** AVGJORT 2026-11-09 – står som nu.
 
 ### 2026-11-07 – Ovidkommande anteckningar på handlingar (109)
 109 har en lång blyertskolumn med belopp som inte hör till handlingen. Läsaren återgav den i
@@ -167,9 +166,7 @@ marginalsektionen, utanför radnumreringen. **Status:** AVGJORT 2026-11-09 – �
 en gång utan. Båda har fått egna filer; i 077 är den dolda texten markerad [...]
 och lappen transkriberad som egen enhet L1–L5.
 **Vad jag gjorde:** Lät det stå (CLAUDE.md: en fil per bild).
-**Status:** ÖPPET – vill du ha en kortare konvention, t.ex. att 077.md bara transkriberar
-lappen och hänvisar till 078 för sidan?
-
+**Status:** AVGJORT 2026-11-09 – en fil per bild, som nu.
 ### 2026-11-07 – Nya dokumenttyper i 067–076: tryckta jordregisterblanketter
 **Fråga:** 069–073 är maskinskrivna poster på tryckta tvåspråkiga blanketter med
 kolumner, upphöjda registernummer och röda strykningar över avförda poster.
@@ -177,8 +174,7 @@ kolumner, upphöjda registernummer och röda strykningar över avförda poster.
 med `|`; registernummer som Unicode-exponenter (8¹⁵, 23⁴); röda linjer tolkade som
 avförda poster och beskrivna i marginalsektionen, inte som ~~överstrykning~~;
 bläckklamrar (senare läsares markering) beskrivna men inte transkriberade.
-**Status:** ÖPPET – godkänn eller ändra; fler sådana blanketter väntas.
-
+**Status:** AVGJORT 2026-11-09 – läsarens format godkänt; to-do att se på exakta tabeller (Hög 3).
 ### 2026-11-07 – "Jakob Johansson Sandnabba" (047:13)
 **Fråga:** Källan skriver "Jakob Johansson" där sammanhanget (047:19, 045) ger
 "Jakob Jakobsson". Troligen skrivfel i originalet.
@@ -190,8 +186,7 @@ bläckklamrar (senare läsares markering) beskrivna men inte transkriberade.
 av 047–056 återgav dem med vanliga parenteser "(5/96)" och noterade det;
 läsaren av 037–046 behöll snedstrecken.
 **Vad jag gjorde:** Lät båda stå tills vidare; antecknat i namn.md.
-**Status:** ÖPPET. Mitt förslag: behåll snedstrecken bokstavligt ("som det står")
-och låt mig rätta 047–053. Säg till så gör jag det.
+**Status:** AVGJORT 2026-11-09 – snedstreck återges som i källan, med förklaring i anmärkningarna; rättat i 042, 043, 046, 049, 051, 052.
 
 ### 2026-11-07 – Snedstreck behållna bokstavligt från 077
 Läsaren av 077–086 behöll "/650/" bokstavligt enligt mitt förslag i posten om

@@ -556,7 +556,7 @@ Lärdomar från dubbelläsningen (fel som första läsare faktiskt gjort):
 - Tabeller (t.ex. 008) återges radvis med | som kolumnavgränsare, lodräta rubriker i läsordning.
 - Text på angränsande blad som syns i bildkanten transkriberas inte; det noteras.
 - Bild som vridits rätt: noteras i filen ("Bilden var fotograferad liggande …").
-- Parenteser skrivna som snedstreck i källan ("/5/96/") återges med vanliga parenteser och noteras i anmärkningarna (047–053). Se beslut.md.
+- **Snedstreck som parentes** ("/5/96/", "/7000/", "/400/") återges **som de står** i källan, och varje fil förklarar i anmärkningarna att `/…/` betyder parentes. Riktiga parenteser ( ) återges som parenteser. (Beslut 2026-11-09; tidigare bytte vissa läsare snedstrecken mot parenteser, det är rättat.)
 - Tryckta blanketter (jordregister 069–073): tryckt tabellhuvud som egna rader, poster radvis med `|`, registernummer som Unicode-exponenter (8¹⁵), röda strykningar över avförda poster beskrivs i marginalsektionen. Se beslut.md.
 - Maskinskrivna överslagna tecken: beskriv vad som faktiskt ligger ovanpå (t.ex. "e överslaget med bindestreck"), inte bara "felslag".
 - Bildriktning: liggande bilder har vridits åt båda hållen (017–076 mest rotate(-90), 077–085 rotate(90)). Förhandsvisa alltid åt båda hållen.
