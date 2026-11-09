@@ -48,7 +48,7 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 | 076 | Omslag c–f: årtalet på rad 9 ("f: klyvning … 19[11?]") döljs av reflex från tejp/lim – bör tas om | **Görs inte** – ägarens beslut 2026-11-09: inga bilder tas om; bristen står kvar i filen |
 
 **Arkiv (originalhandlingar, t.ex. Kansallisarkisto/Astia):**
-- 151:2 – avskriften inlämnad till häradsrätten 1818 eller 1848? (häradsrättens bouppteckningsarkiv)
+- 151:2 – avskriften inlämnad till häradsrätten 1818 eller 1848? (häradsrättens bouppteckningsarkiv) – **2026-11-09:** ägaren läser 1818 men osäkert; återges `18[4/1?]8`.
 - 151:5 – var Jonas Månsson Sandnabba nämndeman 1818? (Pedersöre domböcker)
 - 154:3 – "Häst [wärderad?]" eller "Brun Wallack"? (originalet till bouppteckningen 1818)
 
@@ -278,7 +278,7 @@ Modellen är aldrig facit: den markerar ingen osäkerhet och förvanskar namn oc
 **Nästa steg:** du laddar upp fler svåra sidor (152–156, 305–312, 314–321, 296–302 m.fl.);
 klistra in texten så jämför jag på samma sätt. **Status:** klart för alla 32 sidor; nya filer i htr/swedish-lion/ plockas upp av schemat.
 **Resultat 151, 157, 304, 313 (klart):** modellen avgjorde flera oenigheter mellan läsarna:
-Jacob **Lide** (inte Eide); 157:7 **upgif** (inte angif); 151:22 **An=tyddes**; 157:15 **[åtgärd?]**;
+Jacob **Lide** (inte Eide) *(ändrat 2026-11-09 till `[Eide/Lide?]`: ägaren läser Eide; HisKi har gården Ejde/"Eide" och bonden Jacob Johansson där, ingen gård Lide)*; 157:7 **upgif** (inte angif); 151:22 **An=tyddes**; 157:15 **[åtgärd?]**;
 151:16–17 **"på 16:de" / "på andra året"** (inte "går i" – din öppna fråga är därmed avgjord);
 151:24 ordet **"noga"** hade fallit bort; 151:30 **"then Högtärade"** (fortsätter på 152:1:
 "Härads Rättens Fasta Bref af den 3: April 1812"); 157:4 **Härvid** (var [oläsligt]); 304:16
