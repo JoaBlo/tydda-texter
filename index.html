@@ -223,10 +223,12 @@
   <div id="textpane"></div>
 </main>
 
+<script src="data.js" onerror="void 0"></script>
 <script>
 (() => {
   const $ = s => document.querySelector(s);
-  const REPO = "https://github.com/JoaBlo/tydda-texter/blob/main/";
+  const EMBED = window.EMBED || null;  // delningsversionen (data.js): allt inbäddat, fungerar utan webbserver
+  const REPO = EMBED ? "" : "https://github.com/JoaBlo/tydda-texter/blob/main/";
   let pages = [], docs = [], kron = [], idx = 0, view = "page", mdCache = {};
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
@@ -399,6 +401,7 @@
 
   async function loadMd(path) {
     if (mdCache[path]) return mdCache[path];
+    if (EMBED && EMBED.files && path in EMBED.files) return (mdCache[path] = EMBED.files[path]);
     const r = await fetch(path, { cache: "no-cache" });
     if (!r.ok) throw new Error(r.status + " " + path);
     return (mdCache[path] = await r.text());
@@ -432,7 +435,7 @@
       <span class="badge ${sakClass(p.sakerhet)}" title="Läsarens helhetsbedömning">Säkerhet: ${esc(p.sakerhet || "–")}</span>
       <span class="badge" title="Antal osäkerhetsmarkeringar i transkriptionen">${p.osakra} osäkra</span>
       ${flags.map(f => `<span class="badge">${f}</span>`).join("")}
-      <a class="filelink" href="${REPO}${p.fil}" target="_blank" rel="noopener">.md på GitHub</a></div>`;
+      <a class="filelink" href="${REPO}${p.fil}" target="_blank" rel="noopener">${EMBED ? ".md-fil" : ".md på GitHub"}</a></div>`;
     h += dokRad + `<div class="doktyp">${inline(dok)}</div>`;
     h += renderTransk(block, notes);
     h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="ins">⸌ord⸍</mark> tillagt ovanför raden</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
@@ -597,7 +600,7 @@
     $("#main").innerHTML = `<div class="listwrap md"><p class="muted">Laddar ${esc(path)} …</p></div>`;
     try {
       const md = await loadMd(path);
-      $("#main").innerHTML = `<div class="listwrap md"><div class="filters stickyfilter"><input type="search" id="nq" placeholder="Filtrera rader (t.ex. Härmälä, 1843, Björklund) …"><span class="muted" id="nhits"></span><a class="filelink" href="${REPO}${path}" target="_blank" rel="noopener">${esc(path)} på GitHub</a></div><div id="mdbody">${renderMd(md)}</div></div>`;
+      $("#main").innerHTML = `<div class="listwrap md"><div class="filters stickyfilter"><input type="search" id="nq" placeholder="Filtrera rader (t.ex. Härmälä, 1843, Björklund) …"><span class="muted" id="nhits"></span><a class="filelink" href="${REPO}${path}" target="_blank" rel="noopener">${esc(path)}${EMBED ? "" : " på GitHub"}</a></div><div id="mdbody">${renderMd(md)}</div></div>`;
       const els = [...$("#mdbody").querySelectorAll("tr:not(:first-child), li, p")];
       $("#nq").addEventListener("input", e => {
         const q = e.target.value.trim().toLowerCase(); let n = 0;
@@ -696,7 +699,7 @@
   $("#theme").onclick = () => { const d = document.documentElement; const cur = d.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); d.dataset.theme = cur === "dark" ? "light" : "dark"; try { localStorage.setItem("theme", d.dataset.theme); } catch (e) {} };
 
   /* ---------- start ---------- */
-  fetch("pages.json", { cache: "no-cache" }).then(r => r.json()).then(d => {
+  (EMBED ? Promise.resolve(EMBED.pages) : fetch("pages.json", { cache: "no-cache" }).then(r => r.json())).then(d => {
     pages = Array.isArray(d) ? d : d.sidor; docs = d.dokument || []; kron = d.kronologi || [];
     pageSet = new Set(pages.map(p => p.nr)); $("#total").textContent = pages.length;
     $("#jump").innerHTML = pages.map(p => `<option value="${p.nr}">${p.nr} · ${esc(p.doktyp.slice(0, 70))}</option>`).join("");
