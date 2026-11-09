@@ -286,7 +286,7 @@ Modellen är aldrig facit: den markerar ingen osäkerhet och förvanskar namn oc
 **Nästa steg:** du laddar upp fler svåra sidor (152–156, 305–312, 314–321, 296–302 m.fl.);
 klistra in texten så jämför jag på samma sätt. **Status:** klart för alla 32 sidor; nya filer i htr/swedish-lion/ plockas upp av schemat.
 **Resultat 151, 157, 304, 313 (klart):** modellen avgjorde flera oenigheter mellan läsarna:
-Jacob **Lide** (inte Eide) *(ändrat 2026-11-09 till `[Eide/Lide?]`: ägaren läser Eide; HisKi har gården Ejde/"Eide" och bonden Jacob Johansson där, ingen gård Lide)*; 157:7 **upgif** (inte angif); 151:22 **An=tyddes**; 157:15 **[åtgärd?]**;
+Jacob **Lide** (inte Eide) *(ändrat 2026-11-09 till `[Eide/Lide?]`: ägaren läser Eide; HisKi har gården Ejde/"Eide" och bonden Jacob Johansson där, ingen gård Lide; ägarens sökning i Domboksök: "Bonden Jacob Johansson Ejde" 1838, KO a:45 s. 1134)*; 157:7 **upgif** (inte angif); 151:22 **An=tyddes**; 157:15 **[åtgärd?]**;
 151:16–17 **"på 16:de" / "på andra året"** (inte "går i" – din öppna fråga är därmed avgjord);
 151:24 ordet **"noga"** hade fallit bort; 151:30 **"then Högtärade"** (fortsätter på 152:1:
 "Härads Rättens Fasta Bref af den 3: April 1812"); 157:4 **Härvid** (var [oläsligt]); 304:16
