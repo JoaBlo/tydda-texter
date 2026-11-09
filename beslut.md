@@ -52,6 +52,13 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 - 151:5 – var Jonas Månsson Sandnabba nämndeman 1818? (Pedersöre domböcker)
 - 154:3 – "Häst [wärderad?]" eller "Brun Wallack"? (originalet till bouppteckningen 1818)
 
+  **Var handlingarna finns (sökt 2026-11-09 i Kansallisarkistos katalog via Finna; signumen kontrollerade):** Pedersöre tingslag hörde 1818 och 1848 till **Mellersta Österbottens övre domsaga** (Keski-Pohjanmaan ylinen tuomiokunta, arkiv VAKKA-253, förvaras i **Vasa**) – inte Nykarleby domsaga.
+  - Bouppteckningar: **E4a:4 Pietarsaaren käräjäkunnan perukirjat 1818–1823** (om inlämnad 1818) och **E4a:7 … 1836–1850** (om inlämnad 1848).
+  - Bouppteckningsförteckning: **Be:24 Pietarsaaren käräjäkunnan perukirjaluettelot 1818–1823** – visar snabbast om den registrerades 1818.
+  - Nämndemännen 1818: renoverade domböcker **KO a:16 Varsinaisten asioiden pöytäkirjat 1818** (Keski-Pohjanmaan ylisen tuomiokunnan renovoidut tuomiokirjat, VAKKA-315228, Helsingfors).
+  - Fulltextsök i domböckerna: https://tuomiokirjat.kansallisarkisto.fi/ (sök "Sandnabba", "Jonas Månsson", "Ejde").
+  - Enligt Kansallisarkistos guide är nästan alla häradsrätters bouppteckningar före 1919 digitaliserade i Astia (https://portti.kansallisarkisto.fi/arkistojen-portti/perukirjat) – inte kontrollerat för just dessa volymer; Astia gick inte att nå automatiskt.
+
 **Ordbok och lokalkännedom (Ordbok över Finlands svenska folkmål, kaino.kotus.fi/fo):**
 *Sökt 2026-11-09 – resultat i namn.md, "Ordförklaringar ur dialektordboken": pjäxa, fyrskaft (båda belagda i Pedersöre–Purmo), kytta (svedjeland → ägonamnet Nykyttan), kardmakare, häckla. FO slutar på "sicksack", så skrinda, stötting m.fl. finns inte. Kvar oförklarat: Hamlar, Kummet.*
 - Bondetermer i bouppteckningarna 1802–1818 (krinda, kytta, kummet, hamlar, möldnings-ahl, Påtella …)
