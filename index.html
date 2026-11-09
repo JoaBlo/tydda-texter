@@ -174,7 +174,6 @@
     <button data-view="tid">Tidslinje</button>
     <button data-view="list">Översikt &amp; sök</button>
     <button data-view="namn">Namn &amp; orter</button>
-    <button data-view="beslut">Beslut</button>
     <button data-view="om">Om</button>
   </nav>
   <span class="spacer"></span>
@@ -575,14 +574,13 @@
       <li><b>Dokument</b> – bilderna sammanförda till hela handlingar (t.ex. lagfartsprotokollet 1848, bild 001–011) som löpande text, med miniatyr av varje bild.</li>
       <li><b>Tidslinje</b> – händelserna 1802–1966 år för år, med länkar till källorna.</li>
       <li><b>Översikt &amp; sök</b> – sök i all transkriberad text, filtrera på säkerhet.</li>
-      <li><b>Namn &amp; orter</b> och <b>Beslut</b> – referenslistorna, filtrerbara.</li></ul>
+      <li><b>Namn &amp; orter</b> – personer, orter, skrivarhänder och ordförklaringar, filtrerbar.</li></ul>
       <p>Alla hänvisningar av typen <a class="ref" href="#151:16">151:16</a> (bild 151, rad 16), <a class="ref" href="#151:16-17">151:16–17</a> eller <a class="ref" href="#166">166</a>–<a class="ref" href="#167">167</a> är länkar: de öppnar bilden och markerar raderna, så att varje uppgift kan kontrolleras mot källan. Varje sida, dokument och vy har en egen adress som kan delas.</p>
       <h2>Tangenter</h2>
       <p><span class="kbd">← →</span> föregående/nästa sida · <span class="kbd">Home / End</span> första/sista · <span class="kbd">+ − 0 1</span> zooma in/ut, anpassa, 1:1 · <span class="kbd">/</span> sök · <span class="kbd">Esc</span> tillbaka till sidvyn</p>
       <h2>Länkar</h2>
       <ul><li><a href="${REPO.replace("/blob/main/", "")}" target="_blank" rel="noopener">Hela materialet på GitHub</a> (bilder och .md-filer)</li>
-      <li><a href="#" data-view="namn">Namn, orter, skrivarhänder och kronologi</a></li>
-      <li><a href="#" data-view="beslut">Beslutslogg</a> – öppna frågor och bilder som bör tas om</li></ul></div>`;
+      <li><a href="#" data-view="namn">Namn, orter, skrivarhänder och kronologi</a></li></ul></div>`;
     $("#main").querySelectorAll("a[data-view]").forEach(a => a.onclick = e => { e.preventDefault(); setView(a.dataset.view); });
   }
   function restoreMain() {
@@ -591,14 +589,14 @@
     main.appendChild(paneImg); main.appendChild(paneSplit); main.appendChild(paneText);
   }
   const paneImg = $("#imgpane"), paneSplit = $("#splitter"), paneText = $("#textpane");
-  const HASH = { list: "lista", dok: "dokument", tid: "tidslinje", namn: "namn", beslut: "beslut", om: "om" };
+  const HASH = { list: "lista", dok: "dokument", tid: "tidslinje", namn: "namn", om: "om" };
   function setView(v, arg) {
     view = v; document.querySelectorAll("header nav button").forEach(b => b.classList.toggle("active", b.dataset.view === v));
     $("#pager").style.visibility = v === "page" ? "visible" : "hidden";
     if (v !== "page") { const h = "#" + (v === "dok" && arg != null ? "dok-" + arg : HASH[v]); if (location.hash !== h) history.pushState(null, "", h); }
     if (v === "page") { restoreMain(); showPage(idx); }
     else if (v === "list") viewList(); else if (v === "dok") (arg != null ? viewDok(+arg) : viewDokIndex());
-    else if (v === "tid") viewTid(); else if (v === "namn") viewDoc("namn.md"); else if (v === "beslut") viewDoc("beslut.md"); else viewOm();
+    else if (v === "tid") viewTid(); else if (v === "namn") viewDoc("namn.md"); else viewOm();
     if (v !== "page") $("#main").scrollTop = 0;
   }
   let mdTarget = "";
@@ -608,7 +606,7 @@
   function goHash() {
     const h = decodeURIComponent(location.hash);
     const dk = h.match(/^#dok-(\d+)$/); if (dk) { setView("dok", dk[1]); return true; }
-    const v = h.match(/^#(lista|dokument|tidslinje|namn|beslut|om)$/);
+    const v = h.match(/^#(lista|dokument|tidslinje|namn|om)$/);
     if (v) { const back = { lista: "list", dokument: "dok", tidslinje: "tid" }; setView(back[v[1]] || v[1]); return true; }
     const m = h.match(/^#(\d{3})(?::(\S+))?/); if (!m) return false;
     const i = pages.findIndex(p => p.nr === m[1]); if (i < 0) return false;
