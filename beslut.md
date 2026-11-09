@@ -30,8 +30,8 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 ### Hög 2 – riktiga val (tar vi en i taget)
 | # | Fråga | Alternativ | Mitt förslag |
 |---|---|---|---|
-| A | **Tillägg ovanför raden och insättningstecken** (229:1 "parcell", 228:19, 326:16, 318:10) | (a) bara i anmärkningen, som nu; (b) in i texten med markering, t.ex. `⸌parcell⸍` där tecknet sitter | (b) | **AVGJORT 2026-11-09: (b)** – införs med ⸌ ⸍ i alla filer (pågår); regeln står i CLAUDE.md och namn.md.
-| B | **Dubbletter i namn.md** (Elisa, Beata, Herman, Jusefina/Fina Maria, Jakob 1850–1908, Hilda/Hilma, Anders Lassen/Lasén, Nybränn, Stennabba) | slå ihop / låt stå | Slå ihop, alla förekomster behålls |
+| A | **Tillägg ovanför raden och insättningstecken** (229:1 "parcell", 228:19, 326:16, 318:10) | (a) bara i anmärkningen, som nu; (b) in i texten med markering, t.ex. `⸌parcell⸍` där tecknet sitter | (b) | **AVGJORT 2026-11-09: (b)** – genomfört i 15 filer (015, 037, 054, 079, 080, 213, 216, 219, 228, 229, 237, 254, 300, 317, 318); regeln står i CLAUDE.md och namn.md. 326:16 visade sig inte vara ett tillägg (står kvar i anmärkningen). Tre tillägg hade av första läsaren fått **egen rad** (213:22 "klanderfritt", 216:5 "Sandnabba", 216:17 "qvitteras"): **AVGJORT 2026-11-09** – raderna behåller sina nummer (ingen omnumrering, så hänvisningar i namn.md/215.md står sig) och skrivs `⸌klanderfritt⸍` med anmärkning om vilken rad ordet läses in på. 216:5-anmärkningen var felaktigt märkt "Inaktuell" – rättat.
+| B | **Dubbletter i namn.md** (Elisa, Beata, Herman, Jusefina/Fina Maria, Jakob 1850–1908, Hilda/Hilma, Anders Lassen/Lasén, Nybränn, Stennabba) | slå ihop / låt stå | Slå ihop, alla förekomster behålls | **AVGJORT 2026-11-09** – sex säkra sammanslagna (Elisa; Beata/Beata Stennabba; Jakob 1850–1908/Lilqvist; Herman/Herman Asp – tre rader blev en; Hilda/Hilma/Hilda Maria; Stennabba-ortraden), var och en med anmärkning om namnformerna och var de står. Troliga står kvar som egna rader med "troligen = … (grund: …)": Jusefina ↔ Fina Maria, Simon ↔ S. Nybränn, A. Lasen ↔ Anders Lasén ↔ Anders Lassen 1925. Raden "Anders Lassen (1925) / Ivar Lasén (1949–50)" delad i två personer. Simon Petter Johansson Sandnabba-raderna slås **inte** ihop (HisKi: två pojkar med det namnet döpta på Sandnabba 1814 och 1820). Förekomstlistorna för de troliga raderna har samtidigt rensats så att varje rad bara har sin egen namnform. |
 | C | **[?] där flera läsare är överens** ("Bekräftar"-rader i tredje läsningen) | (a) låt [?] stå, som nu; (b) ta bort när minst tre oberoende läsare (inkl. Swedish Lion) läser samma och ingen avviker | Diskutera – (b) gör texten mer läsbar men döljer att bilden är svår |
 | D | **Siffertabellerna 1911** (decimalkomma, fyllnadsstreck, kontrollräkning som stöd) | – | VILANDE enligt ditt besked |
 
@@ -118,7 +118,7 @@ Lindqvist, inte Myhrman (066:27); "Sverige" står inte i 068:3.
   Björklund" (258:5); roller som saknas: Ingman 1942/1950 (104, 238), Aron Brunberg 1864
   (177:14), Milton säljer till Nymark 1966, Ines 1943 (243), Agnes 1948 (258), Dagny 1950
   (259), Ivar Lasén köpvittne 1951 (239), Strömsnäs 1950 (203), Sandelin 1934 (194).
-**Status:** ÖPPET (dubbletter) – förmyndarna 1869 löstes 2026-11-09 (se posten om andra källor).
+**Status:** AVGJORT 2026-11-09 – dubbletterna enligt Hög 2 B (se översikten); förmyndarna 1869 löstes 2026-11-09 (se posten om andra källor).
 
 ### 2026-11-07 – Siffertabellerna i delningsinstrumentet (136–)
 **Obs:** läsaren av 147–149 normaliserade "0015" till "0,015", medan läsaren av 137–145 behöll
