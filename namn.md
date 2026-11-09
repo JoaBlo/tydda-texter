@@ -225,6 +225,20 @@ Obs: det finns minst fem Jacob/Jakob Jacobsson/Jakobsson i rad (d. 1802, d. 1861
 - **HisKi, Purmo** (Genealogiska Samfundet i Finland, https://hiski.genealogia.fi/hiski?se+0420): döpta 1774–1851, vigda 1775–1894, begravda 1775–1853 och 1894. Använd 2026-11-08 för släktkedjan Härmälä–Sandnabba. HisKi är en index-avskrift av kyrkböckerna. Uppgifterna markeras "HisKi Purmo" och förs inte in i transkriptionerna.
 - **Ylioppilasmatrikkeli 1640–1852** (Helsingfors universitet, https://ylioppilasmatrikkeli.fi): studentregister med biografier för ämbetsmän. Använd för Roschier (#13387), Tujulin (#13523) och Barck (#13003); 1853–1899-delen (https://ylioppilasmatrikkeli.fi/1853-1899/) för Sandelin (#22304).
 
+## Ordförklaringar ur dialektordboken
+
+**Extern källa:** Ordbok över Finlands svenska folkmål (FO), Institutet för de inhemska språken, https://kaino.kotus.fi/fo/ (hämtat 2026-11-09). FO täcker bara uppslagsord **a–sicksack**; ord längre fram i alfabetet (skrinda, stötting, sil, väfstol …) finns inte där än. Ortsförkortningar enligt FO: Pe-Pu = Pedersöre–Purmo, Pu = Purmo, Ee = Esse, Nb = Nykarleby, ÖB = Österbotten. Förklaringarna är stöd för tolkningen, inte för läsningen av bokstäverna.
+
+| Ord i källan | FO-uppslagsord | Betydelse enligt FO | Belagt i trakten | Förekomster |
+|---|---|---|---|---|
+| pjexor, pjexband, "quins [Riaxa/Pjaxa?]" | pjäxa s. | "finn-pjäxa, mjukt skoplagg sytt i ett stycke med näbbformad tådel" | ja, "pje:ksɷ" Pe-Pu | 029:9; 094:18; 315:18, 28; 018:24? |
+| Fyrskafts | fyr-skaft | "fyrskäftad vävnad" (adj. fyrskäftad) | ja, "fy:skaft" Pe-Pu | 154:35; 155:3, 5 |
+| Kytta, Nykyttan, [Nyskyttan?] (ägonamn) | kytta s.1 | "område som beretts … för odling gm avbrännande av ytskikt av mossa el. torv, sved på torvmark, kyttland" | ja, ÖB | 137:1?; 148:5, 7 |
+| [Kårdmakaren?] | kard-makare (u. karda) | den som gör kardor (ullkardor); uttal "kɷå:ḍmakar" | Nä (Närpes) – formen med å stöds | 155:30 |
+| Häckla | häckla s. | "redskap att frånskilja blånorna med från lin el. hampa efter bråkningen" | ja, "hⱸkkḷɷ" Pe | 153:11 |
+| Hamlar | – | FO:s *hammel* betyder spöke och *hamla* en klumpig kvinna – inget av dem passar; ordet i 153:36 är fortfarande oförklarat | – | 153:36 |
+| Kummet / [Kumlar/Rundlar?] | – | FO har *kummel* (kummin; sjömärke; liten skyl), inget som passar ett föremål med "rimor"; oförklarat | – | 153:33 |
+
 ## Orter och gårdar
 
 | Namn (varianter) | Vad | Förekomster |

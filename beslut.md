@@ -53,6 +53,7 @@ Mitt förslag gäller redan i filerna, utom punkt 9. Svara "ja till hög 1", ell
 - 154:3 – "Häst [wärderad?]" eller "Brun Wallack"? (originalet till bouppteckningen 1818)
 
 **Ordbok och lokalkännedom (Ordbok över Finlands svenska folkmål, kaino.kotus.fi/fo):**
+*Sökt 2026-11-09 – resultat i namn.md, "Ordförklaringar ur dialektordboken": pjäxa, fyrskaft (båda belagda i Pedersöre–Purmo), kytta (svedjeland → ägonamnet Nykyttan), kardmakare, häckla. FO slutar på "sicksack", så skrinda, stötting m.fl. finns inte. Kvar oförklarat: Hamlar, Kummet.*
 - Bondetermer i bouppteckningarna 1802–1818 (krinda, kytta, kummet, hamlar, möldnings-ahl, Påtella …)
 - 018:24 "quins [Riaxa/Pjaxa?]" (pjäxor?), 152:5–6 "Kittel med hatt och [Pigor/pipor?]"
 - 155:30 Eric Tunnbergs titel "[Kårdmakaren?]"; "And: Brunberg" skrivet "Brunuerg"
