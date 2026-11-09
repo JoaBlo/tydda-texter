@@ -262,7 +262,7 @@ dessa rättelser (151, 157, 304, 313). Belopp, datum och namn på parterna var d
   313:17 "aflidnes"/"efterlefnes"; 315 "sämmare" (sju rader); 314:21 "Par" versal mot 315:s "par";
   152:2 möjligen "wilkor"; 304:6 "Socken"/"sokn"; 306:7 "Ett"/"En".
 - 151:17 "på"/"går i" – Swedish Lion läser "på" (jämförs nu).
-**Konventionsfrågor (ÖPPET):** interlinjära tillägg i blocket (229:1 "parcell", 228:19
+**Konventionsfrågor (AVGJORDA 2026-11-09, se Hög 1 punkt 10 och Hög 2 A):** interlinjära tillägg i blocket (229:1 "parcell", 228:19
 insättningstecken, 326:16, 318:10 c); dekorativ slutslinga (312/316) beskrivs i anmärkningen.
 
 ### 2026-11-08 – Maskinläsning med Transkribus "The Swedish Lion I" som fjärde läsare
