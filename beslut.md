@@ -12,20 +12,20 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 ## Översikt – det som väntar på dig
 
 ### Hög 1 – små konventionsfrågor (godkänn i klump)
-Mitt förslag gäller redan i filerna, utom punkt 9. Svara "ja till hög 1", eller lyft ut en punkt.
+Mitt förslag gäller redan i filerna, utom punkt 9. **2026-11-09:** punkt 2, 5, 6, 7, 8 och 10 godkända; 1, 3, 4 och 9 förklaras och avgörs separat.
 
 | # | Fråga | Mitt förslag | Påverkar |
 |---|---|---|---|
 | 1 | Andra omslagsserien (288) använder samma bokstäver a–d som den första | Inget prefix; namn.md förklarar att det är en andra serie | Inget |
-| 2 | Tryckt standardtext (försäkringsvillkor 274–275) | Transkribera i sin helhet, som nu | Inget |
+| 2 | Tryckt standardtext (försäkringsvillkor 274–275) | Transkribera i sin helhet, som nu | **AVGJORT 2026-11-09:** Ja, som nu |
 | 3 | 1909-handen (100–101, 105–108): hand F eller egen bokstav? | Låt "F?" stå | Inget (kosmetiskt) |
 | 4 | Ordinitialt högt s som ser versalt ut (093–096) | Gement s i vanliga ord, versal vid meningsbörjan | Inget |
-| 5 | Blyertssummor som inte hör till handlingen (109) | Återges i marginalsektionen, utanför radnumreringen | Inget |
-| 6 | Post-it-lappar och dubblettfoton (077/078 m.fl.) | En fil per bild som nu; lappen som egen enhet L1–Ln | Inget |
-| 7 | Tryckta jordregisterblanketter (069–073) | Tabellhuvud som egna rader, poster med \|, registernummer upphöjda (8¹⁵) | Inget |
-| 8 | Skrivfel i källan som "Jakob Johansson" för Jakobsson (047:13) | Ingen [sic]; återges som det står, förklaras i anmärkningen | Inget |
+| 5 | Blyertssummor som inte hör till handlingen (109) | Återges i marginalsektionen, utanför radnumreringen | **AVGJORT 2026-11-09:** Ja – marginalsektionen |
+| 6 | Post-it-lappar och dubblettfoton (077/078 m.fl.) | En fil per bild som nu; lappen som egen enhet L1–Ln | **AVGJORT 2026-11-09:** Ja – en fil per bild |
+| 7 | Tryckta jordregisterblanketter (069–073) | Tabellhuvud som egna rader, poster med \|, registernummer upphöjda (8¹⁵) | **AVGJORT 2026-11-09:** Ja – läsarens format; **to-do:** exakta tabeller senare (Hög 3) |
+| 8 | Skrivfel i källan som "Jakob Johansson" för Jakobsson (047:13) | Ingen [sic]; återges som det står, förklaras i anmärkningen | **AVGJORT 2026-11-09:** Ja – står som i källan, förklaras i anmärkningen |
 | 9 | Snedstreck som parenteser "/5/96/" | Snedstrecken återges bokstavligt; jag rättar 047–053 (där de blivit parenteser) | 7 filer ändras |
-| 10 | Den dekorativa slutslingan efter ord (312/316) | Beskrivs i anmärkningen, inget eget tecken | Inget |
+| 10 | Den dekorativa slutslingan efter ord (312/316) | Beskrivs i anmärkningen, inget eget tecken | **AVGJORT 2026-11-09:** Ja |
 
 ### Hög 2 – riktiga val (tar vi en i taget)
 | # | Fråga | Alternativ | Mitt förslag |
@@ -59,6 +59,10 @@ Mitt förslag gäller redan i filerna, utom punkt 9. Svara "ja till hög 1", ell
 - 155:30 Eric Tunnbergs titel "[Kårdmakaren?]"; "And: Brunberg" skrivet "Brunuerg"
 - Är 157 tysk kurrent, eller samma hand som 151?
 
+**Senare (arbete för mig, när du vill):**
+- **Exakta tabeller.** Tryckta jordregisterblanketter (069–073) och andra tabeller (008, 136–149, inventarierna 1802–1818) återges i dag radvis med `|`. Se över om de kan visas som riktiga tabeller med kolumner – i transkriptionen och/eller i webbvisaren – utan att radnumreringen går förlorad. (Ditt önskemål 2026-11-09.)
+- 019:23 `kok [tjärild?]` → troligen "Kok Kärild" enligt originalet 210:22.
+
 **Ställen där läsarna förblev oeniga** (titta om du vill; står i respektive fil):
 137:7 Ån/Ren · 166:3 Äcklingen · 304:6 Socken/sokn · 306:7 Ett/En · 314:21 Par/par ·
 315 sämmare (sju rader) · 151:17 på/går i (Swedish Lion: på) · 152:2 wilkor (rättat).
@@ -79,7 +83,7 @@ Rättelser görs först när Fable-läsningen finns, och båda läsningarna väg
 **Konvention som behöver ditt beslut:** läsarna föreslår att interlinjära tillägg och
 insättningstecken förs in i själva transkriptionsblocket (t.ex. 229:1 "parcell" ovanför raden,
 228:19 insättningstecken som lästs som "&", 326:16 tecken före "förordnad"). I dag beskrivs
-sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** ÖPPET.
+sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** AVGJORT 2026-11-09 – läsarens format godkänt; to-do att se på exakta tabeller.
 **Bekräftar-rader:** när tredje läsaren läser samma som de tidigare och anser att [?] kan
 tas bort har jag ändå låtit markeringen stå (default). Säg till om du vill att de tas bort.
 
@@ -142,7 +146,7 @@ Härmälä) i filerna?
 
 ### 2026-11-08 – Tryckta villkor och blanketter (274–275)
 Sampos tryckta försäkringsvillkor är transkriberade i sin helhet (regeln: exakt återgivning).
-**Status:** ÖPPET – vill du att tryckt standardtext hellre sammanfattas framöver?
+**Status:** AVGJORT 2026-11-09 – transkriberas i sin helhet, som nu.
 
 ### 2026-11-07 – Hand 1909 (100–101, 105–108): F eller ny bokstav?
 Två läsare har oberoende sett att 1909-handlingarna har en kanslihand mycket lik F (1915).
@@ -156,7 +160,7 @@ klart är versal; allt listat under Osäkra passager.
 
 ### 2026-11-07 – Ovidkommande anteckningar på handlingar (109)
 109 har en lång blyertskolumn med belopp som inte hör till handlingen. Läsaren återgav den i
-marginalsektionen, utanför radnumreringen. **Status:** ÖPPET – ska sådant alls återges?
+marginalsektionen, utanför radnumreringen. **Status:** AVGJORT 2026-11-09 – återges i marginalsektionen.
 
 ### 2026-11-07 – Post-it-lappar och dubblettfoton (077/078)
 **Fråga:** 077 och 078 är samma sida – en gång med en modern gul lapp över rad 10–16,
@@ -179,7 +183,7 @@ bläckklamrar (senare läsares markering) beskrivna men inte transkriberade.
 **Fråga:** Källan skriver "Jakob Johansson" där sammanhanget (047:19, 045) ger
 "Jakob Jakobsson". Troligen skrivfel i originalet.
 **Vad jag gjorde:** Återgivet som det står, med anmärkning i filen och namn.md.
-**Status:** ÖPPET bara om du vill ha en annan markering (t.ex. "[sic]").
+**Status:** AVGJORT 2026-11-09 – ingen [sic]; som i källan med anmärkning.
 
 ### 2026-11-07 – Snedstreck som parenteser (042–053)
 **Fråga:** 1915-skrivaren skriver parenteser som snedstreck: "/5/96/". Läsaren
