@@ -32,6 +32,8 @@ i bilder/ innan du läser (originalet finns kvar i git-historiken).
    - [ord1/ord2?] = två möjliga läsningar
    - [oläsligt] = går inte att läsa
    - [...] = skadad eller saknad text
+   - ⸌ord⸍ = tillagt ovanför raden (eller med insättningstecken) av skrivaren;
+     läses in där det står
 4. Gissa aldrig tyst. Markera hellre osäkerhet än att skriva
    något som ser säkert ut.
 5. Under transkriptionen i samma fil: lista osäkra passager med

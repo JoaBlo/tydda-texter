@@ -24,13 +24,13 @@ Status: **ÖPPET** = väntar på dig (en tillfällig default gäller) · **VILAN
 | 6 | Post-it-lappar och dubblettfoton (077/078 m.fl.) | En fil per bild som nu; lappen som egen enhet L1–Ln | **AVGJORT 2026-11-09:** Ja – en fil per bild |
 | 7 | Tryckta jordregisterblanketter (069–073) | Tabellhuvud som egna rader, poster med \|, registernummer upphöjda (8¹⁵) | **AVGJORT 2026-11-09:** Ja – läsarens format; **to-do:** exakta tabeller senare (Hög 3) |
 | 8 | Skrivfel i källan som "Jakob Johansson" för Jakobsson (047:13) | Ingen [sic]; återges som det står, förklaras i anmärkningen | **AVGJORT 2026-11-09:** Ja – står som i källan, förklaras i anmärkningen |
-| 9 | Snedstreck som parenteser "/5/96/" | Snedstrecken återges bokstavligt | **AVGJORT 2026-11-09:** snedstreck skrivs överallt där källan har dem, med förklaring i anmärkningarna. Rättat i 042, 043, 046, 049, 051, 052; övriga handskrivna fall kontrolleras mot bilden |
+| 9 | Snedstreck som parenteser "/5/96/" | Snedstrecken återges bokstavligt | **AVGJORT 2026-11-09:** snedstreck skrivs överallt där källan har dem, med förklaring i anmärkningarna. Rättat i 042, 043, 046, 049, 051, 052; övriga handskrivna fall kontrolleras mot bilden | Kontroll av övriga klar: 212:7 `/2.00/`, 225:10 `/2500)` och 250:6 `/1914)` (blandat, återgivet som det står) ändrade; maskinskrivna och tydligt runda parenteser står kvar. **Oklart, står kvar som parentes:** 212:2 (branta raka streck) och 253:4 (kraftigt lutande hand) – titta själv om du vill.
 | 10 | Den dekorativa slutslingan efter ord (312/316) | Beskrivs i anmärkningen, inget eget tecken | **AVGJORT 2026-11-09:** Ja |
 
 ### Hög 2 – riktiga val (tar vi en i taget)
 | # | Fråga | Alternativ | Mitt förslag |
 |---|---|---|---|
-| A | **Tillägg ovanför raden och insättningstecken** (229:1 "parcell", 228:19, 326:16, 318:10) | (a) bara i anmärkningen, som nu; (b) in i texten med markering, t.ex. `⸌parcell⸍` där tecknet sitter | (b) |
+| A | **Tillägg ovanför raden och insättningstecken** (229:1 "parcell", 228:19, 326:16, 318:10) | (a) bara i anmärkningen, som nu; (b) in i texten med markering, t.ex. `⸌parcell⸍` där tecknet sitter | (b) | **AVGJORT 2026-11-09: (b)** – införs med ⸌ ⸍ i alla filer (pågår); regeln står i CLAUDE.md och namn.md.
 | B | **Dubbletter i namn.md** (Elisa, Beata, Herman, Jusefina/Fina Maria, Jakob 1850–1908, Hilda/Hilma, Anders Lassen/Lasén, Nybränn, Stennabba) | slå ihop / låt stå | Slå ihop, alla förekomster behålls |
 | C | **[?] där flera läsare är överens** ("Bekräftar"-rader i tredje läsningen) | (a) låt [?] stå, som nu; (b) ta bort när minst tre oberoende läsare (inkl. Swedish Lion) läser samma och ingen avviker | Diskutera – (b) gör texten mer läsbar men döljer att bilden är svår |
 | D | **Siffertabellerna 1911** (decimalkomma, fyllnadsstreck, kontrollräkning som stöd) | – | VILANDE enligt ditt besked |
@@ -83,7 +83,7 @@ Rättelser görs först när Fable-läsningen finns, och båda läsningarna väg
 **Konvention som behöver ditt beslut:** läsarna föreslår att interlinjära tillägg och
 insättningstecken förs in i själva transkriptionsblocket (t.ex. 229:1 "parcell" ovanför raden,
 228:19 insättningstecken som lästs som "&", 326:16 tecken före "förordnad"). I dag beskrivs
-sådant bara i anmärkningarna. Jag har låtit konventionen stå. **Status:** ÖPPET – Hög 2, punkt A.
+sådant bara i anmärkningarna. **Status:** AVGJORT 2026-11-09 – tillägg förs in i texten med ⸌ ⸍ (se nedan, Hög 2 A).
 **Bekräftar-rader:** när tredje läsaren läser samma som de tidigare och anser att [?] kan
 tas bort har jag ändå låtit markeringen stå (default). Säg till om du vill att de tas bort.
 

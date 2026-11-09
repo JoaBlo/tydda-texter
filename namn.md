@@ -551,6 +551,7 @@ Lärdomar från dubbelläsningen (fel som första läsare faktiskt gjort):
 
 - Långt s (ſ) återges som s; c med krok (ç) som c. Noteras i varje fil.
 - Överstruket ord: ~~ord~~.
+- **Tillägg ovanför raden** (eller med insättningstecken) förs in i texten där det ska läsas, omgivet av ⸌ ⸍: `~~lägenhet~~ ⸌parcell⸍`. Får inget eget radnummer. Senare tiders anteckningar (blyertsnummer, stämplar) räknas inte hit. (Beslut 2026-11-09.)
 - Fortsättningstecknet ./. får eget radnummer.
 - Marginalanteckningar, stämplar och sigill listas i egen sektion före transkriptionen.
 - Tabeller (t.ex. 008) återges radvis med | som kolumnavgränsare, lodräta rubriker i läsordning.

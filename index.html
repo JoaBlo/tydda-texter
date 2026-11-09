@@ -94,6 +94,7 @@
   mark.unread { background: var(--m-unread); }
   mark.missing { background: var(--m-missing); }
   mark.note { background: var(--m-note); font-style: italic; }
+  mark.ins { background: none; color: var(--accent); border-bottom: 2px dotted var(--accent); padding: 0 1px; }
   del { background: color-mix(in srgb, var(--low) 15%, transparent); }
   .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .8em; color: var(--muted); margin: 4px 0 16px; }
   .legend mark { font-family: var(--mono); }
@@ -302,6 +303,7 @@
     // s är redan HTML-escapad
     return s
       .replace(/~~([^~]+)~~/g, "<del>$1</del>")
+      .replace(/⸌([^⸍]*)⸍/g, '<mark class="ins" title="Tillagt ovanför raden av skrivaren">⸌$1⸍</mark>')
       .replace(/\[oläsligt\]/g, '<mark class="unread" title="Går inte att läsa">[oläsligt]</mark>')
       .replace(/\[\.\.\.\]/g, '<mark class="missing" title="Skadad, dold eller saknad text">[...]</mark>')
       .replace(/\[([^\[\]]*?)\?\]/g, (m, w) => /\//.test(w) ? `<mark class="alt" title="Två möjliga läsningar">[${w}?]</mark>` : `<mark class="unsure" title="Osäker läsning">[${w}?]</mark>`)
@@ -384,7 +386,7 @@
       <a class="filelink" href="${REPO}${p.fil}" target="_blank" rel="noopener">.md på GitHub</a></div>`;
     h += dokRad + `<div class="doktyp">${inline(dok)}</div>`;
     h += renderTransk(block, notes);
-    h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
+    h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="ins">⸌ord⸍</mark> tillagt ovanför raden</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
     const det = (title, body, open) => body && body.trim() ? `<details${open ? " open" : ""}><summary>${esc(title)}</summary><div class="body md">${renderMd(body)}</div></details>` : "";
     if (anm) h += det("Anmärkningar till transkriptionen", anm.replace(/^Anmärkningar:\s*/i, ""), false);
     const before = sections.filter(s => !/^(Transkription|Osäkra passager|Helhetsbedömning|Dubbelläsning|Rättelser|Tredje läsning|Maskinläsning)/.test(s.title));
@@ -565,7 +567,7 @@
       <h2>Hur transkriptionerna är gjorda</h2>
       <ul><li>Texten återges exakt som den står: gammal stavning, förkortningar, radbrytningar och överstrykningar. Inget är moderniserat.</li>
       <li>Varje rad är numrerad som i originalet. Långt s (ſ) återges som s, c med krok som c.</li>
-      <li>Osäkerhet markeras i texten: <mark class="unsure">[ord?]</mark> osäker läsning, <mark class="alt">[a/b?]</mark> två möjliga läsningar, <mark class="unread">[oläsligt]</mark>, <mark class="missing">[...]</mark> skadad eller dold text.</li>
+      <li>Osäkerhet markeras i texten: <mark class="unsure">[ord?]</mark> osäker läsning, <mark class="alt">[a/b?]</mark> två möjliga läsningar, <mark class="unread">[oläsligt]</mark>, <mark class="missing">[...]</mark> skadad eller dold text, <mark class="ins">⸌ord⸍</mark> tillagt ovanför raden av skrivaren.</li>
       <li>Under varje transkription finns läsarens lista över osäkra passager med motivering, en helhetsbedömning (hög/medel/låg), en oberoende <b>dubbelläsning</b> av de osäkra ställena och de <b>rättelser</b> som gjorts efter den, med grund för varje ändring. De svåraste sidorna har dessutom en <b>tredje läsning</b> av en annan modell.</li>
       <li>Uppgifter från källor utanför materialet (kyrkböcker i HisKi, Ylioppilasmatrikkeli) markeras alltid med <b>"Extern källa"</b> och förs aldrig in i själva transkriptionen.</li>
       <li>Läsningen har gjorts av språkmodeller (Claude) under mänsklig ledning. Fel förekommer, särskilt i 1800-talets äldsta händer; jämför alltid med bilden.</li></ul>
