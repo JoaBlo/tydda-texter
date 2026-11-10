@@ -68,7 +68,8 @@
   #textpane { overflow: auto; padding: 16px 20px 60px; background: var(--panel); min-width: 0; overflow-wrap: anywhere; }
   .md td, .md th { overflow-wrap: anywhere; }
   .ordl td, .ordl th { overflow-wrap: break-word; hyphens: auto; }
-  .ordl td:nth-child(4), .ordl td:nth-child(5) { white-space: nowrap; }
+  .ordl td:nth-child(3) { min-width: 20em; } .ordl td:nth-child(4) { min-width: 11em; } .ordl td:nth-child(5) { white-space: nowrap; }
+  .ordl td:nth-child(1) { hyphens: manual; }
   details > .body { overflow-x: auto; }
   #textpane.fs-s { font-size: 14px; } #textpane.fs-l { font-size: 18px; } #textpane.fs-xl { font-size: 21px; }
   .pagehead { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
@@ -407,7 +408,7 @@
   let tipPinned = false;
   function showTip(el) {
     const g = GL[+el.dataset.g]; if (!g) return;
-    tip.innerHTML = `<b>${esc(g.ord)}</b><div>${inline(g.forklaring)}</div><div class="muted">Grund: ${esc(g.grund)} · <a href="#ordlista" data-gl="${esc(g.ord)}">i ordlistan</a></div>`;
+    tip.innerHTML = `<b>${esc(g.ord)}</b><div>${inline(g.forklaring)}</div><div class="muted">Källa: ${inline(g.grund)} · <a href="#ordlista" data-gl="${esc(g.ord)}">belägg i ordlistan</a></div>`;
     tip.hidden = false;
     const r = el.getBoundingClientRect(), w = Math.min(380, innerWidth - 24);
     tip.style.width = w + "px";
@@ -820,7 +821,7 @@
       <li><b>Släktträd</b> – släkten i sex generationer och de ingifta släkterna. Kopplingar som bara bygger på kyrkböckerna (HisKi) är märkta <i>extern källa</i>, slutsatser är streckade.</li>
       <li><b>Översikt &amp; sök</b> – sök i all transkriberad text, filtrera på säkerhet.</li>
       <li><b>Namn &amp; orter</b> – personer, orter, skrivarhänder och kronologi, filtrerbar.</li>
-      <li><b>Ordlista</b> – förklaringar av äldre ord, titlar, mynt och mått. I transkriptionerna är dessa ord <span class="gl">understrukna</span>. Peka på ordet eller tryck på det för att se förklaringen. Knappen <b>Ord</b> slår av understrykningen. Förklaringarna är märkta med sin grund. Det mesta är allmän kunskap som inte är kontrollerad mot en namngiven källa.</li></ul>
+      <li><b>Ordlista</b> – förklaringar av äldre ord, titlar, mynt och mått. I transkriptionerna är dessa ord <span class="gl">understrukna</span>. Peka på ordet eller tryck på det för att se förklaringen. Knappen <b>Ord</b> slår av understrykningen. Varje förklaring har en källa (Svenska Akademiens ordbok eller Ordbok över Finlands svenska folkmål) med länk och ordagrant citat.</li></ul>
       <p>Alla hänvisningar av typen <a class="ref" href="#151:16">151:16</a> (bild 151, rad 16), <a class="ref" href="#151:16-17">151:16–17</a> eller <a class="ref" href="#166">166</a>–<a class="ref" href="#167">167</a> är länkar: de öppnar bilden och markerar raderna, så att varje uppgift kan kontrolleras mot källan. Varje sida, dokument och vy har en egen adress som kan delas.</p>
       <h2>Tangenter</h2>
       <p><span class="kbd">← →</span> föregående/nästa sida · <span class="kbd">Home / End</span> första/sista · <span class="kbd">+ − 0 1</span> zooma in/ut, anpassa, 1:1 · <span class="kbd">/</span> sök · <span class="kbd">Esc</span> tillbaka till sidvyn</p>

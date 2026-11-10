@@ -4,18 +4,18 @@
 
 ## Kort sagt
 
-Handlingarna följer en släkt i Överpurmo by i Pedersöre (senare Purmo) socken genom sex generationer. Den förste är bonden Jacob Jacobsson på **Härmälä**, som dog 1802. Hans son flyttade 1843 till grannhemmanet **Sandnabba** och köpte där 5/48 mantal. Sedan gick gården från far till son i fyra led, oftast genom gåvobrev mot sytning för de gamla och utlösen till syskonen. På 1900-talet tog familjen namnet **Björklund**. Det sista papperet är ett köpebrev från 1966.
+Handlingarna följer en släkt i Överpurmo by genom sex generationer. Socknen kallas Pedersö(re) i de äldre handlingarna (001:5) och Purmo i de yngre (042). Den förste är bonden Jacob Jacobsson på **Härmälä**, som dog 1802. Hans son köpte 1843 5/48 mantal av hemmanet **Sandnabba** i samma by (001:16–18; 207). Sedan gick gården från far till son i fyra led, oftast genom gåvobrev mot sytning för de gamla och utlösen till syskonen. På 1900-talet tog familjen namnet **Björklund**. Det sista papperet är ett köpebrev från 1966.
 
 ## 1. Härmälä, 1802–1843
 
-Den äldsta handlingen är en bouppteckning från 6 oktober 1802 efter bonden **Jacob Jacobsson Härmelä**, som dog 17 augusti samma år (304:2–5). Den visar ett välbärgat hemman:
+Den äldsta handlingen är en bouppteckning från 6 oktober 1802 efter bonden **Jacob Jacobsson Härmelä**, som dog 17 augusti samma år (304:2–5). Där finns bland annat:
 - sex kor, tolv får, ett svin och två hästar, varav den ena "gammal" (306:22–27);
 - en kyrksläde, om läsningen stämmer (306:9);
-- "En Liten Swensk bibel" och en psalmbok "med grof [Stijl?]", troligen storstil (306:29–30).
+- "En Liten Swensk bibel" och "En Psalm bok med grof [Stijl?]" (306:29–30).
 
 Inventariet uppgick till 417 riksdaler (308:31). Änkan Anna Isaksdotter blev kvar med sonen Jacob (304:5–9). Barnen från faderns första äktenskap nämns också: Johan och tre döttrar (304:9–14).
 
-I bouppteckningen står att Jacob är "17 år" (304:9). Enligt kyrkboken föddes han 1793-02-06 och var alltså 9 år 1802 (Extern källa: HisKi Purmo). Avskriften lämnades in först 1810 (304:1). Kanske skrev skrivaren då in den ålder pojken hade vid avskriften.
+I bouppteckningen står att Jacob är "17 år" (304:9). Enligt kyrkboken föddes han 1793-02-06 och var alltså 9 år 1802 (Extern källa: HisKi Purmo). Avskriften lämnades in först 1810 (304:1), och då var han 17 år. Det kan förklara siffran, men det är en slutsats och inte belagt.
 
 Åren efter 1820 är fulla av skulder och affärer:
 - **1819** fick grannen Isaac Christophersson Harmala inteckning i sin del av hemmanet för en skuld på 476 riksdaler till kommerserådet Malm. Skuldsedeln var utfärdad i Jakobstad (318–321; 319:2–3).
@@ -25,10 +25,10 @@ I bouppteckningen står att Jacob är "17 år" (304:9). Enligt kyrkboken föddes
 
 ## 2. Sandnabba före 1843
 
-Samtidigt hade grannhemmanet Sandnabba sin egen historia:
+Sandnabba har en egen historia i handlingarna:
 - **1811 och 1812** fick bröderna Hans och Matts Jacobsson gåvobrev och fastebrev på 5/24 mantal (155:21–25; 007:23–008:3).
 - **Juni 1817** dog Hans hustru Marja Hansdotter (151:10). Bouppteckningen i januari 1818 visar hur redskapen delades mellan gårdarna: "½ i en liten Kittell", "¼ i en … yxa" och "¼ del i Smidja Bälgen" (152:7, 14, 28).
-- **1836** sålde Hans sin del till brodern Eric mot att Eric betalade "alla mina skulder" och "föder och sköter mig till min död" (205:1–6). Det var en sorts privat pensionsavtal.
+- **1836** sålde Hans sin del till brodern Eric mot att Eric betalade "alla mina skulder" och "föder och sköter mig till min död" (205:1–6).
 - **1843** sålde Eric till Matts Pehrsson Kjäldbacka, som var gift med Hans dotter Maria (005:5–14; 207:1–2).
 
 ## 3. Jacob Jacobsson flyttar till Sandnabba, 1843–1861
@@ -52,7 +52,7 @@ Han kallas sedan "sytningsmannen" och dog 22 december 1861 (166:3).
 
 **5 november 1868** gav Jacob hemmanet till de två äldsta sönerna Matts och Jakob, hälften var (212:1–4). Sytningen han förbehöll sig och Beata var bland annat:
 - sex tunnor spannmål och fyra tunnor "päron" (potatis);
-- sexton skålpund tobaksblad;
+- "Sexton ℔ Tobacks blad";
 - pjäxor åt båda;
 - tre stop söt mjölk om dagen i tio månader;
 - häst till och från kyrkan.
@@ -63,7 +63,7 @@ Simon Petter, Beatas son, dog i mars 1877 "endast tio år gammal" (184:6–8). H
 
 ## 5. Jakob "Lilqvist", 1868–1908
 
-Brodern Matts hade flyttat söderut till Svartå i Karis. **20 juni 1876** sålde han sin halva av hemmanet till Jakob för 2 500 mark (225:2–10; 226:5–7). I oktober samma år skrev han till sin "Saknade Bror" (281). Han hade råkat ut för en olycka och kunde inte arbeta. Han bad om "100 50 mark" så fort som möjligt och skickade "Mång Tusende fattt Hälsningag" till brodern, hans hustru och "Styrmor". På utsidan står "Sandnabba Jacob / Lilqvist" (282:1–2), ett smeknamn som inte förekommer i de officiella papperen.
+Brodern Matts bodde i Svartå i Karis socken (226:5–7). **20 juni 1876** sålde han sin halva av hemmanet till Jakob för 2 500 mark (225:2–10; 226:5–7). I oktober samma år skrev han till sin "Saknade Bror" (281). Han hade råkat ut för en olycka och kunde inte arbeta. Han bad om "100 50 mark" så fort som möjligt och skickade "Mång Tusende fattt Hälsningag" till brodern, hans hustru och "Styrmor". På utsidan står "Sandnabba Jacob / Lilqvist" (282:1–2). Samma namn skymtar, osäkert läst, i köpebrevet samma år (224:4; 226:11).
 
 Med båda halvorna i sin hand sålde Jakob **25 februari 1878** halva gården (5/96 mantal) till Simon Petter Johansson Sandnabba för 3 000 mark (209:1–8). Samma dag kvitterade brodern Anders sin utlösen på 200 mark (214). **1889** fick brodern Johan ett torp på gården för 49 år (215).
 
@@ -73,7 +73,7 @@ Jakob var gift med **Maja Lena Eriksdotter** (047:21–22). De fick fem barn: Ja
 
 Sonen **Jakob**, som tog namnet **Björklund**, gifte sig 1898 med Sanna Maja Pelkkala. Hon dog i oktober 1899. Dottern Emelia dog tre veckor efter bouppteckningen efter modern, och fadern ärvde henne (067:5–7; 190; 192:20–22). **1905** gifte han om sig med **Hilda Maria Svanbäck** från Nederpurmo (067:8).
 
-**1911** klövs hela Sandnabba hemman av lantmätaren Aino Berger, så att varje delägare fick egna gränser (129–146).
+**1911** förrättade kommissionslantmätaren Aino Berger klyvning av hela Sandnabba hemman (129–146).
 
 **20 januari 1913** gav änkan Maja Lena gården till Jakob och Hilda. Den värderades till 7 000 mark (219:1–7). Herman skulle få 1 500 mark, en ko och ett får, och döttrarna 125 mark var (219). Samma dag skrevs ett sytningskontrakt (233) där Maja Lena förbehöll sig:
 - att bo i farstugukammaren;
@@ -86,7 +86,7 @@ Syskonen kvitterade sin utlösen 1914–1916 (248–251).
 Efter det följer bland annat:
 - **1922** köpte Jakob torpet Brännkärr (227–229; 058:1–8).
 - **1928** lånade han 35 000 mark av sin svärfar, torparen Anders Svanbäck. Lånet betalades av till 1940 (253–256).
-- **1934** stämde han sin bror Herman Asp för olaga bete och för vräkning. Herman svarade med att kräva gåvobrev på den stuga han bodde i (112; 117). Tvisten löstes först 1951, då Herman köpte sin gårdstomt "där han redan uppfört sin gård" (239).
+- **1934** stämde han sin bror Herman Asp för olaga bete och för vräkning. Herman svarade med en genstämning om gåvobrev på en boningsstuga med tomtmark (112; 117). År 1951 köpte Herman av Milton en gårdstomt "där han redan uppfört sin gård" (239).
 - **1939** dog Hilda (067:9). Samma år skogsbrandförsäkrades skogen i Sampo (271).
 
 Kriget syns också i papperen. **December 1942** blev Jakob godman för sina svågrar och sin svägerska, som "vistas i Amerika" med okända adresser (102–104). **Januari 1943** skrev sönerna Osvald och Milton under fullmakter "vid fronten i Ost-Karelen vid Svir", så att fadern kunde bevaka deras rätt vid arvskiftet efter mormodern Edla Svanbäck (241; 242). Dottern Ines skrev under samma slags fullmakt 30 januari (243). Hennes man Konrad Sundstedt hade dött tolv dagar tidigare (067:13–14).

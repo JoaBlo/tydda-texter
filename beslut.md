@@ -208,7 +208,7 @@ snedstreck nedan. Det är alltså nu blandat: 047–053 har parenteser, övriga 
 
 | Datum | Vad | Mitt val | Varför | Kan ändras? |
 |---|---|---|---|---|
-| 2026-11-10 | Ordförklaringarnas grund | Allmän kunskap är märkt "allmän" och sägs uttryckligen vara okontrollerad; FO och materialet anges där de används | Regeln om att markera källor; en ordlista utan källmärkning skulle se säkrare ut än den är | Ja – förklaringar kan kontrolleras mot SAOB och märkas om |
+| 2026-11-10 | Ordförklaringarnas grund | ~~Allmän kunskap märkt "allmän"~~ → **ersatt samma dag**: varje förklaring bygger på SAOB eller FO med ordagrant, maskinkontrollerat citat | Ägarens krav: hänvisa, hitta inte på | – |
 | 2026-11-08 | Miniatyrer för webbvisarens dokumentvy | `bilder/thumb/NNN.jpg`, 600 px, 21 MB, byggs av `bygg_index.py` | Originalen är ~6 MB styck; dokumentvyn skulle annars ladda 50–100 MB per handling | Ja – ta bort mappen, då faller vyn tillbaka på originalen |
 | 2026-11-08 | Hur bilderna grupperas till dokument i webbvisaren | Automatiskt: ett nytt dokument börjar när "Dokumenttyp" inte börjar med Fortsättning/Baksida/Sista sidan o.d. (118 dokument) | Bygger på läsarnas egna angivelser; inget nytt behöver skrivas in | Ja – några gränser är inte perfekta (t.ex. 296/297 och 312/316 är dubblettfoton; omslag och post-its blir egna "dokument"). En handskriven lista kan ersätta regeln |
 | 2026-11-08 | Snabblänkar i webbvisaren | Alla `NNN:rad`, `NNN:rad–rad`, `NNN–NNN`, "bild NNN", "(NNN)" och bildnummer i kolumnerna Förekomster/Källa/Bilder blir länkar som öppnar bilden och markerar raderna | Ägarens önskemål: varje uppgift ska gå att verifiera | Ja |
@@ -227,6 +227,26 @@ snedstreck nedan. Det är alltså nu blandat: 047–053 har parenteser, övriga 
 ---
 
 ## Arkiv – avgjort och information (nyast först)
+
+### 2026-11-10 – Ordlistan källbelagd (ägarens krav: "hänvisa och inte hitta på")
+Ägaren frågade varifrån förklaringarna kom. Svaret var att de flesta hade skrivits ur Claudes egen
+kunskap utan källa, och märkningen "allmän" räckte inte. Alla 100 uppslag har nu slagits upp:
+- **Källor:** SAOB (https://www.saob.se) och FO (https://kaino.kotus.fi/fo/). Fyra sökningar gjordes
+  parallellt, och varje förklaring har länk och ordagrant citat.
+- **Kontroll:** alla **253 citat** jämfördes maskinellt mot källsidorna, och alla fanns där.
+  Kontrollskriptet låg i scratchpad (kontroll.py).
+- **Det som saknade stöd ströks** och listas under "Belägg" i ordlista.md.
+- **Mina tidigare förklaringar visade sig delvis fel:**
+  - *godeman* och *godman* är enligt SAOB samma sak;
+  - *inventarium* är förteckningen, inte summan;
+  - *hemmanstal* = mantal enligt SAOB;
+  - *sockenskrivare* skötte enligt SAOB främst skatteuppbörden, inte böndernas skrivelser;
+  - giftorättens 1/3 för hustrun på landet gick inte att belägga och ströks.
+  - *Kortull* har ingen källa och stryks inte längre under.
+- **Berättelsen** rensades samtidigt från egna tolkningar: "välbärgat", "troligen storstil",
+  "privat pensionsavtal" och "tvisten löstes".
+- **Faktafel rättat:** smeknamnet Lilqvist förekommer (osäkert läst) också i köpebrevet 224:4.
+**Status:** KLART.
 
 ### 2026-11-10 – Ordlista, berättelse och släktträd i webbvisaren
 Ägaren bad om förslagen 1–3 ("Kunde vi testa 1-3?").
