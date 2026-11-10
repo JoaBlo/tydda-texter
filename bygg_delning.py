@@ -25,7 +25,8 @@ os.makedirs(os.path.join(mal, "transkriptioner"), exist_ok=True)
 # 1. Data: pages.json + alla .md-filer som visaren läser, inbäddade i data.js
 pages = json.load(open(os.path.join(ROT, "pages.json"), encoding="utf-8"))
 files = {}
-for fn in sorted(glob.glob(os.path.join(ROT, "transkriptioner", "*.md"))) + [os.path.join(ROT, "namn.md")]:
+EXTRA = [os.path.join(ROT, f) for f in ("namn.md", "ordlista.md", "berattelse.md", "slakttrad.md") if os.path.exists(os.path.join(ROT, f))]
+for fn in sorted(glob.glob(os.path.join(ROT, "transkriptioner", "*.md"))) + EXTRA:
     rel = os.path.relpath(fn, ROT)
     files[rel] = open(fn, encoding="utf-8").read()
     shutil.copy2(fn, os.path.join(mal, rel))   # så att länken ".md-fil" fungerar

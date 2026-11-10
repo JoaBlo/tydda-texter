@@ -67,6 +67,8 @@
   /* text */
   #textpane { overflow: auto; padding: 16px 20px 60px; background: var(--panel); min-width: 0; overflow-wrap: anywhere; }
   .md td, .md th { overflow-wrap: anywhere; }
+  .ordl td, .ordl th { overflow-wrap: break-word; hyphens: auto; }
+  .ordl td:nth-child(4), .ordl td:nth-child(5) { white-space: nowrap; }
   details > .body { overflow-x: auto; }
   #textpane.fs-s { font-size: 14px; } #textpane.fs-l { font-size: 18px; } #textpane.fs-xl { font-size: 21px; }
   .pagehead { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
@@ -161,6 +163,48 @@
     .dokpage { grid-template-columns: 1fr; } .dokpage .thumb { position: static; max-width: 260px; }
     .tidslinje .ev { grid-template-columns: 1fr; } .tidslinje .src { grid-column: 1; }
   }
+  /* ordförklaringar */
+  .gl { border-bottom: 1px dotted color-mix(in srgb, var(--accent) 70%, transparent); cursor: help; }
+  .gl:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+  #gltip { position: fixed; z-index: 50; background: var(--panel); color: var(--ink); border: 1px solid var(--accent); border-radius: 8px; padding: 8px 10px; box-shadow: 0 6px 24px rgba(0,0,0,.25); font-family: var(--sans); font-size: 14px; line-height: 1.45; }
+  #gltip b { font-family: var(--serif); font-size: 1.05em; }
+  #gltip .muted { font-size: .85em; margin-top: 4px; }
+  #gltip[hidden] { display: none; }
+  .md blockquote { margin: 8px 0 16px; padding: 8px 14px; border-left: 4px solid var(--accent); background: color-mix(in srgb, var(--accent) 7%, transparent); border-radius: 0 6px 6px 0; }
+  .berattelse { max-width: 760px; font-family: var(--serif); font-size: 1.06em; line-height: 1.6; }
+  .berattelse h1, .berattelse h2 { font-family: var(--serif); font-weight: normal; }
+  .berattelse ul { font-family: var(--serif); }
+
+  /* släktträd */
+  .tree, .tree ul { list-style: none; margin: 0; padding-left: 26px; }
+  .tree { padding-left: 0; }
+  .tree li { position: relative; padding: 5px 0 5px 16px; }
+  .tree > li { padding-left: 0; }
+  .tree li::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; border-left: 2px solid var(--line); }
+  .tree li:last-child::before { bottom: auto; height: 24px; }
+  .tree li::after { content: ""; position: absolute; left: 0; top: 24px; width: 14px; border-top: 2px solid var(--line); }
+  .tree > li::before, .tree > li::after { display: none; }
+  .tree li.slutsats::before, .tree li.slutsats::after { border-left-style: dashed; border-top-style: dashed; border-color: var(--mid); }
+  .tree li.grp::after { display: none; }
+  .tree li.grp > .grplbl { font-size: .85em; color: var(--muted); font-style: italic; display: inline-block; margin: 6px 0 0 -10px; }
+  .pers { display: inline-block; border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; background: var(--panel); max-width: 100%; vertical-align: top; }
+  .pers .pn { font-family: var(--serif); font-size: 1.05em; }
+  .pers .yrs { color: var(--muted); font-family: var(--mono); font-size: .85em; margin-left: 6px; white-space: nowrap; }
+  .pers .sp { font-size: .92em; margin-top: 2px; }
+  .pers .pa { font-size: .82em; color: var(--muted); margin-top: 3px; max-width: 60em; }
+  .pers .tag { font-size: .72em; border: 1px solid var(--line); border-radius: 999px; padding: 0 6px; margin-left: 6px; color: var(--muted); white-space: nowrap; }
+  .pers .tag.extern { border-color: var(--accent); color: var(--accent); }
+  .pers .tag.slutsats { border-color: var(--mid); color: var(--mid); }
+  .pers.hit { outline: 2px solid var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--panel)); }
+  .pers.flash { animation: flash 1.6s ease-out; }
+  @keyframes flash { 0% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent) 45%, transparent); } 100% { box-shadow: 0 0 0 0 transparent; } }
+  .tree.nodetail .pa { display: none; }
+  .famhead { font-family: var(--serif); font-weight: normal; font-size: 1.2em; margin: 22px 0 6px; border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+  .legendtree { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .85em; color: var(--muted); margin: 4px 0 12px; align-items: center; }
+  .legendtree .ln-solid, .legendtree .ln-dash { display: inline-block; width: 26px; vertical-align: middle; border-top: 2px solid var(--line); margin-right: 4px; }
+  .legendtree .ln-dash { border-top: 2px dashed var(--mid); }
+  @media (max-width: 900px) { .tree ul { padding-left: 12px; } .tree li { padding-left: 12px; } .tree li::after { width: 10px; } }
+
   .imghint { position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%); color: #ccc; font-size: 12px; background: rgba(0,0,0,.45); padding: 2px 8px; border-radius: 4px; pointer-events: none; }
 
   @media (max-width: 900px) {
@@ -182,8 +226,11 @@
     <button data-view="page" class="active">Sida</button>
     <button data-view="dok">Dokument</button>
     <button data-view="tid">Tidslinje</button>
+    <button data-view="ber">Berättelse</button>
+    <button data-view="slakt">Släktträd</button>
     <button data-view="list">Översikt &amp; sök</button>
     <button data-view="namn">Namn &amp; orter</button>
+    <button data-view="ord">Ordlista</button>
     <button data-view="om">Om</button>
   </nav>
   <span class="spacer"></span>
@@ -201,6 +248,7 @@
     <button id="fsMinus" title="Mindre text">A−</button>
     <button id="fsPlus" title="Större text">A+</button>
     <button id="tblBtn" title="Visa tabellrader som tabell eller som rader med | (exakt som i filen)">▦</button>
+    <button id="glBtn" title="Visa eller dölj ordförklaringar (prickad understrykning av ord som finns i ordlistan)">Ord</button>
     <button id="theme" title="Ljust/mörkt">☾</button>
   </div>
 </header>
@@ -229,7 +277,7 @@
   const $ = s => document.querySelector(s);
   const EMBED = window.EMBED || null;  // delningsversionen (data.js): allt inbäddat, fungerar utan webbserver
   const REPO = EMBED ? "" : "https://github.com/JoaBlo/tydda-texter/blob/main/";
-  let pages = [], docs = [], kron = [], idx = 0, view = "page", mdCache = {};
+  let pages = [], docs = [], kron = [], slakt = [], idx = 0, view = "page", mdCache = {};
   const esc = s => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
   /* ---------- liten markdown-renderare ---------- */
@@ -257,7 +305,8 @@
   }
   function refRules(t, bare) {
     // 1) bild:rad, med fortsatta radnummer efter komma ("001:13, 23") och radintervall ("151:16–17")
-    t = t.replace(/(?<![\d/])(\d{3}):((?:marg|\d{1,3}(?:[–-]\d{1,3})?)(?:,\s?(?:marg|\d{1,3}(?:[–-]\d{1,3})?)(?![\d:/]))*)/g, (m, nr, rest) => {
+    // ("001:21–004:17" = två länkar: 001:21 och 004:17)
+    t = t.replace(/(?<![\d/])(\d{3}):((?:marg|\d{1,3}(?:[–-]\d{1,3}(?![\d:]))?)(?:,\s?(?:marg|\d{1,3}(?:[–-]\d{1,3}(?![\d:]))?)(?![\d:/]))*)/g, (m, nr, rest) => {
       if (!isPage(nr)) return m;
       const parts = rest.split(/(,\s?)/);
       return parts.map((p, k) => {
@@ -272,6 +321,7 @@
     // 3) "bild 157", "bilder 151", "(156)", "(156,", "156.jpg", "jfr 160"
     t = t.replace(/((?:[Bb]ild(?:en|er|erna)?|jfr|[Jj]fr\.?)\s)(\d{3})(?![\d/:])/g, (m, w, nr) => isPage(nr) ? w + ref(nr, "", nr) : m);
     t = t.replace(/(\()(\d{3})(?=[),;])/g, (m, p, nr) => isPage(nr) ? p + ref(nr, "", nr) : m);
+    t = t.replace(/(;\s)(\d{3})(?=[),;])/g, (m, p, nr) => isPage(nr) ? p + ref(nr, "", nr) : m);
     t = t.replace(/(?<![\d/])(\d{3})(\.(?:jpg|md))/g, (m, nr, e) => isPage(nr) ? ref(nr, "", nr + e) : m);
     // 4) i källkolumner (Förekomster, Källa, Bilder): alla fristående bildnummer
     if (bare) t = t.replace(/(?<![\d/:.])(\d{3})(?![\d/:.])/g, (m, nr) => isPage(nr) ? ref(nr, "", nr) : m);
@@ -295,7 +345,7 @@
         let rows = []; while (i < lines.length && /^\|/.test(lines[i])) rows.push(lines[i++]);
         rows = rows.filter(r => !/^\|[\s:|-]+\|?\s*$/.test(r));
         const cells = r => r.replace(/^\||\|\s*$/g, "").split(/(?<!\\)\|/).map(c => c.trim().replace(/\\\|/g, "|"));
-        const refCols = cells(rows[0] || "").map(c => /förekomst|källa|bilder|^bild$/i.test(c));
+        const refCols = cells(rows[0] || "").map(c => /förekomst|källa|bilder|^bild$|exempel/i.test(c));
         let h = "<table>"; rows.forEach((r, k) => {
           const cs = cells(r); const cls = /AVVIKER/.test(r) ? ' class="avviker"' : "";
           h += `<tr${cls}>` + cs.map((c, j) => `<${k ? "td" : "th"}>${inline(c, { bare: k > 0 && refCols[j] })}</${k ? "td" : "th"}>`).join("") + "</tr>";
@@ -303,8 +353,9 @@
       }
       if (/^\s*[-*] /.test(l)) { let h = "<ul>"; while (i < lines.length && /^\s*[-*] /.test(lines[i])) h += "<li>" + inline(lines[i++].replace(/^\s*[-*] /, "")) + "</li>"; out.push(h + "</ul>"); continue; }
       if (/^\s*\d+\. /.test(l)) { let h = "<ol>"; while (i < lines.length && /^\s*\d+\. /.test(lines[i])) h += "<li>" + inline(lines[i++].replace(/^\s*\d+\. /, "")) + "</li>"; out.push(h + "</ol>"); continue; }
+      if (/^>\s?/.test(l)) { let b = []; while (i < lines.length && /^>\s?/.test(lines[i])) b.push(lines[i++].replace(/^>\s?/, "")); out.push("<blockquote>" + inline(b.join(" ")) + "</blockquote>"); continue; }
       if (!l.trim()) { i++; continue; }
-      let p = []; while (i < lines.length && lines[i].trim() && !/^(#|\||```|---|\s*[-*] )/.test(lines[i])) p.push(lines[i++]);
+      let p = []; while (i < lines.length && lines[i].trim() && !/^(#|\||```|---|\s*[-*] |>)/.test(lines[i])) p.push(lines[i++]);
       out.push("<p>" + inline(p.join(" ")) + "</p>");
     }
     return out.join("\n");
@@ -322,6 +373,59 @@
       .replace(/\[(bomärke|sigill|stämpel|oläslig[^\]]*|[^\]]*namnteckning[^\]]*|[^\]]*struket[^\]]*|[^\]]*överstruket[^\]]*)\]/gi, '<mark class="note" title="Läsarens beskrivning, inte text i källan">[$1]</mark>')
       .replace(/\((bomärke)\)/g, '<mark class="note" title="Läsarens beskrivning">($1)</mark>');
   }
+
+  /* ---------- ordförklaringar (ordlista.md) ---------- */
+  // Stryker under ord som finns i ordlistan. Ändrar bara visningen – texten är densamma.
+  const LET = "A-Za-zÅÄÖåäöÉéÜüÿ";
+  const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  let GL = [], glAlts = [], glRx = null, glMemo = new Map(), glOn = true;
+  try { glOn = localStorage.getItem("gl") !== "0"; } catch (e) {}
+  function formPat(f) {
+    const pre = f.endsWith("*"), base = pre ? f.slice(0, -1) : f;
+    return base.trim().split(/\s+/).map(escRe).join("\\s+") + (pre ? `[${LET}]*` : `(?![${LET}])`);
+  }
+  function buildGloss(list) {
+    GL = list || []; glAlts = [];
+    GL.forEach((g, i) => g.former.forEach(f => { try { glAlts.push({ i, len: f.replace(/\*$/, "").length, pat: formPat(f), re: new RegExp("^(?:" + formPat(f) + ")$", "iu") }); } catch (e) {} }));
+    glAlts.sort((a, b) => b.len - a.len);
+    glRx = glAlts.length ? new RegExp(`(?<![${LET}])(?:${glAlts.map(a => a.pat).join("|")})`, "giu") : null;
+  }
+  function glIndex(m) {
+    const k = m.toLowerCase(); if (glMemo.has(k)) return glMemo.get(k);
+    const a = glAlts.find(a => a.re.test(m)); const i = a ? a.i : -1; glMemo.set(k, i); return i;
+  }
+  function gloss(html) {
+    if (!glOn || !glRx) return html;
+    let inA = 0;
+    return html.split(/(<[^>]+>)/).map(seg => {
+      if (seg.startsWith("<")) { if (/^<a\b/i.test(seg)) inA++; else if (/^<\/a>/i.test(seg)) inA = Math.max(0, inA - 1); return seg; }
+      if (inA || !seg) return seg;
+      return seg.replace(glRx, m => { const i = glIndex(m); return i < 0 ? m : `<span class="gl" data-g="${i}">${m}</span>`; });
+    }).join("");
+  }
+  const tip = document.createElement("div"); tip.id = "gltip"; tip.hidden = true; tip.setAttribute("role", "tooltip"); document.body.appendChild(tip);
+  let tipPinned = false;
+  function showTip(el) {
+    const g = GL[+el.dataset.g]; if (!g) return;
+    tip.innerHTML = `<b>${esc(g.ord)}</b><div>${inline(g.forklaring)}</div><div class="muted">Grund: ${esc(g.grund)} · <a href="#ordlista" data-gl="${esc(g.ord)}">i ordlistan</a></div>`;
+    tip.hidden = false;
+    const r = el.getBoundingClientRect(), w = Math.min(380, innerWidth - 24);
+    tip.style.width = w + "px";
+    tip.style.left = Math.min(Math.max(12, r.left), innerWidth - w - 12) + "px";
+    tip.style.top = (r.bottom + 6) + "px";
+    const th = tip.offsetHeight; if (r.bottom + 6 + th > innerHeight - 8) tip.style.top = Math.max(8, r.top - th - 6) + "px";
+  }
+  const hideTip = () => { tipPinned = false; tip.hidden = true; };
+  document.addEventListener("mouseover", e => { const el = e.target.closest && e.target.closest(".gl"); if (el && !tipPinned) showTip(el); });
+  document.addEventListener("mouseout", e => { const el = e.target.closest && e.target.closest(".gl"); if (el && !tipPinned && !(e.relatedTarget && tip.contains(e.relatedTarget))) tip.hidden = true; });
+  tip.addEventListener("mouseleave", () => { if (!tipPinned) tip.hidden = true; });
+  document.addEventListener("click", e => {
+    const a = e.target.closest("[data-gl]"); if (a) { e.preventDefault(); mdTarget = a.dataset.gl; hideTip(); setView("ord"); return; }
+    const el = e.target.closest(".gl"); if (el) { tipPinned = true; showTip(el); return; }
+    if (!tip.contains(e.target)) hideTip();
+  });
+  document.addEventListener("scroll", () => { if (!tip.hidden) hideTip(); }, true);
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !tip.hidden) hideTip(); });
 
   /* ---------- sidvisning ---------- */
   function splitSections(md) {
@@ -344,7 +448,7 @@
   try { tblMode = localStorage.getItem("tbl") !== "0"; } catch (e) {}
   function lineHtml(r, notes) {
     const has = r.ns.length > 0;
-    let h = `<div class="ln${has ? " has-note" : ""}" data-rad="${esc(r.key)}"><span class="n">${esc(r.n)}</span><span class="t">${markUp(esc(r.t))}</span>`;
+    let h = `<div class="ln${has ? " has-note" : ""}" data-rad="${esc(r.key)}"><span class="n">${esc(r.n)}</span><span class="t">${gloss(markUp(esc(r.t)))}</span>`;
     h += has ? `<button class="q" title="Visa varför raden är osäker">?</button>` : "<span></span>";
     if (has) h += explHtml(r.ns);
     return h + "</div>";
@@ -358,9 +462,9 @@
       const has = r.ns.length > 0;
       h += `<tr class="ln${has ? " has-note" : ""}" data-rad="${esc(r.key)}"><td class="n">${esc(r.n)}</td>`;
       if (r.cells) {
-        r.cells.forEach(c => { const s = c.trim(); h += `<td${isNum(s) ? ' class="num"' : ""}>${markUp(esc(s))}</td>`; });
+        r.cells.forEach(c => { const s = c.trim(); h += `<td${isNum(s) ? ' class="num"' : ""}>${gloss(markUp(esc(s)))}</td>`; });
         h += "<td></td>".repeat(cols - r.cells.length);
-      } else h += `<td class="full" colspan="${cols}">${markUp(esc(r.t))}</td>`;
+      } else h += `<td class="full" colspan="${cols}">${gloss(markUp(esc(r.t)))}</td>`;
       h += `<td class="qc">${has ? '<button class="q" title="Visa varför raden är osäker">?</button>' : ""}</td></tr>`;
       if (has) h += `<tr class="exrow"><td></td><td colspan="${cols + 1}">${explHtml(r.ns)}</td></tr>`;
     }
@@ -438,7 +542,7 @@
       <a class="filelink" href="${REPO}${p.fil}" target="_blank" rel="noopener">${EMBED ? ".md-fil" : ".md på GitHub"}</a></div>`;
     h += dokRad + `<div class="doktyp">${inline(dok)}</div>`;
     h += renderTransk(block, notes);
-    h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="ins">⸌ord⸍</mark> tillagt ovanför raden</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
+    h += `<div class="legend"><span><mark class="unsure">[ord?]</mark> osäker läsning</span><span><mark class="alt">[a/b?]</mark> två möjliga</span><span><mark class="unread">[oläsligt]</mark></span><span><mark class="missing">[...]</mark> skadad/dold text</span><span><del>struket</del> överstruket</span><span><mark class="ins">⸌ord⸍</mark> tillagt ovanför raden</span><span><mark class="note">[bomärke]</mark> beskrivning</span><span><span class="gl">ord</span> förklaring i ordlistan (peka eller tryck)</span><span>Klicka <b>?</b> vid en rad för läsarens motivering</span></div>`;
     const det = (title, body, open) => body && body.trim() ? `<details${open ? " open" : ""}><summary>${esc(title)}</summary><div class="body md">${renderMd(body)}</div></details>` : "";
     if (anm) h += det("Anmärkningar till transkriptionen", anm.replace(/^Anmärkningar:\s*/i, ""), false);
     const before = sections.filter(s => !/^(Transkription|Osäkra passager|Helhetsbedömning|Dubbelläsning|Rättelser|Tredje läsning|Maskinläsning)/.test(s.title));
@@ -595,12 +699,17 @@
     $("#main").querySelectorAll("th[data-k]").forEach(th => th.onclick = () => { const k = th.dataset.k; sortDir = sortKey === k ? -sortDir : 1; sortKey = k; renderList(); });
     renderList(); $("#q").focus();
   }
-  async function viewDoc(path, title) {
+  async function viewDoc(path, opts = {}) {
     $("#main").className = "list-mode";
     $("#main").innerHTML = `<div class="listwrap md"><p class="muted">Laddar ${esc(path)} …</p></div>`;
     try {
       const md = await loadMd(path);
-      $("#main").innerHTML = `<div class="listwrap md"><div class="filters stickyfilter"><input type="search" id="nq" placeholder="Filtrera rader (t.ex. Härmälä, 1843, Björklund) …"><span class="muted" id="nhits"></span><a class="filelink" href="${REPO}${path}" target="_blank" rel="noopener">${esc(path)}${EMBED ? "" : " på GitHub"}</a></div><div id="mdbody">${renderMd(md)}</div></div>`;
+      const flink = `<a class="filelink" href="${REPO}${path}" target="_blank" rel="noopener">${esc(path)}${EMBED ? "" : " på GitHub"}</a>`;
+      if (opts.story) {  // löpande text: ingen filterruta, ordförklaringar på
+        $("#main").innerHTML = `<div class="listwrap md berattelse">${gloss(renderMd(md))}<p class="muted">Källfil: ${flink}</p></div>`;
+        return;
+      }
+      $("#main").innerHTML = `<div class="listwrap md${opts.cls ? " " + opts.cls : ""}"><div class="filters stickyfilter"><input type="search" id="nq" placeholder="${esc(opts.ph || "Filtrera rader (t.ex. Härmälä, 1843, Björklund) …")}"><span class="muted" id="nhits"></span>${flink}</div><div id="mdbody">${renderMd(md)}</div></div>`;
       const els = [...$("#mdbody").querySelectorAll("tr:not(:first-child), li, p")];
       $("#nq").addEventListener("input", e => {
         const q = e.target.value.trim().toLowerCase(); let n = 0;
@@ -610,6 +719,86 @@
       if (mdTarget) { const q = mdTarget; mdTarget = ""; $("#nq").value = q; $("#nq").dispatchEvent(new Event("input")); }
     }
     catch (e) { $("#main").innerHTML = `<div class="listwrap"><p>Kunde inte läsa ${esc(path)}.</p></div>`; }
+  }
+
+  /* ---------- släktträd (slakttrad.md) ---------- */
+  function viewSlakt() {
+    $("#main").className = "list-mode";
+    const P = new Map(slakt.map(p => [p.id, p]));
+    const hasPar = p => !!((p.far && P.has(p.far)) || (p.mor && P.has(p.mor)));
+    const year = p => { const m = (p.levnad || "").match(/1[789]\d\d/); return m ? +m[0] : 9999; };
+    // barn ritas under fadern, utom när bara modern hör till en gren i trädet (har egna föräldrar)
+    const homeParent = c => { const f = P.get(c.far), m = P.get(c.mor); if (f && m) return hasPar(m) && !hasPar(f) ? m.id : f.id; return f ? f.id : m ? m.id : null; };
+    const kidsOf = id => slakt.filter(c => homeParent(c) === id).sort((a, b) => year(a) - year(b));
+    const elsewhere = id => slakt.filter(c => (c.far === id || c.mor === id) && homeParent(c) !== id);
+    const tags = p => (p.sak === "extern" ? `<span class="tag extern" title="Kopplingen till föräldrarna bygger på extern källa (HisKi Purmo), inte på handlingarna">extern källa</span>` : "")
+      + (p.sak === "slutsats" ? `<span class="tag slutsats" title="Kopplingen till föräldrarna är en slutsats, inte belagd">slutsats</span>` : "");
+    const nm = p => `<span class="pn">${esc(p.namn)}</span>${p.levnad ? `<span class="yrs">${esc(p.levnad)}</span>` : ""}`;
+    const parentLink = p => { if (!hasPar(p)) return ""; const par = P.get(p.far) || P.get(p.mor); return ` <a href="#slakttrad" data-goto="${p.id}" title="Visa personen i föräldrarnas gren">↗ barn till ${esc(par.namn.replace(/\s*\(.*\)$/, ""))}</a>`; };
+    const done = new Set();
+    function card(p) {
+      const sp = p.gift.map(id => P.get(id)).filter(Boolean).map(s => `<div class="sp">∞ ${nm(s)}${s.sak === "extern" && hasPar(s) ? tags(s) : ""}${parentLink(s)}${s.anm ? ` <span class="muted">– ${inline(s.anm)}</span>` : ""}</div>`).join("");
+      const kalla = p.kalla ? `Källa: ${inline(p.kalla, { bare: true })}` : "";
+      const pa = [p.anm ? inline(p.anm) : "", kalla, p.sok ? `<a href="#namn" data-sok="${esc(p.sok)}">namn.md</a>` : ""].filter(Boolean).join(" · ");
+      return `<div class="pers" id="p-${p.id}" data-txt="${esc((p.namn + " " + p.levnad + " " + p.gift.map(id => (P.get(id) || {}).namn || "").join(" ")).toLowerCase())}">${nm(p)}${tags(p)}${sp}${pa ? `<div class="pa">${pa}</div>` : ""}</div>`;
+    }
+    function node(p) {
+      done.add(p.id);
+      const cls = p.sak === "slutsats" ? ' class="slutsats"' : "";
+      let h = `<li${cls}>${card(p)}`;
+      const kids = kidsOf(p.id).filter(c => !done.has(c.id));
+      const away = elsewhere(p.id);
+      const withKids = p.gift.filter(s => kids.some(k => k.mor === s || k.far === s));
+      if (kids.length) {
+        h += "<ul>";
+        if (withKids.length > 1) {
+          for (const s of withKids) {
+            const ks = kids.filter(k => k.mor === s || k.far === s);
+            h += `<li class="grp"><span class="grplbl">barn med ${esc(P.get(s).namn.replace(/\s*\(.*\)$/, ""))}</span><ul>${ks.map(node).join("")}</ul></li>`;
+          }
+          const rest = kids.filter(k => !withKids.includes(k.mor) && !withKids.includes(k.far));
+          h += rest.map(node).join("");
+        } else h += kids.map(node).join("");
+        h += "</ul>";
+      }
+      if (away.length) h += `<div class="pa muted" style="margin-left:16px">Barn: se under <a href="#slakttrad" data-goto="${homeParent(away[0])}">${esc(P.get(homeParent(away[0])).namn.replace(/\s*\(.*\)$/, ""))}</a></div>`;
+      return h + "</li>";
+    }
+    // rötter: personer utan föräldrar i tabellen som inte är gifta in i en annan gren
+    const roots = [];
+    for (const p of slakt) {
+      if (hasPar(p)) continue;
+      const sps = p.gift.map(id => P.get(id)).filter(Boolean);
+      if (sps.some(hasPar) || sps.some(s => roots.includes(s))) continue;
+      roots.push(p);
+    }
+    const head = {
+      jacob1802: "Härmälä – Sandnabba – Björklund",
+      jacob_sandnabba: "Sandnabba före 1843 (Hans Jacobssons släkt)",
+      simon_stennabba: "Stennabba (Beata Simonsdotters släkt)",
+      anders_svanback: "Svanbäck (Hilda Marias släkt)",
+    };
+    let h = `<div class="listwrap"><h2 class="vh">Släktträd</h2>
+      <p class="muted">Ritat ur slakttrad.md, som bygger på namn.md och transkriptionerna. Varje person har källhänvisningar. Klicka på dem för att se bilden. Släktträdet är en sammanställning och ingen transkription.</p>
+      <div class="legendtree"><span><span class="ln-solid"></span>släktskap belagd i handlingarna</span><span><span class="ln-dash"></span>slutsats, inte belagd</span><span><span class="tag extern" style="font-size:.85em;border:1px solid var(--accent);border-radius:999px;padding:0 6px;color:var(--accent)">extern källa</span> släktskapen bygger på HisKi</span><span>(HisKi) efter ett år = årtalet från HisKi</span></div>
+      <div class="filters"><input type="search" id="sq" placeholder="Sök person (t.ex. Beata, 1876, Svanbäck) …"><span class="muted" id="shits"></span><label><input type="checkbox" id="sdet" checked> visa källor och anmärkningar</label></div>`;
+    const order = ["jacob1802", "simon_stennabba", "anders_svanback", "jacob_sandnabba"];
+    roots.sort((a, b) => (order.indexOf(a.id) + 1 || 99) - (order.indexOf(b.id) + 1 || 99));
+    for (const r of roots) h += `<h3 class="famhead">${esc(head[r.id] || r.namn)}</h3><ul class="tree" id="tree-${r.id}">${node(r)}</ul>`;
+    const missed = slakt.filter(p => !done.has(p.id) && !roots.some(r => r.gift.includes(p.id)) && !slakt.some(q => done.has(q.id) && q.gift.includes(p.id)));
+    if (missed.length) h += `<p class="muted">Inte placerade: ${missed.map(p => esc(p.namn)).join(", ")}</p>`;
+    h += `<details><summary>Underlag: slakttrad.md (tabell)</summary><div class="body md" id="slaktmd"><p class="muted">Laddar …</p></div></details></div>`;
+    $("#main").innerHTML = h;
+    const main = $("#main");
+    main.querySelectorAll("[data-goto]").forEach(a => a.onclick = e => { e.preventDefault(); const el = $("#p-" + a.dataset.goto); if (el) { el.scrollIntoView({ block: "center", behavior: "smooth" }); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); } });
+    main.querySelectorAll("[data-sok]").forEach(a => a.onclick = e => { e.preventDefault(); mdTarget = a.dataset.sok; setView("namn"); });
+    $("#sdet").onchange = e => main.querySelectorAll(".tree").forEach(t => t.classList.toggle("nodetail", !e.target.checked));
+    $("#sq").addEventListener("input", e => {
+      const q = e.target.value.trim().toLowerCase(); let n = 0, first = null;
+      main.querySelectorAll(".pers").forEach(el => { const ok = q && el.dataset.txt.includes(q); el.classList.toggle("hit", !!ok); if (ok) { n++; first = first || el; } });
+      $("#shits").textContent = q ? `${n} träffar` : ""; if (first) first.scrollIntoView({ block: "center" });
+    });
+    main.querySelector("details").addEventListener("toggle", async e => { if (!e.target.open || e.target.dataset.done) return; e.target.dataset.done = 1; try { $("#slaktmd").innerHTML = renderMd(await loadMd("slakttrad.md")); } catch (er) { $("#slaktmd").textContent = "Kunde inte läsa slakttrad.md."; } });
   }
   function viewOm() {
     $("#main").className = "list-mode";
@@ -627,8 +816,11 @@
       <ul><li><b>Sida</b> – bilden och transkriptionen sida vid sida, med läsarens motiveringar vid varje osäker rad (klicka <b>?</b>).</li>
       <li><b>Dokument</b> – bilderna sammanförda till hela handlingar (t.ex. lagfartsprotokollet 1848, bild 001–011) som löpande text, med miniatyr av varje bild.</li>
       <li><b>Tidslinje</b> – händelserna 1802–1966 år för år, med länkar till källorna.</li>
+      <li><b>Berättelse</b> – gårdens historia som löpande text, med en hänvisning till bild och rad för varje uppgift. Den är en sammanfattning och tolkning, inte en transkription.</li>
+      <li><b>Släktträd</b> – släkten i sex generationer och de ingifta släkterna. Kopplingar som bara bygger på kyrkböckerna (HisKi) är märkta <i>extern källa</i>, slutsatser är streckade.</li>
       <li><b>Översikt &amp; sök</b> – sök i all transkriberad text, filtrera på säkerhet.</li>
-      <li><b>Namn &amp; orter</b> – personer, orter, skrivarhänder och ordförklaringar, filtrerbar.</li></ul>
+      <li><b>Namn &amp; orter</b> – personer, orter, skrivarhänder och kronologi, filtrerbar.</li>
+      <li><b>Ordlista</b> – förklaringar av äldre ord, titlar, mynt och mått. I transkriptionerna är dessa ord <span class="gl">understrukna</span>. Peka på ordet eller tryck på det för att se förklaringen. Knappen <b>Ord</b> slår av understrykningen. Förklaringarna är märkta med sin grund. Det mesta är allmän kunskap som inte är kontrollerad mot en namngiven källa.</li></ul>
       <p>Alla hänvisningar av typen <a class="ref" href="#151:16">151:16</a> (bild 151, rad 16), <a class="ref" href="#151:16-17">151:16–17</a> eller <a class="ref" href="#166">166</a>–<a class="ref" href="#167">167</a> är länkar: de öppnar bilden och markerar raderna, så att varje uppgift kan kontrolleras mot källan. Varje sida, dokument och vy har en egen adress som kan delas.</p>
       <h2>Tangenter</h2>
       <p><span class="kbd">← →</span> föregående/nästa sida · <span class="kbd">Home / End</span> första/sista · <span class="kbd">+ − 0 1</span> zooma in/ut, anpassa, 1:1 · <span class="kbd">/</span> sök · <span class="kbd">Esc</span> tillbaka till sidvyn</p>
@@ -643,14 +835,17 @@
     main.appendChild(paneImg); main.appendChild(paneSplit); main.appendChild(paneText);
   }
   const paneImg = $("#imgpane"), paneSplit = $("#splitter"), paneText = $("#textpane");
-  const HASH = { list: "lista", dok: "dokument", tid: "tidslinje", namn: "namn", om: "om" };
+  const HASH = { list: "lista", dok: "dokument", tid: "tidslinje", namn: "namn", om: "om", ber: "berattelse", slakt: "slakttrad", ord: "ordlista" };
   function setView(v, arg) {
     view = v; document.querySelectorAll("header nav button").forEach(b => b.classList.toggle("active", b.dataset.view === v));
     $("#pager").style.visibility = v === "page" ? "visible" : "hidden";
     if (v !== "page") { const h = "#" + (v === "dok" && arg != null ? "dok-" + arg : HASH[v]); if (location.hash !== h) history.pushState(null, "", h); }
     if (v === "page") { restoreMain(); showPage(idx); }
     else if (v === "list") viewList(); else if (v === "dok") (arg != null ? viewDok(+arg) : viewDokIndex());
-    else if (v === "tid") viewTid(); else if (v === "namn") viewDoc("namn.md"); else viewOm();
+    else if (v === "tid") viewTid(); else if (v === "namn") viewDoc("namn.md");
+    else if (v === "ber") viewDoc("berattelse.md", { story: true });
+    else if (v === "ord") viewDoc("ordlista.md", { cls: "ordl", ph: "Sök ord (t.ex. sytning, mantal, riksdaler) …" });
+    else if (v === "slakt") viewSlakt(); else viewOm();
     if (v !== "page") $("#main").scrollTop = 0;
   }
   let mdTarget = "";
@@ -660,8 +855,8 @@
   function goHash() {
     const h = decodeURIComponent(location.hash);
     const dk = h.match(/^#dok-(\d+)$/); if (dk) { setView("dok", dk[1]); return true; }
-    const v = h.match(/^#(lista|dokument|tidslinje|namn|om)$/);
-    if (v) { const back = { lista: "list", dokument: "dok", tidslinje: "tid" }; setView(back[v[1]] || v[1]); return true; }
+    const v = h.match(/^#(lista|dokument|tidslinje|namn|om|berattelse|slakttrad|ordlista)$/);
+    if (v) { const back = { lista: "list", dokument: "dok", tidslinje: "tid", berattelse: "ber", slakttrad: "slakt", ordlista: "ord" }; setView(back[v[1]] || v[1]); return true; }
     const m = h.match(/^#(\d{3})(?::(\S+))?/); if (!m) return false;
     const i = pages.findIndex(p => p.nr === m[1]); if (i < 0) return false;
     if (view !== "page") { view = "page"; document.querySelectorAll("header nav button").forEach(b => b.classList.toggle("active", b.dataset.view === "page")); $("#pager").style.visibility = "visible"; restoreMain(); }
@@ -696,11 +891,14 @@
   function applyTbl() { const b = $("#tblBtn"); b.setAttribute("aria-pressed", tblMode); b.textContent = tblMode ? "▦" : "≡"; }
   $("#tblBtn").onclick = () => { tblMode = !tblMode; try { localStorage.setItem("tbl", tblMode ? "1" : "0"); } catch (e) {} applyTbl(); goHash() || showPage(idx); };
   applyTbl();
+  function applyGl() { const b = $("#glBtn"); b.setAttribute("aria-pressed", glOn); b.style.textDecoration = glOn ? "underline dotted" : "line-through"; }
+  $("#glBtn").onclick = () => { glOn = !glOn; try { localStorage.setItem("gl", glOn ? "1" : "0"); } catch (e) {} applyGl(); hideTip(); goHash() || showPage(idx); };
+  applyGl();
   $("#theme").onclick = () => { const d = document.documentElement; const cur = d.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"); d.dataset.theme = cur === "dark" ? "light" : "dark"; try { localStorage.setItem("theme", d.dataset.theme); } catch (e) {} };
 
   /* ---------- start ---------- */
   (EMBED ? Promise.resolve(EMBED.pages) : fetch("pages.json", { cache: "no-cache" }).then(r => r.json())).then(d => {
-    pages = Array.isArray(d) ? d : d.sidor; docs = d.dokument || []; kron = d.kronologi || [];
+    pages = Array.isArray(d) ? d : d.sidor; docs = d.dokument || []; kron = d.kronologi || []; slakt = d.slakt || []; buildGloss(d.ordlista);
     pageSet = new Set(pages.map(p => p.nr)); $("#total").textContent = pages.length;
     $("#jump").innerHTML = pages.map(p => `<option value="${p.nr}">${p.nr} · ${esc(p.doktyp.slice(0, 70))}</option>`).join("");
     if (!goHash()) showPage(0);

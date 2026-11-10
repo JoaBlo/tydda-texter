@@ -208,6 +208,7 @@ snedstreck nedan. Det är alltså nu blandat: 047–053 har parenteser, övriga 
 
 | Datum | Vad | Mitt val | Varför | Kan ändras? |
 |---|---|---|---|---|
+| 2026-11-10 | Ordförklaringarnas grund | Allmän kunskap är märkt "allmän" och sägs uttryckligen vara okontrollerad; FO och materialet anges där de används | Regeln om att markera källor; en ordlista utan källmärkning skulle se säkrare ut än den är | Ja – förklaringar kan kontrolleras mot SAOB och märkas om |
 | 2026-11-08 | Miniatyrer för webbvisarens dokumentvy | `bilder/thumb/NNN.jpg`, 600 px, 21 MB, byggs av `bygg_index.py` | Originalen är ~6 MB styck; dokumentvyn skulle annars ladda 50–100 MB per handling | Ja – ta bort mappen, då faller vyn tillbaka på originalen |
 | 2026-11-08 | Hur bilderna grupperas till dokument i webbvisaren | Automatiskt: ett nytt dokument börjar när "Dokumenttyp" inte börjar med Fortsättning/Baksida/Sista sidan o.d. (118 dokument) | Bygger på läsarnas egna angivelser; inget nytt behöver skrivas in | Ja – några gränser är inte perfekta (t.ex. 296/297 och 312/316 är dubblettfoton; omslag och post-its blir egna "dokument"). En handskriven lista kan ersätta regeln |
 | 2026-11-08 | Snabblänkar i webbvisaren | Alla `NNN:rad`, `NNN:rad–rad`, `NNN–NNN`, "bild NNN", "(NNN)" och bildnummer i kolumnerna Förekomster/Källa/Bilder blir länkar som öppnar bilden och markerar raderna | Ägarens önskemål: varje uppgift ska gå att verifiera | Ja |
@@ -226,6 +227,31 @@ snedstreck nedan. Det är alltså nu blandat: 047–053 har parenteser, övriga 
 ---
 
 ## Arkiv – avgjort och information (nyast först)
+
+### 2026-11-10 – Ordlista, berättelse och släktträd i webbvisaren
+Ägaren bad om förslagen 1–3 ("Kunde vi testa 1-3?").
+- **ordlista.md** – 100 uppslag (handlingar, domstolar, jord, mynt, mått, föremål). Orden stryks under
+  i transkriptionerna; pekar man på dem visas förklaringen. Knappen **Ord** slår av understrykningen.
+  Själva texten ändras inte.
+  - **Grund:** de flesta förklaringarna är *allmän kunskap* (Claude) och **inte kontrollerade mot en
+    namngiven källa** – det står i filen. Fyra kommer från FO (extern källa, som i namn.md), och några
+    bygger på materialet.
+  - **Former:** formerna valdes efter en genomgång av alla träffar. "ting" stryks bara under i
+    uttryck som "lagtima ting", eftersom 020:18 "i de ting som mig" betyder saker. `undantag*`
+    ändrades till `Undantager`, eftersom "undantagande" (209:12) och "undantages" (147:14) betyder
+    "förutom".
+  - **Mitt fel, rättat före commit:** giftorätten var 1/3 för hustrun på landet, inte hälften.
+- **berattelse.md** – gårdens historia 1802–1966 som löpande text med en hänvisning per uppgift.
+  Den är tydligt märkt som tolkning och inte transkription; HisKi-uppgifter är märkta Extern källa.
+  Två formuleringar rättades under kontrollen: Malms hemort anges inte i källan (bara att skuldsedeln
+  skrevs i Jakobstad), och "halvbröder" bygger på HisKi.
+- **slakttrad.md** – 75 personer med far, mor, make och källa, och för varje koppling säkerheten
+  belagt, extern eller slutsats. Webbvisaren ritar trädet i fyra grenar: Härmälä–Sandnabba–Björklund,
+  Stennabba, Svanbäck och Sandnabba före 1843. Hans Jacobssons far "Jacob" är en slutsats som bara
+  bygger på barnens patronymikon; han ritas streckad.
+- **Snabblänkarna** förbättrades: "001:21–004:17" ger nu två länkar (001:21 och 004:17) i stället för
+  en felaktig. "; 190;" inne i parenteser blir också en länk.
+**Status:** KLART. bygg_delning.py tar med de nya filerna.
 
 ### 2026-11-09 – Öppna frågor prövade mot andra källor (HisKi och kontrollräkning)
 Extern källa: HisKi Purmo (https://hiski.genealogia.fi/hiski?se+0420).

@@ -98,7 +98,50 @@ try:
 except ImportError:
     print("Pillow saknas – miniatyrerna uppdaterades inte (pip install pillow)")
 
-data = {"sidor": sidor, "dokument": dokument, "kronologi": kronologi}
+def md_tabellrader(text):
+    """Alla datarader i markdown-tabeller som lista av cellistor (rubrikrader hoppas över)."""
+    ut, rubrik = [], True
+    for r in text.splitlines():
+        if not r.startswith("|"):
+            rubrik = True
+            continue
+        if re.match(r"^\|[\s:|-]+\|?\s*$", r):
+            continue
+        if rubrik:  # första raden i varje tabell är rubriken
+            rubrik = False
+            continue
+        ut.append([c.strip() for c in r.strip().strip("|").split("|")])
+    return ut
+
+# ordlista ur ordlista.md – former (`…`) används för understrykning i transkriptionerna
+ordlista = []
+p = ROT / "ordlista.md"
+if p.exists():
+    for c in md_tabellrader(p.read_text(encoding="utf-8")):
+        if len(c) < 4:
+            continue
+        former = re.findall(r"`([^`]+)`", c[1])
+        if former:
+            ordlista.append({"ord": c[0], "former": former, "forklaring": c[2], "grund": c[3],
+                             "exempel": c[4] if len(c) > 4 else ""})
+
+# släktträd ur slakttrad.md
+slakt = []
+p = ROT / "slakttrad.md"
+if p.exists():
+    nycklar = ["id", "namn", "levnad", "far", "mor", "gift", "sak", "kalla", "anm", "sok"]
+    for c in md_tabellrader(p.read_text(encoding="utf-8")):
+        if len(c) >= 9 and re.match(r"^[a-z_0-9]+$", c[0]):
+            d = dict(zip(nycklar, c + [""] * (10 - len(c))))
+            d["gift"] = [x.strip() for x in d["gift"].split(",") if x.strip()]
+            slakt.append(d)
+    ids = {d["id"] for d in slakt}
+    for d in slakt:
+        for k in [d["far"], d["mor"], *d["gift"]]:
+            if k and k not in ids:
+                print(f"VARNING slakttrad.md: {d['id']} hänvisar till okänt ID '{k}'")
+
+data = {"sidor": sidor, "dokument": dokument, "kronologi": kronologi, "ordlista": ordlista, "slakt": slakt}
 UT.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-print(f"{len(sidor)} sidor, {len(dokument)} dokument, {len(kronologi)} händelser → {UT.name} "
+print(f"{len(sidor)} sidor, {len(dokument)} dokument, {len(kronologi)} händelser, {len(ordlista)} ord, {len(slakt)} personer → {UT.name} "
       f"({UT.stat().st_size // 1024} kB)")
